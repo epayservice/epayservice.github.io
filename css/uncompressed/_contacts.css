@@ -1,0 +1,84 @@
+.contacts {
+    padding-top: 80px;
+}
+
+.contacts__title {
+    margin: 0;
+}
+
+.contacts__follow {
+    margin-top: 10px;
+}
+
+.contacts__rows {
+    margin-top: 50px;
+}
+
+.contacts__rows + .contacts__rows {
+    margin-top: 0;
+}
+
+.contacts__col {
+    border-top: 1px solid #DCDEE1;
+    padding: 20px 0 40px;
+}
+
+.contacts__col_small {
+    padding-bottom: 20px;
+}
+
+.contacts__sub-title {
+    margin: 0;
+}
+
+.contacts__button {
+    margin-top: 35px;
+}
+
+.contacts__phone {
+    display: block;
+    position: relative;
+    padding-left: 50px;
+}
+
+.contacts__phone + .contacts__link {
+    padding-left: 50px;
+}
+
+
+.contacts__phone:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/ico-phone.svg) no-repeat;
+    background-size: 100% 100%;
+    width: 36px;
+    height: 36px;
+}
+
+.contacts__link {
+    margin-top: 20px;
+}
+
+.contacts__text {
+    margin-top: 5px;
+}
+
+.contacts__map {
+    margin-top: 30px;
+    height: 222px;
+}
+
+#map {
+    height: 222px;
+}
+
+
+@media (max-width: 1199px) {
+    .contacts__sub-title.title {font-size: 18px;line-height: 23px;}
+}
+@media (max-width: 699px) {
+    .contacts__rows {margin-top: 20px;}
+    .contacts__col {padding-bottom: 20px;}
+}

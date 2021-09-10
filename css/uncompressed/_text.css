@@ -1,0 +1,46 @@
+.text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #9B9B9B;
+}
+
+.text-dark {
+    font-size: 16px;
+    line-height: 25px;
+    color: #374D6B;
+}
+
+.text_tiny {
+    font-size:12px;
+    line-height:16px;
+}
+
+.text-dark_small {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.text-dark_big {
+    font-size:18px;
+    line-height:24px;
+}
+
+.text-dark_light {
+    color: #fff;
+}
+
+.text-dark_red {
+    color: #FF3C54;
+}
+
+.text-dark_green {
+    color: #78C426;
+}
+
+.text-dark_blue {
+    color: #00B4D5;
+}
+
+@media (max-width:767px) {
+    .text-dark_big{font-size:14px;line-height:22px;}
+}

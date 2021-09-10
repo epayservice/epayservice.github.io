@@ -1,0 +1,12 @@
+.drop {
+
+}
+
+    .drop__handler {
+        cursor: pointer;
+    }
+
+    .drop__down {
+        z-index: 1000;
+        display: none;
+    }

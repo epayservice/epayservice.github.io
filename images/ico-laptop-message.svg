@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="63px" height="62px" viewBox="0 0 63 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 66</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="epay-web-services-salary-projects" transform="translate(-329.000000, -3604.000000)">
+            <g id="Group-66" transform="translate(329.000000, 3604.000000)">
+                <polygon id="Fill-1" fill="#374D6B" points="0 19 0 62 63 62 63 28 61 28 61 60 2 60 2 19"></polygon>
+                <polygon id="Fill-2" fill="#374D6B" points="0 10 0 20 20 20 20 18 2 18 2 12 20 12 20 10"></polygon>
+                <polygon id="Fill-3" fill="#374D6B" points="6 16 8 16 8 14 6 14"></polygon>
+                <polygon id="Fill-4" fill="#374D6B" points="10 16 12 16 12 14 10 14"></polygon>
+                <polygon id="Fill-5" fill="#374D6B" points="15 16 17 16 17 14 15 14"></polygon>
+                <polygon id="Fill-7" fill="#374D6B" points="35 37 37 37 37 35 35 35"></polygon>
+                <polygon id="Fill-8" fill="#374D6B" points="40 37 42 37 42 35 40 35"></polygon>
+                <polygon id="Fill-9" fill="#374D6B" points="45 37 47 37 47 35 45 35"></polygon>
+                <path d="M28,56 L26,56 L26,52 C25.7808219,50.672226 25.4173699,49.8151933 25,49 C24.092274,48.5257881 23.2129863,48.1690928 22,48 L16,48 C14.7806027,48.1690928 13.904274,48.524342 13,49 C12.5831233,49.8156753 12.2191781,50.672708 12,52 L12,56 L10,56 L10,52 C10,50.0918731 10.595726,48.6896751 12,48 C12.7517808,46.5817989 14.1863562,46 16,46 L22,46 C23.8027945,46 25.2368767,46.5803528 26,48 C27.4052603,48.6901571 28,50.0923552 28,52 L28,56 L28,56 Z" id="Fill-10" fill="#00B4D5"></path>
+                <polygon id="Fill-6" fill="#374D6B" points="57 57 5 57 5 23 20 23 20 25 7 25 7 55 55 55 55 28 57 28"></polygon>
+                <path d="M19.5714286,35 C16.7947586,35 15,36.7938926 15,38.4285714 C15,41.2055559 16.7947586,43 19.5714286,43 C21.2063448,43 23,41.2055559 23,38.4285714 C23,36.7938926 21.2063448,35 19.5714286,35 M19,45 C15.6920851,45 13,42.3082061 13,39 C13,35.6912834 15.6920851,33 19,33 C22.3089362,33 25,35.6912834 25,39 C25,42.3082061 22.3089362,45 19,45" id="Fill-12" fill="#00B4D5"></path>
+                <path d="M25,23 L29,23 L29,28 L33,23 L60,23 L60,2 L25,2 L25,23 Z M27,33 L27,25 L23,25 L23,0 L62,0 L62,25 L34,25 L27,33 Z" id="Fill-14" fill="#00B4D5"></path>
+                <polygon id="Fill-17" fill="#00B4D5" points="29 13 53 13 53 11 29 11"></polygon>
+                <polygon id="Fill-19" fill="#00B4D5" points="29 8 53 8 53 6 29 6"></polygon>
+                <polygon id="Fill-20" fill="#00B4D5" points="29 18 43 18 43 16 29 16"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,125 @@
+.main-tabs {
+
+}
+
+.main-tabs__top {
+    background-color: #FAFAFA;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.main-tabs__top .region {
+    width: 100%;
+}
+
+.main-tabs__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 160px;
+    padding-right: 90px;
+}
+
+.main-tabs__toggle {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    display: block;
+    text-align: center;
+}
+
+.main-tabs__toggle.text-dark {
+    color: #374D6B;
+}
+
+.main-tabs__content {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.main-tabs__item:focus {
+    outline: none;
+}
+
+.main-tabs__icon {
+    display: block;
+    height: 75px;
+}
+
+.main-tabs__sub-title {
+    display: block;
+    margin-top: 30px;
+    color: #374D6B;
+}
+
+.main-tabs__sub-title.text-dark {
+    color: #374D6B;
+}
+
+.main-tabs__title {
+    margin: 0;
+}
+
+.main-tabs__text {
+    margin-top: 5px;
+}
+
+.main-tabs__row {
+    margin-top: 70px;
+}
+
+.main-tabs__button {
+    margin-top: 75px;
+    max-width: 270px;
+}
+
+.main-tabs__line {
+    margin-top: 50px;
+}
+
+.main-tabs__line:first-child {
+    margin-top: 0;
+}
+
+.main-helper {
+    height: 270px;
+    background-color: #FAFAFA;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+@media (max-height: 800px) {
+    .main-tabs__top {height: 140px;}
+    .main-tabs__header {padding-top: 100px;}
+    .main-tabs__content {padding: 40px 0;}
+    .main-tabs__button {margin-top: 25px;margin-bottom: 45px;}
+    .main-tabs__row {margin-top: 30px;}
+}
+
+@media (max-width: 1199px) {
+    .main-tabs__header {padding-right: 0;}
+    .main-tabs__toggle.text-dark {font-size: 14px;}
+}
+@media (max-width: 992px) {
+    .main-tabs__content {padding: 50px 0;}
+    .main-tabs__line, .main-tabs__line:first-child {margin-top: 30px;}
+    .main-tabs__line_last {margin-bottom: 40px;}
+    .main-tabs__row {margin-top: 40px;}
+}
+@media (max-width: 767px) {
+    .main-tabs__top {display: none!important;}
+    .main-tabs__content {padding-top: 25px;}
+    .main-tabs__title {padding-right: 100px}
+    .main-tabs__button {margin: 25px 0;}
+}

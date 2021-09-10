@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="633px" height="641px" viewBox="0 0 633 641" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 43</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="epay-web-services-account-manage" transform="translate(-466.000000, -3685.000000)">
+            <g id="Group-43" transform="translate(467.000000, 3686.000000)">
+                <path d="M572,0 L572,12" id="Stroke-36" stroke="#00B2D4" stroke-width="2"></path>
+                <path d="M566,6 L578,6" id="Stroke-38" stroke="#00B2D4" stroke-width="2"></path>
+                <path d="M269,103 L322,103" id="Stroke-40" stroke="#00B2D4" stroke-width="2" stroke-dasharray="1,6"></path>
+                <g id="Group-46" transform="translate(175.000000, 638.000000)" stroke="#00B2D4" stroke-dasharray="1,6">
+                    <path d="M1,1 L91,1" id="Stroke-44"></path>
+                </g>
+                <polygon id="Stroke-49" stroke="#374D6B" stroke-width="2" points="433.5 600 424 609.5 433.5 619 443 609.5"></polygon>
+                <polygon id="Stroke-51" stroke="#374D6B" stroke-width="2" points="135.5 55 126 64.5 135.5 74 145 64.5"></polygon>
+                <path d="M631,498 C631,491.371909 625.628091,486 619,486 C612.371909,486 607,491.371909 607,498 C607,504.628091 612.371909,510 619,510 C625.628091,510 631,504.628091 631,498 L631,498 Z" id="Stroke-53" stroke="#374D6B" stroke-width="2"></path>
+                <path d="M445,47 L458,47" id="Stroke-55" stroke="#374D6B" stroke-width="2"></path>
+                <path d="M465,198 L489,198" id="Stroke-57" stroke="#00B2D4" stroke-width="2" stroke-dasharray="1,6"></path>
+                <path d="M0,461 L26,461" id="Stroke-59" stroke="#00B2D4" stroke-width="2" stroke-dasharray="1,6"></path>
+                <path d="M133,258 L133,270" id="Stroke-61" stroke="#00B2D4" stroke-width="2"></path>
+                <path d="M127,264 L139,264" id="Stroke-63" stroke="#00B2D4" stroke-width="2"></path>
+                <path d="M510,470 L510,482" id="Stroke-65" stroke="#374D6B" stroke-width="2"></path>
+                <path d="M504,476 L516,476" id="Stroke-67" stroke="#374D6B" stroke-width="2"></path>
+                <path d="M107,573 L116,573" id="Stroke-69" stroke="#374D6B" stroke-width="2"></path>
+                <path d="M574,209 L583,209" id="Stroke-73" stroke="#00B2D4" stroke-width="2"></path>
+                <path d="M74,184 C74,180.686224 71.3137755,178 68,178 C64.6862245,178 62,180.686224 62,184 C62,187.313776 64.6862245,190 68,190 C71.3137755,190 74,187.313776 74,184 L74,184 Z" id="Stroke-75" stroke="#374D6B" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

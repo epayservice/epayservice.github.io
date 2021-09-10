@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="9" cy="9" r="9"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="18" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="epay-web-services-cash-out" transform="translate(-584.000000, -1043.000000)">
+            <g id="Group-6" transform="translate(0.000000, 195.000000)">
+                <g id="Group-8" transform="translate(389.000000, 823.000000)">
+                    <g id="Group-7" transform="translate(195.000000, 25.000000)">
+                        <use id="Oval-154" stroke="#00B4D5" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                        <path d="M6.12670898,7.296875 L7.44067383,7.296875 C7.49780273,6.45898438 8.06274414,5.93212891 8.9387207,5.93212891 C9.80834961,5.93212891 10.373291,6.45898438 10.373291,7.17626953 C10.373291,7.83007812 10.1003418,8.19824219 9.33227539,8.66162109 C8.46264648,9.18212891 8.07543945,9.75341797 8.10717773,10.6484375 L8.11352539,11.15625 L9.42749023,11.15625 L9.42749023,10.769043 C9.42749023,10.1152344 9.66235352,9.77880859 10.4812012,9.29638672 C11.3190918,8.79492188 11.814209,8.10302734 11.814209,7.11914062 C11.814209,5.76074219 10.6843262,4.76416016 9.00854492,4.76416016 C7.16772461,4.76416016 6.18383789,5.85595703 6.12670898,7.296875 L6.12670898,7.296875 Z M8.7800293,14.0952148 C9.25610352,14.0952148 9.61791992,13.7397461 9.61791992,13.2763672 C9.61791992,12.8129883 9.25610352,12.4575195 8.7800293,12.4575195 C8.31665039,12.4575195 7.94848633,12.8129883 7.94848633,13.2763672 C7.94848633,13.7397461 8.31665039,14.0952148 8.7800293,14.0952148 L8.7800293,14.0952148 Z" id="?" fill="#00B4D5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

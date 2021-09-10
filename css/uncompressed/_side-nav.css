@@ -1,0 +1,19 @@
+.side-nav {
+    padding-top: 20px;
+    position: relative;
+}
+
+.side-nav__list {
+    margin: 0;
+    padding: 0 0 80px 0;
+    list-style: none;
+}
+
+.side-nav__item {
+    position: relative;
+    padding: 10px 0;
+}
+
+.side-nav__item:first-child {
+    margin-top: 0;
+}

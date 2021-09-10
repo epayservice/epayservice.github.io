@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="../css/style.css?v=3">
+		<title>ePayService - Home</title>
+        <script>
+            window.twttr = (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                        t = window.twttr || {};
+                if (d.getElementById(id)) return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+
+                t._e = [];
+                t.ready = function(f) {
+                    t._e.push(f);
+                };
+
+                return t;
+            }(document, "script", "twitter-wjs"));
+        </script>
+    </head>
+
+    <body>
+
+
+    <div class="strut">
+
+        <div class="strut__row">
+
+            <header class="header">
+                <div class="header__top">
+                    <div class="region">
+                        <div class="top">
+                            <div class="top__main">
+                                <div class="top__burger burger">
+                                    <div class="burger__handler"></div>
+                                    <div class="burger__body"></div>
+                                </div>
+                                <div class="top__logo">
+                                    <a class="logo" href="index.html"></a>
+                                </div>
+                                <nav class="top__nav nav">
+                                    <!--<a class="nav__link" href="-about.html">About Us</a>-->
+                                    <a class="nav__link nav__link_more" href="#" data-inner="inner-nav"><span>Services</span></a>
+                                    <div class="sub-menu">
+                                        <a class="sub-menu__link" href="managing-account.html">Gestion de compte</a>
+                                        <a class="sub-menu__link" href="bank-transfers.html">Virements bancaires</a>
+                                        <a class="sub-menu__link" href="personal-iban.html">IBAN personnel</a>
+                                        <a class="sub-menu__link" href="personal-us-account.html">Compte américain personnel</a>
+                                        <a class="sub-menu__link" href="prepaid-cards.html">Cartes de débit</a>
+                                        <a class="sub-menu__link" href="affiliate-payouts.html">Paiements d’affiliation</a>
+                                        <a class="sub-menu__link" href="payout-service.html">Solutions salariales</a>
+                                        <a class="sub-menu__link" href="virtual-cards.html">Cartes virtuelles</a>
+                                        <a class="sub-menu__link" href="local-payments.html">Virement bancaire local</a>
+                                        <a class="sub-menu__link" href="send-money-to-card.html">Transferts vers les cartes</a>
+                                        <a class="sub-menu__link" href="cash-remittance.html">Transferts d’argent</a>
+                                    </div>
+                                    <a class="nav__link" href="fees.html">Frais</a>
+                                    <a class="nav__link" href="contact-us.html">Contactez-nous</a>
+                                    <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
+                                </nav>
+                                <a class="top__profile" href="#"></a>
+                                <div class="top__sign-in">
+                                    <a class="button" href="https://online.epayservices.com/register">OUVRIR UN COMPTE GRATUIT</a>
+                                    <a class="button button_border" href="https://online.epayservices.com/">CONNEXION</a>
+                                </div>
+                            </div>
+                            <div class="top__actions">
+                                <div class="top__buttons">
+                                    <a class="button" href="https://online.epayservices.com/register">OUVRIR UN COMPTE GRATUIT</a>
+                                    <a class="button button_border" href="https://online.epayservices.com/">CONNEXION</a>
+                                </div>
+                                <div class="top__language lang-select drop">
+                                    <div class="lang-select__toggle drop__handler">
+                                        <div class="lang-select__image">
+                                            <img src="../images/flag-fr.svg" alt="">
+                                        </div>
+                                        <div class="lang-select__title">FR</div>
+                                    </div>
+                                    <div class="lang-select__list drop__down">
+                                        <a class="lang-select__item" href="../en/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">English (US)</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../uk/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-uk.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">English</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ru/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/ru.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Русский</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../es/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-es.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Español</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../co/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-co.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Español (Colombia)</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../pt/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-pt.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Português</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ro/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-ro.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Română</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ms/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-ms.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Melayu</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../vn/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-vn.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Tiếng Việt</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ar/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-ar.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">عربى</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../pl/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-pl.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Język polski</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../zh/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-zh.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">汉语</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../de/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-de.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Deutsch</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inner-nav" id="inner-nav">
+                        <div class="region">
+                            <div class="inner-nav__list">
+                                <a class="inner-nav__item" href="managing-account.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_safe"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Gestion de compte</div>
+                                </a>
+                                <a class="inner-nav__item" href="bank-transfers.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_house2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Virements bancaires</div>
+                                </a>
+                                <a class="inner-nav__item" href="personal-iban.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_stars-big2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">IBAN personnel</div>
+                                </a>
+                                <a class="inner-nav__item" href="personal-us-account.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_money-rotate2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Compte américain personnel</div>
+                                </a>
+                                <a class="inner-nav__item" href="prepaid-cards.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_cards2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Cartes de débit</div>
+                                </a>
+                                <a class="inner-nav__item" href="affiliate-payouts.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_crowd2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Paiements d’affiliation</div>
+                                </a>
+                                <a class="inner-nav__item" href="payout-service.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_hands2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Solutions salariales</div>
+                                </a>
+                                <a class="inner-nav__item" href="virtual-cards.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_virtual-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Cartes virtuelles</div>
+                                </a>
+                                <a class="inner-nav__item" href="local-payments.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_local-pay"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Virement bancaire local</div>
+                                </a>
+                                <a class="inner-nav__item" href="send-money-to-card.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_save-to-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Transferts vers les cartes</div>
+                                </a>
+                                <a class="inner-nav__item" href="cash-remittance.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_hand-to-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Transferts d’argent</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="header__slider slider">
+
+                    <div class="slider__item" style="background-image: url(.././images/slider-img3.jpg)">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <div class="main-info__img">
+                                    <img src="../images/red-card.png" alt="">
+                                </div>
+                                <h1 class="main-info__title title title_light">Pas de frais pour les Cartes de débit</h1>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="prepaid-cards.html">Plus d’informations</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item" style="background-image: url(.././images/slider-img11.jpg);">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <h1 class="main-info__title title title_light">Transferts de fonds avec <br>frais à partir de 1 %</h1>
+                                <div class="main-info__text text-dark_light">Virements bancaires internationaux vers comptes bancaires personnels et d'entreprise</div>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="bank-transfers.html">Plus d’informations</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item slider__item_5" style="background-image: url(.././images/slider-img10.jpg)">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <h1 class="main-info__title title title_light">Solutions salariales</h1>
+                                <div class="main-info__text text-dark_light">Paiement des salaires pour le compte des sociétés informatiques internationales</div>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="payout-service.html">Plus d’informations</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+
+        </div>
+
+        <div class="strut__row strut__row_expanded">
+            <main class="body">
+
+                <div class="main-tabs">
+                    <div class="main-tabs__top">
+                        <div class="region">
+                            <div class="main-tabs__header">
+                                <div class="main-tabs__toggle text-dark">Travailleurs indépendants (Freelance)</div>
+                                <div class="main-tabs__toggle text-dark">Webmasters</div>
+                                <div class="main-tabs__toggle text-dark">Sociétés informatiques</div>
+                                <div class="main-tabs__toggle text-dark">Réseaux d’affiliés</div>
+                                <div class="main-tabs__toggle text-dark">Développeurs de logiciels</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-tabs__slider">
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">Freelance sans souci</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-8 col-xs-12">
+                                            <div class="row">
+                                                <div class="col-md-6 col-xs-12">
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_flag"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="bank-transfers.html">Paiements provenant des États-Unis</a>
+                                                                <div class="ico-link__text text">Transferts de marchés indépendants basés aux États-Unis</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image icon">
+                                                                <div class="icon icon_stars-big"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="bank-transfers.html">Paiements internationaux</a>
+                                                                <div class="ico-link__text text">Virements de vos employeurs basés en Europe et en Asie</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-xs-6">
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_moon"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="managing-account.html">Paiements électroniques</a>
+                                                                <div class="ico-link__text text">Transferts instantanés et WebMoney WMZ sortant</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-tabs__line main-tabs__line_last">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_cards-switch"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="prepaid-cards.html">Cartes de débit</a>
+                                                                <div class="ico-link__text text">Retirez vos fonds à n’importe quel distributeur de billets dans le monde entier</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">Ouvrir un compte gratuit</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">Simple et rentable!</div>
+                                                <div class="profile-quote__text text">Un moyen pratique et fiable pour être payé par Upwork et autres marchés indépendants</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee1.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Elena</div>
+                                                        <div class="profile-quote__description text">Designer Freelance, <br>Romania</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">Une excellente affaire pour un webmaster</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Transferts bancaires</a>
+                                                        <div class="ico-link__text text">Virements bancaires d’entreprises et de réseaux publicitaires basés dans le monde entier</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image icon">
+                                                        <div class="icon icon_flag"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Paiements provenant des États-Unis</a>
+                                                        <div class="ico-link__text text">Paiements d'Amazon et autres réseaux d’affiliés basés aux États-Unis</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">Ouvrir un compte gratuit</a>
+                                            </div>
+                                          
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+
+                                            <div class="main-tabs__line main-tabs__line_last">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_card-splash2"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="virtual-cards.html">Cartes virtuelles</a>
+                                                        <div class="ico-link__text text">Un moyen de paiement facile pour le trafic et les campagnes de promotion</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">Les règlements ne sont plus un problème!</div>
+                                                <div class="profile-quote__text text">Se faire payer est maintenant simple – que ce soit un chèque de AdSense ou un virement de TradeDoubler</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee2.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Nick</div>
+                                                        <div class="profile-quote__description text">Traffic Trader, <br>Belarus</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">Informatique illimitée</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_interaction"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">Paiements rapides</a>
+                                                        <div class="ico-link__text text">Indemnisation immédiate des employés et des spécialistes engagés</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_portfolio"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Paiements aux entreprises</a>
+                                                        <div class="ico-link__text text">Transferts USD et EUR vers les comptes bancaires des entreprises et des tiers</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">Ouvrir un compte gratuit</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line main-tabs__line_first">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_cards"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="prepaid-cards.html">Cartes de paiement</a>
+                                                        <div class="ico-link__text text">Élimine le problème des cartes nombreuses pour les employés et partenaires</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_anytime"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">Support technique 24/24</a>
+                                                        <div class="ico-link__text text">Notre équipe de professionnels est à votre service 24/7</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">Passez des contrats dans le monde entier</div>
+                                                <div class="profile-quote__text text">Se faire payer pour vos services ou payer un pigiste n'a jamais été aussi simple!</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee3.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Serge</div>
+                                                        <div class="profile-quote__description text">Fondateur de Startup, <br>Thaïlande</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">Réseaux de publicité internationale</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_house3"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">Paiements instantanés</a>
+                                                        <div class="ico-link__text text">Transferts USD et EUR instantanés vers les portefeuilles ePayService</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image icon">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Virements bancaires</a>
+                                                        <div class="ico-link__text text">Transferts vers les comptes bancaires dans le monde entier - des États-Unis au Japon</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">Ouvrir un compte gratuit</a>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line main-tabs__line_first">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_cards"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="prepaid-cards.html">Paiements aux cartes bancaire</a>
+                                                        <div class="ico-link__text text">Transferts directs vers des cartes émises par d'autres banque</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_card-splash4"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="affiliate-payouts.html">Puissance de la marque</a>
+                                                        <div class="ico-link__text text">MasterCards ePayService personnalisées pour vos partenaires basés dans le monde entier</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">Élargissez vos frontières</div>
+                                                <div class="profile-quote__text text">Les paiements directs vers les portefeuilles ePayService de vos partenaires à logos personnalisés sont utiles aux webmasters du monde entier</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee4.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Yury</div>
+                                                        <div class="profile-quote__description text">Propriétaire Réseau CPA, <br>Ukraine</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">Solutions pour les développeurs</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_flag"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Fonds entrants depuis les États-Unis</a>
+                                                        <div class="ico-link__text text">Chèques et ACH des clients basés aux États-Unis acceptés</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Paiements internationaux</a>
+                                                        <div class="ico-link__text text">Virements et transferts SEPA des entreprises du monde entier acceptés</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">Ouvrir un compte gratuit</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line main-tabs__line_first">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_planning"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="payout-service.html">Solutions salariales</a>
+                                                        <div class="ico-link__text text">Payez les salaires de votre personnel interne et externe</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line main-tabs__line_last">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_cards"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="prepaid-cards.html">Cartes de paiement</a>
+                                                        <div class="ico-link__text text">Des cartes plastiques et virtuelles Mastercard® ePayService pour chaque situation</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">FinTech Power</div>
+                                                <div class="profile-quote__text text">Service flexible et facile à utiliser pour les paiements entrants provenant d'entreprises ainsi que pour les indemnisations au personnel partout dans le monde</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee5.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Anton</div>
+                                                        <div class="profile-quote__description text">Développeur de jeux, <br>République tchèque</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="service-offer service-offer_pushed" style="background-image: url(.././images/service-bg10.jpg)">
+                    <div class="region">
+                        <div class="row">
+                            <div class="col-md-5 col-xs-12 full-width">
+                                <h2 class="service-offer__title title">ePayService offre de nombreuses façons de gérer et de dépenser vos revenus durement gagnés.</h2>
+                                <div class="service-offer__text text-dark wysiwyg">
+                                    <p>À ePayService, nous pouvons facilement et efficacement gérer vos liquidités de masse salariale grâce à une gamme de produits et services. Nous pouvons aider les entreprises et leurs employés à rationaliser leurs processus de paie avec pour résultat une gestion efficace des coûts du revenu de vos employés.</p>
+                                    <p>Effectuez des paiements avec Carte de débit ePayService partout dans le monde!</p>
+                                </div>
+                                <div class="service-offer__icons ico-block">
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_bed"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">Hôtels</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_food"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">Restaurants</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_tag"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">Points de vente</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_golf"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">Divertissement</div>
+                                    </div>
+                                </div>
+                                <div class="service-offer__text text-dark wysiwyg">
+                                    <p>Où que vous soyez dans le monde, vous vous sentirez toujours plus en sécurité en utilisant Cartes de débit ePayService qu’en transportant du liquide.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-offer__cards">
+                                    <ul class="cards">
+                                       <li class="cards__item cards__item_top"></li>
+                                       <li class="cards__item cards__item_bottom"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-bank">
+                    <div class="region">
+                        <div class="row">
+                            <div class="col-md-8 col-xs-12">
+                                <h2 class="mobile-bank__title title">Une vraie flexibilité</h2>
+                                <div class="mobile-bank__text">Gérez votre portefeuille ePayService <br>avec votre appareil préféré</div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-9">
+                                        <div class="mobile-bank__app app">
+                                            <div class="app__logo"></div>
+                                            <div class="app__info">
+                                                <div class="app__title">ePayService ®</div>
+                                                <div class="app__text">Obtenez l'application ePayService pour iOS disponible dans <a href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8">l'App Store d'Apple</a>, <a href="https://play.google.com/store/apps/details?id=com.epayservice">Google Play</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="mobile-bank__download">
+                                            <a class="mobile-bank__icon icon icon_app-store" href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8"></a>
+                                            <a class="mobile-bank__icon icon icon_google-play" href="https://play.google.com/store/apps/details?id=com.epayservice"></a>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6 col-xs-3">
+                                        <div class="mobile-bank__image">
+                                            <img src="../images/phone.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-12 col-md-offset-1">
+                                <div class="mobile-bank__manage">
+                                    <div class="mobile-bank__text">Recevez-le équipé du système de paiement <a class="using__link" href="https://online.epayservices.com/">Online.ePayServices</a>.</div>
+                                    <div class="mobile-bank__note">Profitez de la fonctionnalité de l'application mobile. Vivez maintenant.</div>
+                                </div>
+                                <div class="mobile-bank__button">
+                                    <a class="button button_big" href="https://online.epayservices.com/register">Ouvrez un compte gratuit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="using using_center">
+                    <div class="region">
+                        <h2 class="using__title title">Ouvrez un compte gratuit en quatre étapes</h2>
+                        <div class="using__note text">4 étapes rapides pour recevoir des paiements</div>
+                        <ul class="using__list">
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_man"></div>
+                                </div>
+                                <div class="using__number"><span>1</span></div>
+                                <div class="using__text">Remplissez le simple formulaire d'inscription sur Online.ePayServices</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_profile-check"></div>
+                                </div>
+                                <div class="using__number"><span>2</span></div>
+                                <div class="using__text">Validez la procédure d'activation directe du portefeuille ePayService</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_hands"></div>
+                                </div>
+                                <div class="using__number"><span>3</span></div>
+                                <div class="using__text">Fournissez à votre correspondant les détails sur votre portefeuille ePayService et recevez le paiement</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_cards-switch"></div>
+                                </div>
+                                <div class="using__number"><span>4</span></div>
+                                <div class="using__text">Utilisez la carte de débit ePayService pour retirer des fonds dans la monnaie que vous préférez</div>
+                            </li>
+                        </ul>
+                        <div class="using__button">
+                            <a class="button button_big" href="https://online.epayservices.com/register">Ouvrir un compte</a>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        <div class="strut__row">
+            <footer class="footer">
+                <div class="region">
+                    <div class="footer__rows">
+                        <div class="row row-eq-height">
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">Informations</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="contact-us.html">Contactez-nous</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://online.epayservices.com/">Connexion</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="affiliate-program.html">Programme d’affiliation</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../en/developers.html">Developers</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://blog.epayservices.com/">Nouvelles</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">Services</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="managing-account.html">Gestion de compte</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="bank-transfers.html">Virements bancaires</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="personal-iban.html">IBAN personnel</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="personal-us-account.html">Compte américain personnel</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="prepaid-cards.html">Cartes de débit</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="payout-service.html">Solutions salariales</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="affiliate-payouts.html">Paiements d’affiliation</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="virtual-cards.html">Cartes virtuelles</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="local-payments.html">Virement bancaire local</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="send-money-to-card.html">Transferts vers les cartes</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="cash-remittance.html">Transferts d’argent</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">Conditions</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="user-agreement.pdf">Accord de l’utilisateur</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../privacy-notice.pdf">Privacy Notice</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">Suivez-nous</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://twitter.com/epayservices">Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__copyright">© Copyright ePayService 2007–<span></span>, <br>Tous droits réservés.</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="../js/jquery-2.2.0.min.js"></script>
+    <script src="../js/jquery.placeholder.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/sticky-kit.js"></script>
+    <script src="../js/calc.js"></script>
+    <!--<script src="js/jquery.sliderTabs.min.js"></script>-->
+    <!--<script>-->
+        <!--var slider = $("#main-tabs").sliderTabs({-->
+            <!--mousewheel: false,-->
+            <!--tabArrows: false,-->
+            <!--tabSlideSpeed: 400,-->
+            <!--transition: 'fade',-->
+            <!--panelArrows: true,-->
+            <!--panelArrowsShowOnHover: true,-->
+            <!--tabHeight: 270-->
+        <!--});-->
+    <!--</script>-->
+    <script src="../js/app.b6f525f1.js"></script>
+    <script>
+        window.intercomSettings = {
+        app_id: "wz9x11as"
+        };
+    </script>
+    <script>
+        // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
+        (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/wz9x11as';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+    <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
+	</body>
+</html>

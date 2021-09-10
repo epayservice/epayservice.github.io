@@ -1,0 +1,95 @@
+.lang-select {
+    position: relative;
+}
+
+    .lang-select__toggle {
+        display: block;
+        position: relative;
+        padding-left: 45px;
+        padding-right: 25px;
+    }
+
+    .lang-select__toggle:after {
+        content: '';
+        position: absolute;
+        top: 2px;
+        right: 0;
+        width: 7px;
+        height: 7px;
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff;
+        -webkit-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        -webkit-transition: transform ease-out 0.2s;
+        transition: transform ease-out 0.2s;
+    }
+
+    .drop_active .lang-select__toggle:after {
+        top: 6px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .lang-select__toggle .lang-select__title {
+        color: #fff;
+    }
+
+    .lang-select__toggle .lang-select__image {
+        top: -2px;
+    }
+
+    .lang-select__list {
+        margin: 20px 0 0;
+        list-style: none;
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 10px 0;
+        box-shadow: 0 28px 24px 0 rgba(0, 0, 0, .1);
+        position: absolute;
+        top: 100%;
+        right: -18px;
+        display: none;
+    }
+
+    .lang-select__list:before {
+        content: '';
+        position: absolute;
+        top: -7px;
+        right: 42px;
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        background-color: #fff;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+        .lang-select__item {
+            display: block;
+            position: relative;
+            padding: 10px 35px 10px 45px;
+            cursor: pointer;
+        }
+
+            .lang-select__image {
+                position: absolute;
+                top: 8px;
+                left: 20px;
+                max-width: 16px;
+            }
+
+            .lang-select__title {
+                font-size: 12px;
+                line-height: 16px;
+                font-weight: 600;
+                color: #374D6B;
+                white-space: nowrap;
+            }
+            
+
+
+
+@media (max-width: 1279px) {
+    .lang-select__list {left: auto;right: -8px;}
+    .lang-select__list:before {right: 31px;}
+}

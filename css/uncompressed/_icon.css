@@ -1,0 +1,832 @@
+.icon {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.icon_bed {
+    background-image: url(../images/ico-bed.svg);
+    width: 65px;
+    height: 34px;
+}
+
+.icon_food {
+    background-image: url(../images/ico-food.svg);
+    width: 62px;
+    height: 43px;
+}
+
+.icon_tag {
+    background-image: url(../images/ico-tag.svg);
+    width: 50px;
+    height: 50px;
+}
+
+.icon_golf {
+    background-image: url(../images/ico-golf.svg);
+    width: 46px;
+    height: 45px;
+}
+
+.icon_cart {
+    background-image: url(../images/ico-cart.svg);
+    width: 58px;
+    height: 83px;
+}
+
+.icon_currency {
+    background-image: url(../images/ico-currency.svg);
+    width: 84px;
+    height: 65px;
+}
+
+.icon_chip {
+    background-image: url(../images/ico-chip.svg);
+    width: 72px;
+    height: 50px;
+}
+
+.icon_employee {
+    background-image: url(../images/ico-employee.svg);
+    width: 66px;
+    height: 68px;
+}
+
+.icon_hands {
+    background-image: url(../images/ico-hands.svg);
+    width: 72px;
+    height: 55px;
+}
+
+.icon_atm {
+    background-image: url(../images/ico-atm.svg);
+    width: 73px;
+    height: 43px;
+}
+
+.icon_google-play {
+    background-image: url(../images/ico-google-play.svg);
+    width: 200px;
+    height: 50px;
+}
+
+.icon_app-store {
+    background-image: url(../images/ico-app-store.svg);
+    width: 200px;
+    height: 50px;
+}
+
+.icon_employee2 {
+    background-image: url(../images/ico-employee2.svg);
+    width: 67px;
+    height: 67px;
+}
+
+.icon_profile-check {
+    background-image: url(../images/ico-profile-check.svg);
+    width: 65px;
+    height: 61px;
+}
+
+.icon_card-tall {
+    background-image: url(../images/ico-card-tall.svg);
+    width: 66px;
+    height: 103px;
+}
+
+.icon_profile-lines {
+    background-image: url(../images/ico-profile-lines.svg);
+    width: 63px;
+    height: 47px;
+}
+
+.icon_check-pen {
+    background-image: url(../images/ico-check-pen.svg);
+    width: 79px;
+    height: 44px;
+}
+
+.icon_envelope {
+    background-image: url(../images/ico-envelope.svg);
+    width: 64px;
+    height: 58px;
+}
+
+.icon_coins {
+    background-image: url(../images/ico-coins.svg);
+    width: 68px;
+    height: 58px;
+}
+
+.icon_house {
+    background-image: url(../images/ico-house.svg);
+    width: 62px;
+    height: 62px;
+}
+
+.icon_logo-tag {
+    background-image: url(../images/ico-logo-tag.svg);
+    width: 84px;
+    height: 67px;
+}
+
+.icon_moon {
+    background-image: url(../images/ico-moon.svg);
+    width: 72px;
+    height: 74px;
+}
+
+.icon_check-earth {
+    background-image: url(../images/ico-check-earth.svg);
+    width: 62px;
+    height: 61px;
+}
+
+.icon_check-pen2 {
+    background-image: url(../images/ico-check-pen2.svg);
+    width: 69px;
+    height: 47px;
+}
+
+.icon_crowd {
+    background-image: url(../images/ico-crowd.svg);
+    width: 71px;
+    height: 71px;
+}
+
+.icon_cards {
+    background-image: url(../images/ico-cards.svg);
+    width: 67px;
+    height: 49px;
+}
+
+.icon_safe {
+    background-image: url(../images/ico-safe.svg);
+    width: 58px;
+    height: 62px;
+}
+
+.icon_house2 {
+    background-image: url(../images/ico-b-house.svg);
+    width: 62px;
+    height: 62px;
+}
+
+.icon_cards2 {
+    background-image: url(../images/ico-b-cards.svg);
+    width: 67px;
+    height: 49px;
+}
+
+.icon_checks {
+    background-image: url(../images/ico-b-checks.svg);
+    width: 69px;
+    height: 47px;
+}
+
+.icon_hands2 {
+    background-image: url(../images/ico-b-hands.svg);
+    width: 72px;
+    height: 55px;
+}
+
+.icon_crowd2 {
+    background-image: url(../images/ico-b-crowd.svg);
+    width: 71px;
+    height: 71px;
+}
+
+.icon_flag {
+    background-image: url(../images/ico-flag.svg);
+    width: 57px;
+    height: 56px;
+}
+
+.icon_earth {
+    background-image: url(../images/ico-earth.svg);
+    width: 62px;
+    height: 61px;
+}
+
+.icon_house3 {
+    background-image: url(../images/ico-house3.svg);
+    width: 62px;
+    height: 62px;
+}
+
+.icon_stars-big {
+    background-image: url(../images/ico-stars-big.svg);
+    width: 62px;
+    height: 61px;
+}
+
+.icon_man {
+    background-image: url(../images/ico-man.svg);
+    width: 67px;
+    height: 67px;
+}
+
+.icon_envelope2 {
+    background-image: url(../images/ico-envelope2.svg);
+    width: 63px;
+    height: 63px;
+}
+
+.icon_money {
+    background-image: url(../images/ico-money.svg);
+    width: 63px;
+    height: 54px;
+}
+
+.icon_cards-switch {
+    background-image: url(../images/ico-cards-switch.svg);
+    width: 70px;
+    height: 62px;
+}
+
+.icon_card-hand {
+    background-image: url(../images/ico-card-hand.svg);
+    width: 40px;
+    height: 72px;
+}
+
+.icon_circles {
+    background-image: url(../images/ico-circles.svg);
+    width: 70px;
+    height: 64px;
+}
+
+.icon_terminal-pen {
+    background-image: url(../images/ico-terminal-pen.svg);
+    width: 47px;
+    height: 70px;
+}
+
+.icon_card-splash {
+    background-image: url(../images/ico-card-splash.svg);
+    width: 70px;
+    height: 51px;
+}
+
+.icon_card-splash2 {
+    background-image: url(../images/ico-card-splash2.svg);
+    width: 70px;
+    height: 51px;
+}
+
+.icon_card-splash3 {
+    background-image: url(../images/ico-card-splash3.svg);
+    width: 60px;
+    height: 41px;
+}
+
+.icon_card-splash4 {
+    background-image: url(../images/ico-card-splash4.svg);
+    width: 70px;
+    height: 47px;
+}
+
+.icon_card-atm {
+    background-image: url(../images/ico-card-atm.svg);
+    width: 62px;
+    height: 62px;
+}
+
+.icon_money-rotate {
+    background-image: url(../images/ico-money-rotate.svg);
+    width: 63px;
+    height: 65px;
+}
+
+.icon_laptop-mail {
+    background-image: url(../images/ico-laptop-mail.svg);
+    width: 82px;
+    height: 62px;
+}
+
+.icon_sheet-glasses {
+    background-image: url(../images/ico-sheet-glasses.svg);
+    width: 67px;
+    height: 62px;
+}
+
+.icon_laptop-message {
+    background-image: url(../images/ico-laptop-message.svg);
+    width: 63px;
+    height: 62px;
+}
+
+.icon_circles-click {
+    background-image: url(../images/ico-circles-click.svg);
+    width: 70px;
+    height: 61px;
+}
+
+.icon_cellphone {
+    background-image: url(../images/ico-cellphone.svg);
+    width: 69px;
+    height: 68px;
+}
+
+.icon_tab1 {
+    background-image: url(../images/ico-tab1.svg);
+    width: 64px;
+    height: 63px;
+}
+
+.icon_tab2 {
+    background-image: url(../images/ico-tab2.svg);
+    width: 72px;
+    height: 64px;
+}
+
+.icon_tab3 {
+    background-image: url(../images/ico-tab3.svg);
+    width: 63px;
+    height: 58px;
+}
+
+.icon_tab4 {
+    background-image: url(../images/ico-tab4.svg);
+    width: 67px;
+    height: 67px;
+}
+
+.icon_tab5 {
+    background-image: url(../images/ico-tab5.svg);
+    width: 78px;
+    height: 75px;
+}
+
+.icon_step1 {
+    background-image: url(../images/ico-step1.svg);
+    width: 63px;
+    height: 53px;
+}
+
+.icon_step2 {
+    background-image: url(../images/ico-step2.svg);
+    width: 57px;
+    height: 67px;
+}
+
+.icon_step3 {
+    background-image: url(../images/ico-step3.svg);
+    width: 70px;
+    height: 63px;
+}
+
+.icon_insurance {
+    background-image: url(../images/ico-insurance.svg);
+    width: 62px;
+    height: 72px;
+}
+
+.icon_identity {
+    background-image: url(../images/ico-indentity.svg);
+    width: 51px;
+    height: 64px;
+}
+
+.icon_stockmarket {
+    background-image: url(../images/ico-stockmarket.svg);
+    width: 62px;
+    height: 59px;
+}
+
+.icon_planning {
+    background-image: url(../images/ico-planning.svg);
+    width: 64px;
+    height: 65px;
+}
+
+.icon_imagination {
+    background-image: url(../images/ico-imagination.svg);
+    width: 55px;
+    height: 69px;
+}
+
+.icon_solution {
+    background-image: url(../images/ico-solution.svg);
+    width: 47px;
+    height: 70px;
+}
+
+.icon_tags {
+    background-image: url(../images/ico-tags.svg);
+    width: 68px;
+    height: 58px;
+}
+
+.icon_api-interface {
+    background-image: url(../images/ico-api-interface.svg);
+    width: 71px;
+    height: 63px;
+}
+
+.icon_interaction {
+    background-image: url(../images/ico-interaction.svg);
+    width: 55px;
+    height: 71px;
+}
+
+.icon_homepage {
+    background-image: url(../images/ico-homepage.svg);
+    width: 62px;
+    height: 59px;
+}
+
+.icon_social-media {
+    background-image: url(../images/ico-socialmedia.svg);
+    width: 70px;
+    height: 66px;
+}
+
+.icon_take-a-break {
+    background-image: url(../images/ico-takeabreak.svg);
+    width: 57px;
+    height: 71px;
+}
+
+.icon_portfolio {
+    background-image: url(../images/ico-portfolio.svg);
+    width: 58px;
+    height: 72px;
+}
+
+.icon_mission {
+    background-image: url(../images/ico-mission.svg);
+    width: 74px;
+    height: 64px;
+}
+
+.icon_data-protection {
+    background-image: url(../images/ico-data-protection.svg);
+    width: 48px;
+    height: 65px;
+}
+
+.icon_pay-per-click {
+    background-image: url(../images/ico-pay-per-click.svg);
+    width: 64px;
+    height: 64px;
+}
+
+.icon_consulting {
+    background-image: url(../images/ico-consulting.svg);
+    width: 63px;
+    height: 57px;
+}
+
+.icon_anytime {
+    background-image: url(../images/ico-anytime.svg);
+    width: 64px;
+    height: 60px;
+}
+
+.icon_handbag {
+    background-image: url(../images/ico-handbag.svg);
+    width: 56px;
+    height: 67px;
+}
+
+.icon_success {
+    background-image: url(../images/ico-success.svg);
+    width: 48px;
+    height: 70px;
+}
+
+.icon_user-experience {
+    background-image: url(../images/ico-user-experience.svg);
+    width: 78px;
+    height: 51px;
+}
+
+.icon_first-place {
+    background-image: url(../images/ico-first-place.svg);
+    width: 58px;
+    height: 69px;
+}
+
+.icon_workplace {
+    background-image: url(../images/ico-workplace.svg);
+    width: 72px;
+    height: 52px;
+}
+
+.icon_office {
+    background-image: url(../images/ico-office.svg);
+    width: 63px;
+    height: 70px;
+}
+
+.icon_staff {
+    background-image: url(../images/ico-staff.svg);
+    width: 40px;
+    height: 72px;
+}
+
+.icon_tools {
+    background-image: url(../images/ico-tools.svg);
+    width: 64px;
+    height: 62px;
+}
+
+.icon_coding {
+    background-image: url(../images/ico-coding.svg);
+    width: 76px;
+    height: 72px;
+}
+
+.icon_statistics {
+    background-image: url(../images/ico-statistics.svg);
+    width: 77px;
+    height: 54px;
+}
+
+.icon_invest-ideas {
+    background-image: url(../images/ico-invest-ideas.svg);
+    width: 57px;
+    height: 71px;
+}
+
+.icon_invest-shield {
+    background-image: url(../images/ico-invest-shield.svg);
+    width: 59px;
+    height: 66px;
+}
+
+.icon_time-management {
+    background-image: url(../images/ico-time-management.svg);
+    width: 48px;
+    height: 66px;
+}
+
+.icon_thinking {
+    background-image: url(../images/ico-thinking.svg);
+    width: 55px;
+    height: 69px;
+}
+
+.icon_computer-graphic {
+    background-image: url(../images/ico-computer-graphics.svg);
+    width: 60px;
+    height: 63px;
+}
+
+.icon_account {
+    background-image: url(../images/ico-account.svg);
+    width: 51px;
+    height: 72px;
+}
+
+.icon_webshop {
+    background-image: url(../images/ico-webshop.svg);
+    width: 62px;
+    height: 58px;
+}
+
+.icon_branch-office {
+    background-image: url(../images/ico-branch-office.svg);
+    width: 68px;
+    height: 69px;
+}
+
+.icon_customer-service {
+    background-image: url(../images/ico-customer-service.svg);
+    width: 65px;
+    height: 65px;
+}
+
+.icon_budget-calc {
+    background-image: url(../images/ico-budget-calc.svg);
+    width: 51px;
+    height: 72px;
+}
+
+.icon_goods {
+    background-image: url(../images/ico-goods.svg);
+    width: 52px;
+    height: 72px;
+}
+
+.icon_sync {
+    background-image: url(../images/ico-sync.svg);
+    width: 77px;
+    height: 48px;
+}
+
+.icon_research {
+    background-image: url(../images/ico-research.svg);
+    width: 44px;
+    height: 81px;
+}
+
+.icon_virtual-card {
+    background-image: url(../images/ico-virtual-card.svg);
+    width: 82px;
+    height: 56px;
+}
+
+.icon_easy-pay {
+    background-image: url(../images/ico-easy-pay.svg);
+    width: 71px;
+    height: 72px;
+}
+
+.icon_safe-money {
+    background-image: url(../images/ico-safe-money.svg);
+    width: 58px;
+    height: 63px;
+}
+
+.icon_fast {
+    background-image: url(../images/ico-fast.svg);
+    width: 63px;
+    height: 63px;
+}
+
+.icon_rate-up {
+    background-image: url(../images/ico-rate-up.svg);
+    width: 63px;
+    height: 55px;
+}
+
+.icon_clock-white{
+    background-image:url(../images/ico-clock-white.svg);
+    width:45px;
+    height:45px
+}
+
+.icon_currency-white{
+    background-image:url(../images/ico-currency-white.svg);
+    width:45px;
+    height:45px
+}
+
+.icon_earth-white{
+    background-image:url(../images/ico-earth-white.svg);
+    width:44px;
+    height:44px
+}
+
+.icon_local-pay{
+    background-image:url(../images/ico-local-pay.svg);
+    width:99px;
+    height:82px;
+}
+
+.icon_local-pay-dark{
+    background-image:url(../images/ico-local-pay-dark.svg);
+    width:70px;
+    height:60px;
+}
+
+.icon_hand-to-card {
+    background-image:url(../images/ico-hand-to-card.svg);
+    width:113px;
+    height:82px;
+}
+
+.icon_hand-to-card-dark {
+    background-image:url(../images/ico-hand-to-card-dark.svg);
+    width:76px;
+    height:56px;
+}
+
+.icon_save-to-card {
+    background-image:url(../images/ico-save-to-card.svg);
+    width:95px;
+    height:74px;
+}
+
+.icon_save-to-card-dark {
+    background-image: url(../images/ico-save-to-card-dark.svg);
+    width:68px;
+    height:52px;
+}
+
+
+.icon_flag-sm {
+    background-image: url(../images/ico-flag-sm.svg);
+    width: 22px;
+    height: 19px;
+}
+
+.swap-item_active .icon_flag-sm {
+    background-image: url(../images/ico-flag-sm-color.svg);
+}
+
+.icon_earth-sm {
+    background-image: url(../images/ico-earth-sm.svg);
+    width: 21px;
+    height: 21px;
+}
+
+.swap-item_active .icon_earth-sm {
+    background-image: url(../images/ico-earth-sm-color.svg);
+}
+
+.icon_stars-sm {
+    background-image: url(../images/ico-stars-sm.svg);
+    width: 21px;
+    height: 21px;
+}
+
+.swap-item_active .icon_stars-sm {
+    background-image: url(../images/ico-stars-sm-color.svg);
+}
+
+.icon_local-pay-sm {
+    background-image: url(../images/ico-local-pay-sm.svg);
+    width: 23px;
+    height: 19px;
+}
+
+.swap-item_active .icon_local-pay-sm {
+    background-image: url(../images/ico-local-pay-sm-color.svg);
+}
+
+.icon_check-sm {
+    background-image: url(../images/ico-check-sm.svg);
+    width: 23px;
+    height: 19px;
+}
+
+.swap-item_active .icon_check-sm {
+    background-image: url(../images/ico-check-sm-color.svg);
+}
+
+.icon_save-to-card-sm {
+    background-image: url(../images/ico-save-to-card-sm.svg);
+    width: 21px;
+    height: 15px;
+}
+
+.swap-item_active .icon_save-to-card-sm {
+    background-image: url(../images/ico-save-to-card-sm-color.svg);
+}
+
+.icon_calc-sm {
+    background-image: url(../images/ico-calc-sm.svg);
+    width: 20px;
+    height: 21px;
+}
+
+.swap-item_active .icon_calc-sm {
+    background-image: url(../images/ico-calc-sm-color.svg);
+}
+
+.icon_card-splash3-sm {
+    background-image: url(../images/ico-card-splash3-sm.svg);
+    width: 21px;
+    height: 15px;
+}
+
+.swap-item_active .icon_card-splash3-sm {
+    background-image: url(../images/ico-card-splash3-sm-color.svg);
+}
+
+.icon_card-splash4-sm {
+    background-image: url(../images/ico-card-splash4-sm.svg);
+    width: 25px;
+    height: 18px;
+}
+
+.swap-item_active .icon_card-splash4-sm {
+    background-image: url(../images/ico-card-splash4-sm-color.svg);
+}
+
+.icon_card-splash2-sm {
+    background-image: url(../images/ico-card-splash2-sm.svg);
+    width: 21px;
+    height: 15px;
+}
+
+.swap-item_active .icon_card-splash2-sm {
+    background-image: url(../images/ico-card-splash2-sm-color.svg);
+}
+
+.icon_ref-step1 {
+    background-image: url(../images/ico-ref-step1.svg);
+    width: 64px;
+    height: 62px;
+}
+
+.icon_ref-step2 {
+    background-image: url(../images/ico-ref-step2.svg);
+    width: 66px;
+    height: 60px;
+}
+
+.icon_ref-step3 {
+    background-image: url(../images/ico-ref-step3.svg);
+    width: 56px;
+    height: 63px;
+}
+
+.icon_moon-sm {
+    background-image: url(../images/ico-moon-sm.svg);
+    width: 21px;
+    height: 21px;
+}

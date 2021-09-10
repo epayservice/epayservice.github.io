@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15">
+  <g fill="#374D6B" fill-rule="evenodd">
+    <rect width="1" height="1" x="1"/>
+    <rect width="1" height="1" x="3"/>
+    <rect width="1" height="1" x="5"/>
+    <rect width="1" height="1" x="7"/>
+    <rect width="1" height="1" x="9"/>
+    <rect width="1" height="1" x="11"/>
+    <rect width="1" height="1" x="13"/>
+    <rect width="1" height="1" x="15"/>
+    <rect width="1" height="1" x="17"/>
+    <rect width="1" height="1" x="19"/>
+    <rect width="1" height="1" x="20" y="1"/>
+    <rect width="1" height="1" x="20" opacity=".1"/>
+    <rect width="1" height="1" x="20" y="4" opacity=".1"/>
+    <rect width="1" height="1" x="20" y="14" opacity=".1"/>
+    <rect width="1" height="1" opacity=".1"/>
+    <rect width="1" height="1" y="4" opacity=".1"/>
+    <rect width="1" height="1" y="14" opacity=".1"/>
+    <rect width="1" height="1" x="20" y="3"/>
+    <rect width="1" height="1" x="20" y="5"/>
+    <rect width="1" height="1" x="20" y="7"/>
+    <rect width="1" height="1" x="20" y="9"/>
+    <rect width="1" height="1" x="20" y="11"/>
+    <rect width="1" height="1" x="20" y="13"/>
+    <rect width="1" height="1" x="19" y="14"/>
+    <rect width="1" height="1" x="17" y="14"/>
+    <rect width="1" height="1" x="15" y="14"/>
+    <rect width="1" height="1" x="13" y="14"/>
+    <rect width="1" height="1" x="11" y="14"/>
+    <rect width="1" height="1" x="9" y="14"/>
+    <rect width="1" height="1" x="7" y="14"/>
+    <rect width="1" height="1" x="5" y="14"/>
+    <rect width="1" height="1" x="3" y="14"/>
+    <rect width="1" height="1" x="1" y="14"/>
+    <rect width="1" height="1" y="13"/>
+    <rect width="1" height="1" y="11"/>
+    <rect width="1" height="1" y="9"/>
+    <rect width="1" height="1" y="7"/>
+    <rect width="1" height="1" y="5"/>
+    <rect width="1" height="1" y="3"/>
+    <rect width="1" height="1" y="1"/>
+    <polygon fill-rule="nonzero" points="1 5 2 5 2 4 1 4"/>
+    <polygon fill-rule="nonzero" points="3 5 4 5 4 4 3 4"/>
+    <polygon fill-rule="nonzero" points="5 5 6 5 6 4 5 4"/>
+    <polygon fill-rule="nonzero" points="7 5 8 5 8 4 7 4"/>
+    <polygon fill-rule="nonzero" points="9 5 10 5 10 4 9 4"/>
+    <polygon fill-rule="nonzero" points="11 5 12 5 12 4 11 4"/>
+    <polygon fill-rule="nonzero" points="13 5 14 5 14 4 13 4"/>
+    <polygon fill-rule="nonzero" points="15 5 16 5 16 4 15 4"/>
+    <polygon fill-rule="nonzero" points="17 5 18 5 18 4 17 4"/>
+    <polygon fill-rule="nonzero" points="19 5 20 5 20 4 19 4"/>
+    <path d="M11.5,6 C9.567,6 8,7.567 8,9.5 C8,11.433 9.567,13 11.5,13 C13.433,13 15,11.433 15,9.5 C15,7.567 13.433,6 11.5,6 M11.5,7 C12.879,7 14,8.122 14,9.5 C14,10.878 12.879,12 11.5,12 C10.121,12 9,10.878 9,9.5 C9,8.122 10.121,7 11.5,7"/>
+    <path d="M15.5,6 C13.567,6 12,7.567 12,9.5 C12,11.433 13.567,13 15.5,13 C17.433,13 19,11.433 19,9.5 C19,7.567 17.433,6 15.5,6 M15.5,7 C16.879,7 18,8.122 18,9.5 C18,10.878 16.879,12 15.5,12 C14.121,12 13,10.878 13,9.5 C13,8.122 14.121,7 15.5,7"/>
+  </g>
+</svg>

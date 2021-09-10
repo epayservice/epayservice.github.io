@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="epay-web-services-cards" transform="translate(-454.000000, -7049.000000)">
+            <g id="Page-1" transform="translate(454.000000, 7050.000000)">
+                <path d="M66.1148,36.8672 C66.1148,20.8612 53.1388,7.8852 37.1328,7.8852 C21.1268,7.8852 8.1508,20.8612 8.1508,36.8672 C8.1508,52.8732 21.1268,65.8492 37.1328,65.8492 C53.1388,65.8492 66.1148,52.8732 66.1148,36.8672" id="Fill-1" fill="#D6EEF5"></path>
+                <path d="M66.1148,36.8672 C66.1148,20.8612 53.1388,7.8852 37.1328,7.8852 C21.1268,7.8852 8.1508,20.8612 8.1508,36.8672 C8.1508,52.8732 21.1268,65.8492 37.1328,65.8492 C53.1388,65.8492 66.1148,52.8732 66.1148,36.8672 L66.1148,36.8672 Z" id="Stroke-3" stroke="#00B2D4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M73.7656,36.8672 C73.7656,16.6352 57.3646,0.2342 37.1326,0.2342 C16.9006,0.2342 0.4996,16.6352 0.4996,36.8672 C0.4996,57.0992 16.9006,73.5002 37.1326,73.5002 C57.3646,73.5002 73.7656,57.0992 73.7656,36.8672 L73.7656,36.8672 Z" id="Stroke-5" stroke="#00B2D4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Stroke-7" stroke="#00B2D4" stroke-linecap="round" stroke-linejoin="round" points="23.2308 36.8778 34.5228 48.1698 54.6368 28.0548"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

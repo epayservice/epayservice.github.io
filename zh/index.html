@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="../css/style.css?v=3">
+		<title>ePayService - Home</title>
+        <script>
+            window.twttr = (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                        t = window.twttr || {};
+                if (d.getElementById(id)) return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+
+                t._e = [];
+                t.ready = function(f) {
+                    t._e.push(f);
+                };
+
+                return t;
+            }(document, "script", "twitter-wjs"));
+        </script>
+    </head>
+
+    <body>
+
+
+    <div class="strut">
+
+        <div class="strut__row">
+
+            <header class="header">
+                <div class="header__top">
+                    <div class="region">
+                        <div class="top">
+                            <div class="top__main">
+                                <div class="top__burger burger">
+                                    <div class="burger__handler"></div>
+                                    <div class="burger__body"></div>
+                                </div>
+                                <div class="top__logo">
+                                    <a class="logo" href="index.html"></a>
+                                </div>
+                                <nav class="top__nav nav">
+                                    <!--<a class="nav__link" href="-about.html">About Us</a>-->
+                                    <a class="nav__link nav__link_more" href="#" data-inner="inner-nav"><span>服务</span></a>
+                                    <div class="sub-menu">
+                                        <a class="sub-menu__link" href="managing-account.html">账户管理</a>
+                                        <a class="sub-menu__link" href="bank-transfers.html">银行转账</a>
+                                        <a class="sub-menu__link" href="affiliate-payouts.html">联盟支付</a>
+                                        <a class="sub-menu__link" href="payout-service.html">工资方案</a>
+                                        <a class="sub-menu__link" href="local-payments.html">本地银行转账</a>
+                                        <a class="sub-menu__link" href="send-money-to-card.html">匯款</a>
+                                        <a class="sub-menu__link" href="cash-remittance.html">现金支付</a>
+                                    </div>
+                                    <a class="nav__link" href="fees.html">费用</a>
+                                    <a class="nav__link" href="contact-us.html">联系我们</a>
+                                    <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
+                                </nav>
+                                <a class="top__profile" href="#"></a>
+                                <div class="top__sign-in">
+                                    <a class="button" href="https://online.epayservices.com/register">开立免费账户</a>
+                                    <a class="button button_border" href="https://online.epayservices.com/">注册</a>
+                                </div>
+                            </div>
+                            <div class="top__actions">
+                                <div class="top__buttons">
+                                    <a class="button" href="https://online.epayservices.com/register">开立免费账户</a>
+                                    <a class="button button_border" href="https://online.epayservices.com/">注册</a>
+                                </div>
+                                <div class="top__language lang-select drop">
+                                    <div class="lang-select__toggle drop__handler">
+                                        <div class="lang-select__image">
+                                            <img src="../images/flag-zh.svg" alt="">
+                                        </div>
+                                        <div class="lang-select__title">ZH</div>
+                                    </div>
+                                    <div class="lang-select__list drop__down">
+                                        <a class="lang-select__item" href="../en/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">English (US)</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../uk/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-uk.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">English</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ru/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/ru.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Русский</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../es/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-es.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Español</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../co/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-co.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Español (Colombia)</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../pt/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-pt.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Português</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ro/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-ro.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Română</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ms/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-ms.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Melayu</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../vn/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-vn.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Tiếng Việt</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ar/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-ar.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">عربى</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../pl/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-pl.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Język polski</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../de/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-de.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Deutsch</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../fr/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-fr.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Français</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inner-nav" id="inner-nav">
+                        <div class="region">
+                            <div class="inner-nav__list">
+                                <a class="inner-nav__item" href="managing-account.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_safe"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">账户管理</div>
+                                </a>
+                                <a class="inner-nav__item" href="bank-transfers.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_house2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">银行转账</div>
+                                </a>
+                                <a class="inner-nav__item" href="affiliate-payouts.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_crowd2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">联盟支付</div>
+                                </a>
+                                <a class="inner-nav__item" href="payout-service.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_hands2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">工资方案</div>
+                                </a>
+                                <a class="inner-nav__item" href="local-payments.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_local-pay"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">本地银行转账</div>
+                                </a>
+                                <a class="inner-nav__item" href="send-money-to-card.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_save-to-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">匯款</div>
+                                </a>
+                                <a class="inner-nav__item" href="cash-remittance.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_hand-to-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">现金支付</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="header__slider slider">
+
+                    <div class="slider__item" style="background-image: url(.././images/slider-img11.jpg);">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <h1 class="main-info__title title title_light">转账费用自1%起</h1>
+                                <div class="main-info__text text-dark_light">国际电汇到个人和企业银行账户</div>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="bank-transfers.html">更多内容</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item slider__item_5" style="background-image: url(.././images/slider-img10.jpg)">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <h1 class="main-info__title title title_light">工资方案</h1>
+                                <div class="main-info__text text-dark_light">代表国际IT公司支付工资</div>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="payout-service.html">更多内容</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+
+        </div>
+
+        <div class="strut__row strut__row_expanded">
+            <main class="body">
+
+                <div class="main-tabs">
+                    <div class="main-tabs__top">
+                        <div class="region">
+                            <div class="main-tabs__header">
+                                <div class="main-tabs__toggle text-dark">自由职业者</div>
+                                <div class="main-tabs__toggle text-dark">网站管理员</div>
+                                <div class="main-tabs__toggle text-dark">IT公司</div>
+                                <div class="main-tabs__toggle text-dark">网络联盟</div>
+                                <div class="main-tabs__toggle text-dark">软件开发商</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-tabs__slider">
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">CareFree自由职业</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-8 col-xs-12">
+                                            <div class="row">
+                                                <div class="col-md-6 col-xs-12">
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_flag"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="bank-transfers.html">来自美国的付款</a>
+                                                                <div class="ico-link__text text">来自美国自由职业市场国际付款的</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image icon">
+                                                                <div class="icon icon_stars-big"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="bank-transfers.html">电汇</a>
+                                                                <div class="ico-link__text text">来自您欧洲和亚洲雇主的电汇</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-xs-6">
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_moon"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="managing-account.html">电子支付</a>
+                                                                <div class="ico-link__text text">即时转账和出境WebMoney WMZ Prepaid</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--<div class="main-tabs__line main-tabs__line_last">-->
+                                                        <!--<div class="ico-link">-->
+                                                            <!--<div class="ico-link__image">-->
+                                                                <!--<div class="icon icon_cards-switch"></div>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="ico-link__info">-->
+                                                                <!--<a class="ico-link__title" href="prepaid-cards.html">Mastercard®预付卡</a>-->
+                                                                <!--<div class="ico-link__text text">在全球所有ATM机上取款</div>-->
+                                                            <!--</div>-->
+                                                        <!--</div>-->
+                                                    <!--</div>-->
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">开立一个免费账户</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">简单划算!</div>
+                                                <div class="profile-quote__text text">从Upwork及其他自由职业市场获得报酬的一种实用可信的方法</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee1.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Elena</div>
+                                                        <div class="profile-quote__description text">自由设计师, <br>俄国</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">对网络管理员大有好处</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image icon">
+                                                        <div class="icon icon_flag"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">来自美国的付款</a>
+                                                        <div class="ico-link__text text">来自亚马逊公司和其他美国联盟网络的付款</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">开立一个免费账户</a>
+                                            </div>
+                                          
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">银行转账</a>
+                                                        <div class="ico-link__text text">来自全球公司和广告联盟的电汇</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--<div class="main-tabs__line main-tabs__line_last">-->
+                                                <!--<div class="ico-link">-->
+                                                    <!--<div class="ico-link__image">-->
+                                                        <!--<div class="icon icon_card-splash2"></div>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="ico-link__info">-->
+                                                        <!--<a class="ico-link__title" href="virtual-cards.html">虚拟卡</a>-->
+                                                        <!--<div class="ico-link__text text">用于支付流量和宣传活动的简易方式</div>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">支付不再是问题!</div>
+                                                <div class="profile-quote__text text">获得报酬现在变得非常简单，不论是AdSense支票还是TradeDoubler电汇</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee2.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Nick</div>
+                                                        <div class="profile-quote__description text">流量交易员, <br>白俄罗斯</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">无限IT</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_interaction"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">快速付款</a>
+                                                        <div class="ico-link__text text">为员工和受雇专家即时付款</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_portfolio"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">向公司付款</a>
+                                                        <div class="ico-link__text text">向公司和第三方银行账户进行美元和欧元转账</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">开立一个免费账户</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <!--<div class="main-tabs__line main-tabs__line_first">-->
+                                                <!--<div class="ico-link">-->
+                                                    <!--<div class="ico-link__image">-->
+                                                        <!--<div class="icon icon_cards"></div>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="ico-link__info">-->
+                                                        <!--<a class="ico-link__title" href="prepaid-cards.html">支付卡</a>-->
+                                                        <!--<div class="ico-link__text text">解决员工和合作伙伴众多卡的问题</div>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_anytime"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">24小时支持</a>
+                                                        <div class="ico-link__text text">我们的专业人员为您提供全天候服务</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">在全球签订合同</div>
+                                                <div class="profile-quote__text text">获得您的服务报酬或为自由职业者付款从未如此简单!</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee3.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Serge</div>
+                                                        <div class="profile-quote__description text">Startup创始人, <br>泰国</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">国际广告联盟</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_house3"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">即时支付</a>
+                                                        <div class="ico-link__text text">向ePayService钱包进行即时美元和欧元转账</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image icon">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">银行转账</a>
+                                                        <div class="ico-link__text text">向全球银行账户转账——从美国到日本</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">开立一个免费账户</a>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <!--<div class="main-tabs__line main-tabs__line_first">-->
+                                                <!--<div class="ico-link">-->
+                                                    <!--<div class="ico-link__image">-->
+                                                        <!--<div class="icon icon_cards"></div>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="ico-link__info">-->
+                                                        <!--<a class="ico-link__title" href="prepaid-cards.html">汇款到银行卡</a>-->
+                                                        <!--<div class="ico-link__text text">直接付款给其他银行的银行卡</div>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_card-splash4"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="affiliate-payouts.html">品牌力</a>
+                                                        <div class="ico-link__text text">为您的全球合作伙伴提供个性化的ePayService万事达卡</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">拓展您的业务</div>
+                                                <div class="profile-quote__text text">向您合作伙伴带有定制标识的ePayService钱包直接付款，对全球的网络管理员都有帮助</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee4.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Yury</div>
+                                                        <div class="profile-quote__description text">CPA Network所有者, <br>乌克兰</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">开发商方案</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_flag"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">美国入境支付</a>
+                                                        <div class="ico-link__text text">接受来自美国客户的支票和ACH快捷支付</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">国际付款</a>
+                                                        <div class="ico-link__text text">接受全球公司电汇和SEPA转账</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">开立一个免费账户</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line main-tabs__line_first">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_planning"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="payout-service.html">工资方案</a>
+                                                        <div class="ico-link__text text">为您的内部和远程员工支付工资</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--<div class="main-tabs__line main-tabs__line_last">-->
+                                                <!--<div class="ico-link">-->
+                                                    <!--<div class="ico-link__image">-->
+                                                        <!--<div class="icon icon_cards"></div>-->
+                                                    <!--</div>-->
+                                                    <!--<div class="ico-link__info">-->
+                                                        <!--<a class="ico-link__title" href="prepaid-cards.html">支付卡</a>-->
+                                                        <!--<div class="ico-link__text text">适用于所有情况的塑料卡和虚拟卡ePayService Mastercard®</div>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">金融科技力量</div>
+                                                <div class="profile-quote__text text">适用于全球公司的收入支付和员工报酬的灵活易用服务</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee5.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Anton</div>
+                                                        <div class="profile-quote__description text">游戏开发商, <br>捷克共和国</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="service-offer service-offer_pushed" style="background-image: url(.././images/service-bg10.jpg)">
+                    <div class="region">
+                        <div class="row">
+                            <div class="col-md-5 col-xs-12 full-width">
+                                <h2 class="service-offer__title title">ePayService提供多种方式来管理和消费您来之不易的收入</h2>
+                                <div class="service-offer__text text-dark wysiwyg">
+                                    <p>在ePayService，我们可通过一系列产品和服务有效地管理您的企业工资流动性。我们可以帮助企业及其员工简化工资支付流程，为您的员工收入提供有效的成本管理。</p>
+                                    <p>用ePayService Mastercard®在世界任何地方付款！</p>
+                                </div>
+                                <div class="service-offer__icons ico-block">
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_bed"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">酒店</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_food"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">餐厅</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_tag"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">奥特莱斯</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_golf"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">娱乐场所</div>
+                                    </div>
+                                </div>
+                                <div class="service-offer__text text-dark wysiwyg">
+                                    <p>甚至在网上和任何地方都接受Mastercard®。</p>
+                                    <p>无论您在世界哪个地方，总能感到使用ePayService Mastercard®都比携带现金更安全。</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-offer__cards">
+                                    <ul class="cards">
+                                       <li class="cards__item cards__item_top"></li>
+                                       <li class="cards__item cards__item_bottom"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-bank">
+                    <div class="region">
+                        <div class="row">
+                            <div class="col-md-8 col-xs-12">
+                                <h2 class="mobile-bank__title title">真正的灵活性</h2>
+                                <div class="mobile-bank__text">通过您喜爱的设备管理您的ePayService钱包</div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-9">
+                                        <div class="mobile-bank__app app">
+                                            <div class="app__logo"></div>
+                                            <div class="app__info">
+                                                <div class="app__title">ePayService ®</div>
+                                                <div class="app__text"><a href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8">在苹果</a>应用商店获取iOS的可用ePayService应用</div>
+                                            </div>
+                                        </div>
+                                        <div class="mobile-bank__download">
+                                            <a class="mobile-bank__icon icon icon_app-store" href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8"></a>
+                                            <a class="mobile-bank__icon icon icon_google-play" href="https://play.google.com/store/apps/details?id=com.epayservice"></a>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6 col-xs-3">
+                                        <div class="mobile-bank__image">
+                                            <img src="../images/phone.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-12 col-md-offset-1">
+                                        <div class="mobile-bank__manage">
+                                            <div class="mobile-bank__text">用<a class="using__link" href="https://online.epayservices.com/">Online.ePayServices</a>付款系统提供动力支持</div>
+                                            <div class="mobile-bank__note">从移动应用的功能上获利。开始使用。</div>
+                                        </div>
+                                <div class="mobile-bank__button">
+                                    <a class="button button_big" href="https://online.epayservices.com/register">开立一个免费账户</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="using using_center">
+                    <div class="region">
+                        <h2 class="using__title title">四步开立一个免费账户</h2>
+                        <div class="using__note text">接收付款的3个快速步骤</div>
+                        <ul class="using__list">
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_man"></div>
+                                </div>
+                                <div class="using__number"><span>1</span></div>
+                                <div class="using__text">在Online.ePayServices完成简单的注册表</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_profile-check"></div>
+                                </div>
+                                <div class="using__number"><span>2</span></div>
+                                <div class="using__text">完成简单的ePayService钱包激活过程</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_hands"></div>
+                                </div>
+                                <div class="using__number"><span>3</span></div>
+                                <div class="using__text">向您的交易方提供您的ePayService钱包详情并获得付款</div>
+                            </li>
+                        </ul>
+                        <div class="using__button">
+                            <a class="button button_big" href="https://online.epayservices.com/register">开立一个账户</a>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        <div class="strut__row">
+            <footer class="footer">
+                <div class="region">
+                    <div class="footer__rows">
+                        <div class="row row-eq-height">
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">信息</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="contact-us.html">联系我们</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://online.epayservices.com/">注册</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="affiliate-program.html">联盟计划</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../en/developers.html">Developers</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://blog.epayservices.com/">新聞</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">服务</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="managing-account.html">账户管理</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="bank-transfers.html">银行转账</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="payout-service.html">工资方案</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="affiliate-payouts.html">联盟支付</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="local-payments.html">本地银行转账</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="send-money-to-card.html">匯款</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="cash-remittance.html">现金支付</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">条款</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="user-agreement.pdf">用户协议</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="ePayService_MasterCard_Cardholders_Agreement.pdf">ePayService Mastercard®持卡人协议</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../privacy-notice.pdf">Privacy Notice</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">关注我们 </div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://twitter.com/epayservices">Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__copyright">©版权所有MTACC Inc. DBA ePayService 2007–<span></span></div>
+                        <div class="footer__text">The ePayService MasterCard® card is issued by PSI-Pay Ltd pursuant to a licence by MasterCard International Incorporated.  The e-money associated with the ePayService card is issued by MTACC LTD, authorised by the Malta Financial Services Authority as an E-Money Issuer and Payment Services Provider under the Malta Financial Institutions Act, registration number  C 71976.  Mastercard® is a registered trademark, and the circles design is a trademark of Mastercard International Incorporated.</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="../js/jquery-2.2.0.min.js"></script>
+    <script src="../js/jquery.placeholder.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/sticky-kit.js"></script>
+    <script src="../js/calc.js"></script>
+    <!--<script src="js/jquery.sliderTabs.min.js"></script>-->
+    <!--<script>-->
+        <!--var slider = $("#main-tabs").sliderTabs({-->
+            <!--mousewheel: false,-->
+            <!--tabArrows: false,-->
+            <!--tabSlideSpeed: 400,-->
+            <!--transition: 'fade',-->
+            <!--panelArrows: true,-->
+            <!--panelArrowsShowOnHover: true,-->
+            <!--tabHeight: 270-->
+        <!--});-->
+    <!--</script>-->
+    <script src="../js/app.b6f525f1.js"></script>
+    <script>
+        window.intercomSettings = {
+        app_id: "wz9x11as"
+        };
+    </script>
+    <script>
+        // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
+        (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/wz9x11as';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+    <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
+	</body>
+</html>

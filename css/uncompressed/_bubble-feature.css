@@ -1,0 +1,30 @@
+.bubble-feature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bubble-feature__icon {
+    margin-right: 40px;
+}
+
+.bubble-feature__info {
+
+}
+
+.bubble-feature__title {
+
+}
+
+.bubble-feature__text {
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+
+@media (max-width: 1199px) {
+    .bubble-feature__icon {margin-right: 20px;}
+}

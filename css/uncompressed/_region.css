@@ -1,0 +1,16 @@
+.region {
+    min-width: 320px;
+    max-width: 1480px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1279px) {
+    .region {padding-left: 20px;padding-right: 20px;}
+}
+@media (max-width: 699px) {
+    .region {padding-left: 15px;padding-right: 15px;}
+}

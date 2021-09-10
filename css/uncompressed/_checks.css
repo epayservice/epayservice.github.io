@@ -1,0 +1,102 @@
+.checks {
+
+}
+
+.checks__block {
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.checks__block:first-child {
+    margin-top: 0;
+}
+
+.checks__title {
+    margin: 0;
+}
+
+.checks__text {
+    margin-top: 10px;
+}
+
+.checks__partners {
+    max-width: 850px;
+    margin: 60px -45px -15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.checks__company {
+    display: block;
+    max-width: 270px;
+    margin: 15px 45px;
+}
+
+.checks__steps.using__list {
+    margin-top: 40px;
+}
+
+.checks__sub-title {
+    margin-top: 60px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #758292;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.checks__info {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 0;
+    max-width: 920px;
+}
+
+.checks__row {
+    padding: 15px 0;
+    border-top: 1px solid #DCDEE1;
+}
+
+.checks__row:last-child {
+    border-bottom: 1px solid #DCDEE1;
+}
+
+.checks__tabs .checks__row:first-child {
+    border-top: none;
+}
+
+.checks__tabs {
+    margin-top: 35px;
+}
+
+.checks__tabs .tabs__body {
+    border-top: 1px solid #E5E7E8;
+    max-width: 920px;
+}
+
+.checks__sub-text {
+    margin-top: 7px;
+}
+
+.checks__sub-text span {
+    color: #00B4D5;
+}
+
+.checks__note {
+    margin-top: 30px;
+}
+
+.checks__image {
+    margin-top: 70px;
+}
+
+@media (max-width: 399px) {
+    .checks__row .title_medium {font-size: 16px;line-height: 20px}
+}

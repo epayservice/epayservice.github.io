@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="ms">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="../css/style.css?v=3">
+		<title>ePayService - Home</title>
+        <script>
+            window.twttr = (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                        t = window.twttr || {};
+                if (d.getElementById(id)) return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+
+                t._e = [];
+                t.ready = function(f) {
+                    t._e.push(f);
+                };
+
+                return t;
+            }(document, "script", "twitter-wjs"));
+        </script>
+    </head>
+
+    <body>
+
+
+    <div class="strut">
+
+        <div class="strut__row">
+
+            <header class="header">
+                <div class="header__top">
+                    <div class="region">
+                        <div class="top">
+                            <div class="top__main">
+                                <div class="top__burger burger">
+                                    <div class="burger__handler"></div>
+                                    <div class="burger__body"></div>
+                                </div>
+                                <div class="top__logo">
+                                    <a class="logo" href="index.html"></a>
+                                </div>
+                                <nav class="top__nav nav">
+                                    <!--<a class="nav__link" href="-about.html">About Us</a>-->
+                                    <a class="nav__link nav__link_more" href="#" data-inner="inner-nav"><span>Perkhidmatan</span></a>
+                                    <div class="sub-menu">
+                                        <a class="sub-menu__link" href="managing-account.html">Pengurusan Akaun</a>
+                                        <a class="sub-menu__link" href="bank-transfers.html">Pindahan Wang</a>
+                                        <a class="sub-menu__link" href="prepaid-cards.html">Kad Debit</a>
+                                        <a class="sub-menu__link" href="affiliate-payouts.html">Pembayaran Ahli Gabungan</a>
+                                        <a class="sub-menu__link" href="payout-service.html">Penyelesaian Penggajian</a>
+                                        <a class="sub-menu__link" href="virtual-cards.html">Kad Maya</a>
+                                        <a class="sub-menu__link" href="local-payments.html">Pindahan Bank Tempatan</a>
+                                        <a class="sub-menu__link" href="send-money-to-card.html">Pindahan ke kad</a>
+                                        <a class="sub-menu__link" href="cash-remittance.html">Pembayaran tunai</a>
+                                    </div>
+                                    <a class="nav__link" href="fees.html">Bayaran</a>
+                                    <a class="nav__link" href="contact-us.html">Hubungi Kami</a>
+                                    <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
+                                </nav>
+                                <a class="top__profile" href="#"></a>
+                                <div class="top__sign-in">
+                                    <a class="button" href="https://online.epayservices.com/register">BUKA AKAUN PERCUMA</a>
+                                    <a class="button button_border" href="https://online.epayservices.com/">LOG MASUK</a>
+                                </div>
+                            </div>
+                            <div class="top__actions">
+                                <div class="top__buttons">
+                                    <a class="button" href="https://online.epayservices.com/register">BUKA AKAUN PERCUMA</a>
+                                    <a class="button button_border" href="https://online.epayservices.com/">LOG MASUK</a>
+                                </div>
+                                <div class="top__language lang-select drop">
+                                    <div class="lang-select__toggle drop__handler">
+                                        <div class="lang-select__image">
+                                            <img src="../images/flag-ms.svg" alt="">
+                                        </div>
+                                        <div class="lang-select__title">MS</div>
+                                    </div>
+                                    <div class="lang-select__list drop__down">
+                                        <a class="lang-select__item" href="../en/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">English (US)</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../uk/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-uk.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">English</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ru/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/ru.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Русский</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../es/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-es.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Español</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../co/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-co.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Español (Colombia)</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../pt/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-pt.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Português</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ro/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-ro.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Română</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../vn/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-vn.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Tiếng Việt</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ar/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-ar.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">عربى</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../pl/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-pl.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Język polski</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../zh/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-zh.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">汉语</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../de/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-de.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Deutsch</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../fr/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-fr.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Français</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inner-nav" id="inner-nav">
+                        <div class="region">
+                            <div class="inner-nav__list">
+                                <a class="inner-nav__item" href="managing-account.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_safe"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Pengurusan Akaun</div>
+                                </a>
+                                <a class="inner-nav__item" href="bank-transfers.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_house2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Pindahan Wang</div>
+                                </a>
+                                <a class="inner-nav__item" href="prepaid-cards.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_cards2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Kad Debit</div>
+                                </a>
+                                <a class="inner-nav__item" href="affiliate-payouts.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_crowd2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Pembayaran Ahli Gabungan</div>
+                                </a>
+                                <a class="inner-nav__item" href="payout-service.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_hands2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Penyelesaian Penggajian</div>
+                                </a>
+                                <a class="inner-nav__item" href="virtual-cards.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_virtual-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Kad Maya</div>
+                                </a>
+                                <a class="inner-nav__item" href="local-payments.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_local-pay"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Pindahan Bank Tempatan</div>
+                                </a>
+                                <a class="inner-nav__item" href="send-money-to-card.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_save-to-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Pindahan ke kad</div>
+                                </a>
+                                <a class="inner-nav__item" href="cash-remittance.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_hand-to-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">Pembayaran tunai</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="header__slider slider">
+
+                    <div class="slider__item" style="background-image: url(.././images/slider-img3.jpg)">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <div class="main-info__img">
+                                    <img src="../images/red-card.png" alt="">
+                                </div>
+                                <h1 class="main-info__title title title_light">Tiada yurancaj untuk kad Debit</h1>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="prepaid-cards.html">Maklumat Lanjut</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item" style="background-image: url(.././images/slider-img11.jpg);">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <h1 class="main-info__title title title_light">Pemindahan wang dengan yuran <br>bermula dari 1%</h1>
+                                <div class="main-info__text text-dark_light">Pindahan kKawat antarabangsa ke akaun bank peribadi dan korporat</div>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="bank-transfers.html">Maklumat Lanjut</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item slider__item_5" style="background-image: url(.././images/slider-img10.jpg)">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <h1 class="main-info__title title title_light">Penyelesaian penggajian</h1>
+                                <div class="main-info__text text-dark_light">Pembayaran gaji bagi pihak syarikat IT antarabangsa</div>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="payout-service.html">Maklumat Lanjut</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+
+        </div>
+
+        <div class="strut__row strut__row_expanded">
+            <main class="body">
+
+                <div class="main-tabs">
+                    <div class="main-tabs__top">
+                        <div class="region">
+                            <div class="main-tabs__header">
+                                <div class="main-tabs__toggle text-dark">Pekerja Bebas</div>
+                                <div class="main-tabs__toggle text-dark">Pentadbir Web</div>
+                                <div class="main-tabs__toggle text-dark">Syarikat IT</div>
+                                <div class="main-tabs__toggle text-dark">Rangkaian Ahli Gabungan</div>
+                                <div class="main-tabs__toggle text-dark">Pembangun Perisian</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-tabs__slider">
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">Pekerjaan Bebas yang Bebas dari Kerunsingan</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-8 col-xs-12">
+                                            <div class="row">
+                                                <div class="col-md-6 col-xs-12">
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_flag"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="bank-transfers.html">Pembayaran dari Amerika Syarikat</a>
+                                                                <div class="ico-link__text text">Pindahan dari pasaran pekerjaan bebas di Amerika Syarikat</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image icon">
+                                                                <div class="icon icon_stars-big"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="bank-transfers.html">Pembayaran Antarabangsa</a>
+                                                                <div class="ico-link__text text">Pindahan Kawat daripada majikan anda di Eropah dan Asia</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-xs-6">
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_moon"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="managing-account.html">Pembayaran Elektronik</a>
+                                                                <div class="ico-link__text text">Pindahan segera dan pengeluaran dari WebMoney WMZ</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-tabs__line main-tabs__line_last">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_cards-switch"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="prepaid-cards.html">Kad Debit</a>
+                                                                <div class="ico-link__text text">Keluarkan wang anda di mana-mana ATM di seluruh dunia</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">Buka Akaun Percuma</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">Mudah dan kos efektif!</div>
+                                                <div class="profile-quote__text text">Cara yang praktikal dan dipercayai untuk menerima bayaran dari Upwork dan pasaran ppekerjaan bebas yang lain</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee1.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Elena</div>
+                                                        <div class="profile-quote__description text">Pereka Bebas, <br>Romania</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">Tawaran Hebat untuk Pentadbir Web</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Pindahan Bank</a>
+                                                        <div class="ico-link__text text">Pindahan kawat daripada syarikat dan rangkaian pengiklanan di seluruh dunia</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image icon">
+                                                        <div class="icon icon_flag"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Pembayaran dari Amerika Syarikat</a>
+                                                        <div class="ico-link__text text">Pembayaran daripada Amazon dan rangkaian ahli gabungan lain yang di Amerika Syarikat</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">Buka Akaun Percuma</a>
+                                            </div>
+                                          
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+
+                                            <div class="main-tabs__line main-tabs__line_last">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_card-splash2"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="virtual-cards.html">Kad Maya</a>
+                                                        <div class="ico-link__text text">Cara mudah untuk membayar trafik dan promo-kempen</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">Pembayaran tidak akan menjadi masalah lagi!</div>
+                                                <div class="profile-quote__text text">Menerima bayaran kini mudah – sama ada ia adalah cek AdSense atau kawat daripada TradeDoubler</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee2.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Nick</div>
+                                                        <div class="profile-quote__description text">Peniaga Trafik, <br>Belarus</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">IT Tanpa Had</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_interaction"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">Pembayaran yang Cepat</a>
+                                                        <div class="ico-link__text text">Pembayaran segera kepada pekerja dan pakar yang diupah</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_portfolio"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Pembayaran kepada Perniagaan</a>
+                                                        <div class="ico-link__text text">Pindahan USD dan EUR ke akaun bank korporat dan pihak ketiga</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">Buka Akaun Percuma</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line main-tabs__line_first">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_cards"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="prepaid-cards.html">Kad PPembayaran</a>
+                                                        <div class="ico-link__text text">Menghapuskan isu kad untuk pekerja dan rakan kongsi</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_anytime"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">Sokongan SSepanjang MMasa</a>
+                                                        <div class="ico-link__text text">Kakitangan profesional kami sedia berkhidmat untuk anda selama 24/7</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">Dapatkan pengkontraktan di seluruh dunia</div>
+                                                <div class="profile-quote__text text">Menderima bayaran untuk perkhidmatan anda atau membayar pekerja bebas tidak pernah menjadi begitu mudah!</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee3.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Serge</div>
+                                                        <div class="profile-quote__description text">Pengasas Startup, <br>Tailand</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">Rangkaian Pengiklanan Antarabangsa</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_house3"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">Pembayaran Segera</a>
+                                                        <div class="ico-link__text text">Pindahan USD dan EUR segera ke Dompet ePayService</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image icon">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Pindahan Bank</a>
+                                                        <div class="ico-link__text text">Pindahan ke akaun bank di seluruh dunia - dari Amerika Syarikat ke Jepun</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">Buka Akaun Percuma</a>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line main-tabs__line_first">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_cards"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="prepaid-cards.html">Pembayaran ke Kad</a>
+                                                        <div class="ico-link__text text">Pindahan terus ke kad yang dikeluarkan oleh bank-bank lain</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_card-splash4"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="affiliate-payouts.html">Kuasa Jenama</a>
+                                                        <div class="ico-link__text text">Peribadikan MasterCard® ePayService diperibadikan untuk rakan kongsi anda di seluruh dunia</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">Luaskan sempadan anda</div>
+                                                <div class="profile-quote__text text">Pembayaran terus ke Dompet ePayService dan kad untuk rakan kongsi anda dengan logo khas adalah berguna untuk pentadbir web di seluruh dunia</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee4.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Yury</div>
+                                                        <div class="profile-quote__description text">Pemilik CPA Network, <br>Ukraine</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">Penyelesaian untuk Pembangun</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_flag"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Masuk dari Amerika Syarikat</a>
+                                                        <div class="ico-link__text text">Cek dan ACH daripada pelanggan di Amerika Syarikat diterima</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">Pembayaran Antarabangsa</a>
+                                                        <div class="ico-link__text text">Pindahan kKawat dan SEPA daripada syarikat di seluruh dunia diterima</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">Buka Akaun Percuma</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line main-tabs__line_first">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_planning"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="payout-service.html">Penyelesaian Penggajian</a>
+                                                        <div class="ico-link__text text">Membayar gaji kakitangan dalaman dan luaran anda</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line main-tabs__line_last">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_cards"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="prepaid-cards.html">Kad Pembayaran</a>
+                                                        <div class="ico-link__text text">ePayService MasterCards® ePayService plastik dan maya untuk setiap keadaan</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">Kuasa Teknologi Kewangan (FinTech)</div>
+                                                <div class="profile-quote__text text">Perkhidmatan yang fleksibel dan mudah untuk digunakan bagiuntuk pembayaran yang diterima daripada perniagaan dan pembayaran kepada kakitangan di seluruh dunia</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee5.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">Anton</div>
+                                                        <div class="profile-quote__description text">Pemaju Permainan, <br>Republik Czech</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="service-offer service-offer_pushed" style="background-image: url(.././images/service-bg10.jpg)">
+                    <div class="region">
+                        <div class="row">
+                            <div class="col-md-5 col-xs-12 full-width">
+                                <h2 class="service-offer__title title">ePayService Menawarkan banyak cara untuk Menguruskan dan Membelanjakan Pendapatan Hasil Kerja Keras anda</h2>
+                                <div class="service-offer__text text-dark wysiwyg">
+                                    <p>Di ePayService, kami dengan mudah boleh menguruskan kecairan penggajian korporat anda dengan cekap dan berkesan melalui pelbagai produk dan perkhidmatan. Kami dapat membantu perniagaan dan pekerja andamereka untuk menyelaraskan proses penggajian yang mana dapat yang berhasil menwujudkan pengurusan kos pendapatan pekerja anda yang efektif.</p>
+                                    <p>Buat bayaran dengan Kad Debit ePayService di mana-mana sahaja di dunia!</p>
+                                </div>
+                                <div class="service-offer__icons ico-block">
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_bed"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">Hotels</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_food"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">Restoran</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_tag"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">Cawangan</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_golf"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">Hiburan</div>
+                                    </div>
+                                </div>
+                                <div class="service-offer__text text-dark wysiwyg">
+                                    <p>Tidak kira di mana sahaja anda berada, anda akan boleh sentiasa berasa lebih selamat dengan ePayService Kad Debit ePayService berbanding dengan membawa tunai.Tidak kira di mana sahaja anda berada, anda akan boleh sentiasa berasa lebih selamat dengan ePayService Kad Debit ePayService berbanding dengan membawa tunai.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-offer__cards">
+                                    <ul class="cards">
+                                       <li class="cards__item cards__item_top"></li>
+                                       <li class="cards__item cards__item_bottom"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-bank">
+                    <div class="region">
+                        <div class="row">
+                            <div class="col-md-8 col-xs-12">
+                                <h2 class="mobile-bank__title title">Fleksibiliti Sebenar</h2>
+                                <div class="mobile-bank__text">Urus Dompet ePayService Wallet anda <br>melalui alat peranti kegemaran anda</div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-9">
+                                        <div class="mobile-bank__app app">
+                                            <div class="app__logo"></div>
+                                            <div class="app__info">
+                                                <div class="app__title">ePayService ®</div>
+                                                <div class="app__text">​​Dapatkan aplikasi ePayService untuk iOS yang terdapat di <a href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8">Apple App Store</a>, <a href="https://play.google.com/store/apps/details?id=com.epayservice">Google Play</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="mobile-bank__download">
+                                            <a class="mobile-bank__icon icon icon_app-store" href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8"></a>
+                                            <a class="mobile-bank__icon icon icon_google-play" href="https://play.google.com/store/apps/details?id=com.epayservice"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-3">
+                                        <div class="mobile-bank__image">
+                                            <img src="../images/phone.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-12 col-md-offset-1">
+                                <div class="mobile-bank__manage">
+                                    <div class="mobile-bank__text">Dikuasakan oleh sistem pembayaran <a class="using__link" href="https://online.epayservices.com/">Online.ePayServices</a>.</div>
+                                    <div class="mobile-bank__note">Dapatkan manfaat daripada fungsi aplikasi mudah alih. Nikmati terus secara atas talian.</div>
+                                </div>
+                                <div class="mobile-bank__button">
+                                    <a class="button button_big" href="https://online.epayservices.com/register">Buka Akaun Percuma</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="using using_center">
+                    <div class="region">
+                        <h2 class="using__title title">Buka Akaun Percuma dengan Hanya Empat Langkah</h2>
+                        <div class="using__note text">4 langkah cepat untuk menerima bayaran</div>
+                        <ul class="using__list">
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_man"></div>
+                                </div>
+                                <div class="using__number"><span>1</span></div>
+                                <div class="using__text">Lengkapkan borang pendaftaran yang mudah di Online.ePayServices</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_profile-check"></div>
+                                </div>
+                                <div class="using__number"><span>2</span></div>
+                                <div class="using__text">LakukanBaca prosedur pengaktifan Dompet ePayService Wallet yang jelas dan mudah</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_hands"></div>
+                                </div>
+                                <div class="using__number"><span>3</span></div>
+                                <div class="using__text">Beri butiran Dompet ePayService Wallet anda kepada rakan niaga anda dan dapatkan bayaran</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_cards-switch"></div>
+                                </div>
+                                <div class="using__number"><span>4</span></div>
+                                <div class="using__text">Gunakan Kad Debit ePayService untuk mengeluarkan wang dalam mana-mana mata wang yang anda ingini</div>
+                            </li>
+                        </ul>
+                        <div class="using__button">
+                            <a class="button button_big" href="https://online.epayservices.com/register">Buka Akaun Percuma</a>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        <div class="strut__row">
+            <footer class="footer">
+                <div class="region">
+                    <div class="footer__rows">
+                        <div class="row row-eq-height">
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">Maklumat</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="contact-us.html">Hubungi Kami</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://online.epayservices.com/">Daftar Masuk</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="affiliate-program.html">Program Gabungan</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../en/developers.html">Developers</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://blog.epayservices.com/">Berita</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">Perkhidmatan</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="managing-account.html">Pengurusan Akaun</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="bank-transfers.html">Pindahan Wang</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="prepaid-cards.html">Kad Debit</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="payout-service.html">Pembayaran Ahli Gabungan</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="affiliate-payouts.html">Penyelesaian Penggajian</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="virtual-cards.html">Kad Maya</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="local-payments.html">Pindahan Bank Tempatan</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="send-money-to-card.html">Pindahan ke kad</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="cash-remittance.html">Pembayaran tunai</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">Terma</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="user-agreement.pdf">Perjanjian Pengguna</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../privacy-notice.pdf">Privacy Notice</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">Ikuti Kami</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://twitter.com/epayservices">Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__copyright">© Hak milik MTACC Inc. DBA ePayService 2007–<span></span>, <br>Hak cipta terpelihara.</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="../js/jquery-2.2.0.min.js"></script>
+    <script src="../js/jquery.placeholder.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/sticky-kit.js"></script>
+    <script src="../js/calc.js"></script>
+    <!--<script src="js/jquery.sliderTabs.min.js"></script>-->
+    <!--<script>-->
+        <!--var slider = $("#main-tabs").sliderTabs({-->
+            <!--mousewheel: false,-->
+            <!--tabArrows: false,-->
+            <!--tabSlideSpeed: 400,-->
+            <!--transition: 'fade',-->
+            <!--panelArrows: true,-->
+            <!--panelArrowsShowOnHover: true,-->
+            <!--tabHeight: 270-->
+        <!--});-->
+    <!--</script>-->
+    <script src="../js/app.b6f525f1.js"></script>
+    <script>
+        window.intercomSettings = {
+        app_id: "wz9x11as"
+        };
+    </script>
+    <script>
+        // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
+        (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/wz9x11as';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+    <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
+	</body>
+</html>

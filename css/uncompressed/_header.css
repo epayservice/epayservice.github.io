@@ -1,0 +1,44 @@
+.header {
+    position: relative;
+}
+
+.header__top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    -webkit-transition: background-color .4s ease-out .4s;
+    transition: background-color .4s ease-out .4s;
+}
+
+.header__top:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background-color: #374D6B;
+    -webkit-transition: height ease-out 0.4s;
+    transition: height ease-out 0.4s;
+}
+
+.page-sticky .header__top,
+.header__top_fxd {
+    position: fixed;
+    top: 0;
+}
+
+.page-sticky .header__top:after,
+.header__top_fxd:after {
+    height: 100%;
+}
+
+.header__slider {
+
+}
+
+.header__top_bg {
+    background-color: #374D6B;
+}

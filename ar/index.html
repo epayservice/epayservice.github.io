@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="../css/style-rtl.css?v=1">
+		<title>ePayService - Home</title>
+        <script>
+            window.twttr = (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                        t = window.twttr || {};
+                if (d.getElementById(id)) return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+
+                t._e = [];
+                t.ready = function(f) {
+                    t._e.push(f);
+                };
+
+                return t;
+            }(document, "script", "twitter-wjs"));
+        </script>
+    </head>
+
+    <body>
+
+
+    <div class="strut">
+
+        <div class="strut__row">
+
+            <header class="header">
+                <div class="header__top">
+                    <div class="region">
+                        <div class="top">
+                            <div class="top__main">
+                                <div class="top__burger burger">
+                                    <div class="burger__handler"></div>
+                                    <div class="burger__body"></div>
+                                </div>
+                                <div class="top__logo">
+                                    <a class="logo" href="index.html"></a>
+                                </div>
+                                <nav class="top__nav nav">
+                                    <!--<a class="nav__link" href="-about.html">About Us</a>-->
+                                    <a class="nav__link nav__link_more" href="#" data-inner="inner-nav"><span>الخدمات</span></a>
+                                    <div class="sub-menu">
+                                        <a class="sub-menu__link" href="managing-account.html">إدارة الحساب</a>
+                                        <a class="sub-menu__link" href="bank-transfers.html">تحويل الأموال</a>
+                                        <a class="sub-menu__link" href="prepaid-cards.html">البطاقات مسبقة الدفع</a>
+                                        <a class="sub-menu__link" href="affiliate-payouts.html">دفع الأرباح للشركات المدمجة أو المؤسسات الفرعية</a>
+                                        <a class="sub-menu__link" href="payout-service.html">دفع الرواتب</a>
+                                        <a class="sub-menu__link" href="virtual-cards.html">بطاقات افتراضية</a>
+                                        <a class="sub-menu__link" href="local-payments.html">التحويل المصرفي المحلي</a>
+                                        <a class="sub-menu__link" href="send-money-to-card.html">التحويلات إلى بطاقات</a>
+                                        <a class="sub-menu__link" href="cash-remittance.html">دفع نقدًا </a>
+                                    </div>
+                                    <a class="nav__link" href="fees.html">الرسوم</a>
+                                    <a class="nav__link" href="contact-us.html">إتصل بنا</a>
+                                    <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
+                                </nav>
+                                <a class="top__profile" href="#"></a>
+                                <div class="top__sign-in">
+                                    <a class="button" href="https://online.epayservices.com/register">قم بفتح حساب مجانى</a>
+                                    <a class="button button_border" href="https://online.epayservices.com/">تسجيل الدخول</a>
+                                </div>
+                            </div>
+                            <div class="top__actions">
+                                <div class="top__buttons">
+                                    <a class="button" href="https://online.epayservices.com/register">قم بفتح حساب مجانى</a>
+                                    <a class="button button_border" href="https://online.epayservices.com/">تسجيل الدخول</a>
+                                </div>
+                                <div class="top__language lang-select drop" dir="ltr" style="text-align: right;">
+                                    <div class="lang-select__toggle drop__handler">
+                                        <div class="lang-select__image">
+                                            <img src="../images/flag-ar.png" alt="">
+                                        </div>
+                                        <div class="lang-select__title">AR</div>
+                                    </div>
+                                    <div class="lang-select__list drop__down">
+                                        <a class="lang-select__item" href="../en/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">English (US)</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../uk/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-uk.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">English</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ru/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/ru.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Русский</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../es/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-es.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Español</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../co/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-co.png" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Español (Colombia)</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../pt/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-pt.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Português</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ro/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-ro.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Română</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../ms/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-ms.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Melayu</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../vn/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-vn.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Tiếng Việt</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../pl/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-pl.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Język polski</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../zh/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-zh.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">汉语</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../de/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-de.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Deutsch</div>
+                                        </a>
+                                        <a class="lang-select__item" href="../fr/index.html">
+                                            <div class="lang-select__image">
+                                                <img src="../images/flag-fr.svg" alt="">
+                                            </div>
+                                            <div class="lang-select__title">Français</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inner-nav" id="inner-nav">
+                        <div class="region">
+                            <div class="inner-nav__list">
+                                <a class="inner-nav__item" href="managing-account.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_safe"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">إدارة الحساب</div>
+                                </a>
+                                <a class="inner-nav__item" href="bank-transfers.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_house2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">تحويل الأموال</div>
+                                </a>
+                                <a class="inner-nav__item" href="prepaid-cards.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_cards2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">البطاقات مسبقة الدفع</div>
+                                </a>
+                                <a class="inner-nav__item" href="affiliate-payouts.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_crowd2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">دفع الأرباح للشركات المدمجة أو المؤسسات الفرعية</div>
+                                </a>
+                                <a class="inner-nav__item" href="payout-service.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_hands2"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">دفع الرواتب</div>
+                                </a>
+                                <a class="inner-nav__item" href="virtual-cards.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_virtual-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">بطاقات افتراضية</div>
+                                </a>
+                                <a class="inner-nav__item" href="local-payments.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_local-pay"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">التحويل المصرفي المحلي</div>
+                                </a>
+                                <a class="inner-nav__item" href="send-money-to-card.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_save-to-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">التحويلات إلى بطاقات</div>
+                                </a>
+                                <a class="inner-nav__item" href="cash-remittance.html">
+                                    <div class="inner-nav__icon">
+                                        <div class="inner-nav__image icon icon_hand-to-card"></div>
+                                    </div>
+                                    <div class="inner-nav__title title title_small">دفع نقدًا </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="header__slider slider">
+
+                    <div class="slider__item" style="background-image: url(.././images/slider-img3.jpg)">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <div class="main-info__img">
+                                    <img src="../images/red-card.png" alt="">
+                                </div>
+                                <h1 class="main-info__title title title_light">لا يوجد رسوم على البطاقات مسبقة الدفع</h1>
+                                <div class="main-info__text text-dark_light">ا يوجد رسوم شهرية أو رسوم شحن على خدمات ePayService ماستركارد الخاصة بنا</div>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="prepaid-cards.html">المزيد من المعلومات</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item" style="background-image: url(.././images/slider-img11.jpg);">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <h1 class="main-info__title title title_light">تحويل الأموال برسوم تبدأ من 1%</h1>
+                                <div class="main-info__text text-dark_light">التحويلات البنكية الدولية للحسابات الشخصية وحسابات الشركات</div>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="bank-transfers.html">المزيد من المعلومات</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item slider__item_5" style="background-image: url(.././images/slider-img10.jpg)">
+                        <div class="region">
+                            <div class="slider__info main-info">
+                                <h1 class="main-info__title title title_light">دفع الرواتب</h1>
+                                <div class="main-info__text text-dark_light">سداد الرواتب بالنيابة عن شركات تكنولوجيا المعلومات الدولية</div>
+                                <div class="main-info__button">
+                                    <a class="button button_big" href="payout-service.html">المزيد من المعلومات</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+
+        </div>
+
+        <div class="strut__row strut__row_expanded">
+            <main class="body">
+
+                <div class="main-tabs">
+                    <div class="main-tabs__top">
+                        <div class="region">
+                            <div class="main-tabs__header">
+                                <div class="main-tabs__toggle text-dark">أصحاب الأعمال الحرة</div>
+                                <div class="main-tabs__toggle text-dark">أصحاب المواقع</div>
+                                <div class="main-tabs__toggle text-dark">شركات تكنولوجيا المعلومات</div>
+                                <div class="main-tabs__toggle text-dark">شبكات للشركات المدمجة أو المؤسسات الفرعية</div>
+                                <div class="main-tabs__toggle text-dark">مطورى البرامج</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-tabs__slider">
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">قم بأداء أعمالك الحرة دون عناء</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-8 col-xs-12">
+                                            <div class="row">
+                                                <div class="col-md-6 col-xs-12">
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_flag"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="bank-transfers.html">المدفوعات التي تتم في الولايات المتحدة الأمريكية</a>
+                                                                <div class="ico-link__text text">تحويل الأموال من أسواق العمل الحر فى الولايات المتحدة</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image icon">
+                                                                <div class="icon icon_stars-big"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="bank-transfers.html">المدفوعات الدولية</a>
+                                                                <div class="ico-link__text text">التحويلات البنكية من أصحاب العمل فى أوروبا وأسيا</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-xs-6">
+                                                    <div class="main-tabs__line">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_moon"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="managing-account.html">المدفوعات الإلكترونية</a>
+                                                                <div class="ico-link__text text">التحويلات السريعة و التحويلات الصادرة إلي WebMoney</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-tabs__line main-tabs__line_last">
+                                                        <div class="ico-link">
+                                                            <div class="ico-link__image">
+                                                                <div class="icon icon_cards-switch"></div>
+                                                            </div>
+                                                            <div class="ico-link__info">
+                                                                <a class="ico-link__title" href="prepaid-cards.html">بطاقات ماستركارد مسبقة الدفع</a>
+                                                                <div class="ico-link__text text">قم بسحب أموالك من أى ماكينة  صراف آلى فى</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">قم بفتح حساب مجانى</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">سهلة وقليلة التكاليف!</div>
+                                                <div class="profile-quote__text text">طريقة مضمونة وعملية للحصول على أموالك من موقع آب-ورك وأسواق العمل </div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee1.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">إلينا</div>
+                                                        <div class="profile-quote__description text">مصممة حرة، روسيا، عن</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">قدرا كبيرا للالمسؤول عن الموقع</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image icon">
+                                                        <div class="icon icon_flag"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">المدفوعات التي تتم داخل الولايات المتحدة الأمريكية</a>
+                                                        <div class="ico-link__text text">مثل مدفوعات Amazon ومدفوعات الشركات المدمجة أو المؤسسات الفرعية الأخري فى الولايات المتحدة</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">التحويلات البنكية</a>
+                                                        <div class="ico-link__text text">التحويلات البنكية من الشركات وشبكات الإعلانات على مستوى العالم</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">قم بفتح حساب مجانى</a>
+                                            </div>
+                                          
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+
+                                            <div class="main-tabs__line main-tabs__line_last">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_card-splash2"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="virtual-cards.html">بطاقات افتراضية</a>
+                                                        <div class="ico-link__text text">تعد أسهل طريقة للدفع في حملات زيادة الزيارات والحملات الترويجية</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">سحب العوائد لن يكون صعباً بعد الآن</div>
+                                                <div class="profile-quote__text text">لقد أصبح إستلام الأموال أمراً بسيطاً – سواءً أكان شيك من AdSense أو تحويل بنكي من TradeDoubler</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee2.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">نيك</div>
+                                                        <div class="profile-quote__description text">بيلاروسيا<br>متخصص  في حملات زيادة الزيارات</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">خدمات تكنولوجيا المعلومات الغير محدودة</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_interaction"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">مدفوعات سريعة</a>
+                                                        <div class="ico-link__text text"> سداد فورى للعاملين والأخصائيين المعينين</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_portfolio"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">المدفوعات للشركات</a>
+                                                        <div class="ico-link__text text"> تحويلات بالدولار واليورو للحسابات البنكية الخاصة بالشركات أو أي طرف الثال</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">قم بفتح حساب مجانى</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line main-tabs__line_first">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_cards"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="prepaid-cards.html">بطاقات السداد</a>
+                                                        <div class="ico-link__text text">تقضي على مشكلة تعدد البطاقات للموظفين والشركاء</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_anytime"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">دعم على مدار الساعة</a>
+                                                        <div class="ico-link__text text">فريقنا المتخصص فى خدمتك 24/7</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">أحصل على عقود من جميع أنحاء العالم</div>
+                                                <div class="profile-quote__text text">لم يكن الحصول على أتعابك أو سداد مرتبات موظفيك بهذه السهولة من قبل!</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee3.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">سيرج</div>
+                                                        <div class="profile-quote__description text">تايلاند<br>مؤسس لشركة مبتدئة</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">شبكات الإعلان الدولية</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_house3"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="managing-account.html">سداد فورى للعوائد</a>
+                                                        <div class="ico-link__text text">تحويلات فورية بالدولار واليورو إلى محافظ ePayService</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image icon">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">التحويلات البنكية</a>
+                                                        <div class="ico-link__text text">تحويلات إلى الحسابات البنكية فى جميع أنحاء العالم – من الولايات المتحدة الأمريكية وحتى اليابان</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">قم بفتح حساب مجانى</a>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line main-tabs__line_first">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_cards"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="prepaid-cards.html">سداد العوائد إلى البطاقات</a>
+                                                        <div class="ico-link__text text">تحويلات مباشرة إلى البطاقات التى تم إصدارها من مصارف أخرى</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_card-splash4"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="affiliate-payouts.html">قوة العلامة التجارية</a>
+                                                        <div class="ico-link__text text"> بطاقات ®ePayService MasterCards مخصصة لشركائك فى جميع أنحاء العالم</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">توسيع حدودك</div>
+                                                <div class="profile-quote__text text">المدفوعات المباشرة إلى محافظ ePayService وبطاقات شركائك مع شعار مخصص لهو أمر ذى فائدة كبرى لأصحاب المواقع فى جميع أنحاء العالم</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee4.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">يورى</div>
+                                                        <div class="profile-quote__description text">أوكرانيا<br>صاحب شبكة محاسبين عامين معتمدين</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-tabs__content">
+                            <div class="region">
+                                <h2 class="main-tabs__title title">الدفع للمطورين</h2>
+                                <div class="main-tabs__text text-dark"></div>
+                                <div class="main-tabs__row">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_flag"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">الواردات من الولايات المتحدة الأمريكية</a>
+                                                        <div class="ico-link__text text"> قبول الشيكات و التحويلات البنكية أو الإيداع المباشر من العملاء المقيمين فى الولايات المتحدة</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_check-earth"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="bank-transfers.html">مدفوعات دولية</a>
+                                                        <div class="ico-link__text text"> قبول التحويلات البنكية و التحويلات التي تتم بواسطة الشركات المختصة بالتحويلات التي تتم في منطقة الأوروبي و ذلك في جميع دول العالم.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__button">
+                                                <a class="button button_big" href="https://online.epayservices.com/register">قم بفتح حساب مجانى</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="main-tabs__line main-tabs__line_first">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_planning"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="payout-service.html">دفع الرواتب</a>
+                                                        <div class="ico-link__text text"> قم بسداد رواتب طاقم العمل لديك سواء كانوا يعملون داخل المؤسسة أو عن بُعد</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-tabs__line main-tabs__line_last">
+                                                <div class="ico-link">
+                                                    <div class="ico-link__image">
+                                                        <div class="icon icon_cards"></div>
+                                                    </div>
+                                                    <div class="ico-link__info">
+                                                        <a class="ico-link__title" href="prepaid-cards.html">بطاقات السداد</a>
+                                                        <div class="ico-link__text text"> بطاقات ePayService® ماستركارد و هي بطاقات حقيقية و بلاستيكية تناسب جميع إحتياجات الدفع لديك</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="profile-quote">
+                                                <div class="profile-quote__title title title_medium">طاقة هائلة في مجال التكنولوجيا المالية</div>
+                                                <div class="profile-quote__text text">خدمة مرنة وسهلة الإستخدام للمدفوعات الواردة من الأعمال وأيضاً لمستحقات الموظفين فى جميع أنحاء العالم</div>
+                                                <div class="profile-quote__info">
+                                                    <div class="profile-quote__image">
+                                                        <img src="../images/employee5.svg" alt="">
+                                                    </div>
+                                                    <div class="profile-quote__wrapper">
+                                                        <div class="profile-quote__name">أنطون</div>
+                                                        <div class="profile-quote__description text">جمهورية التشيك<br>مطور ألعاب</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="service-offer service-offer_pushed" style="background-image: url(.././images/service-bg10.jpg)">
+                    <div class="region">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="service-offer__cards">
+                                    <ul class="cards">
+                                        <li class="cards__item cards__item_top"></li>
+                                        <li class="cards__item cards__item_bottom"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-xs-12 full-width col-md-pull-3">
+                                <h2 class="service-offer__title title">يقوم ePayService بتوفير العديد من الطرق لإدارة وإنفاق الأموال التى تحصل عليها بمجهودك الشاق</h2>
+                                <div class="service-offer__text text-dark wysiwyg">
+                                    <p>هنا على موقع ePayService نستطيع وبمنتهى السهولة إدارة سيولة رواتب مؤسستك بفاعلية وكفاءة من خلال مجموعة من المنتجات والخدمات. حيث بإمكاننا مساعدة أصحاب العمل وموظفيهم فى تبسيط عملية دفع الرواتب، مما يؤدى إلى كفاءة عملية إدارة التكاليف الخاصة بدخل الموظفين.</p>
+                                    <p>قم بالسداد عن طريق بطاقات ®ePayService Mastercard فى أى مكان فى العالم!</p>
+                                </div>
+                                <div class="service-offer__icons ico-block">
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_bed"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">فنادق</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_food"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">مطاعم</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_tag"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">منافذ</div>
+                                    </div>
+                                    <div class="ico-block__item">
+                                        <div class="ico-block__image">
+                                            <div class="icon icon_golf"></div>
+                                        </div>
+                                        <div class="ico-block__text title title_small">الترفيه</div>
+                                    </div>
+                                </div>
+                                <div class="service-offer__text text-dark wysiwyg">
+                                    <p>على الانترنت حتى وكل مكان يتم قبول ماستركارد.</p>
+                                    <p>حيثما تتواجد فى أى مكان فى العالم، فدائماً ما ستشعر بأمان أكثر عند إستخدامك لبطاقات ®ePayService Mastercard من إستخدامك للمال النقدى.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-bank">
+                    <div class="region">
+                        <div class="row">
+                            <div class="col-md-3 col-xs-12 col-md-offset-1">
+                                <div class="mobile-bank__manage">
+                                    <div class="mobile-bank__text">احصل عليه بالطاقة مع نظام Online.ePayServices الدفع</div>
+                                    <div class="mobile-bank__note">قم بالإستفادة من وظائف تطبيق الجوال. الحياة جيدة.</div>
+                                </div>
+                                <div class="mobile-bank__button">
+                                    <a class="button button_big" href="https://online.epayservices.com/register">قم بفتح حساب مجانى</a>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-xs-12">
+                                <h2 class="mobile-bank__title title">مرونة حقيقية</h2>
+                                <div class="mobile-bank__text" style="max-width: 200px;">قم بإدارة محفظة ePayService خاصتك من خلال جهازك المفضل </div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-9">
+                                        <div class="mobile-bank__app app">
+                                            <div class="app__logo"></div>
+                                            <div class="app__info">
+                                                <div class="app__title">ePayService ®</div>
+                                                <div class="app__text"><a href="https://play.google.com/store/apps/details?id=com.epayservice">Google Play</a>, <a href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8"> المتجر أبل.</a>احصل على تطبيق ePayService لدائرة الرقابة الداخلية المتوفرة في </div>
+                                            </div>
+                                        </div>
+                                        <div class="mobile-bank__download">
+                                            <a class="mobile-bank__icon icon icon_app-store" href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8"></a>
+                                            <a class="mobile-bank__icon icon icon_google-play" href="https://play.google.com/store/apps/details?id=com.epayservice"></a>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6 col-xs-3">
+                                        <div class="mobile-bank__image">
+                                            <img src="../images/phone.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="using using_center">
+                    <div class="region">
+                        <h2 class="using__title title">قم بفتح حساب مجانى فى أربع خطوات بسيطة</h2>
+                        <div class="using__note text">4 خطوات سريعة لتبدأ فى إستلام الأموال</div>
+                        <ul class="using__list">
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_man"></div>
+                                </div>
+                                <div class="using__number"><span>1</span></div>
+                                <div class="using__text">قم بملأ إستمارة التسجيل البسيطة على Online.ePayServices</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_profile-check"></div>
+                                </div>
+                                <div class="using__number"><span>2</span></div>
+                                <div class="using__text">قم بتفعيل محفظة ePayService بعد ذلك.</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_hands"></div>
+                                </div>
+                                <div class="using__number"><span>3</span></div>
+                                <div class="using__text">زود الطرف الآخر لديك ببيانات محفظة ePayService خاصتك واستلم الأموال .</div>
+                            </li>
+                            <li class="using__item">
+                                <div class="using__icon">
+                                    <div class="icon icon_cards-switch"></div>
+                                </div>
+                                <div class="using__number"><span>4</span></div>
+                                <div class="using__text">اسحب أموالك بالعملة التي تناسبك بإستخدام بطاقات ®ePayService Mastercard</div>
+                            </li>
+                        </ul>
+                        <div class="using__button">
+                            <a class="button button_big" href="https://online.epayservices.com/register">افتح حساب</a>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        <div class="strut__row">
+            <footer class="footer">
+                <div class="region">
+                    <div class="footer__rows">
+                        <div class="row row-eq-height">
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">المعلومات</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="contact-us.html">إتصل بنا</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://online.epayservices.com/">تسجيل الدخول</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="affiliate-program.html">برنامج للتسويق المشترك</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../en/developers.html">Developers</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://blog.epayservices.com/">أخبار</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">الخدمات</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="managing-account.html">إدارة الحساب</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="bank-transfers.html">تحويل الأموال</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="prepaid-cards.html">البطاقات مسبقة الدفع</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="payout-service.html">دفع الرواتب</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="affiliate-payouts.html">دفع الأرباح للشركات المدمجة أو المؤسسات الفرعية</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="virtual-cards.html">بطاقات افتراضية</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="local-payments.html">التحويل المصرفي المحلي</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="send-money-to-card.html">التحويلات إلى بطاقات</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="cash-remittance.html">دفع نقدًا </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">الشروط</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="user-agreement.pdf">إتفاقية المستخدم</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="ePayService_MasterCard_Cardholders_Agreement.pdf">إتفاقية حاملى بطاقات ®ePayService Mastercard</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="../privacy-notice.pdf">Privacy Notice</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 footer__col">
+                                <div class="footer__title title title_small title_light">تابعنا</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="https://twitter.com/epayservices">Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__copyright">© جميع حقوق الطبع محفوظة لشركة MTACCDBA<br>ePayService 2007–<span></span>.</div>
+                        <div class="footer__text">The ePayService MasterCard® card is issued by PSI-Pay Ltd pursuant to a licence by MasterCard International Incorporated.  The e-money associated with the ePayService card is issued by MTACC LTD, authorised by the Malta Financial Services Authority as an E-Money Issuer and Payment Services Provider under the Malta Financial Institutions Act, registration number  C 71976.  Mastercard® is a registered trademark, and the circles design is a trademark of Mastercard International Incorporated.</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="../js/jquery-2.2.0.min.js"></script>
+    <script src="../js/jquery.placeholder.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/sticky-kit.js"></script>
+    <script src="../js/calc.js"></script>
+    <!--<script src="js/jquery.sliderTabs.min.js"></script>-->
+    <!--<script>-->
+        <!--var slider = $("#main-tabs").sliderTabs({-->
+            <!--mousewheel: false,-->
+            <!--tabArrows: false,-->
+            <!--tabSlideSpeed: 400,-->
+            <!--transition: 'fade',-->
+            <!--panelArrows: true,-->
+            <!--panelArrowsShowOnHover: true,-->
+            <!--tabHeight: 270-->
+        <!--});-->
+    <!--</script>-->
+    <script src="../js/app-rtl.e9bec416.js"></script>
+    <script>
+        window.intercomSettings = {
+            app_id: "wz9x11as"
+        };
+    </script>
+    <script>
+        // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
+        (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/wz9x11as';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+    <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
+    </body>
+</html>

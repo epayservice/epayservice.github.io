@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="51px" height="72px" viewBox="0 0 51 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="5" y="45" width="28" height="22"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="22" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="colored-icons-2" transform="translate(-172.000000, -594.000000)">
+            <g id="Group-14" transform="translate(172.000000, 594.000000)">
+                <path d="M2,70 L35,70 L35,24 L2,24 L2,70 Z M0,72 L37,72 L37,22 L0,22 L0,72 Z" id="Fill-123" fill="#374D6B"></path>
+                <polygon id="Fill-128" fill="#374D6B" points="37 55 45 55 45 53 37 53"></polygon>
+                <path d="M41,50 L41,13 C41.2937692,11.4935036 38.9122874,10.1315134 37,10 L37,8 C40.165929,7.89057902 42.5676052,10.2575037 43,13 L43,50 C42.5676052,51.3980714 43.9495923,52.7590656 46,53 C47.3446822,52.7590656 48.7261639,51.3980714 49,50 L49,5 L47,3 L45,6 L42,3 L39,6 L37,3 L34,6 L31,3 L28,6 L26,3 L24,5 L24,9 L22,9 L22,4 L26,0 L28,3 L31,0 L34,3 L37,0 L39,3 L42,0 L45,3 L47,0 L51,4 L51,50 C51,52.6335733 48.5988291,55 46,55 C42.6954454,55 41.2937692,52.6335733 41,50 Z" id="Fill-129" fill="#374D6B"></path>
+                <use id="Rectangle-1010" stroke="#374D6B" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <path d="M7,40 L31,40 L31,29 L7,29 L7,40 Z M5,42 L33,42 L33,27 L5,27 L5,42 Z" id="Fill-122" fill="#00B4D5"></path>
+                <polygon id="Fill-124" fill="#00B4D5" points="26 37 28 37 28 35 26 35"></polygon>
+                <polygon id="Fill-125" fill="#00B4D5" points="22 37 24 37 24 35 22 35"></polygon>
+                <polygon id="Fill-126" fill="#00B4D5" points="18 37 20 37 20 35 18 35"></polygon>
+                <path d="M7,22 L32.0092456,22 L32.0092456,13.002093 C32.0092456,11.8851726 32.3762296,10.8490171 33,10 L10.1234648,10 C8.40079248,10 7,11.3464111 7,13.002093 L7,22 Z M33.9476584,24 L5,24 L5,13.3985075 C5,10.4215842 7.38016529,8 10.306286,8 L37,8 L37,10.2926844 C35.316554,10.2926844 33.9476584,11.6856175 33.9476584,13.3985075 L33.9476584,24 Z" id="Fill-127" fill="#374D6B"></path>
+                <polygon id="Fill-130" fill="#374D6B" points="10 15 26 15 26 13 10 13"></polygon>
+                <polygon id="Fill-131" fill="#374D6B" points="10 20 18 20 18 18 10 18"></polygon>
+                <rect id="Rectangle-1011" fill="#374D6B" x="9" y="49" width="5" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="9" y="54" width="5" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="9" y="59" width="5" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="16" y="49" width="3" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="21" y="49" width="3" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="16" y="54" width="3" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="21" y="54" width="3" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="16" y="59" width="3" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="21" y="59" width="3" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="26" y="49" width="3" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="26" y="54" width="3" height="3"></rect>
+                <rect id="Rectangle-1011" fill="#374D6B" x="26" y="59" width="3" height="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

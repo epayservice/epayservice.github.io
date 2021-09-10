@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="65px" height="61px" viewBox="0 0 65 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 74</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="epay-web-services-cards" transform="translate(-457.000000, -6272.000000)">
+            <g id="Group-74" transform="translate(457.000000, 6272.000000)">
+                <g id="Group-71" transform="translate(0.000000, 15.000000)">
+                    <path d="M41.989556,0 L65,0 L65,11 L0,11 L0,0 L23.010444,0 C23.3500234,0.714825574 23.7679895,1.38519506 24.2532362,2 L2,2 L2,9 L63,9 L63,2 L40.7467638,2 C41.2320105,1.38519506 41.6499766,0.714825574 41.989553,5.90733106e-07 Z" id="Fill-1" fill="#374D6B"></path>
+                    <polygon id="Fill-2" fill="#374D6B" points="63 11 63 44 2 44 2 11 0 11 0 46 65 46 65 11"></polygon>
+                    <path d="M25,39 L23,39 L23,34 C22.8507178,33.8997825 22.4528617,32.9510258 22,33 C21.0037679,31.5224544 20.0423223,31.1272573 19,31 L13,31 C11.9514687,31.1272573 10.9924112,31.5210362 10,33 C9.54761589,32.9510258 9.14928225,33.8997825 9,34 L9,39 L7,39 L7,34 C7,33.3306231 7.62233661,31.8467429 9,31 C9.8771725,29.6150137 11.3764163,29 13,29 L19,29 C20.6135537,29 22.1123199,29.614541 23,31 C24.3786186,31.8481611 25,33.3315685 25,34 L25,39 L25,39 Z" id="Fill-3" fill="#374D6B"></path>
+                    <path d="M16,27 C19.3137085,27 22,24.3137085 22,21 C22,17.6862915 19.3137085,15 16,15 C12.6862915,15 10,17.6862915 10,21 C10,24.3137085 12.6862915,27 16,27 Z M16,25 C18.209139,25 20,23.209139 20,21 C20,18.790861 18.209139,17 16,17 C13.790861,17 12,18.790861 12,21 C12,23.209139 13.790861,25 16,25 Z" id="Combined-Shape" fill="#374D6B"></path>
+                    <polygon id="Fill-7" fill="#374D6B" points="15 39 17 39 17 37 15 37"></polygon>
+                    <polygon id="Fill-9" fill="#374D6B" points="15 36 17 36 17 34 15 34"></polygon>
+                    <polygon id="Fill-10" fill="#00B4D5" points="33 29 59 29 59 27 33 27"></polygon>
+                    <polygon id="Fill-11" fill="#00B4D5" points="33 34 59 34 59 32 33 32"></polygon>
+                    <polygon id="Fill-12" fill="#00B4D5" points="33 39 47 39 47 37 33 37"></polygon>
+                    <path d="M35,23 L57,23 L57,17 L35,17 L35,23 Z M33,25 L59,25 L59,15 L33,15 L33,25 Z" id="Fill-15" fill="#00B4D5"></path>
+                    <polygon id="Fill-16" fill="#00B4D5" points="38 21 54 21 54 19 38 19"></polygon>
+                </g>
+                <g id="Group-73" transform="translate(22.000000, 0.000000)" fill="#00B4D5">
+                    <path d="M10.5,21 C16.2989899,21 21,16.2989899 21,10.5 C21,4.70101013 16.2989899,0 10.5,0 C4.70101013,0 0,4.70101013 0,10.5 C0,16.2989899 4.70101013,21 10.5,21 Z M10.5,18.875 C15.1253848,18.875 18.875,15.1253848 18.875,10.5 C18.875,5.87461522 15.1253848,2.125 10.5,2.125 C5.87461522,2.125 2.125,5.87461522 2.125,10.5 C2.125,15.1253848 5.87461522,18.875 10.5,18.875 Z" id="Combined-Shape"></path>
+                    <g id="Group-70" transform="translate(11.000000, 10.000000) rotate(-45.000000) translate(-11.000000, -10.000000) translate(7.000000, 7.000000)">
+                        <rect id="Rectangle" x="-5.93303184e-13" y="7.78044296e-13" width="2" height="5"></rect>
+                        <rect id="Rectangle" x="2.66789322" y="0.612337663" width="2.25" height="7.11111111"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

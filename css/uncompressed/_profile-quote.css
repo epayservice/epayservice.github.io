@@ -1,0 +1,57 @@
+.profile-quote {
+    position: relative;
+    padding-left: 30px;
+}
+
+.profile-quote:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    background: url(../images/ico-quote.svg) no-repeat;
+    background-size: 100% 100%;
+    width: 25px;
+    height: 20px;
+}
+
+.profile-quote__title {
+
+}
+
+.profile-quote__text {
+    margin-top: 5px;
+}
+
+.profile-quote__info {
+    margin-top: 30px;
+    display: flex;
+}
+
+.profile-quote__image {
+    margin-right: 20px;
+}
+
+.profile-quote__wrapper {
+
+}
+
+.profile-quote__name {
+    color: #374D6B;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.profile-quote__description {
+    padding-top: 10px;
+    border-top: 1px solid #d7d7d7;
+    margin-top: 15px;
+}
+
+
+
+@media (max-width: 992px) {
+    .profile-quote {padding-left: 40px;}
+    .profile-quote:before {left: 0;}
+}
