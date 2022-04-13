@@ -1,726 +1,762 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="stylesheet" href="../css/style.css?v=3">
-		<title>ePayService - Cartes prépayées</title>
-    </head>
 
-    <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="../css/style.css?v=190413042022">
+  <title>ePayService - Cartes prépayées</title>
+</head>
+
+<body>
 
 
-    <div class="strut">
+  <div class="strut">
 
-        <div class="strut__row">
+    <div class="strut__row">
 
-            <header class="header">
-                <div class="header__top header__top_sticky">
-                    <div class="region">
-                        <div class="top">
-                            <div class="top__main">
-                                <div class="top__burger burger">
-                                    <div class="burger__handler"></div>
-                                    <div class="burger__body"></div>
-                                </div>
-                                <div class="top__logo">
-                                    <a class="logo" href="index.html"></a>
-                                </div>
-                                <nav class="top__nav nav">
-                                    <!--<a class="nav__link" href="-about.html">About Us</a>-->
-                                    <a class="nav__link nav__link_more" href="#" data-inner="inner-nav"><span>Services</span></a>
-                                    <div class="sub-menu">
-                                        <a class="sub-menu__link" href="managing-account.html">Gestion de compte</a>
-                                        <a class="sub-menu__link" href="bank-transfers.html">Virements bancaires</a>
-                                        <a class="sub-menu__link" href="personal-iban.html">IBAN personnel</a>
-                                        <a class="sub-menu__link" href="personal-us-account.html">Compte américain personnel</a>
-                                        <a class="sub-menu__link" href="prepaid-cards.html">Cartes de débit</a>
-                                        <a class="sub-menu__link" href="affiliate-payouts.html">Paiements d’affiliation</a>
-                                        <a class="sub-menu__link" href="payout-service.html">Solutions salariales</a>
-                                        <a class="sub-menu__link" href="virtual-cards.html">Cartes virtuelles</a>
-                                        <a class="sub-menu__link" href="local-payments.html">Virement bancaire local</a>
-                                        <a class="sub-menu__link" href="send-money-to-card.html">Transferts vers les cartes</a>
-                                        <a class="sub-menu__link" href="cash-remittance.html">Transferts d’argent</a>
-                                    </div>
-                                    <a class="nav__link" href="fees.html">Frais</a>
-                                    <a class="nav__link" href="contact-us.html">Contactez-nous</a>
-                                    <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
-                                </nav>
-                                <a class="top__profile" href="#"></a>
-                                <div class="top__sign-in">
-                                    <a class="button" href="https://online.epayservices.com/register">OUVRIR UN COMPTE GRATUIT</a>
-                                    <a class="button button_border" href="https://online.epayservices.com/">CONNEXION</a>
-                                </div>
-                            </div>
-                            <div class="top__actions">
-                                <div class="top__buttons">
-                                    <a class="button" href="https://online.epayservices.com/register">OUVRIR UN COMPTE GRATUIT</a>
-                                    <a class="button button_border" href="https://online.epayservices.com/">CONNEXION</a>
-                                </div>
-                                <div class="top__language lang-select drop">
-                                    <div class="lang-select__toggle drop__handler">
-                                        <div class="lang-select__image">
-                                            <img src="../images/flag-fr.svg" alt="">
-                                        </div>
-                                        <div class="lang-select__title">FR</div>
-                                    </div>
-                                    <div class="lang-select__list drop__down">
-                                        <a class="lang-select__item" href="../en/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">English (US)</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../uk/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-uk.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">English</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../ru/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/ru.png" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Русский</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../es/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-es.png" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Español</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../co/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-co.png" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Español (Colombia)</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../pt/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-pt.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Português</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../ro/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-ro.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Română</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../ms/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-ms.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Melayu</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../vn/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-vn.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Tiếng Việt</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../ar/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-ar.png" alt="">
-                                            </div>
-                                            <div class="lang-select__title">عربى</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../pl/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-pl.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Język polski</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../de/prepaid-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-de.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Deutsch</div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <header class="header">
+        <div class="header__top header__top_sticky">
+          <div class="region">
+            <div class="top">
+              <div class="top__main">
+                <div class="top__burger burger">
+                  <div class="burger__handler"></div>
+                  <div class="burger__body"></div>
+                </div>
+                <div class="top__logo">
+                  <a class="logo" href="index.html"></a>
+                </div>
+                <nav class="top__nav nav">
+                  <!--<a class="nav__link" href="-about.html">About Us</a>-->
+                  <a class="nav__link nav__link_more" href="#" data-inner="inner-nav"><span>Services</span></a>
+                  <div class="sub-menu">
+                    <a class="sub-menu__link" href="managing-account.html">Gestion de compte</a>
+                    <a class="sub-menu__link" href="bank-transfers.html">Virements bancaires</a>
+                    <a class="sub-menu__link" href="personal-iban.html">IBAN personnel</a>
+                    <a class="sub-menu__link" href="personal-us-account.html">Compte américain personnel</a>
+                    <a class="sub-menu__link" href="prepaid-cards.html">Cartes de débit</a>
+                    <a class="sub-menu__link" href="affiliate-payouts.html">Paiements d’affiliation</a>
+                    <a class="sub-menu__link" href="payout-service.html">Solutions salariales</a>
+                    <a class="sub-menu__link" href="virtual-cards.html">Cartes virtuelles</a>
+                    <a class="sub-menu__link" href="local-payments.html">Virement bancaire local</a>
+                    <a class="sub-menu__link" href="send-money-to-card.html">Transferts vers les cartes</a>
+                    <a class="sub-menu__link" href="cash-remittance.html">Transferts d’argent</a>
+                  </div>
+                  <a class="nav__link" href="fees.html">Frais</a>
+                  <a class="nav__link" href="contact-us.html">Contactez-nous</a>
+                  <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
+                </nav>
+                <a class="top__profile" href="#"></a>
+                <div class="top__sign-in">
+                  <a class="button" href="https://online.epayservices.com/register">OUVRIR UN COMPTE GRATUIT</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">CONNEXION</a>
+                </div>
+              </div>
+              <div class="top__actions">
+                <div class="top__buttons">
+                  <a class="button" href="https://online.epayservices.com/register">OUVRIR UN COMPTE GRATUIT</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">CONNEXION</a>
+                </div>
+                <div class="top__language lang-select drop">
+                  <div class="lang-select__toggle drop__handler">
+                    <div class="lang-select__image">
+                      <img src="../images/flag-fr.svg" alt="">
                     </div>
-
-                    <div class="inner-nav" id="inner-nav">
-                        <div class="region">
-                            <div class="inner-nav__list">
-                                <a class="inner-nav__item" href="managing-account.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_safe"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Gestion de compte</div>
-                                </a>
-                                <a class="inner-nav__item" href="bank-transfers.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_house2"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Virements bancaires</div>
-                                </a>
-                                <a class="inner-nav__item" href="personal-iban.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_stars-big2"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">IBAN personnel</div>
-                                </a>
-                                <a class="inner-nav__item" href="personal-us-account.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_money-rotate2"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Compte américain personnel</div>
-                                </a>
-                                <a class="inner-nav__item" href="prepaid-cards.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_cards2"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Cartes de débit</div>
-                                </a>
-                                <a class="inner-nav__item" href="affiliate-payouts.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_crowd2"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Paiements d’affiliation</div>
-                                </a>
-                                <a class="inner-nav__item" href="payout-service.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_hands2"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Solutions salariales</div>
-                                </a>
-                                <a class="inner-nav__item" href="virtual-cards.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_virtual-card"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Cartes virtuelles</div>
-                                </a>
-                                <a class="inner-nav__item" href="local-payments.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_local-pay"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Virement bancaire local</div>
-                                </a>
-                                <a class="inner-nav__item" href="send-money-to-card.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_save-to-card"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Transferts vers les cartes</div>
-                                </a>
-                                <a class="inner-nav__item" href="cash-remittance.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_hand-to-card"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Transferts d’argent</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
+                    <div class="lang-select__title">FR</div>
+                  </div>
+                  <div class="lang-select__list drop__down">
+                    <a class="lang-select__item" href="../en/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English (US)</div>
+                    </a>
+                    <a class="lang-select__item" href="../uk/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-uk.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English</div>
+                    </a>
+                    <a class="lang-select__item" href="../ru/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/ru.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Русский</div>
+                    </a>
+                    <a class="lang-select__item" href="../es/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-es.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español</div>
+                    </a>
+                    <a class="lang-select__item" href="../co/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-co.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español (Colombia)</div>
+                    </a>
+                    <a class="lang-select__item" href="../pt/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-pt.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Português</div>
+                    </a>
+                    <a class="lang-select__item" href="../ro/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ro.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Română</div>
+                    </a>
+                    <a class="lang-select__item" href="../ms/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ms.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Melayu</div>
+                    </a>
+                    <a class="lang-select__item" href="../vn/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-vn.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Tiếng Việt</div>
+                    </a>
+                    <a class="lang-select__item" href="../ar/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ar.png" alt="">
+                      </div>
+                      <div class="lang-select__title">عربى</div>
+                    </a>
+                    <a class="lang-select__item" href="../pl/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-pl.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Język polski</div>
+                    </a>
+                    <a class="lang-select__item" href="../de/prepaid-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-de.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Deutsch</div>
+                    </a>
+                  </div>
                 </div>
-            </header>
-
-        </div>
-
-        <div class="strut__row strut__row_expanded">
-
-            <div class="special-solution special-solution_dark" style="background-image: url(.././images/service-bg8.jpg)">
-                <div class="region">
-                    <h1 class="special-solution__title title">Cartes de débit pour les sociétés et leurs employés</h1>
-                </div>
-                <div class="special-solution__image">
-                    <img src="../images/phone-card.png" alt="">
-                </div>
+              </div>
             </div>
+          </div>
 
-            <main class="body body_long">
-                <div class="region">
-                    <div class="row">
-                        <div class="col-md-9 col-xs-12 full-width">
-                            <div class="body__content body__content_small solutions">
-                                <div class="solutions__block">
-                                    <h2 class="solutions__title title">Un service financier innovant</h2>
-                                    <div class="solutions__text text-dark">Notre carte de débit vous offre une flexibilité inégalée, une visibilité unifiée et un contrôle centralisé de vos revenus et de vos finances pour vous aider à gérer votre salaire. Si vous travaillez sur un site distant, ou si vous avez besoin de flexibilité pour vos déplacements professionnels, alors notre carte de débit ePayService est la carte qu’il vous faut pour vos paiements quotidiens et vos besoins de recouvrements de revenu.</div>
-                                    <div class="solutions__sub-title title title_medium">Est-ce de la magie? Non!</div>
-                                    <div class="solutions__text text-dark">Nous savons comment réduire le coût et le délai pour recevoir vos revenus.</div>
-                                </div>
-                                <ul class="solutions__bubbles">
-                                    <li class="solutions__feature">
-                                        <div class="bubble-feature">
-                                            <div class="bubble-feature__icon bubble-icon">
-                                                <div class="bubble-icon__image icon icon_circles"></div>
-                                            </div>
-                                            <div class="bubble-feature__info">
-                                                <div class="bubble-feature__title title title_medium">Aucun</div>
-                                                <div class="bubble-feature__text text-dark">Frais de commission pour transfert entre clients ePayService</div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="solutions__feature">
-                                        <div class="bubble-feature">
-                                            <div class="bubble-feature__icon bubble-icon">
-                                                <div class="bubble-icon__image icon icon_terminal-pen"></div>
-                                            </div>
-                                            <div class="bubble-feature__info">
-                                                <div class="bubble-feature__title title title_medium">GRATUIT</div>
-                                                <div class="bubble-feature__text text-dark">Frais de transaction POS</div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="solutions__feature">
-                                        <div class="bubble-feature">
-                                            <div class="bubble-feature__icon bubble-icon">
-                                                <div class="bubble-icon__image icon icon_house"></div>
-                                            </div>
-                                            <div class="bubble-feature__info">
-                                                <div class="bubble-feature__title title title_medium">1%, min $25.00</div>
-                                                <div class="bubble-feature__text text-dark">Virements bancaires de vos employeurs et partenaires d’affaires</div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="solutions__feature">
-                                        <div class="bubble-feature">
-                                            <div class="bubble-feature__icon bubble-icon">
-                                                <div class="bubble-icon__image icon icon_cards"></div>
-                                            </div>
-                                            <div class="bubble-feature__info">
-                                                <div class="bubble-feature__title title title_medium">Jusqu'à $15,000 limites quotidiennes POS</div>
-                                                <div class="bubble-feature__text text-dark">Jusqu'à $500 limites quotidiennes GAB</div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="solutions__feature">
-                                        <div class="bubble-feature">
-                                            <div class="bubble-feature__icon bubble-icon">
-                                                <div class="bubble-icon__image icon icon_card-splash"></div>
-                                            </div>
-                                            <div class="bubble-feature__info">
-                                                <div class="bubble-feature__title title title_medium">Aucun!</div>
-                                                <div class="bubble-feature__text text-dark">Frais de rechargement de carte</div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="solutions__feature">
-                                        <div class="bubble-feature">
-                                            <div class="bubble-feature__icon bubble-icon">
-                                                <div class="bubble-icon__image icon icon_card-atm"></div>
-                                            </div>
-                                            <div class="bubble-feature__info">
-                                                <div class="bubble-feature__title title title_medium">Seulement €1.99</div>
-                                                <div class="bubble-feature__text text-dark">Frais de retrait GAB (par transaction)</div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 hidden-sm">
-                            <div class="sticky-column-long">
-                                <div class="body__action steps service">
-                                    <div class="service__title title title_medium">Services</div>
-                                    <div class="service__list">
-                                        <a class="service__item" href="managing-account.html">Gestion de compte</a>
-                                        <a class="service__item" href="bank-transfers.html">Virements bancaires</a>
-                                        <a class="service__item" href="personal-iban.html">IBAN personnel</a>
-                                        <a class="service__item" href="personal-us-account.html">Compte américain personnel</a>
-                                        <a class="service__item service__item_active" href="prepaid-cards.html">Cartes de débit</a>
-                                        <a class="service__item" href="payout-service.html">Solutions salariales</a>
-                                        <a class="service__item" href="affiliate-payouts.html">Paiements d’affiliation</a>
-                                        <a class="service__item" href="virtual-cards.html">Cartes virtuelles</a>
-                                        <a class="service__item" href="local-payments.html">Virement bancaire local</a>
-                                        <a class="service__item" href="send-money-to-card.html">Transferts vers les cartes</a>
-                                        <a class="service__item" href="cash-remittance.html">Transferts d’argent</a>
-                                    </div>
-                                    <div class="steps__wrapper">
-                                        <div class="steps__title title title_medium">Profitez de la technologie financière novatrice proposée par ePayService!</div>
-                                        <div class="steps__button">
-                                            <a class="button button_big" href="https://online.epayservices.com/register">Ouvrez un compte en 2 minutes</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="inner-nav" id="inner-nav">
+            <div class="region">
+              <div class="inner-nav__list">
+                <a class="inner-nav__item" href="managing-account.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_safe"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Gestion de compte</div>
+                </a>
+                <a class="inner-nav__item" href="bank-transfers.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_house2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Virements bancaires</div>
+                </a>
+                <a class="inner-nav__item" href="personal-iban.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_stars-big2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">IBAN personnel</div>
+                </a>
+                <a class="inner-nav__item" href="personal-us-account.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_money-rotate2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Compte américain personnel</div>
+                </a>
+                <a class="inner-nav__item" href="prepaid-cards.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_cards2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Cartes de débit</div>
+                </a>
+                <a class="inner-nav__item" href="affiliate-payouts.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_crowd2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Paiements d’affiliation</div>
+                </a>
+                <a class="inner-nav__item" href="payout-service.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hands2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Solutions salariales</div>
+                </a>
+                <a class="inner-nav__item" href="virtual-cards.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_virtual-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Cartes virtuelles</div>
+                </a>
+                <a class="inner-nav__item" href="local-payments.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_local-pay"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Virement bancaire local</div>
+                </a>
+                <a class="inner-nav__item" href="send-money-to-card.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_save-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Transferts vers les cartes</div>
+                </a>
+                <a class="inner-nav__item" href="cash-remittance.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hand-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Transferts d’argent</div>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                <div class="service-offer">
-                    <div class="region">
-                        <div class="row">
-                            <div class="col-md-5 col-xs-12 full-width">
-                                <h2 class="service-offer__title title">ePayService offre de nombreuses façons de gérer et de dépenser vos revenus durement gagnés</h2>
-                                <div class="service-offer__text text-dark wysiwyg">
-                                    <p>À ePayService, nous pouvons facilement et efficacement gérer vos liquidités de masse salariale grâce à une gamme de produits et services. Nous pouvons aider les entreprises et leurs employés à rationaliser leurs processus de paie avec pour résultat une gestion efficace des coûts du revenu de vos employés.</p>
-                                    <p>Effectuez des paiements avec Carte de débit ePayService partout dans le monde !</p>
-                                </div>
-                                <div class="service-offer__icons ico-block">
-                                    <div class="ico-block__item">
-                                        <div class="ico-block__image">
-                                            <div class="icon icon_bed"></div>
-                                        </div>
-                                        <div class="ico-block__text title title_small">Hôtels</div>
-                                    </div>
-                                    <div class="ico-block__item">
-                                        <div class="ico-block__image">
-                                            <div class="icon icon_food"></div>
-                                        </div>
-                                        <div class="ico-block__text title title_small">Restaurants</div>
-                                    </div>
-                                    <div class="ico-block__item">
-                                        <div class="ico-block__image">
-                                            <div class="icon icon_tag"></div>
-                                        </div>
-                                        <div class="ico-block__text title title_small">Points de vente</div>
-                                    </div>
-                                    <div class="ico-block__item">
-                                        <div class="ico-block__image">
-                                            <div class="icon icon_golf"></div>
-                                        </div>
-                                        <div class="ico-block__text title title_small">Divertissement</div>
-                                    </div>
-                                </div>
-                                <div class="service-offer__text text-dark wysiwyg">
-                                    <p>Où que vous soyez dans le monde, vous vous sentirez toujours plus en sécurité en utilisant Carte de débit ePayService qu’en transportant du liquide.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="region">
-                    <div class="row">
-                        <div class="col-md-8 col-xs-12">
-
-                            <div class="benefits">
-                                <h2 class="benefits__title title">Idéal pour les transactions en ligne et hors ligne</h2>
-                                <ul class="benefits__list">
-                                    <li class="benefits__item">
-                                        <div class="benefits__bubble bubble-icon">
-                                            <div class="bubble-icon__image icon icon_cart"></div>
-                                        </div>
-                                        <div class="benefits__text text-dark">Zéro frais pour les achats dans la devise de votre carte</div>
-                                    </li>
-                                    <li class="benefits__item">
-                                        <div class="benefits__bubble bubble-icon">
-                                            <div class="bubble-icon__image icon icon_card-hand"></div>
-                                        </div>
-                                        <div class="benefits__text text-dark">Devises disponibles - EUR et USD</div>
-                                    </li>
-                                    <li class="benefits__item">
-                                        <div class="benefits__bubble bubble-icon">
-                                            <div class="bubble-icon__image icon icon_chip"></div>
-                                        </div>
-                                        <div class="benefits__text text-dark">Carte sans contact</div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="service-info" style="display: none">
-                                <h2 class="service-info__title title">Les points forts de notre carte</h2>
-                                <ul class="service-info__list">
-                                    <li class="service-info__row">
-                                        <div class="service-info__text text-dark">Dépenses limites quotidiennes</div>
-                                        <div class="service-info__number text-dark">jusqu'à €8,500.00</div>
-                                    </li>
-                                    <li class="service-info__row">
-                                        <div class="service-info__text text-dark">Période de validité</div>
-                                        <div class="service-info__number text-dark">de 2 ans</div>
-                                    </li>
-                                    <li class="service-info__row">
-                                        <div class="service-info__text text-dark">Émission de la carte ePayService</div>
-                                        <div class="service-info__number text-dark">GRATUIT</div>
-                                    </li>
-                                    <li class="service-info__row">
-                                        <div class="service-info__text text-dark">Frais d'activation de la carte</div>
-                                        <div class="service-info__number text-dark">GRATUIT</div>
-                                    </li>
-                                    <li class="service-info__row">
-                                        <div class="service-info__text text-dark">Frais de transaction POS</div>
-                                        <div class="service-info__number text-dark">GRATUIT</div>
-                                    </li>
-                                    <li class="service-info__row">
-                                        <div class="service-info__text text-dark">Frais mensuels</div>
-                                        <div class="service-info__number text-dark">€1.99</div>
-                                    </li>
-                                    <li class="service-info__row">
-                                        <div class="service-info__text text-dark">Rechargement de carte à partir du compte ePayService</div>
-                                        <div class="service-info__number text-dark">GRATUIT</div>
-                                    </li>
-                                    <li class="service-info__row">
-                                        <div class="service-info__text text-dark">Frais de retrait GAB (par transaction)</div>
-                                        <div class="service-info__number text-dark">€1.99</div>
-                                    </li>
-                                    <li class="service-info__row">
-                                        <div class="service-info__text text-dark">Demande de solde</div>
-                                        <div class="service-info__number text-dark">€0.50</div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <ul class="features">
-                                <li class="features__item">
-                                    <div class="features__info">
-                                        <div class="features__title title">Équipe d'assistance technique</div>
-                                        <div class="features__text text-dark">Assistance technique multilingue en ligne par notre aimable équipe du service clientèle</div>
-                                    </div>
-                                    <div class="features__icon bubble-icon">
-                                        <div class="bubble-icon__image icon icon_employee"></div>
-                                    </div>
-                                </li>
-                                <li class="features__item">
-                                    <div class="features__info">
-                                        <div class="features__title title">Facilité de paiement à vos partenaires ou fournisseurs</div>
-                                        <div class="features__text text-dark">Toujours sous la main : paiements internes rapides vers d'autres clients ePayService, paiements WMZ et virements</div>
-                                    </div>
-                                    <div class="features__icon bubble-icon">
-                                        <div class="bubble-icon__image icon icon_hands"></div>
-                                    </div>
-                                </li>
-                                <li class="features__item">
-                                    <div class="features__info">
-                                        <div class="features__title title">Réseau GAB</div>
-                                        <div class="features__text text-dark">Retirez du liquide aux guichets automatiques partout</div>
-                                    </div>
-                                    <div class="features__icon bubble-icon">
-                                        <div class="bubble-icon__image icon icon_atm"></div>
-                                    </div>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mobile-bank">
-                    <div class="region">
-                        <div class="row">
-                            <div class="col-md-8 col-xs-12">
-                                <h2 class="mobile-bank__title title">Une flexibilité totale</h2>
-                                <div class="mobile-bank__text">Gérez votre portefeuille ePayService <br>avec votre appareil préféré</div>
-                                <div class="row">
-                                    <div class="col-sm-6 col-xs-9">
-                                        <div class="mobile-bank__app app">
-                                            <div class="app__logo"></div>
-                                            <div class="app__info">
-                                                <div class="app__title">ePayService ®</div>
-                                                <div class="app__text">Obtenez l'application ePayService pour iOS disponible dans <a href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8">l'App Store d'Apple</a>, <a href="https://play.google.com/store/apps/details?id=com.epayservice">Google Play</a></div>
-                                            </div>
-                                        </div>
-                                        <div class="mobile-bank__download">
-                                            <a class="mobile-bank__icon icon icon_app-store" href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8"></a>
-                                            <a class="mobile-bank__icon icon icon_google-play" href="https://play.google.com/store/apps/details?id=com.epayservice"></a>
-                                        </div>
-                                        <div class="mobile-bank__manage">
-                                            <div class="mobile-bank__text">Recevez-le équipé du système de paiement Online.ePayServices</div>
-                                            <div class="mobile-bank__note">Profitez de la fonctionnalité de l'application mobile. Vivez maintenant.</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-3">
-                                        <div class="mobile-bank__image">
-                                            <img src="../images/phone.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="region">
-                    <div class="using">
-                        <div class="row">
-                            <div class="col-md-8 col-xs-12">
-                                <h2 class="using__title title">Application en ligne rapide et facile!</h2>
-                                <div class="using__switch tabs">
-                                    <div class="tabs__head">
-                                        <button class="tabs__tag tabs__tag_current using__tab" type="button">Comment s’inscrire</button>
-                                        <button class="tabs__tag using__tab" type="button">Conseils d’utilisation</button>
-                                    </div>
-                                    <div class="tabs__body">
-                                        <div class="tabs__section tabs__section_visible">
-                                            <div class="using__steps">
-                                                <ul class="using__list">
-                                                    <li class="using__item">
-                                                        <div class="using__icon">
-                                                            <div class="icon icon_employee2"></div>
-                                                        </div>
-                                                        <div class="using__number"><span>1</span></div>
-                                                        <div class="using__sub-title title title_small">Formulaire d’inscription</div>
-                                                        <div class="using__text">Il faut seulement 2 minutes pour remplir notre formulaire d’inscription et ouvrir votre compte ePayService. Votre identifiant et votre mot de passe vous seront envoyés par e-mail.</div>
-                                                    </li>
-                                                    <li class="using__item">
-                                                        <div class="using__icon">
-                                                            <div class="icon icon_profile-check"></div>
-                                                        </div>
-                                                        <div class="using__number"><span>2</span></div>
-                                                        <div class="using__sub-title title title_small">Vérification du compte</div>
-                                                        <div class="using__text">Pour l'activation du compte et l'approbation de la documentation client, la vérification est nécessaire.</div>
-                                                    </li>
-                                                    <li class="using__item">
-                                                        <div class="using__icon">
-                                                            <div class="icon icon_card-tall"></div>
-                                                        </div>
-                                                        <div class="using__number"><span>3</span></div>
-                                                        <div class="using__sub-title title title_small">Expédition de la carte</div>
-                                                        <div class="using__text">Votre première carte ePayService sera automatiquement délivrée gratuitement. Il suffit de choisir votre service d'expédition dans notre liste, et vous recevez votre carte.</div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="tabs__section">
-                                            <div class="using__steps">
-                                                <ul class="using__list">
-                                                    <li class="using__item">
-                                                        <div class="using__icon">
-                                                            <div class="icon icon_step1"></div>
-                                                        </div>
-                                                        <div class="using__number"><span>1</span></div>
-                                                        <div class="using__sub-title title title_small">Identifiez-vous!</div>
-                                                        <div class="using__text">Connectez-vous à votre compte en ligne ou sur vos applications mobiles. Utilisez votre mot de passe pour vous connecter à votre compte. Modifiez vos paramètres de carte ou vérifiez vos soldes via le web ou les applications mobiles.</div>
-                                                    </li>
-                                                    <li class="using__item">
-                                                        <div class="using__icon">
-                                                            <div class="icon icon_step2"></div>
-                                                        </div>
-                                                        <div class="using__number"><span>2</span></div>
-                                                        <div class="using__sub-title title title_small">Activez votre carte</div>
-                                                        <div class="using__text">Activez votre carte en ligne et sélectionnez ou modifiez le code PIN. Essayez de ne pas oublier votre code PIN.</div>
-                                                    </li>
-                                                    <li class="using__item">
-                                                        <div class="using__icon">
-                                                            <div class="icon icon_step3"></div>
-                                                        </div>
-                                                        <div class="using__number"><span>3</span></div>
-                                                        <div class="using__sub-title title title_small">Approvisionnez votre carte</div>
-                                                        <div class="using__text">Félicitations! La carte est activée et prête à être utilisée. Il suffit de recharger votre carte à partir du Web ou des applications mobiles et d'en profiter!</div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </main>
         </div>
-
-        <div class="strut__row">
-            <footer class="footer">
-                <div class="region">
-                    <div class="footer__rows">
-                        <div class="row row-eq-height">
-                            <div class="col-sm-3 col-xs-6 footer__col">
-                                <div class="footer__title title title_small title_light">Informations</div>
-                                <ul class="footer__list">
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="contact-us.html">Contactez-nous</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="https://online.epayservices.com/">Connexion</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="affiliate-program.html">Programme d’affiliation</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="../en/developers.html">Developers</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="https://blog.epayservices.com/">Nouvelles</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-3 col-xs-6 footer__col">
-                                <div class="footer__title title title_small title_light">Services</div>
-                                <ul class="footer__list">
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="managing-account.html">Gestion de compte</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="bank-transfers.html">Virements bancaires</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="personal-iban.html">IBAN personnel</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="personal-us-account.html">Compte américain personnel</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="prepaid-cards.html">Cartes de débit</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="payout-service.html">Solutions salariales</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="affiliate-payouts.html">Paiements d’affiliation</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="virtual-cards.html">Cartes virtuelles</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="local-payments.html">Virement bancaire local</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="send-money-to-card.html">Transferts vers les cartes</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="cash-remittance.html">Transferts d’argent</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-3 col-xs-6 footer__col">
-                                <div class="footer__title title title_small title_light">Conditions</div>
-                                <ul class="footer__list">
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="user-agreement.pdf">Accord de l’utilisateur</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="../privacy-notice.pdf">Privacy Notice</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-3 col-xs-6 footer__col">
-                                <div class="footer__title title title_small title_light">Suivez-nous</div>
-                                <ul class="footer__list">
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="https://twitter.com/epayservices">Twitter</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer__info">
-                        <div class="footer__copyright">© Copyright ePayService 2007–<span></span>, <br>Tous droits réservés.</div>
-                    </div>
-                </div>
-            </footer>
-        </div>
+      </header>
 
     </div>
 
+    <div class="strut__row strut__row_expanded">
 
-    <div class="up-arrow"></div>
+      <div class="special-solution special-solution_dark" style="background-image: url(.././images/service-bg8.jpg)">
+        <div class="region">
+          <h1 class="special-solution__title title">Cartes de débit pour les sociétés et leurs employés</h1>
+        </div>
+        <div class="special-solution__image">
+          <img src="../images/phone-card.png" alt="">
+        </div>
+      </div>
+
+      <main class="body body_long">
+        <div class="region">
+          <div class="row">
+            <div class="col-md-9 col-xs-12 full-width">
+              <div class="body__content body__content_small solutions">
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">Un service financier innovant</h2>
+                  <div class="solutions__text text-dark">Notre carte de débit vous offre une flexibilité inégalée, une
+                    visibilité unifiée et un contrôle centralisé de vos revenus et de vos finances pour vous aider à
+                    gérer votre salaire. Si vous travaillez sur un site distant, ou si vous avez besoin de flexibilité
+                    pour vos déplacements professionnels, alors notre carte de débit ePayService est la carte qu’il vous
+                    faut pour vos paiements quotidiens et vos besoins de recouvrements de revenu.</div>
+                  <div class="solutions__sub-title title title_medium">Est-ce de la magie? Non!</div>
+                  <div class="solutions__text text-dark">Nous savons comment réduire le coût et le délai pour recevoir
+                    vos revenus.</div>
+                </div>
+                <ul class="solutions__bubbles">
+                  <li class="solutions__feature">
+                    <div class="bubble-feature">
+                      <div class="bubble-feature__icon bubble-icon">
+                        <div class="bubble-icon__image icon icon_circles"></div>
+                      </div>
+                      <div class="bubble-feature__info">
+                        <div class="bubble-feature__title title title_medium">Aucun</div>
+                        <div class="bubble-feature__text text-dark">Frais de commission pour transfert entre clients
+                          ePayService</div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="solutions__feature">
+                    <div class="bubble-feature">
+                      <div class="bubble-feature__icon bubble-icon">
+                        <div class="bubble-icon__image icon icon_terminal-pen"></div>
+                      </div>
+                      <div class="bubble-feature__info">
+                        <div class="bubble-feature__title title title_medium">GRATUIT</div>
+                        <div class="bubble-feature__text text-dark">Frais de transaction POS</div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="solutions__feature">
+                    <div class="bubble-feature">
+                      <div class="bubble-feature__icon bubble-icon">
+                        <div class="bubble-icon__image icon icon_house"></div>
+                      </div>
+                      <div class="bubble-feature__info">
+                        <div class="bubble-feature__title title title_medium">1%, min $25.00</div>
+                        <div class="bubble-feature__text text-dark">Virements bancaires de vos employeurs et partenaires
+                          d’affaires</div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="solutions__feature">
+                    <div class="bubble-feature">
+                      <div class="bubble-feature__icon bubble-icon">
+                        <div class="bubble-icon__image icon icon_cards"></div>
+                      </div>
+                      <div class="bubble-feature__info">
+                        <div class="bubble-feature__title title title_medium">Jusqu'à $15,000 limites quotidiennes POS
+                        </div>
+                        <div class="bubble-feature__text text-dark">Jusqu'à $500 limites quotidiennes GAB</div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="solutions__feature">
+                    <div class="bubble-feature">
+                      <div class="bubble-feature__icon bubble-icon">
+                        <div class="bubble-icon__image icon icon_card-splash"></div>
+                      </div>
+                      <div class="bubble-feature__info">
+                        <div class="bubble-feature__title title title_medium">Aucun!</div>
+                        <div class="bubble-feature__text text-dark">Frais de rechargement de carte</div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="solutions__feature">
+                    <div class="bubble-feature">
+                      <div class="bubble-feature__icon bubble-icon">
+                        <div class="bubble-icon__image icon icon_card-atm"></div>
+                      </div>
+                      <div class="bubble-feature__info">
+                        <div class="bubble-feature__title title title_medium">Seulement €1.99</div>
+                        <div class="bubble-feature__text text-dark">Frais de retrait GAB (par transaction)</div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 hidden-sm">
+              <div class="sticky-column-long">
+                <div class="body__action steps service">
+                  <div class="service__title title title_medium">Services</div>
+                  <div class="service__list">
+                    <a class="service__item" href="managing-account.html">Gestion de compte</a>
+                    <a class="service__item" href="bank-transfers.html">Virements bancaires</a>
+                    <a class="service__item" href="personal-iban.html">IBAN personnel</a>
+                    <a class="service__item" href="personal-us-account.html">Compte américain personnel</a>
+                    <a class="service__item service__item_active" href="prepaid-cards.html">Cartes de débit</a>
+                    <a class="service__item" href="payout-service.html">Solutions salariales</a>
+                    <a class="service__item" href="affiliate-payouts.html">Paiements d’affiliation</a>
+                    <a class="service__item" href="virtual-cards.html">Cartes virtuelles</a>
+                    <a class="service__item" href="local-payments.html">Virement bancaire local</a>
+                    <a class="service__item" href="send-money-to-card.html">Transferts vers les cartes</a>
+                    <a class="service__item" href="cash-remittance.html">Transferts d’argent</a>
+                  </div>
+                  <div class="steps__wrapper">
+                    <div class="steps__title title title_medium">Profitez de la technologie financière novatrice
+                      proposée par ePayService!</div>
+                    <div class="steps__button">
+                      <a class="button button_big" href="https://online.epayservices.com/register">Ouvrez un compte en 2
+                        minutes</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-offer">
+          <div class="region">
+            <div class="row">
+              <div class="col-md-5 col-xs-12 full-width">
+                <h2 class="service-offer__title title">ePayService offre de nombreuses façons de gérer et de dépenser
+                  vos revenus durement gagnés</h2>
+                <div class="service-offer__text text-dark wysiwyg">
+                  <p>À ePayService, nous pouvons facilement et efficacement gérer vos liquidités de masse salariale
+                    grâce à une gamme de produits et services. Nous pouvons aider les entreprises et leurs employés à
+                    rationaliser leurs processus de paie avec pour résultat une gestion efficace des coûts du revenu de
+                    vos employés.</p>
+                  <p>Effectuez des paiements avec Carte de débit ePayService partout dans le monde !</p>
+                </div>
+                <div class="service-offer__icons ico-block">
+                  <div class="ico-block__item">
+                    <div class="ico-block__image">
+                      <div class="icon icon_bed"></div>
+                    </div>
+                    <div class="ico-block__text title title_small">Hôtels</div>
+                  </div>
+                  <div class="ico-block__item">
+                    <div class="ico-block__image">
+                      <div class="icon icon_food"></div>
+                    </div>
+                    <div class="ico-block__text title title_small">Restaurants</div>
+                  </div>
+                  <div class="ico-block__item">
+                    <div class="ico-block__image">
+                      <div class="icon icon_tag"></div>
+                    </div>
+                    <div class="ico-block__text title title_small">Points de vente</div>
+                  </div>
+                  <div class="ico-block__item">
+                    <div class="ico-block__image">
+                      <div class="icon icon_golf"></div>
+                    </div>
+                    <div class="ico-block__text title title_small">Divertissement</div>
+                  </div>
+                </div>
+                <div class="service-offer__text text-dark wysiwyg">
+                  <p>Où que vous soyez dans le monde, vous vous sentirez toujours plus en sécurité en utilisant Carte de
+                    débit ePayService qu’en transportant du liquide.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="region">
+          <div class="row">
+            <div class="col-md-8 col-xs-12">
+
+              <div class="benefits">
+                <h2 class="benefits__title title">Idéal pour les transactions en ligne et hors ligne</h2>
+                <ul class="benefits__list">
+                  <li class="benefits__item">
+                    <div class="benefits__bubble bubble-icon">
+                      <div class="bubble-icon__image icon icon_cart"></div>
+                    </div>
+                    <div class="benefits__text text-dark">Zéro frais pour les achats dans la devise de votre carte</div>
+                  </li>
+                  <li class="benefits__item">
+                    <div class="benefits__bubble bubble-icon">
+                      <div class="bubble-icon__image icon icon_card-hand"></div>
+                    </div>
+                    <div class="benefits__text text-dark">Devises disponibles - EUR et USD</div>
+                  </li>
+                  <li class="benefits__item">
+                    <div class="benefits__bubble bubble-icon">
+                      <div class="bubble-icon__image icon icon_chip"></div>
+                    </div>
+                    <div class="benefits__text text-dark">Carte sans contact</div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="service-info" style="display: none">
+                <h2 class="service-info__title title">Les points forts de notre carte</h2>
+                <ul class="service-info__list">
+                  <li class="service-info__row">
+                    <div class="service-info__text text-dark">Dépenses limites quotidiennes</div>
+                    <div class="service-info__number text-dark">jusqu'à €8,500.00</div>
+                  </li>
+                  <li class="service-info__row">
+                    <div class="service-info__text text-dark">Période de validité</div>
+                    <div class="service-info__number text-dark">de 2 ans</div>
+                  </li>
+                  <li class="service-info__row">
+                    <div class="service-info__text text-dark">Émission de la carte ePayService</div>
+                    <div class="service-info__number text-dark">GRATUIT</div>
+                  </li>
+                  <li class="service-info__row">
+                    <div class="service-info__text text-dark">Frais d'activation de la carte</div>
+                    <div class="service-info__number text-dark">GRATUIT</div>
+                  </li>
+                  <li class="service-info__row">
+                    <div class="service-info__text text-dark">Frais de transaction POS</div>
+                    <div class="service-info__number text-dark">GRATUIT</div>
+                  </li>
+                  <li class="service-info__row">
+                    <div class="service-info__text text-dark">Frais mensuels</div>
+                    <div class="service-info__number text-dark">€1.99</div>
+                  </li>
+                  <li class="service-info__row">
+                    <div class="service-info__text text-dark">Rechargement de carte à partir du compte ePayService</div>
+                    <div class="service-info__number text-dark">GRATUIT</div>
+                  </li>
+                  <li class="service-info__row">
+                    <div class="service-info__text text-dark">Frais de retrait GAB (par transaction)</div>
+                    <div class="service-info__number text-dark">€1.99</div>
+                  </li>
+                  <li class="service-info__row">
+                    <div class="service-info__text text-dark">Demande de solde</div>
+                    <div class="service-info__number text-dark">€0.50</div>
+                  </li>
+                </ul>
+              </div>
+
+              <ul class="features">
+                <li class="features__item">
+                  <div class="features__info">
+                    <div class="features__title title">Équipe d'assistance technique</div>
+                    <div class="features__text text-dark">Assistance technique multilingue en ligne par notre aimable
+                      équipe du service clientèle</div>
+                  </div>
+                  <div class="features__icon bubble-icon">
+                    <div class="bubble-icon__image icon icon_employee"></div>
+                  </div>
+                </li>
+                <li class="features__item">
+                  <div class="features__info">
+                    <div class="features__title title">Facilité de paiement à vos partenaires ou fournisseurs</div>
+                    <div class="features__text text-dark">Toujours sous la main : paiements internes rapides vers
+                      d'autres clients ePayService, paiements WMZ et virements</div>
+                  </div>
+                  <div class="features__icon bubble-icon">
+                    <div class="bubble-icon__image icon icon_hands"></div>
+                  </div>
+                </li>
+                <li class="features__item">
+                  <div class="features__info">
+                    <div class="features__title title">Réseau GAB</div>
+                    <div class="features__text text-dark">Retirez du liquide aux guichets automatiques partout</div>
+                  </div>
+                  <div class="features__icon bubble-icon">
+                    <div class="bubble-icon__image icon icon_atm"></div>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="mobile-bank">
+          <div class="region">
+            <div class="row">
+              <div class="col-md-8 col-xs-12">
+                <h2 class="mobile-bank__title title">Une flexibilité totale</h2>
+                <div class="mobile-bank__text">Gérez votre portefeuille ePayService <br>avec votre appareil préféré
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-xs-9">
+                    <div class="mobile-bank__app app">
+                      <div class="app__logo"></div>
+                      <div class="app__info">
+                        <div class="app__title">ePayService ®</div>
+                        <div class="app__text">Obtenez l'application ePayService pour iOS disponible dans <a
+                            href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8">l'App Store
+                            d'Apple</a>, <a href="https://play.google.com/store/apps/details?id=com.epayservice">Google
+                            Play</a></div>
+                      </div>
+                    </div>
+                    <div class="mobile-bank__download">
+                      <a class="mobile-bank__icon icon icon_app-store"
+                        href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8"></a>
+                      <a class="mobile-bank__icon icon icon_google-play"
+                        href="https://play.google.com/store/apps/details?id=com.epayservice"></a>
+                    </div>
+                    <div class="mobile-bank__manage">
+                      <div class="mobile-bank__text">Recevez-le équipé du système de paiement Online.ePayServices</div>
+                      <div class="mobile-bank__note">Profitez de la fonctionnalité de l'application mobile. Vivez
+                        maintenant.</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-xs-3">
+                    <div class="mobile-bank__image">
+                      <img src="../images/phone.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="region">
+          <div class="using">
+            <div class="row">
+              <div class="col-md-8 col-xs-12">
+                <h2 class="using__title title">Application en ligne rapide et facile!</h2>
+                <div class="using__switch tabs">
+                  <div class="tabs__head">
+                    <button class="tabs__tag tabs__tag_current using__tab" type="button">Comment s’inscrire</button>
+                    <button class="tabs__tag using__tab" type="button">Conseils d’utilisation</button>
+                  </div>
+                  <div class="tabs__body">
+                    <div class="tabs__section tabs__section_visible">
+                      <div class="using__steps">
+                        <ul class="using__list">
+                          <li class="using__item">
+                            <div class="using__icon">
+                              <div class="icon icon_employee2"></div>
+                            </div>
+                            <div class="using__number"><span>1</span></div>
+                            <div class="using__sub-title title title_small">Formulaire d’inscription</div>
+                            <div class="using__text">Il faut seulement 2 minutes pour remplir notre formulaire
+                              d’inscription et ouvrir votre compte ePayService. Votre identifiant et votre mot de passe
+                              vous seront envoyés par e-mail.</div>
+                          </li>
+                          <li class="using__item">
+                            <div class="using__icon">
+                              <div class="icon icon_profile-check"></div>
+                            </div>
+                            <div class="using__number"><span>2</span></div>
+                            <div class="using__sub-title title title_small">Vérification du compte</div>
+                            <div class="using__text">Pour l'activation du compte et l'approbation de la documentation
+                              client, la vérification est nécessaire.</div>
+                          </li>
+                          <li class="using__item">
+                            <div class="using__icon">
+                              <div class="icon icon_card-tall"></div>
+                            </div>
+                            <div class="using__number"><span>3</span></div>
+                            <div class="using__sub-title title title_small">Expédition de la carte</div>
+                            <div class="using__text">Votre première carte ePayService sera automatiquement délivrée
+                              gratuitement. Il suffit de choisir votre service d'expédition dans notre liste, et vous
+                              recevez votre carte.</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="tabs__section">
+                      <div class="using__steps">
+                        <ul class="using__list">
+                          <li class="using__item">
+                            <div class="using__icon">
+                              <div class="icon icon_step1"></div>
+                            </div>
+                            <div class="using__number"><span>1</span></div>
+                            <div class="using__sub-title title title_small">Identifiez-vous!</div>
+                            <div class="using__text">Connectez-vous à votre compte en ligne ou sur vos applications
+                              mobiles. Utilisez votre mot de passe pour vous connecter à votre compte. Modifiez vos
+                              paramètres de carte ou vérifiez vos soldes via le web ou les applications mobiles.</div>
+                          </li>
+                          <li class="using__item">
+                            <div class="using__icon">
+                              <div class="icon icon_step2"></div>
+                            </div>
+                            <div class="using__number"><span>2</span></div>
+                            <div class="using__sub-title title title_small">Activez votre carte</div>
+                            <div class="using__text">Activez votre carte en ligne et sélectionnez ou modifiez le code
+                              PIN. Essayez de ne pas oublier votre code PIN.</div>
+                          </li>
+                          <li class="using__item">
+                            <div class="using__icon">
+                              <div class="icon icon_step3"></div>
+                            </div>
+                            <div class="using__number"><span>3</span></div>
+                            <div class="using__sub-title title title_small">Approvisionnez votre carte</div>
+                            <div class="using__text">Félicitations! La carte est activée et prête à être utilisée. Il
+                              suffit de recharger votre carte à partir du Web ou des applications mobiles et d'en
+                              profiter!</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+
+    <div class="strut__row">
+      <footer class="footer">
+        <div class="region">
+          <div class="footer__rows">
+            <div class="row row-eq-height">
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Informations</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="contact-us.html">Contactez-nous</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://online.epayservices.com/">Connexion</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="affiliate-program.html">Programme d’affiliation</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../en/developers.html">Developers</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://blog.epayservices.com/">Nouvelles</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Services</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="managing-account.html">Gestion de compte</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="bank-transfers.html">Virements bancaires</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="personal-iban.html">IBAN personnel</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="personal-us-account.html">Compte américain personnel</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="prepaid-cards.html">Cartes de débit</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="payout-service.html">Solutions salariales</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="affiliate-payouts.html">Paiements d’affiliation</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="virtual-cards.html">Cartes virtuelles</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="local-payments.html">Virement bancaire local</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="send-money-to-card.html">Transferts vers les cartes</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="cash-remittance.html">Transferts d’argent</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Conditions</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="user-agreement.pdf">Accord de l’utilisateur</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../privacy-notice.pdf">Privacy Notice</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Suivez-nous</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://twitter.com/epayservices">Twitter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="footer__copyright">© Copyright ePayService 2007–<span></span>, <br>Tous droits réservés.</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+
+
+  <div class="up-arrow"></div>
 
 
 
-    <script src="../js/jquery-2.2.0.min.js"></script>
-    <script src="../js/jquery.placeholder.js"></script>
-    <script src="../js/slick.min.js"></script>
-    <script src="../js/sticky-kit.js"></script>
-    <script src="../js/app.b6f525f1.js"></script>
-    <script>
-        window.intercomSettings = {
-        app_id: "wz9x11as"
-        };
-    </script>
-    <script>
-        // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
-        (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/wz9x11as';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-    </script>
+  <script src="../js/jquery-2.2.0.min.js"></script>
+  <script src="../js/jquery.placeholder.js"></script>
+  <script src="../js/slick.min.js"></script>
+  <script src="../js/sticky-kit.js"></script>
+  <script src="../js/app.b6f525f1.js"></script>
+  <script>
+    window.intercomSettings = {
+      app_id: "wz9x11as"
+    };
+  </script>
+  <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
+    (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/wz9x11as'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+  </script>
 
-    <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
-	</body>
+  <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
+</body>
+
 </html>
