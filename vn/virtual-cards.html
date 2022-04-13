@@ -1,650 +1,674 @@
 <!DOCTYPE html>
 <html lang="vi">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="stylesheet" href="../css/style.css?v=190413042022">
-		<title>ePayService - Thẻ ảo</title>
-    </head>
 
-    <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="../css/style.css?v=191613042022">
+  <title>ePayService - Thẻ ảo</title>
+</head>
+
+<body>
 
 
-    <div class="strut">
+  <div class="strut">
 
-        <div class="strut__row">
+    <div class="strut__row">
 
-            <header class="header">
-                <div class="header__top header__top_sticky">
-                    <div class="region">
-                        <div class="top">
-                            <div class="top__main">
-                                <div class="top__burger burger">
-                                    <div class="burger__handler"></div>
-                                    <div class="burger__body"></div>
-                                </div>
-                                <div class="top__logo">
-                                    <a class="logo" href="index.html"></a>
-                                </div>
-                                <nav class="top__nav nav">
-                                    <!--<a class="nav__link" href="-about.html">About Us</a>-->
-                                    <a class="nav__link nav__link_active nav__link_more" href="#" data-inner="inner-nav"><span>Dịch vụ</span></a>
-                                    <div class="sub-menu">
-                                        <a class="sub-menu__link" href="managing-account.html">Quản lý Tài khoản</a>
-                                        <a class="sub-menu__link" href="bank-transfers.html">Chuyển Tiền</a>
-                                        <a class="sub-menu__link" href="prepaid-cards.html">Thẻ ghi nợ</a>
-                                        <a class="sub-menu__link" href="affiliate-payouts.html">Thanh toán Liên kết</a>
-                                        <a class="sub-menu__link" href="payout-service.html">Giải pháp Thanh toán lương</a>
-                                        <a class="sub-menu__link" href="virtual-cards.html">Thẻ ảo</a>
-                                        <a class="sub-menu__link" href="local-payments.html">Chuyển khoản ngân hàng địa phương</a>
-                                        <a class="sub-menu__link" href="send-money-to-card.html">Chuyển khoản vào thẻ</a>
-                                        <a class="sub-menu__link" href="cash-remittance.html">Thanh toán tiền mặt</a>
-                                    </div>
-                                    <a class="nav__link" href="fees.html">Biểu phí</a>
-                                    <a class="nav__link" href="contact-us.html">Liên Hệ</a>
-                                    <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
-                                </nav>
-                                <a class="top__profile" href="https://online.epayservices.com/"></a>
-                                <div class="top__sign-in">
-                                    <a class="button" href="https://online.epayservices.com/register">MỞ MỘT TÀI KHOẢN MIỄN PHÍ</a>
-                                    <a class="button button_border" href="https://online.epayservices.com/">ĐĂNG NHẬP</a>
-                                </div>
-                            </div>
-                            <div class="top__actions">
-                                <div class="top__buttons">
-                                    <a class="button" href="https://online.epayservices.com/register">MỞ MỘT TÀI KHOẢN MIỄN PHÍ </a>
-                                    <a class="button button_border" href="https://online.epayservices.com/">ĐĂNG NHẬP</a>
-                                </div>
-                                <div class="top__language lang-select drop">
-                                    <div class="lang-select__toggle drop__handler">
-                                        <div class="lang-select__image">
-                                            <img src="../images/flag-vn.svg" alt="">
-                                        </div>
-                                        <div class="lang-select__title">VN</div>
-                                    </div>
-                                    <div class="lang-select__list drop__down">
-                                        <a class="lang-select__item" href="../en/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">English (US)</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../uk/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-uk.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">English</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../ru/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/ru.png" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Русский</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../es/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-es.png" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Español</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../co/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-co.png" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Español (Colombia)</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../pt/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-pt.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Português</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../ro/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-ro.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Română</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../ms/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-ms.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Melayu</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../ar/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-ar.png" alt="">
-                                            </div>
-                                            <div class="lang-select__title">عربى</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../pl/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-pl.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Język polski</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../de/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-de.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Deutsch</div>
-                                        </a>
-                                        <a class="lang-select__item" href="../fr/virtual-cards.html">
-                                            <div class="lang-select__image">
-                                                <img src="../images/flag-fr.svg" alt="">
-                                            </div>
-                                            <div class="lang-select__title">Français</div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="inner-nav" id="inner-nav">
-                        <div class="region">
-                            <div class="inner-nav__list">
-                                <a class="inner-nav__item" href="managing-account.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_safe"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Quản lý Tài khoản</div>
-                                </a>
-                                <a class="inner-nav__item" href="bank-transfers.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_house2"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Chuyển Tiền</div>
-                                </a>
-                                <a class="inner-nav__item" href="prepaid-cards.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_cards2"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Thẻ ghi nợ</div>
-                                </a>
-                                <a class="inner-nav__item" href="affiliate-payouts.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_crowd2"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Thanh toán Liên kết</div>
-                                </a>
-                                <a class="inner-nav__item" href="payout-service.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_hands2"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Giải pháp Thanh toán lương</div>
-                                </a>
-                                <a class="inner-nav__item" href="virtual-cards.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_virtual-card"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Thẻ ảo</div>
-                                </a>
-                                <a class="inner-nav__item" href="local-payments.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_local-pay"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Chuyển khoản ngân hàng địa phương</div>
-                                </a>
-                                <a class="inner-nav__item" href="send-money-to-card.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_save-to-card"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Chuyển khoản vào thẻ</div>
-                                </a>
-                                <a class="inner-nav__item" href="cash-remittance.html">
-                                    <div class="inner-nav__icon">
-                                        <div class="inner-nav__image icon icon_hand-to-card"></div>
-                                    </div>
-                                    <div class="inner-nav__title title title_small">Thanh toán tiền mặt</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
+      <header class="header">
+        <div class="header__top header__top_sticky">
+          <div class="region">
+            <div class="top">
+              <div class="top__main">
+                <div class="top__burger burger">
+                  <div class="burger__handler"></div>
+                  <div class="burger__body"></div>
                 </div>
-            </header>
+                <div class="top__logo">
+                  <a class="logo" href="index.html"></a>
+                </div>
+                <nav class="top__nav nav">
+                  <!--<a class="nav__link" href="-about.html">About Us</a>-->
+                  <a class="nav__link nav__link_active nav__link_more" href="#" data-inner="inner-nav"><span>Dịch
+                      vụ</span></a>
+                  <div class="sub-menu">
+                    <a class="sub-menu__link" href="managing-account.html">Quản lý Tài khoản</a>
+                    <a class="sub-menu__link" href="bank-transfers.html">Chuyển Tiền</a>
+                    <a class="sub-menu__link" href="prepaid-cards.html">Thẻ ghi nợ</a>
+                    <a class="sub-menu__link" href="affiliate-payouts.html">Thanh toán Liên kết</a>
+                    <a class="sub-menu__link" href="payout-service.html">Giải pháp Thanh toán lương</a>
+                    <a class="sub-menu__link" href="virtual-cards.html">Thẻ ảo</a>
+                    <a class="sub-menu__link" href="local-payments.html">Chuyển khoản ngân hàng địa phương</a>
+                    <a class="sub-menu__link" href="send-money-to-card.html">Chuyển khoản vào thẻ</a>
+                    <a class="sub-menu__link" href="cash-remittance.html">Thanh toán tiền mặt</a>
+                  </div>
+                  <a class="nav__link" href="fees.html">Biểu phí</a>
+                  <a class="nav__link" href="contact-us.html">Liên Hệ</a>
+                  <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
+                </nav>
+                <a class="top__profile" href="https://online.epayservices.com/"></a>
+                <div class="top__sign-in">
+                  <a class="button" href="https://online.epayservices.com/register">MỞ MỘT TÀI KHOẢN MIỄN PHÍ</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">ĐĂNG NHẬP</a>
+                </div>
+              </div>
+              <div class="top__actions">
+                <div class="top__buttons">
+                  <a class="button" href="https://online.epayservices.com/register">MỞ MỘT TÀI KHOẢN MIỄN PHÍ </a>
+                  <a class="button button_border" href="https://online.epayservices.com/">ĐĂNG NHẬP</a>
+                </div>
+                <div class="top__language lang-select drop">
+                  <div class="lang-select__toggle drop__handler">
+                    <div class="lang-select__image">
+                      <img src="../images/flag-vn.svg" alt="">
+                    </div>
+                    <div class="lang-select__title">VN</div>
+                  </div>
+                  <div class="lang-select__list drop__down">
+                    <a class="lang-select__item" href="../en/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English (US)</div>
+                    </a>
+                    <a class="lang-select__item" href="../uk/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-uk.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English</div>
+                    </a>
+                    <a class="lang-select__item" href="../ru/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/ru.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Русский</div>
+                    </a>
+                    <a class="lang-select__item" href="../es/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-es.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español</div>
+                    </a>
+                    <a class="lang-select__item" href="../co/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-co.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español (Colombia)</div>
+                    </a>
+                    <a class="lang-select__item" href="../pt/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-pt.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Português</div>
+                    </a>
+                    <a class="lang-select__item" href="../ro/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ro.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Română</div>
+                    </a>
+                    <a class="lang-select__item" href="../ms/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ms.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Melayu</div>
+                    </a>
+                    <a class="lang-select__item" href="../ar/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ar.png" alt="">
+                      </div>
+                      <div class="lang-select__title">عربى</div>
+                    </a>
+                    <a class="lang-select__item" href="../pl/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-pl.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Język polski</div>
+                    </a>
+                    <a class="lang-select__item" href="../de/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-de.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Deutsch</div>
+                    </a>
+                    <a class="lang-select__item" href="../fr/virtual-cards.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-fr.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Français</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="inner-nav" id="inner-nav">
+            <div class="region">
+              <div class="inner-nav__list">
+                <a class="inner-nav__item" href="managing-account.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_safe"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Quản lý Tài khoản</div>
+                </a>
+                <a class="inner-nav__item" href="bank-transfers.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_house2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Chuyển Tiền</div>
+                </a>
+                <a class="inner-nav__item" href="prepaid-cards.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_cards2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Thẻ ghi nợ</div>
+                </a>
+                <a class="inner-nav__item" href="affiliate-payouts.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_crowd2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Thanh toán Liên kết</div>
+                </a>
+                <a class="inner-nav__item" href="payout-service.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hands2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Giải pháp Thanh toán lương</div>
+                </a>
+                <a class="inner-nav__item" href="virtual-cards.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_virtual-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Thẻ ảo</div>
+                </a>
+                <a class="inner-nav__item" href="local-payments.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_local-pay"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Chuyển khoản ngân hàng địa phương</div>
+                </a>
+                <a class="inner-nav__item" href="send-money-to-card.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_save-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Chuyển khoản vào thẻ</div>
+                </a>
+                <a class="inner-nav__item" href="cash-remittance.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hand-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Thanh toán tiền mặt</div>
+                </a>
+              </div>
+            </div>
+          </div>
 
         </div>
-
-        <div class="strut__row strut__row_expanded">
-            <main class="body body_long">
-
-                <div class="slider__item" style="background-image: url(.././images/slider-img13.png)">
-                    <div class="region">
-                        <div class="slider__info main-info">
-                            <h1 class="main-info__title title title_light">Thẻ Ảo <br>ứng mọi nhu cầu hàng ngày </h1>
-                            <div class="main-info__text text-dark_light"></div>
-                            <div class="main-info__button">
-                                <a class="button button_big" href="bank-transfers.html">ĐĂNG KÝ PHÁT HÀNH THẺ THANH TOÁN ẢO MỚI</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="region">
-                    <div class="row">
-                        <div class="col-md-9 col-xs-12 full-width">
-                            <div class="body__content body__content_small solutions">
-
-                                <div class="solutions__block">
-                                    <h2 class="solutions__title title">Phương thức Thanh toán Trực Tuyến An Toàn và Đảm Bảo</h2>
-                                    <div class="solutions__text text-dark">Thẻ Thanh toán Ảo của ePayService là một hình thức kỹ thuật số thay thế cho thẻ nhựa truyền thống và là giải pháp lý tưởng cho việc thanh toán trực tuyến. Việc sử dụng Thẻ Ảo cho thanh toán trực tuyến sẽ giúp bảo mật các thông tin thẻ gốc của bạn.</div>
-                                    <div class="solutions__image">
-                                        <img src="../images/solution-img8.svg" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="solutions__block row">
-                                    <div class="col-md-10 col-xs-12">
-                                        <h2 class="solutions__title title">Kiểm soát việc mua sắm của bạn</h2>
-                                        <div class="solutions__text text-dark">Tùy chỉnh việc mua sắm của bản thân, sử dụng các thẻ khác nhau với những giá trị định sẵn. Chọn loại Thẻ Ảo phù hợp với bạn nhất!</div>
-                                        <div class="using__switch tabs">
-                                            <div class="tabs__head">
-                                                <button class="tabs__tag tabs__tag_current using__tab" type="button">VIRTUAL SINGLE</button>
-                                                <button class="tabs__tag using__tab" type="button">VIRTUAL MULTI</button>
-                                            </div>
-                                            <div class="tabs__body">
-                                                <div class="tabs__section tabs__section_visible">
-                                                    <div class="using__steps using__steps_blank">
-                                                        <ul class="solutions__list solutions__list_big">
-                                                            <li class="solutions__item solutions__item_wide">
-                                                                <div class="check-list">
-                                                                    <div class="check-list__title title title_medium">Single Use Không nạp thẻ ảo Virtual Single</div>
-                                                                    <ul class="check-list__block">
-                                                                        <li class="check-list__row">
-                                                                            <div class="check-list__item text-dark">Giá trị mua sắm tối đa 3500 USD</div>
-                                                                            <div class="check-list__item text-dark">Một người dùng được sử dụng tối đa 10 thẻ</div>
-                                                                        </li>
-                                                                        <li class="check-list__row">
-                                                                            <div class="check-list__item text-dark">Không phải trả chi phí hàng tháng</div>
-                                                                            <div class="check-list__item text-dark">Không phải trả phí cho mỗi giao dịch mua sắm</div>
-                                                                        </li>
-
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <li class="solutions__item">
-                                                                <img src="../images/virtual-cards.png" alt="">
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="tabs__section">
-                                                    <div class="using__steps using__steps_blank">
-                                                        <ul class="solutions__list solutions__list_big">
-                                                            <li class="solutions__item solutions__item_wide">
-                                                                <div class="check-list">
-                                                                    <div class="check-list__title title title_medium">Đa dụng nạp thẻ ảo Virtual Multi</div>
-                                                                    <ul class="check-list__block">
-                                                                        <li class="check-list__row">
-                                                                            <div class="check-list__item text-dark">Giá trị mua sắm hàng ngày tối đa là 5500 USD</div>
-                                                                            <div class="check-list__item text-dark">Việc sử dụng tiền thẻ ảo thay thẻ thật được thực hiện ngay và miễn phí </div>
-                                                                        </li>
-                                                                        <li class="check-list__row">
-                                                                            <div class="check-list__item text-dark">Miễn phí việc hoàn trả tiền vào tài khoản ePayService</div>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <li class="solutions__item">
-                                                                <img src="../images/blue-card.png" alt="">
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="solutions__block">
-                                    <h2 class="solutions__title title">Giải pháp theo nhu cầu của bạn</h2>
-                                    <div class="solutions__text text-dark">Việc sử dụng Thẻ Ảo Đơn Virtual Single không hoàn trả của ePayService là công cụ thanh toán phù hợp cho những giao dịch thanh toán một lần. Việc sử dụng Thẻ Ảo Virtual Multi có hoàn trả của ePayService phù hợp khi bạn cần phải thường xuyên thực hiện thanh toán các dịch vụ hay sản phẩm đã đăng ký hoặc các dịch vụ đặc biệt khác.</div>
-                                    <ul class="solutions__list">
-                                        <li class="solutions__item">
-                                            <div class="solutions__bubble bubble-icon bubble-icon_big">
-                                                <div class="bubble-icon__image icon icon_time-management"></div>
-                                            </div>
-                                            <div class="solutions__note text-dark">Quy trình diễn ra chưa tới một phút </div>
-                                        </li>
-                                        <li class="solutions__item">
-                                            <div class="solutions__bubble bubble-icon bubble-icon_big">
-                                                <div class="bubble-icon__image icon icon_chip"></div>
-                                            </div>
-                                            <div class="solutions__note text-dark">Thông tin về thẻ chính được bảo mật an toàn</div>
-                                        </li>
-                                        <li class="solutions__item">
-                                            <div class="solutions__bubble bubble-icon bubble-icon_big">
-                                                <div class="bubble-icon__image icon icon_currency"></div>
-                                            </div>
-                                            <div class="solutions__note text-dark">Tiền tệ sử dụng là USD và EUR</div>
-                                        </li>
-                                    </ul>
-                                </div>
-
-
-                                <div class="using" style="display: none">
-                                    <div class="row">
-                                        <div class="col-md-10 col-xs-12">
-                                            <h2 class="using__title title">Vui lòng nhìn qua những con số sau</h2>
-                                            <div class="using__switch tabs">
-                                                <div class="tabs__head">
-                                                    <button class="tabs__tag tabs__tag_current using__tab" type="button">VIRTUAL SINGLE</button>
-                                                    <button class="tabs__tag using__tab" type="button">VIRTUAL MULTI</button>
-                                                </div>
-                                                <div class="tabs__body">
-                                                    <div class="tabs__section tabs__section_visible">
-                                                        <div class="using__steps using__steps_blank">
-                                                            <ul class="service-info__list service-info__list_md">
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">Phí cho mỗi</div>
-                                                                        <div class="text text-dark text-dark_small">giao dịch mua bán</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">Giao dịch mua</div>
-                                                                        <div class="text text-dark text-dark_small">bán tối đa</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium">3500 EUR/USD</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">Thời</div>
-                                                                        <div class="text text-dark text-dark_small">hạn thẻ</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium">2 tháng</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">Lệ phí đối cho</div>
-                                                                        <div class="text text-dark text-dark_small">giao dịch đầu tiên</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium">3 EUR/USD</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">Lệ phí</div>
-                                                                        <div class="text text-dark text-dark_small">phát hành thẻ</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium">từ1 tới 20 EUR/USD <br>tùy theo số tiền giao dịch lần đầu</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">Số thẻ được sử</div>
-                                                                        <div class="text text-dark text-dark_small">dụng tối đa</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium">10 thẻ</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">Lệ phí</div>
-                                                                        <div class="text text-dark text-dark_small">hàng tháng</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tabs__section">
-                                                        <div class="using__steps using__steps_blank">
-                                                            <ul class="service-info__list service-info__list_md">
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">Phí cho mỗi</div>
-                                                                        <div class="text text-dark text-dark_small">giao dịch mua bán</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">Giao dịch mua</div>
-                                                                        <div class="text text-dark text-dark_small">bán tối đa</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium">5500 EUR/USD</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">Thời</div>
-                                                                        <div class="text text-dark text-dark_small">hạn thẻ</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium">6 tháng</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">PHÁT HÀNH THẺ</div>
-                                                                        <div class="text text-dark text-dark_small">Phí</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">SỬ DỤNG TIỀN THẺ ẢO THAY THẺ THẬT</div>
-                                                                        <div class="text text-dark text-dark_small">Phí</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">HOÀN TRẢ TIỀN TRỞ LẠI tài khoản ePayService</div>
-                                                                        <div class="text text-dark text-dark_small">Phí</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">SỐ THẺ TỐI ĐA</div>
-                                                                        <div class="text text-dark text-dark_small">được sử dụng</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium">3 thẻ</div>
-                                                                </li>
-                                                                <li class="service-info__row">
-                                                                    <div class="service-info__text text-dark">
-                                                                        <div class="title title_small">HÀNG THÁNG</div>
-                                                                        <div class="text text-dark text-dark_small">Phí</div>
-                                                                    </div>
-                                                                    <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="using">
-                                    <div class="row">
-                                        <div class="col-md-10 col-xs-12">
-                                            <h2 class="using__title title">Nhận thẻ ảo mới trong vòng một phút</h2>
-                                            <div class="using__switch tabs">
-                                                <div class="tabs__head">
-                                                    <button class="tabs__tag tabs__tag_current using__tab" type="button">CÁCH ĐĂNG KÝ PHÁT HÀNH THẺ ẢO MỚI</button>
-                                                </div>
-                                                <div class="tabs__body">
-                                                    <div class="tabs__section tabs__section_visible">
-                                                        <div class="using__steps">
-                                                            <ul class="using__list">
-                                                                <li class="using__item">
-                                                                    <div class="using__icon">
-                                                                        <div class="icon icon_employee2"></div>
-                                                                    </div>
-                                                                    <div class="using__number"><span>1</span></div>
-                                                                    <div class="using__text">Đăng nhập vào tài khoản ePayService trực tuyến và bấm vào trang đăng ký phát hành thẻ </div>
-                                                                </li>
-                                                                <li class="using__item">
-                                                                    <div class="using__icon">
-                                                                        <div class="icon icon_profile-check"></div>
-                                                                    </div>
-                                                                    <div class="using__number"><span>2</span></div>
-                                                                    <div class="using__text">Chọn thẻ theo giá trị yêu cầu hoặc bổ sung thẻ theo giá trị yêu cầu</div>
-                                                                </li>
-                                                                <li class="using__item">
-                                                                    <div class="using__icon">
-                                                                        <div class="icon icon_card-tall"></div>
-                                                                    </div>
-                                                                    <div class="using__number"><span>3</span></div>
-                                                                    <div class="using__text">Thẻ ảo của bạn đã sẵn sàng sử dụng trong vòng chưa tới một phút</div>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <div class="col-md-3 hidden-sm">
-                            <div class="sticky-column-long">
-                                <div class="body__action steps service">
-                                    <div class="service__title title title_medium">Dịch vụ</div>
-                                    <div class="service__list">
-                                        <a class="service__item" href="managing-account.html">Quản lý Tài khoản</a>
-                                        <a class="service__item" href="bank-transfers.html">Chuyển Tiền</a>
-                                        <a class="service__item" href="prepaid-cards.html">Thẻ ghi nợ</a>
-                                        <a class="service__item" href="payout-service.html">Giải pháp Thanh toán lương</a>
-                                        <a class="service__item" href="affiliate-payouts.html">Thanh toán Đại lý</a>
-                                        <a class="service__item service__item_active" href="virtual-cards.html">Thẻ ảo</a>
-                                        <a class="service__item" href="local-payments.html">Chuyển khoản ngân hàng địa phương</a>
-                                        <a class="service__item" href="send-money-to-card.html">Chuyển khoản vào thẻ</a>
-                                        <a class="service__item" href="cash-remittance.html">Thanh toán tiền mặt</a>
-                                    </div>
-                                    <div class="steps__wrapper">
-                                        <div class="steps__title title title_medium">Tận hưởng công nghệ tài chính tiên tiến ePayService mang tới cho bạn!</div>
-                                        <div class="steps__button">
-                                            <a class="button button_big" href="https://online.epayservices.com/register">Mở Tài khoản chỉ trong 2 Phút</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </main>
-        </div>
-
-        <div class="strut__row">
-            <footer class="footer">
-                <div class="region">
-                    <div class="footer__rows">
-                        <div class="row row-eq-height">
-                            <div class="col-sm-3 col-xs-6 footer__col">
-                                <div class="footer__title title title_small title_light">Thông tin</div>
-                                <ul class="footer__list">
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="contact-us.html">Liên hệ</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="https://online.epayservices.com/">Đăng nhập</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="affiliate-program.html">Chương trình Liên kết</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="../en/developers.html">Developers</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="https://blog.epayservices.com/">Tin tức</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-3 col-xs-6 footer__col">
-                                <div class="footer__title title title_small title_light">Dịch vụ</div>
-                                <ul class="footer__list">
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="managing-account.html">Quản lý Tài khoản</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="bank-transfers.html">Chuyển Tiền</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="prepaid-cards.html">Thẻ ghi nợ</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="payout-service.html">Giải pháp Thanh toán lương</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="affiliate-payouts.html">Thanh toán Đại lý</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="virtual-cards.html">Thẻ ảo</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="local-payments.html">Chuyển khoản ngân hàng địa phương</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="send-money-to-card.html">Chuyển khoản vào thẻ</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="cash-remittance.html">Thanh toán tiền mặt</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-3 col-xs-6 footer__col">
-                                <div class="footer__title title title_small title_light">Điều khoản</div>
-                                <ul class="footer__list">
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="user-agreement.pdf">Thỏa thuận Người dùng</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>
-                                    </li>
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="../privacy-notice.pdf">Privacy Notice</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-3 col-xs-6 footer__col">
-                                <div class="footer__title title title_small title_light">Theo dõi Chúng tôi</div>
-                                <ul class="footer__list">
-                                    <li class="footer__item">
-                                        <a class="footer__link" href="https://twitter.com/epayservices">Twitter</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer__info">
-                        <div class="footer__copyright">© Bản quyền MTACC Inc. DBA ePayService 2007–<span></span>, <br>Bảo lưu mọi quyền.</div>
-                    </div>
-                </div>
-            </footer>
-        </div>
+      </header>
 
     </div>
 
+    <div class="strut__row strut__row_expanded">
+      <main class="body body_long">
 
-    <div class="up-arrow"></div>
+        <div class="slider__item" style="background-image: url(.././images/slider-img13.png)">
+          <div class="region">
+            <div class="slider__info main-info">
+              <h1 class="main-info__title title title_light">Thẻ Ảo <br>ứng mọi nhu cầu hàng ngày </h1>
+              <div class="main-info__text text-dark_light"></div>
+              <div class="main-info__button">
+                <a class="button button_big" href="bank-transfers.html">ĐĂNG KÝ PHÁT HÀNH THẺ THANH TOÁN ẢO MỚI</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="region">
+          <div class="row">
+            <div class="col-md-9 col-xs-12 full-width">
+              <div class="body__content body__content_small solutions">
+
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">Phương thức Thanh toán Trực Tuyến An Toàn và Đảm Bảo</h2>
+                  <div class="solutions__text text-dark">Thẻ Thanh toán Ảo của ePayService là một hình thức kỹ thuật số
+                    thay thế cho thẻ nhựa truyền thống và là giải pháp lý tưởng cho việc thanh toán trực tuyến. Việc sử
+                    dụng Thẻ Ảo cho thanh toán trực tuyến sẽ giúp bảo mật các thông tin thẻ gốc của bạn.</div>
+                  <div class="solutions__image">
+                    <img src="../images/solution-img8.svg" alt="">
+                  </div>
+                </div>
+
+                <div class="solutions__block row">
+                  <div class="col-md-10 col-xs-12">
+                    <h2 class="solutions__title title">Kiểm soát việc mua sắm của bạn</h2>
+                    <div class="solutions__text text-dark">Tùy chỉnh việc mua sắm của bản thân, sử dụng các thẻ khác
+                      nhau với những giá trị định sẵn. Chọn loại Thẻ Ảo phù hợp với bạn nhất!</div>
+                    <div class="using__switch tabs">
+                      <div class="tabs__head">
+                        <button class="tabs__tag tabs__tag_current using__tab" type="button">VIRTUAL SINGLE</button>
+                        <button class="tabs__tag using__tab" type="button">VIRTUAL MULTI</button>
+                      </div>
+                      <div class="tabs__body">
+                        <div class="tabs__section tabs__section_visible">
+                          <div class="using__steps using__steps_blank">
+                            <ul class="solutions__list solutions__list_big">
+                              <li class="solutions__item solutions__item_wide">
+                                <div class="check-list">
+                                  <div class="check-list__title title title_medium">Single Use Không nạp thẻ ảo Virtual
+                                    Single</div>
+                                  <ul class="check-list__block">
+                                    <li class="check-list__row">
+                                      <div class="check-list__item text-dark">Giá trị mua sắm tối đa 3500 USD</div>
+                                      <div class="check-list__item text-dark">Một người dùng được sử dụng tối đa 10 thẻ
+                                      </div>
+                                    </li>
+                                    <li class="check-list__row">
+                                      <div class="check-list__item text-dark">Không phải trả chi phí hàng tháng</div>
+                                      <div class="check-list__item text-dark">Không phải trả phí cho mỗi giao dịch mua
+                                        sắm</div>
+                                    </li>
+
+                                  </ul>
+                                </div>
+                              </li>
+                              <li class="solutions__item">
+                                <img src="../images/virtual-cards.png" alt="">
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="tabs__section">
+                          <div class="using__steps using__steps_blank">
+                            <ul class="solutions__list solutions__list_big">
+                              <li class="solutions__item solutions__item_wide">
+                                <div class="check-list">
+                                  <div class="check-list__title title title_medium">Đa dụng nạp thẻ ảo Virtual Multi
+                                  </div>
+                                  <ul class="check-list__block">
+                                    <li class="check-list__row">
+                                      <div class="check-list__item text-dark">Giá trị mua sắm hàng ngày tối đa là 5500
+                                        USD</div>
+                                      <div class="check-list__item text-dark">Việc sử dụng tiền thẻ ảo thay thẻ thật
+                                        được thực hiện ngay và miễn phí </div>
+                                    </li>
+                                    <li class="check-list__row">
+                                      <div class="check-list__item text-dark">Miễn phí việc hoàn trả tiền vào tài khoản
+                                        ePayService</div>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+                              <li class="solutions__item">
+                                <img src="../images/blue-card.png" alt="">
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">Giải pháp theo nhu cầu của bạn</h2>
+                  <div class="solutions__text text-dark">Việc sử dụng Thẻ Ảo Đơn Virtual Single không hoàn trả của
+                    ePayService là công cụ thanh toán phù hợp cho những giao dịch thanh toán một lần. Việc sử dụng Thẻ
+                    Ảo Virtual Multi có hoàn trả của ePayService phù hợp khi bạn cần phải thường xuyên thực hiện thanh
+                    toán các dịch vụ hay sản phẩm đã đăng ký hoặc các dịch vụ đặc biệt khác.</div>
+                  <ul class="solutions__list">
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_time-management"></div>
+                      </div>
+                      <div class="solutions__note text-dark">Quy trình diễn ra chưa tới một phút </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_chip"></div>
+                      </div>
+                      <div class="solutions__note text-dark">Thông tin về thẻ chính được bảo mật an toàn</div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_currency"></div>
+                      </div>
+                      <div class="solutions__note text-dark">Tiền tệ sử dụng là USD và EUR</div>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <div class="using" style="display: none">
+                  <div class="row">
+                    <div class="col-md-10 col-xs-12">
+                      <h2 class="using__title title">Vui lòng nhìn qua những con số sau</h2>
+                      <div class="using__switch tabs">
+                        <div class="tabs__head">
+                          <button class="tabs__tag tabs__tag_current using__tab" type="button">VIRTUAL SINGLE</button>
+                          <button class="tabs__tag using__tab" type="button">VIRTUAL MULTI</button>
+                        </div>
+                        <div class="tabs__body">
+                          <div class="tabs__section tabs__section_visible">
+                            <div class="using__steps using__steps_blank">
+                              <ul class="service-info__list service-info__list_md">
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">Phí cho mỗi</div>
+                                    <div class="text text-dark text-dark_small">giao dịch mua bán</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">Giao dịch mua</div>
+                                    <div class="text text-dark text-dark_small">bán tối đa</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium">3500 EUR/USD</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">Thời</div>
+                                    <div class="text text-dark text-dark_small">hạn thẻ</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium">2 tháng</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">Lệ phí đối cho</div>
+                                    <div class="text text-dark text-dark_small">giao dịch đầu tiên</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium">3 EUR/USD</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">Lệ phí</div>
+                                    <div class="text text-dark text-dark_small">phát hành thẻ</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium">từ1 tới 20 EUR/USD <br>tùy theo
+                                    số tiền giao dịch lần đầu</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">Số thẻ được sử</div>
+                                    <div class="text text-dark text-dark_small">dụng tối đa</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium">10 thẻ</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">Lệ phí</div>
+                                    <div class="text text-dark text-dark_small">hàng tháng</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="tabs__section">
+                            <div class="using__steps using__steps_blank">
+                              <ul class="service-info__list service-info__list_md">
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">Phí cho mỗi</div>
+                                    <div class="text text-dark text-dark_small">giao dịch mua bán</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">Giao dịch mua</div>
+                                    <div class="text text-dark text-dark_small">bán tối đa</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium">5500 EUR/USD</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">Thời</div>
+                                    <div class="text text-dark text-dark_small">hạn thẻ</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium">6 tháng</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">PHÁT HÀNH THẺ</div>
+                                    <div class="text text-dark text-dark_small">Phí</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">SỬ DỤNG TIỀN THẺ ẢO THAY THẺ THẬT</div>
+                                    <div class="text text-dark text-dark_small">Phí</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">HOÀN TRẢ TIỀN TRỞ LẠI tài khoản ePayService</div>
+                                    <div class="text text-dark text-dark_small">Phí</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">SỐ THẺ TỐI ĐA</div>
+                                    <div class="text text-dark text-dark_small">được sử dụng</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium">3 thẻ</div>
+                                </li>
+                                <li class="service-info__row">
+                                  <div class="service-info__text text-dark">
+                                    <div class="title title_small">HÀNG THÁNG</div>
+                                    <div class="text text-dark text-dark_small">Phí</div>
+                                  </div>
+                                  <div class="service-info__number title title_medium title_blue">MIỄN PHÍ</div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="using">
+                  <div class="row">
+                    <div class="col-md-10 col-xs-12">
+                      <h2 class="using__title title">Nhận thẻ ảo mới trong vòng một phút</h2>
+                      <div class="using__switch tabs">
+                        <div class="tabs__head">
+                          <button class="tabs__tag tabs__tag_current using__tab" type="button">CÁCH ĐĂNG KÝ PHÁT HÀNH
+                            THẺ ẢO MỚI</button>
+                        </div>
+                        <div class="tabs__body">
+                          <div class="tabs__section tabs__section_visible">
+                            <div class="using__steps">
+                              <ul class="using__list">
+                                <li class="using__item">
+                                  <div class="using__icon">
+                                    <div class="icon icon_employee2"></div>
+                                  </div>
+                                  <div class="using__number"><span>1</span></div>
+                                  <div class="using__text">Đăng nhập vào tài khoản ePayService trực tuyến và bấm vào
+                                    trang đăng ký phát hành thẻ </div>
+                                </li>
+                                <li class="using__item">
+                                  <div class="using__icon">
+                                    <div class="icon icon_profile-check"></div>
+                                  </div>
+                                  <div class="using__number"><span>2</span></div>
+                                  <div class="using__text">Chọn thẻ theo giá trị yêu cầu hoặc bổ sung thẻ theo giá trị
+                                    yêu cầu</div>
+                                </li>
+                                <li class="using__item">
+                                  <div class="using__icon">
+                                    <div class="icon icon_card-tall"></div>
+                                  </div>
+                                  <div class="using__number"><span>3</span></div>
+                                  <div class="using__text">Thẻ ảo của bạn đã sẵn sàng sử dụng trong vòng chưa tới một
+                                    phút</div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col-md-3 hidden-sm">
+              <div class="sticky-column-long">
+                <div class="body__action steps service">
+                  <div class="service__title title title_medium">Dịch vụ</div>
+                  <div class="service__list">
+                    <a class="service__item" href="managing-account.html">Quản lý Tài khoản</a>
+                    <a class="service__item" href="bank-transfers.html">Chuyển Tiền</a>
+                    <a class="service__item" href="prepaid-cards.html">Thẻ ghi nợ</a>
+                    <a class="service__item" href="payout-service.html">Giải pháp Thanh toán lương</a>
+                    <a class="service__item" href="affiliate-payouts.html">Thanh toán Đại lý</a>
+                    <a class="service__item service__item_active" href="virtual-cards.html">Thẻ ảo</a>
+                    <a class="service__item" href="local-payments.html">Chuyển khoản ngân hàng địa phương</a>
+                    <a class="service__item" href="send-money-to-card.html">Chuyển khoản vào thẻ</a>
+                    <a class="service__item" href="cash-remittance.html">Thanh toán tiền mặt</a>
+                  </div>
+                  <div class="steps__wrapper">
+                    <div class="steps__title title title_medium">Tận hưởng công nghệ tài chính tiên tiến ePayService
+                      mang tới cho bạn!</div>
+                    <div class="steps__button">
+                      <a class="button button_big" href="https://online.epayservices.com/register">Mở Tài khoản chỉ
+                        trong 2 Phút</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+
+    <div class="strut__row">
+      <footer class="footer">
+        <div class="region">
+          <div class="footer__rows">
+            <div class="row row-eq-height">
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Thông tin</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="contact-us.html">Liên hệ</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://online.epayservices.com/">Đăng nhập</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="affiliate-program.html">Chương trình Liên kết</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../en/developers.html">Developers</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://blog.epayservices.com/">Tin tức</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Dịch vụ</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="managing-account.html">Quản lý Tài khoản</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="bank-transfers.html">Chuyển Tiền</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="prepaid-cards.html">Thẻ ghi nợ</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="payout-service.html">Giải pháp Thanh toán lương</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="affiliate-payouts.html">Thanh toán Đại lý</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="virtual-cards.html">Thẻ ảo</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="local-payments.html">Chuyển khoản ngân hàng địa phương</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="send-money-to-card.html">Chuyển khoản vào thẻ</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="cash-remittance.html">Thanh toán tiền mặt</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Điều khoản</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="user-agreement.pdf">Thỏa thuận Người dùng</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../privacy-notice.pdf">Privacy Notice</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Theo dõi Chúng tôi</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://twitter.com/epayservices">Twitter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="footer__copyright">© Bản quyền MTACC Inc. DBA ePayService 2007–<span></span>, <br>Bảo lưu mọi
+              quyền.</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+
+
+  <div class="up-arrow"></div>
 
 
 
-    <script src="../js/jquery-2.2.0.min.js"></script>
-    <script src="../js/jquery.placeholder.js"></script>
-    <script src="../js/slick.min.js"></script>
-    <script src="../js/sticky-kit.js"></script>
-    <script src="../js/app.b6f525f1.js"></script>
-    <script>
-        window.intercomSettings = {
-        app_id: "wz9x11as"
-        };
-    </script>
-    <script>
-        // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
-        (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/wz9x11as';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-    </script>
+  <script src="../js/jquery-2.2.0.min.js"></script>
+  <script src="../js/jquery.placeholder.js"></script>
+  <script src="../js/slick.min.js"></script>
+  <script src="../js/sticky-kit.js"></script>
+  <script src="../js/app.b6f525f1.js"></script>
+  <script>
+    window.intercomSettings = {
+      app_id: "wz9x11as"
+    };
+  </script>
+  <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
+    (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/wz9x11as'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+  </script>
 
-    <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
-	</body>
+  <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
+</body>
+
 </html>
