@@ -1,6 +1,7 @@
 (function($) {
   var API_ENDPOINT = "https://online.epayservices.com/public/services";
-  var GOOGLE_API_KEY = "AIzaSyBvDYN2cN2R4yTCRF6TwsnJMYqPRKIRWno";
+  // var GOOGLE_API_KEY = "AIzaSyBvDYN2cN2R4yTCRF6TwsnJMYqPRKIRWno";
+  var GOOGLE_API_KEY = "AIzaSyBwUy1iuYjvGufRyftkNH7VgfFeCwTB8uk";
   var SERVICES = {
     "local_payments/bank_deposit": "Local Bank Deposit",
     "local_payments/cash_pickup": "Cash Remittance",
