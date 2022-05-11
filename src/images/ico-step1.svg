@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="63px" height="53px" viewBox="0 0 63 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="activate-help-tab2" transform="translate(-200.000000, -324.000000)">
+            <g id="Group-87" transform="translate(125.000000, 102.000000)">
+                <g id="Page-1" transform="translate(75.000000, 222.000000)">
+                    <path d="M0,53 L63,53 L63,8 L0,8 L0,53 Z M2,51 L61,51 L61,10 L2,10 L2,51 Z" id="Fill-1" fill="#374D6B"></path>
+                    <path d="M0,10 L63,10 L63,0 L0,0 L0,10 Z M2,8 L61,8 L61,2 L2,2 L2,8 Z" id="Fill-2" fill="#374D6B"></path>
+                    <polygon id="Fill-3" fill="#374D6B" points="6 6 8 6 8 4 6 4"></polygon>
+                    <polygon id="Fill-4" fill="#374D6B" points="10 6 12 6 12 4 10 4"></polygon>
+                    <polygon id="Fill-5" fill="#374D6B" points="15 6 17 6 17 4 15 4"></polygon>
+                    <path d="M24,45 L38,45 L38,40 L24,40 L24,45 Z M22,47 L40,47 L40,38 L22,38 L22,47 Z" id="Fill-6" fill="#00B4D5"></path>
+                    <path d="M10,22 L15,22 L15,16 L10,16 L10,22 Z M8,24 L17,24 L17,14 L8,14 L8,24 Z" id="Fill-7" fill="#00B4D5"></path>
+                    <path d="M17,22 L53,22 L53,16 L17,16 L17,22 Z M15,24 L55,24 L55,14 L15,14 L15,24 Z" id="Fill-8" fill="#00B4D5"></path>
+                    <polygon id="Fill-9" fill="#374D6B" points="22 20 40 20 40 18 22 18"></polygon>
+                    <path d="M10,34 L15,34 L15,28 L10,28 L10,34 Z M8,36 L17,36 L17,26 L8,26 L8,36 Z" id="Fill-10" fill="#00B4D5"></path>
+                    <path d="M17,34 L53,34 L53,28 L17,28 L17,34 Z M15,36 L55,36 L55,26 L15,26 L15,36 Z" id="Fill-11" fill="#00B4D5"></path>
+                    <polygon id="Fill-12" fill="#374D6B" points="22 32 24 32 24 30 22 30"></polygon>
+                    <polygon id="Fill-13" fill="#374D6B" points="26 32 28 32 28 30 26 30"></polygon>
+                    <polygon id="Fill-14" fill="#374D6B" points="30 32 32 32 32 30 30 30"></polygon>
+                    <polygon id="Fill-15" fill="#374D6B" points="34 32 36 32 36 30 34 30"></polygon>
+                    <polygon id="Fill-16" fill="#374D6B" points="38 32 40 32 40 30 38 30"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

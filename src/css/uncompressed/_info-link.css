@@ -1,0 +1,20 @@
+.info-link {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding-right: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #00B4D5;
+}
+
+.info-link:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 0;
+    background: url(../images/ico-question.svg);
+    width: 18px;
+    height: 18px;
+    background-size: 100% 100%;
+}

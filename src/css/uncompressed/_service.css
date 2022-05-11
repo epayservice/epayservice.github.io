@@ -1,0 +1,37 @@
+.service {
+
+}
+
+.service__title {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DCDEE1;
+}
+
+.service__list {
+    padding: 40px 0;
+    border-bottom: 1px solid #DCDEE1;
+}
+
+.service__item {
+    display: block;
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #374D6B;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.service__item:hover,
+.service__item_active {
+    color: #00B4D5;
+}
+
+
+
+
+@media (max-height: 800px) {
+    .service__title {padding-bottom: 10px;}
+    .service__list {padding: 10px 0;}
+    .service__item {padding: 7px 0;}
+}

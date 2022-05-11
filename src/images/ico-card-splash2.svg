@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="51px" viewBox="0 0 70 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M56,41 L4,41 C2.89305439,41 1.89991632,40.5887572 1,40 C0.422259414,39.0968652 0,38.0687582 0,37 L0,4 C0.0010041841,2.92366365 0.411213389,1.92334327 1,1 C1.9074477,0.415789733 2.89807531,0.00303127387 4,0 L56,0 C57.0953975,0 58.085523,0.412758459 59,1 C59.5882845,1.92283806 60,2.92366365 60,4 L60,37 C60.0020084,38.068253 59.5782427,39.0993913 59,40 C58.1025941,40.5862311 57.1079498,41 56,41 L56,41 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60.0000071" height="41" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="epay-web-pricing-tab2-1920" transform="translate(-256.000000, -977.000000)">
+            <g id="Group-5" transform="translate(256.000000, 977.000000)">
+                <g id="Group-34" transform="translate(5.000000, 5.000000)">
+                    <polygon id="Fill-1" fill="#374D6B" points="1 9 59 9 59 7 1 7"></polygon>
+                    <polygon id="Fill-2" fill="#374D6B" points="1 15 59 15 59 13 1 13"></polygon>
+                    <use id="Fill-3" stroke="#374D6B" mask="url(#mask-2)" stroke-width="4" stroke-dasharray="2" xlink:href="#path-1"></use>
+                </g>
+                <polygon id="Fill-5" fill="#00B4D5" points="35 30 58 30 58 28 35 28"></polygon>
+                <polygon id="Fill-7" fill="#00B4D5" points="35 35 48 35 48 33 35 33"></polygon>
+                <path d="M21,34 L21,34 C21.3829841,33.6766182 21.7405714,33.876354 22,34 C22.6685714,35.3299868 23.8647619,36 25,36 C27.2740317,36 29,34.2055482 29,32 C29,29.7944518 27.2740317,28 25,28 C23.8647619,28 22.6680635,28.6700132 22,30 C21.7405714,30.1247028 21.3829841,30.3239102 21,30 C20.6170159,30.3239102 20.2599365,30.1247028 20,30 C19.3314286,28.6700132 18.1321905,28 17,28 C14.7229206,28 13,29.7944518 13,32 C13,34.2055482 14.7229206,36 17,36 C18.1321905,36 19.3314286,35.3299868 20,34 C20.2599365,33.876354 20.6170159,33.6766182 21,34 M25,38 C23.5209877,38 22.0874074,37.4223695 21,36 C19.9106173,37.4223695 18.4745679,38 17,38 C13.6716049,38 11,35.3086993 11,32 C11,28.6913007 13.6716049,26 17,26 C18.4750617,26 19.9106173,26.5776305 21,28 C22.0874074,26.5776305 23.5209877,26 25,26 C28.3249383,26 31,28.6913007 31,32 C31,35.3086993 28.3249383,38 25,38" id="Fill-8" fill="#00B4D5"></path>
+                <polygon id="Fill-9" fill="#00B4D5" points="2 6 0 6 0 0 6 0 6 2 2 2"></polygon>
+                <polygon id="Fill-10" fill="#00B4D5" points="6 51 0 51 0 45 2 45 2 49 6 49"></polygon>
+                <polygon id="Fill-11" fill="#00B4D5" points="70 6 68 6 68 2 64 2 64 0 70 0"></polygon>
+                <polygon id="Fill-12" fill="#00B4D5" points="70 51 64 51 64 49 68 49 68 45 70 45"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,59 @@
+.ico-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+
+.ico-nav:focus {
+    outline: none;
+}
+
+.ico-nav__image {
+    margin-right: 20px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25px;
+    -ms-flex: 0 0 25px;
+    flex: 0 0 25px;
+    position: relative;
+    top: 5px;
+}
+
+.swap-item_active .ico-nav__image svg use,
+.swap-item_active .ico-nav__image svg path {
+    stroke: #00B4D5;
+}
+
+.swap-item_active .ico-nav__image svg rect {
+    fill: #00B4D5;
+}
+
+.ico-nav__info {
+
+}
+
+.ico-nav__title {
+    max-width: 200px;
+}
+
+.ico-nav__title.text-dark {
+    font-weight: 400;
+}
+
+.ico-nav:hover .ico-nav__title,
+.swap-item_active .ico-nav__title {
+    color: #00B4D5;
+}
+
+.ico-nav__text {
+    margin-top: 5px;
+}
+
+
+@media (max-width: 1279px) {
+    .ico-nav__image {margin-right: 15px;}
+}
+@media (max-width: 1019px) {
+    .ico-nav__image {display: none;}
+}

@@ -1,0 +1,29 @@
+.tabs {
+    position: relative;
+}
+
+    .tabs__head {
+
+    }
+
+        .tabs__tag {
+
+        }
+
+    .tabs__body {
+
+    }
+
+    .tabs__body_line {
+        border-top: 1px solid #E5E7E8;
+    }
+
+
+
+        .tabs__section {
+            display: none;
+        }
+
+        .tabs__section_visible {
+            display: block;
+        }

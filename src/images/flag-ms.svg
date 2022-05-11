@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="14px" viewBox="0 0 28 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>flag-ms</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag-ms">
+            <rect id="red" fill="#CC0001" x="0" y="0" width="28" height="14"></rect>
+            <rect id="white" fill="#FFFFFF" x="0" y="13" width="28" height="1"></rect>
+            <g id="use3035" transform="translate(0.000000, 11.000000)" fill="#FFFFFF">
+                <rect id="white" x="0" y="0" width="28" height="1"></rect>
+            </g>
+            <g id="use3038" transform="translate(0.000000, 9.000000)" fill="#FFFFFF">
+                <rect id="white" x="0" y="0" width="28" height="1"></rect>
+            </g>
+            <g id="use3062" transform="translate(0.000000, 7.000000)" fill="#FFFFFF">
+                <rect id="white" x="0" y="0" width="28" height="1"></rect>
+            </g>
+            <g id="use3064" transform="translate(0.000000, 5.000000)" fill="#FFFFFF">
+                <rect id="white" x="0" y="0" width="28" height="1"></rect>
+            </g>
+            <g id="use3066" transform="translate(0.000000, 3.000000)" fill="#FFFFFF">
+                <rect id="white" x="0" y="0" width="28" height="1"></rect>
+            </g>
+            <g id="use3068" transform="translate(0.000000, 1.000000)" fill="#FFFFFF">
+                <rect id="white" x="0" y="0" width="28" height="1"></rect>
+            </g>
+            <rect id="blue" fill="#010066" x="0" y="0" width="14" height="8"></rect>
+            <path d="M5.76,1 C4.0985356,1 2.75,2.3440553 2.75,4 C2.75,5.6559446 4.0985356,6.9999999 5.76,7 C6.3602725,7 6.9195466,6.8243566 7.3892693,6.5221675 C7.1157383,6.6165623 6.822175,6.6681914 6.5165599,6.6681914 C5.043291,6.6681915 3.8475944,5.4764674 3.8475944,4.0080929 C3.8475944,2.5397184 5.0432908,1.3479944 6.5165599,1.3479944 C6.8421403,1.3479944 7.1540185,1.4061419 7.442578,1.5126671 C6.9621698,1.1890999 6.3830493,1 5.76,1 L5.76,1 Z" id="path4945" fill="#FFCC00"></path>
+            <polygon id="path4959" fill="#FFCC00" points="10.7516734 5.56173952 9.48377164 4.90021214 9.85865059 6.25409538 9.01061439 5.12156176 8.74604597 6.50000004 8.48583914 5.12077228 7.63422447 6.25074902 8.01338426 4.89800024 6.74339599 5.55570955 7.68682509 4.49736802 6.24999997 4.55254271 7.57084083 3.99822607 6.25175971 3.43993807 7.68840344 3.49943545 6.74832658 2.43826049 8.01622826 3.09978787 7.64134943 1.74590463 8.48938563 2.87843825 8.75395405 1.49999997 9.01416089 2.8792276 9.86577555 1.74925099 9.48661576 3.10199977 10.756604 2.44429046 9.81317494 3.50263187 11.2499999 3.4474573 9.9291592 4.00177394 11.2482403 4.56006194 9.81159658 4.50056456"></polygon>
+        </g>
+    </g>
+</svg>

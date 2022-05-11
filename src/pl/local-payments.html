@@ -1,0 +1,856 @@
+---
+permalink: "{{ locale }}/{{ page.fileSlug }}.html"
+---
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="../css/dropkick.css">
+  <link rel="stylesheet" href="../css/local_payments.css">
+  <link rel="stylesheet" href="../css/style.css?v=191613042022">
+  <title>ePayService - Lokalny przelew bankowy</title>
+</head>
+
+<body>
+
+
+  <div class="strut">
+
+    <div class="strut__row">
+
+      <header class="header">
+        <div class="header__top header__top_sticky">
+          <div class="region">
+            <div class="top">
+              <div class="top__main">
+                <div class="top__burger burger">
+                  <div class="burger__handler"></div>
+                  <div class="burger__body"></div>
+                </div>
+                <div class="top__logo">
+                  <a class="logo" href="index.html"></a>
+                </div>
+                <nav class="top__nav nav">
+                  <!--<a class="nav__link" href="-about.html">About Us</a>-->
+                  <a class="nav__link nav__link_more" href="#" data-inner="inner-nav"><span>Usługi</span></a>
+                  <div class="sub-menu">
+                    <a class="sub-menu__link" href="managing-account.html">Zarządzanie kontem</a>
+                    <a class="sub-menu__link" href="bank-transfers.html">Przelewy bankowe</a>
+                    <a class="sub-menu__link" href="prepaid-cards.html">Karty debetowe</a>
+                    <a class="sub-menu__link" href="affiliate-payouts.html">Wypłaty w programach afiliacyjnych</a>
+                    <a class="sub-menu__link" href="payout-service.html">Rozwiązania płacowe</a>
+                    <a class="sub-menu__link" href="virtual-cards.html">Karty wirtualne</a>
+                    <a class="sub-menu__link" href="local-payments.html">Lokalny przelew bankowy</a>
+                    <a class="sub-menu__link" href="send-money-to-card.html">Przelewy na karty</a>
+                    <a class="sub-menu__link" href="cash-remittance.html">Płatności gotówkowe</a>
+                  </div>
+                  <a class="nav__link" href="fees.html">Opłaty</a>
+                  <a class="nav__link" href="contact-us.html">Kontakt</a>
+                  <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
+                </nav>
+                <a class="top__profile" href="#"></a>
+                <div class="top__sign-in">
+                  <a class="button" href="https://online.epayservices.com/register">ZAŁÓŻ DARMOWE KONTO</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">LOGOWANIE</a>
+                </div>
+              </div>
+              <div class="top__actions">
+                <div class="top__buttons">
+                  <a class="button" href="https://online.epayservices.com/register">ZAŁÓŻ DARMOWE KONTO</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">LOGOWANIE</a>
+                </div>
+                <div class="top__language lang-select drop">
+                  <div class="lang-select__toggle drop__handler">
+                    <div class="lang-select__image">
+                      <img src="../images/flag-pl.svg" alt="">
+                    </div>
+                    <div class="lang-select__title">PL</div>
+                  </div>
+                  <div class="lang-select__list drop__down">
+                    <a class="lang-select__item" href="../en/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English (US)</div>
+                    </a>
+                    <a class="lang-select__item" href="../uk/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-uk.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English</div>
+                    </a>
+                    <a class="lang-select__item" href="../ru/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/ru.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Русский</div>
+                    </a>
+                    <a class="lang-select__item" href="../es/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-es.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español</div>
+                    </a>
+                    <a class="lang-select__item" href="../co/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-co.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español (Colombia)</div>
+                    </a>
+                    <a class="lang-select__item" href="../pt/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-pt.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Português</div>
+                    </a>
+                    <a class="lang-select__item" href="../ro/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ro.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Română</div>
+                    </a>
+                    <a class="lang-select__item" href="../ms/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ms.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Melayu</div>
+                    </a>
+                    <a class="lang-select__item" href="../vn/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-vn.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Tiếng Việt</div>
+                    </a>
+                    <a class="lang-select__item" href="../ar/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ar.png" alt="">
+                      </div>
+                      <div class="lang-select__title">عربى</div>
+                    </a>
+                    <a class="lang-select__item" href="../zh/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-zh.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">汉语</div>
+                    </a>
+                    <a class="lang-select__item" href="../de/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-de.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Deutsch</div>
+                    </a>
+                    <a class="lang-select__item" href="../fr/local-payments.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-fr.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Français</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="inner-nav" id="inner-nav">
+            <div class="region">
+              <div class="inner-nav__list">
+                <a class="inner-nav__item" href="managing-account.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_safe"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Zarządzanie kontem</div>
+                </a>
+                <a class="inner-nav__item" href="bank-transfers.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_house2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Przelewy bankowe</div>
+                </a>
+                <a class="inner-nav__item" href="prepaid-cards.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_cards2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Karty debetowe</div>
+                </a>
+                <a class="inner-nav__item" href="affiliate-payouts.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_crowd2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Wypłaty w programach afiliacyjnych</div>
+                </a>
+                <a class="inner-nav__item" href="payout-service.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hands2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Rozwiązania płacowe</div>
+                </a>
+                <a class="inner-nav__item" href="virtual-cards.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_virtual-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Karty wirtualne</div>
+                </a>
+                <a class="inner-nav__item" href="local-payments.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_local-pay"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Lokalny przelew bankowy</div>
+                </a>
+                <a class="inner-nav__item" href="send-money-to-card.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_save-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Przelewy na karty</div>
+                </a>
+                <a class="inner-nav__item" href="cash-remittance.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hand-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Płatności gotówkowe</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+    </div>
+
+    <div class="strut__row strut__row_expanded">
+      <main class="body body_long ">
+
+        <div class="special-solution special-solution_dark"
+          style="background-image: url(.././images/local-payments-bg.jpg)">
+          <div class="region">
+            <h1 class="special-solution__title title">Przelewy bankowe w walutach lokalnych</h1>
+            <div class="special-solution__text special-solution__text_wide">
+              <ul class="special-solution__list">
+                <li class="special-solution__item">
+                  <div class="special-solution__icon icon icon_clock-white"></div>
+                  <div class="special-solution__info">
+                    <div class="special-solution_sub-title title title_small title_light">Oszczędność czasu</div>
+                    <div class="special-solution__note text text-dark_light">Przelewy mogą dotrzeć na konto bankowe
+                      beneficjenta nawet w ciągu godziny</div>
+                  </div>
+                </li>
+                <li class="special-solution__item">
+                  <div class="special-solution__icon icon icon_currency-white"></div>
+                  <div class="special-solution__info">
+                    <div class="special-solution_sub-title title title_small title_light">Bez ukrytych opłat</div>
+                    <div class="special-solution__note text text-dark_light">Bez udziału banków pośredniczących</div>
+                  </div>
+                </li>
+                <li class="special-solution__item">
+                  <div class="special-solution__icon icon icon_earth-white"></div>
+                  <div class="special-solution__info">
+                    <div class="special-solution_sub-title title title_small title_light">Przelewy globalne </div>
+                    <div class="special-solution__note text text-dark_light"> Tanie przelewy do 25 krajów</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="special-solution__form">
+              <form class="payment-form" id="local-payments-form" data-type="bank_deposit">
+                <div class="payment-form__inner">
+                  <div class="payment-form__title title title_medium">Lokaty bankowe</div>
+                  <div class="payment-form__row">
+                    <div class="payment-form__label text">Wysłać do</div>
+                    <select class="payment-form__select stylized-select" id="local-payments-country">
+                      <option value="">Select country...</option>
+                    </select>
+                    <div class="payment-form__field">
+                      <input class="payment-form__area" type="number" id="local-payments-amount" disabled>
+                      <div class="payment-form__select payment-form__select_narrow ">
+                        <div class="payment-form__handler payment-form__handler_blank"
+                          id="local-payments-send-currency">USD</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="payment-form__row">
+                    <div class="payment-form__label text">Otrzymać</div>
+                    <div class="payment-form__field">
+                      <input class="payment-form__area" type="text" id="local-payments-receive" disabled>
+                      <div class="payment-form__select payment-form__select_narrow">
+                        <div class="payment-form__handler payment-form__handler_blank"
+                          id="local-payments-receive-currency">RUB</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="payment-form__row payment-form__info">
+                    <div class="payment-form__text text">Opłata <span class="text-dark" id="local-payments-fee"></span>
+                    </div>
+                    <div class="payment-form__text text">Oceniać <span class="text-dark"
+                        id="local-payments-rate"></span></div>
+                  </div>
+                </div>
+                <button class="payment-form__row button button_big" type="submit">Spróbuj teraz</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="region">
+          <div class="row row-eq-height">
+            <div class="col-md-9 col-xs-12 full-width">
+              <div class="body__content body__content_small">
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">Nowy sposób na szybsze płace</h2>
+                  <div class="solutions__text text-dark">Przelewy lokalne ePayService pomogą ci w rozwoju twojej firmy.
+                    Obsługujemy przelewy na rzecz osób fizycznych i prawnych w 25 krajach przy zachowaniu rozsądnych
+                    opłat. Zapomnij o nieoczekiwanych opóźnieniach i opłatach nakładanych przez banki pośredniczące.
+                    Doskonale rozumiemy Twoje potrzeby i cenimy Twój czas.</div>
+                  <div class="solutions__image">
+                    <img src="../images/solution-img9.svg" alt="">
+                  </div>
+
+                </div>
+                <div class="solutions__block">
+                  <div class="solutions__top">
+                    <div class="solutions__wrapper">
+                      <h2 class="solutions__title title">Globalna Sieć Autoryzowana</h2>
+                      <div class="solutions__text text-dark">Nasza rozbudowana, globalna sieć partnerska umożliwia
+                        wykonywanie szybkich przelewów w walutach lokalnych.</div>
+                    </div>
+                  </div>
+                  <div class="solutions__map" id="local-payments-map"></div>
+                </div>
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">Korzyści dla biznesu i osobistego użytku</h2>
+                  <ul class="solutions__list">
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_easy-pay"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">Łatwość obsługi</div>
+                        <div class="solutions__note text">Przyjazny interfejs użytkownika pozostaje zawsze do Twojej
+                          dyspozycji w sieci za pośrednictwem telefonu komórkowego.</div>
+                      </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_laptop-message"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">Wysokie standardy obsługi klienta</div>
+                        <div class="solutions__note text">Jesteśmy zawsze do Twojej dyspozycji. Obsługa dostępna jest w
+                          językach angielskim, hiszpańskim i rosyjskim</div>
+                      </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_safe-money"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">Bezpieczny i godny zaufania serwis</div>
+                        <div class="solutions__note text">Certyfikat PCI DDS i maksymalny poziom ochrony cybernetycznej
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="solutions__list">
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_fast"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">Maksymalna szybkość</div>
+                        <div class="solutions__note text">Realizacja przelewów trwa tyle, co w przypadku przelewów
+                          lokalnych</div>
+                      </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_check-earth"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">Pełna przejrzystość</div>
+                        <div class="solutions__note text">Możesz monitorować stan Twojego przelewu przez cały czas</div>
+                      </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_money"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">Znaczne korzyści</div>
+                        <div class="solutions__note text">Rozsądne opłaty i najlepszy kursy wymiany</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">Cennik i opłaty</h2>
+                </div>
+                <div class="checks__tabs tabs">
+                  <div class="tabs__head using__switch">
+                    <button class="tabs__tag tabs__tag_current using__tab" type="button">Lokalny przelew
+                      bankowy</button>
+                    <!-- <button class="tabs__tag using__tab" type="button">Cash Pickup</button>-->
+                  </div>
+                  <div class="tabs__body">
+                    <div class="tabs__section tabs__section_visible">
+                      <ul class="checks__info">
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Argentina</div>
+                              <div class="text-dark text-dark_small">Argentine Peso (ARS)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Brazil</div>
+                              <div class="text-dark text-dark_small">Brazilian Real (BRL)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Bulgaria</div>
+                              <div class="text-dark text-dark_small">Bulgarian Lev (BGN)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Canada</div>
+                              <div class="text-dark text-dark_small">Canadian Dollar (CAD)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Colombia</div>
+                              <div class="text-dark text-dark_small">Colombian Peso (COP)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Dominican Republic</div>
+                              <div class="text-dark text-dark_small">Dominican Peso (DOP)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Egypt</div>
+                              <div class="text-dark text-dark_small">Egyptian Pound (EGP)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Guatemala</div>
+                              <div class="text-dark text-dark_small">Guatemalan Quetzal (GTQ)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">India</div>
+                              <div class="text-dark text-dark_small">Indian Rupee (INR)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Indonesia</div>
+                              <div class="text-dark text-dark_small">Indonesian Rupiah (IDR)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Jamaica</div>
+                              <div class="text-dark text-dark_small">Jamaican Dollar (JMD)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Japan</div>
+                              <div class="text-dark text-dark_small">Japanese Yen (JPY)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Kenya</div>
+                              <div class="text-dark text-dark_small">Kenyan Shilling (KES)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Malaysia</div>
+                              <div class="text-dark text-dark_small">Malaysian Ringgit (MYR)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Mexico</div>
+                              <div class="text-dark text-dark_small">Mexican Peso (MXN)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Philippines</div>
+                              <div class="text-dark text-dark_small">Philippine Peso (PHP)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Poland</div>
+                              <div class="text-dark text-dark_small">Polish Zloty (PLN)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Romania</div>
+                              <div class="text-dark text-dark_small">Romanian New Leu (RON)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Russian Federation</div>
+                              <div class="text-dark text-dark_small">Russian Ruble (RUB)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Sri Lanka</div>
+                              <div class="text-dark text-dark_small">Sri Lankan Rupee (LKR)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Thailand</div>
+                              <div class="text-dark text-dark_small">Thai Baht (THB)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">United Kingdom</div>
+                              <div class="text-dark text-dark_small">British Pound (GBP)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Venezuela</div>
+                              <div class="text-dark text-dark_small">Venezuelan Bolivar (VEF)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$20</div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="title title_medium">Viet Nam</div>
+                              <div class="text-dark text-dark_small">Vietnamese Dong (VND)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$40</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <div class="title title_medium">China</div>
+                              <div class="text-dark text-dark_small">Chinese Yuan Renminbi (CNY)</div>
+                            </div>
+                            <div class="col-xs-2">
+                              <div class="title title_medium">$40</div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+
+                    </div>
+                    <!--<div class="tabs__section">
+                                            <ul class="checks__info">
+                                                <li class="checks__row">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="title title_medium">EUR only</div>
+                                                <div class="text-dark text-dark_small">Inbound payments to your wallet with ePayService</div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="title title_medium">1%, min €25</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="checks__row">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="title title_medium">EUR only</div>
+                                                <div class="text-dark text-dark_small">Outbound to your personal bank account</div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="title title_medium">€30</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="checks__row">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="title title_medium">EUR only</div>
+                                                <div class="text-dark text-dark_small">Outbound to the corporate bank account</div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="title title_medium">0.5% + €40 </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                            </ul>
+
+                                        </div>-->
+                  </div>
+                </div>
+
+                <div class="using">
+                  <h2 class="using__title title">Zacznij oszczędzać czas ePayService</h2>
+                  <div class="using__note text">3 szybkie kroki wysyłania lokalnych transferów</div>
+                  <ul class="using__list">
+                    <li class="using__item">
+                      <div class="using__icon">
+                        <div class="icon icon_man"></div>
+                      </div>
+                      <div class="using__number"><span>1</span></div>
+                      <div class="using__text">Zarejestruj się. Konto osobiste lub firmowe - łatwo i szybko</div>
+                    </li>
+                    <li class="using__item">
+                      <div class="using__icon">
+                        <div class="icon icon_profile-check"></div>
+                      </div>
+                      <div class="using__number"><span>2</span></div>
+                      <div class="using__text">Uzupełnij swoje konto. Przyjmujemy międzynarodowe przelewy bankowe i
+                        e-walutę</div>
+                    </li>
+                    <li class="using__item">
+                      <div class="using__icon">
+                        <div class="icon icon_hands"></div>
+                      </div>
+                      <div class="using__number"><span>3</span></div>
+                      <div class="using__text">Wykonaj przelew. W większości krajów, przelewy dotrą na konto odbiorcy
+                        tego samego dnia</div>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+
+
+            <div class="col-md-3 hidden-sm">
+              <div class="sticky-column-long">
+                <div class="body__action steps service">
+                  <div class="service__title title title_medium">Usługi</div>
+                  <div class="service__list">
+                    <a class="service__item" href="managing-account.html">Zarządzanie kontem</a>
+                    <a class="service__item" href="bank-transfers.html">Przelewy bankowe</a>
+                    <a class="service__item" href="prepaid-cards.html">Karty debetowe</a>
+                    <a class="service__item" href="payout-service.html">Rozwiązania płacowe</a>
+                    <a class="service__item" href="affiliate-payouts.html">Wypłaty w programach afiliacyjnych</a>
+                    <a class="service__item" href="virtual-cards.html">Karty wirtualne</a>
+                    <a class="service__item service__item_active" href="local-payments.html">Lokalny przelew bankowy</a>
+                    <a class="service__item" href="send-money-to-card.html">Przelewy na karty</a>
+                    <a class="service__item" href="cash-remittance.html">Płatności gotówkowe</a>
+                  </div>
+                  <div class="steps__wrapper">
+                    <div class="steps__title title title_medium">Korzystaj z innowacyjnej technologii finansowej
+                      dostarczanej przez ePayService!</div>
+                    <div class="steps__button">
+                      <a class="button button_big" href="https://online.epayservices.com/register">Załóż konto w 2
+                        minuty</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+
+    <div class="strut__row">
+      <footer class="footer">
+        <div class="region">
+          <div class="footer__rows">
+            <div class="row row-eq-height">
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Informacje</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="contact-us.html">Kontakt</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://online.epayservices.com/">Logowanie</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="affiliate-program.html">Program partnerski</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../en/developers.html">Developers</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://blog.epayservices.com/">Aktualności</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Usługi</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="managing-account.html">Zarządzanie kontem</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="bank-transfers.html">Przelewy bankowe</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="prepaid-cards.html">Karty debetowe</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="payout-service.html">Rozwiązania płacowe</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="affiliate-payouts.html">Wypłaty w programach afiliacyjnych</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="virtual-cards.html">Karty wirtualne</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="local-payments.html">Lokalny przelew bankowy</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="send-money-to-card.html">Przelewy na karty</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="cash-remittance.html">Płatności gotówkowe</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Zasady</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="user-agreement.pdf">Umowa z użytkownikiem</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../privacy-notice.pdf">Privacy Notice</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Dołącz do nas</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://twitter.com/epayservices">Twitter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="footer__copyright">© Copyright MTACC Inc. DBA ePayService 2007–<span></span>, <br>wszelkie prawa
+              zastrzeżone.</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+
+
+  <div class="up-arrow"></div>
+
+  <script src="../js/jquery-2.2.0.min.js"></script>
+  <script src="../js/jquery.placeholder.js"></script>
+  <script src="../js/slick.min.js"></script>
+  <script src="../js/sticky-kit.js"></script>
+  <script src="../js/dropkick.min.js"></script>
+
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <script src="../js/local_payments.js"></script>
+  <script src="../js/local_payments_map.js"></script>
+  <script src="../js/app.b6f525f1.js"></script>
+
+  <script>
+    window.intercomSettings = {
+      app_id: "wz9x11as"
+    };
+  </script>
+  <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
+    (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/wz9x11as'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+  </script>
+  <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
+</body>
+
+</html>

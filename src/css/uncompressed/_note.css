@@ -1,0 +1,47 @@
+.note {
+    position: relative;
+}
+
+.note__title {
+    padding-right: 30px;
+}
+
+.note__title span {
+    color: #E44F61;
+}
+
+.note__text {
+    margin-top: 5px;
+}
+
+.note__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 21px;
+    height: 21px;
+    background-color: #e5f8fb;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.note__icon:before,
+.note__icon:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 1px;
+    height: 11px;
+    background-color: #00B4D5;
+}
+
+.note__icon:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.note__icon:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}

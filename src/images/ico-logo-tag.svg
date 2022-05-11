@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="84px" height="67px" viewBox="0 0 84 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="75 0 9 0 0 12 42 67 84 12"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="84" height="67" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="epay-web-services-busines-solutions" transform="translate(-398.000000, -410.000000)">
+            <g id="Group-8" transform="translate(398.000000, 410.000000)">
+                <use id="Stroke-2" stroke="#374D6B" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <g id="Group-5" transform="translate(32.000000, 10.000000)">
+                    <path d="M20,20 C20,23.7995228 18.2603699,27 14.2857143,27 L6.66666667,27 C2.21604612,27 0,23.948545 0,20 L0,11 C0,6.81942039 2.21604612,4 6.66666667,4 L13.3333333,4 C17.7935644,4 20,7.00944872 20,11" id="Stroke-4" stroke="#00B2D4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle-591" fill="#00B4D5" x="9" y="0" width="2" height="5"></rect>
+                    <rect id="Rectangle-591" fill="#00B4D5" x="9" y="27" width="2" height="5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

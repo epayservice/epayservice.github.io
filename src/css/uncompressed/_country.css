@@ -1,0 +1,27 @@
+.country {
+    margin-top: 30px;
+}
+
+.country__list {
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.country__item {
+    position: relative;
+    padding-left: 20px;
+}
+
+.country__item:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 8px;
+    height: 10px;
+    border-top: 1px solid #00B4D3;
+    border-left: 1px solid #00B4D3;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}

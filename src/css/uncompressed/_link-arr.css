@@ -1,0 +1,27 @@
+.link-arr {
+    display:inline-block;
+    vertical-align:top;
+    font-size:14px;
+    line-height:16px;
+    font-weight:400;
+    color:#00B4D5;
+    padding-right:10px;
+    position:relative
+}
+
+.link-arr:after {
+    content:'';
+    position:absolute;
+    top:6px;
+    right:0;
+    width:5px;
+    height:5px;
+    border-top:1px solid #00B4D5;
+    border-left:1px solid #00B4D5;
+    -webkit-transform:rotate(135deg);
+    transform:rotate(135deg)
+}
+
+.link-arr:hover:after {
+    border-color: #374D6B;
+}

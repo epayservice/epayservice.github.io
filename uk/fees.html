@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -235,7 +236,7 @@
 
             <div class="sticky-column">
               <div class="body__tabs switch">
-                <div class="switch__item switch__item_active" id="payments">Payments</div>
+                <div class="switch__item switch__item_active" id="payments" style="display: none">Payments</div>
                 <div class="switch__item" id="cards" style="display:none;">Cards</div>
               </div>
               <aside class="body__nav side-nav js-first-tab hidden-xs">
@@ -246,7 +247,7 @@
                     </div>
                     <div class="ico-nav__info">
                       <div class="ico-nav__title text-dark text-dark_small">Money Transfers United States</div>
-                      <div class="ico-nav__text text">ACH & DirectDeposit</div>
+                      <div class="ico-nav__text text">ACH &amp; DirectDeposit, Domestic Wire</div>
                     </div>
                   </a>
                   <a class="side-nav__item ico-nav swap-item js-scroll" href="#personal-us-account">
@@ -393,49 +394,105 @@
           </div>
           <div class="col-md-6 col-xs-8 full-width">
             <div class="body__content exchange js-first-tab">
-              <div class="exchange__item" id="ach-directdeposit">
-                <h1 class="exchange__title title">Money Transfer US (ACH & DirectDeposit)</h1>
-                <div class="exchange__link">
-                  <a class="link-arr" href="bank-transfers.html">More about ACH & DirectDeposit</a>
-                </div>
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="text">Direction</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text">Fee</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction text-dark text-dark_big"><span>Deposit</span></div>
-                      <div class="text">To your wallet with ePayService</div>
-                    </div>
-                    <div class="col-sm-6 col-xs-8">
-                      <div class="text-dark text-dark_big">2% + 20&nbsp;USD</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
-                        <span>Withdraw</span></div>
-                      <div class="text">To a personal or company account with a us bank</div>
-                    </div>
-                    <div class="col-sm-6 col-xs-8">
-                      <div class="text-dark text-dark_big">0.5% + 25&nbsp;USD</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
+
+
+<div class="exchange__item" id="ach-directdeposit">
+  <h1 class="exchange__title title">
+    Money Transfer US (ACH &amp; DirectDeposit, Domestic Wire)
+  </h1>
+
+  <div class="exchange__link">
+    <a class="link-arr" href="bank-transfers.html">
+      More about ACH &amp; DirectDeposit
+    </a>
+  </div>
+
+  <div class="exchange__row">
+    <div class="exchange__numbers row row-eq-height">
+      <div class="col-sm-6 col-xs-4">
+        <div class="text">
+          Direction
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-xs-4">
+        <div class="text">
+          Fee
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-xs-4">
+        <div class="text"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="exchange__row">
+    <div class="exchange__numbers row row-eq-height">
+      <div class="col-sm-6 col-xs-4">
+        <div class="exchange__direction  text-dark text-dark_big">
+          <span>Deposit ACH/DirectDeposit</span>
+        </div>
+
+      </div>
+
+      <div class="col-sm-6 col-xs-8">
+        <div class="text-dark text-dark_big">
+          2% + 20&nbsp;USD
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="exchange__row">
+    <div class="exchange__numbers row row-eq-height">
+      <div class="col-sm-6 col-xs-4">
+        <div class="exchange__direction  text-dark text-dark_big">
+          <span>Deposit Domestic Wire</span>
+        </div>
+
+      </div>
+
+      <div class="col-sm-6 col-xs-8">
+        <div class="text-dark text-dark_big">
+          0.8% + 30&nbsp;USD
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="exchange__row">
+    <div class="exchange__numbers row row-eq-height">
+      <div class="col-sm-6 col-xs-4">
+        <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
+          <span>Withdraw ACH/DirectDeposit</span>
+        </div>
+
+      </div>
+
+      <div class="col-sm-6 col-xs-8">
+        <div class="text-dark text-dark_big">
+          0.5% + 25&nbsp;USD
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="exchange__row">
+    <div class="exchange__numbers row row-eq-height">
+      <div class="col-sm-6 col-xs-4">
+        <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
+          <span>Withdraw Domestic Wire</span>
+        </div>
+
+      </div>
+
+      <div class="col-sm-6 col-xs-8">
+        <div class="text-dark text-dark_big">
+          To be specified
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
               <div class="exchange__item" id="personal-us-account">
                 <h1 class="exchange__title title">Personal US Account for ACH & Domestic Wire</h1>
                 <div class="exchange__link">

@@ -1,0 +1,503 @@
+---
+permalink: "{{ locale }}/{{ page.fileSlug }}.html"
+---
+
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="../css/dropkick.css">
+  <link rel="stylesheet" href="../css/local_payments.css">
+  <link rel="stylesheet" href="../css/style.css?v=191613042022">
+  <title>ePayService - IBAN personal</title>
+</head>
+
+<body>
+
+
+  <div class="strut">
+
+    <div class="strut__row">
+
+      <header class="header">
+        <div class="header__top header__top_sticky">
+          <div class="region">
+            <div class="top">
+              <div class="top__main">
+                <div class="top__burger burger">
+                  <div class="burger__handler"></div>
+                  <div class="burger__body"></div>
+                </div>
+                <div class="top__logo">
+                  <a class="logo" href="index.html"></a>
+                </div>
+                <nav class="top__nav nav">
+                  <!--<a class="nav__link" href="-about.html">About Us</a>-->
+                  <a class="nav__link nav__link_more" href="#" data-inner="inner-nav"><span>Servicii</span></a>
+                  <div class="sub-menu">
+                    <a class="sub-menu__link" href="managing-account.html">Administrare cont</a>
+                    <a class="sub-menu__link" href="bank-transfers.html">Transferuri bancare</a>
+                    <a class="sub-menu__link" href="personal-iban.html">IBAN personal</a>
+                    <a class="sub-menu__link" href="personal-us-account.html">Cont personal SUA</a>
+                    <a class="sub-menu__link" href="prepaid-cards.html">Carduri de debit</a>
+                    <a class="sub-menu__link" href="affiliate-payouts.html">Plăți afiliați</a>
+                    <a class="sub-menu__link" href="payout-service.html">Soluții salarizare</a>
+                    <a class="sub-menu__link" href="virtual-cards.html">Carduri virtuale</a>
+                    <a class="sub-menu__link" href="local-payments.html">Transfer bancar local</a>
+                    <a class="sub-menu__link" href="send-money-to-card.html">Transferuri pe carduri</a>
+                    <a class="sub-menu__link" href="cash-remittance.html">Plăţi în numerar</a>
+                  </div>
+                  <a class="nav__link" href="fees.html">Comisioane</a>
+                  <a class="nav__link" href="contact-us.html">Contactați-ne</a>
+                  <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
+                </nav>
+                <a class="top__profile" href="#"></a>
+                <div class="top__sign-in">
+                  <a class="button" href="https://online.epayservices.com/register">DESCHIDEȚI CONT GRATUIT</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">AUTENTIFICARE</a>
+                </div>
+              </div>
+              <div class="top__actions">
+                <div class="top__buttons">
+                  <a class="button" href="https://online.epayservices.com/register">DESCHIDEȚI CONT GRATUIT</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">AUTENTIFICARE</a>
+                </div>
+                <div class="top__language lang-select drop">
+                  <div class="lang-select__toggle drop__handler">
+                    <div class="lang-select__image">
+                      <img src="../images/flag-ro.svg" alt="">
+                    </div>
+                    <div class="lang-select__title">RO</div>
+                  </div>
+                  <div class="lang-select__list drop__down">
+                    <a class="lang-select__item" href="../en/personal-iban.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English</div>
+                    </a>
+                    <a class="lang-select__item" href="../uk/personal-iban.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-uk.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English</div>
+                    </a>
+                    <a class="lang-select__item" href="../ru/personal-iban.html">
+                      <div class="lang-select__image">
+                        <img src="../images/ru.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Русский</div>
+                    </a>
+                    <a class="lang-select__item" href="../es/personal-iban.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-es.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español</div>
+                    </a>
+                    <a class="lang-select__item" href="../co/personal-iban.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-co.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español (Colombia)</div>
+                    </a>
+                    <a class="lang-select__item" href="../pt/personal-iban.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-pt.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Português</div>
+                    </a>
+                    <!--                                        <a class="lang-select__item" href="../ms/personal-iban.html">-->
+                    <!--                                            <div class="lang-select__image">-->
+                    <!--                                                <img src="../images/flag-ms.svg" alt="">-->
+                    <!--                                            </div>-->
+                    <!--                                            <div class="lang-select__title">Melayu</div>-->
+                    <!--                                        </a>-->
+                    <!--                                        <a class="lang-select__item" href="../vn/personal-iban.html">-->
+                    <!--                                            <div class="lang-select__image">-->
+                    <!--                                                <img src="../images/flag-vn.svg" alt="">-->
+                    <!--                                            </div>-->
+                    <!--                                            <div class="lang-select__title">Tiếng Việt</div>-->
+                    <!--                                        </a>-->
+                    <!--                                        <a class="lang-select__item" href="../ar/personal-iban.html">-->
+                    <!--                                            <div class="lang-select__image">-->
+                    <!--                                                <img src="../images/flag-ar.png" alt="">-->
+                    <!--                                            </div>-->
+                    <!--                                            <div class="lang-select__title">عربى</div>-->
+                    <!--                                        </a>-->
+                    <!--                                        <a class="lang-select__item" href="../pl/personal-iban.html">-->
+                    <!--                                            <div class="lang-select__image">-->
+                    <!--                                                <img src="../images/flag-pl.svg" alt="">-->
+                    <!--                                            </div>-->
+                    <!--                                            <div class="lang-select__title">Język polski</div>-->
+                    <!--                                        </a>-->
+                    <!--                                        <a class="lang-select__item" href="../zh/personal-iban.html">-->
+                    <!--                                            <div class="lang-select__image">-->
+                    <!--                                                <img src="../images/flag-zh.svg" alt="">-->
+                    <!--                                            </div>-->
+                    <!--                                            <div class="lang-select__title">汉语</div>-->
+                    <!--                                        </a>-->
+                    <a class="lang-select__item" href="../de/personal-iban.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-de.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Deutsch</div>
+                    </a>
+                    <a class="lang-select__item" href="../fr/personal-iban.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-fr.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Français</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="inner-nav" id="inner-nav">
+            <div class="region">
+              <div class="inner-nav__list">
+                <a class="inner-nav__item" href="managing-account.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_safe"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Administrare cont</div>
+                </a>
+                <a class="inner-nav__item" href="bank-transfers.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_house2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Transferuri bancare</div>
+                </a>
+                <a class="inner-nav__item" href="personal-iban.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_stars-big2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">IBAN personal</div>
+                </a>
+                <a class="inner-nav__item" href="personal-us-account.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_money-rotate2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Cont personal SUA</div>
+                </a>
+                <a class="inner-nav__item" href="prepaid-cards.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_cards2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Carduri de debit</div>
+                </a>
+                <a class="inner-nav__item" href="affiliate-payouts.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_crowd2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Plăți afiliați</div>
+                </a>
+                <a class="inner-nav__item" href="payout-service.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hands2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Soluții salarizare</div>
+                </a>
+                <a class="inner-nav__item" href="virtual-cards.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_virtual-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Carduri virtuale</div>
+                </a>
+                <a class="inner-nav__item" href="local-payments.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_local-pay"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Transfer bancar local</div>
+                </a>
+                <a class="inner-nav__item" href="send-money-to-card.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_save-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Transferuri pe carduri</div>
+                </a>
+                <a class="inner-nav__item" href="cash-remittance.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hand-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Plăţi în numerar</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+    </div>
+
+    <div class="strut__row strut__row_expanded">
+      <main class="body body_long">
+
+        <div class="special-solution special-solution_dark"
+          style="background-image: url(.././images/slider-img15.jpg?v=1)">
+          <div class="region">
+            <h1 class="special-solution__title title">Conturi bancare europene pentru toată lumea!</h1>
+          </div>
+        </div>
+
+        <div class="region">
+          <div class="row row-eq-height">
+            <div class="col-md-9 col-xs-12 full-width">
+              <div class="body__content body__content_small">
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">IBAN personal pentru transferuri SEPA</h2>
+                  <div class="solutions__text text-dark">IBAN - numărul de cont în format internațional pentru primirea
+                    și trimiterea plăților în EUR între 36 de țări membre ale Zonei Unice de Plăți în Euro (SEPA). Cu
+                    această nouă opțiune ePayService obțineți o soluție completă de plată intra-Eurozone pentru dvs.
+                  </div>
+                  <ul class="solutions__list">
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_staff"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text text-dark">IBAN pentru tine sau firma ta</div>
+                      </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_pay-per-click"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text text-dark">Taxă de servicii redusă pentru transferurile SEPA
+                        </div>
+                      </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_anytime"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text text-dark">Transferurile SEPA sunt de obicei creditate în
+                          termen de 1 zi lucrătoare</div>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="solutions__quote title title_medium">OFERTA SPECIALĂ: Până la data de 29.12.2022
+                    trimiterea și primirea transferurilor SEPA prin IBAN este gratuită pentru clienții ePayService.*
+                    <br><span class="text-dark">(* - această ofertă nu se aplică tuturor clienților. Contactați echipa
+                      de asistență pentru a verifica taxa de serviciu pentru SEPA)</span>
+                  </div>
+                </div>
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">Beneficiile personale IBAN sunt:</h2>
+                  <div class="solutions__steps">
+                    <div class="row">
+                      <div class="col-sm-7">
+                        <div class="solutions__sub-title title title_medium">Expeditorul și receptorul sunteti dvs. sau
+                          compania dvs</div>
+                        <div class="solutions__text text-dark">Doar câteva detalii sunt necesare pentru a crea o plată
+                          SEPA: plătitorul trebuie să cunoască doar IBAN-ul și BIC-ul serviciului nostru</div>
+                        <div class="solutions__sub-title title title_medium">Timp scurt pentru a primi SEPA. Fără bănci
+                          corespondente</div>
+                        <div class="solutions__text text-dark">Transferurile SEPA se efectuează fără bănci corespondente
+                          sau alți intermediari, ceea ce asigură că plata va sosi rapid, fără costuri suplimentare.
+                        </div>
+                        <div class="solutions__sub-title title title_medium">Un număr de conturi IBAN</div>
+                        <div class="solutions__text text-dark">Puteți obține mai multe IBAN-uri într-un singur cont,
+                          pentru nevoile personale și de afaceri.</div>
+                      </div>
+                      <div class="col-sm-5">
+                        <div class="solutions__image">
+                          <img src="../images/iban-img.svg?v=1" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="using">
+                  <h2 class="using__title title">Economisiți timp cu ePayService!</h2>
+                  <div class="using__note text">Obțineți IBAN-ul în 3 pași simpli</div>
+                  <ul class="using__list">
+                    <li class="using__item">
+                      <div class="using__icon">
+                        <div class="icon icon_man"></div>
+                      </div>
+                      <div class="using__number"><span>1</span></div>
+                      <div class="using__text">Înscrieți-vă: deschideți rapid și ușor un cont personal sau de afaceri
+                      </div>
+                    </li>
+                    <li class="using__item">
+                      <div class="using__icon">
+                        <div class="icon icon_profile-check"></div>
+                      </div>
+                      <div class="using__number"><span>2</span></div>
+                      <div class="using__text">Obțineți detaliile pentru transferurile SEPA</div>
+                    </li>
+                    <li class="using__item">
+                      <div class="using__icon">
+                        <div class="icon icon_hands"></div>
+                      </div>
+                      <div class="using__number"><span>3</span></div>
+                      <div class="using__text">Faceți un transfer. În majoritatea țărilor SEPA, fondurile sunt aplicate
+                        în aceeași zi</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 hidden-sm">
+              <div class="sticky-column-long">
+                <div class="body__action steps service">
+                  <div class="service__title title title_medium">Servicii</div>
+                  <div class="service__list">
+                    <a class="service__item" href="managing-account.html">Administrare cont</a>
+                    <a class="service__item" href="bank-transfers.html">Transferuri bancare</a>
+                    <a class="service__item service__item_active" href="personal-iban.html">IBAN personal</a>
+                    <a class="service__item" href="personal-us-account.html">Cont personal SUA</a>
+                    <a class="service__item" href="prepaid-cards.html">Carduri de debit</a>
+                    <a class="service__item" href="payout-service.html">Soluții salarizare</a>
+                    <a class="service__item" href="affiliate-payouts.html">Plăți afiliați</a>
+                    <a class="service__item" href="virtual-cards.html">Carduri virtuale</a>
+                    <a class="service__item" href="local-payments.html">Transfer bancar local</a>
+                    <a class="service__item" href="send-money-to-card.html">Transferuri pe carduri</a>
+                    <a class="service__item" href="cash-remittance.html">Plăţi în numerar</a>
+                  </div>
+                  <div class="steps__wrapper">
+                    <div class="steps__title title title_medium">Bucurați-vă de tehnologia financiară inovatoare oferită
+                      de ePayService!</div>
+                    <div class="steps__button">
+                      <a class="button button_big" href="https://online.epayservices.com/register">Deschideți un cont în
+                        2 minute</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </main>
+    </div>
+
+    <div class="strut__row">
+      <footer class="footer">
+        <div class="region">
+          <div class="footer__rows">
+            <div class="row row-eq-height">
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Informații</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="contact-us.html">Contactați-ne</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://online.epayservices.com/">Autentificare</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="affiliate-program.html">Programul de afiliere</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../en/developers.html">Developers</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://blog.epayservices.com/">Știri</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Servicii</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="managing-account.html">Administrare cont</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="bank-transfers.html">Transferuri bancare</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="personal-iban.html">IBAN personal</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="personal-us-account.html">Cont personal SUA</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="prepaid-cards.html">Carduri de debit</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="payout-service.html">Soluții salarizare</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="affiliate-payouts.html">Plăți afiliați</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="virtual-cards.html">Carduri virtuale</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="local-payments.html">Transfer bancar local</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="send-money-to-card.html">Transferuri pe carduri</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="cash-remittance.html">Plăţi în numerar</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Termeni</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="user-agreement.pdf">Termeni și condiții utilizatori</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../privacy-notice.pdf">Privacy Notice</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-xs-6 footer__col">
+                <div class="footer__title title title_small title_light">Rețele sociale</div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="https://twitter.com/epayservices">Twitter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="footer__copyright">© Copyright ePayService 2007–<span></span>, <br>Toate drepturile rezervate.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+
+
+  <div class="up-arrow"></div>
+
+  <script src="../js/jquery-2.2.0.min.js"></script>
+  <script src="../js/jquery.placeholder.js"></script>
+  <script src="../js/slick.min.js"></script>
+  <script src="../js/sticky-kit.js"></script>
+  <script src="../js/dropkick.min.js"></script>
+  <script src="../js/app.b6f525f1.js"></script>
+
+  <script>
+    window.intercomSettings = {
+      app_id: "wz9x11as"
+    };
+  </script>
+  <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
+    (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/wz9x11as'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+  </script>
+  <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
+</body>
+
+</html>

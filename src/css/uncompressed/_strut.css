@@ -1,0 +1,14 @@
+.strut {
+    width: 100%;
+    height: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.strut__row {
+    display: table-row;
+}
+
+.strut__row_expanded {
+    height: 100%;
+}

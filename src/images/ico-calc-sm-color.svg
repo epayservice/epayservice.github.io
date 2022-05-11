@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21">
+  <g fill="#00B4D5" fill-rule="evenodd">
+    <path fill-rule="nonzero" d="M3 6L17 6 17 3 3 3 3 6zM2 2L18 2 18 7 2 7 2 2zM3 18L17 18 17 9 3 9 3 18zM2 8L18 8 18 19 2 19 2 8z"/>
+    <rect width="2" height="1" x="6" y="4"/>
+    <rect width="2" height="1" x="6" y="11"/>
+    <rect width="2" height="1" x="6" y="13"/>
+    <rect width="2" height="1" x="6" y="15"/>
+    <rect width="2" height="1" x="9" y="15"/>
+    <rect width="2" height="1" x="9" y="13"/>
+    <rect width="2" height="1" x="9" y="11"/>
+    <rect width="2" height="1" x="12" y="15"/>
+    <rect width="2" height="1" x="12" y="13"/>
+    <rect width="2" height="1" x="12" y="11"/>
+    <rect width="5" height="1" x="9" y="4"/>
+    <path fill-rule="nonzero" d="M1,20 L19.0081969,20 C19.0027058,20.0002225 18.9999735,13.6668892 19,1 L0.99180311,1 C0.997294212,0.99977748 1.00002651,7.33311081 1,20 Z M0,0.998746091 C0,0.447153856 0.455305576,0 0.99180311,0 L19.0081969,0 C19.5559546,0 20,0.438614845 20,0.998746091 L20,20.0012539 C20,20.5528461 19.5446944,21 19.0081969,21 L0.99180311,21 C0.444045377,21 0,20.5613852 0,20.0012539 L0,0.998746091 Z"/>
+  </g>
+</svg>

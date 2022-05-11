@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="72" viewBox="0 0 71 72" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" width="11" height="2" x="15" y="63"/>
+    <mask id="d" width="11" height="2" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <rect id="b" width="5" height="2" x="18" y="7"/>
+    <mask id="e" width="5" height="2" x="0" y="0" fill="white">
+      <use xlink:href="#b"/>
+    </mask>
+    <path id="c" d="M34.5,35.1458402 C33.7038653,34.4332804 32.6525317,34 31.5,34 C29.0147186,34 27,36.0147186 27,38.5 C27,40.9852814 29.0147186,43 31.5,43 C32.6525317,43 33.7038653,42.5667196 34.5,41.8541598 C35.2961347,42.5667196 36.3474683,43 37.5,43 C39.9852814,43 42,40.9852814 42,38.5 C42,36.0147186 39.9852814,34 37.5,34 C36.3474683,34 35.2961347,34.4332804 34.5,35.1458402 Z"/>
+    <mask id="f" width="15" height="9" x="0" y="0" fill="white">
+      <use xlink:href="#c"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <path stroke="#374D6B" stroke-width="2" d="M41,52.475171 L41,62.6694366 C41,66.717995 37.7656828,70 33.7644015,70 L7.23559855,70 C3.23948781,70 0,66.7176433 0,62.6740037 L0,7.32599634 L0,7.32599634 C0,3.27996028 3.23431723,0 7.23559855,0 L33.7644015,0 C37.7605122,0 41,3.27399656 41,7.32831743 L41,14.0398268"/>
+    <polyline stroke="#374D6B" stroke-width="2" points="37 52.153 37 58 6 58 6 12 6 12 37 12"/>
+    <use fill="#D8D8D8" stroke="#374D6B" stroke-width="2" mask="url(#d)" xlink:href="#a"/>
+    <use fill="#D8D8D8" stroke="#374D6B" stroke-width="2" mask="url(#e)" xlink:href="#b"/>
+    <rect width="47" height="32" x="22" y="17" stroke="#00B4D5" stroke-width="2" rx="4"/>
+    <rect width="47" height="2" x="22" y="22" fill="#00B4D5"/>
+    <rect width="47" height="2" x="22" y="28" fill="#00B4D5"/>
+    <rect width="19" height="2" x="46" y="36" fill="#00B4D5"/>
+    <rect width="10" height="2" x="46" y="40" fill="#00B4D5"/>
+    <use stroke="#00B4D5" stroke-width="4" mask="url(#f)" xlink:href="#c"/>
+  </g>
+</svg>

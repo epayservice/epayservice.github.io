@@ -1,0 +1,33 @@
+.calc__input {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.calc__field {
+
+}
+
+.calc__select {
+    margin-right: 10px;
+}
+
+.calc__button {
+
+}
+
+.calc__warning {
+  margin-bottom: .5em;
+  font-size: 14px;
+  color: #E44F61;
+}
+
+.calc__warning--hidden {
+  display: none;
+}
+
+
+@media (max-width: 1279px) {
+    .calc__button .button {padding-left: 10px;padding-right: 10px;}
+}

@@ -1,0 +1,32 @@
+.map-popup {
+}
+.map-popup__title {
+  margin: 0 0 1.4em;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.map-popup__list {
+  list-style-type: none;
+  margin: -1em 0 0;
+  padding: 0;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #222;
+}
+.map-popup__service {
+  margin-bottom: .5em;
+}
+.map-popup__check {
+  margin-right: .5em;
+}
+.map-popup__check:before {
+  content: '';
+  display:inline-block;
+  vertical-align: middle;
+  margin-top: -4px;
+  width: 6px;
+  height: 9px;
+  border: solid #00ADD1;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}

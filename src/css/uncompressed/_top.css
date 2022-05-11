@@ -1,0 +1,134 @@
+.top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    padding-top: 10px;
+}
+
+.page-sticky .top,
+.header__top_fxd .top {
+    padding-top: 0;
+}
+
+.top__main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.top__logo {
+    margin-right: 40px;
+    padding: 1px 0 0;
+}
+
+.top__nav {
+
+}
+
+.top__burger {
+    display: none;
+    margin-right: 15px;
+    padding-top: 24px;
+}
+
+.top__actions {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.top__buttons {
+    white-space: nowrap;
+}
+
+.top__buttons .button:first-child {
+    margin-right: 10px;
+}
+
+.top__buttons .button {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.top__language {
+    margin-left: 35px;
+}
+
+.top__profile {
+    background: url(../images/ico-profile.svg) no-repeat;
+    background-size: 100% 100%;
+    width: 27px;
+    height: 27px;
+    display: none;
+}
+
+.top__sign-in {
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: -20px;
+    right: -20px;
+    padding: 80px 0 30px;
+    background-color: rgba(55, 77, 107, .8);
+}
+
+.top__main_open .top__sign-in {
+    display: block;
+}
+
+.top__sign-in .button {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top__sign-in .button:first-child {
+    margin-bottom: 10px;
+}
+
+.top__main_open .top__logo,
+.top__main_open .top__profile {
+    position: relative;
+    z-index: 100;
+}
+
+
+
+@media (max-width: 1199px) {
+    .top {padding-top: 0;}
+    .top__language {margin-left: 0;}
+    .top__logo {margin-right: 20px;}
+}
+@media (max-width: 992px) {
+    .top__nav {display: none;}
+    .top__burger {display: block;}
+    .top__logo {margin-right: 0;}
+}
+@media (max-width: 699px) {
+    .top__main {-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;-webkit-box-flex: 1;-ms-flex: 1;flex: 1;}
+    .top__burger {margin-right: 0;padding-top: 19px;}
+    .top__profile {display: block;position: relative;top: 13px;}
+    .top__actions {display: none;}
+    .header__top_fxd .top {padding: 5px 0;}
+    .top__buttons{white-space:normal;}
+    .top__buttons .button:first-child {margin-bottom: 10px;}
+}

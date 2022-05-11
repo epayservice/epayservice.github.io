@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="79px" height="44px" viewBox="0 0 79 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 31</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="epay-web-services-cash-out" transform="translate(-463.000000, -832.000000)" stroke-width="2">
+            <g id="Group-6" transform="translate(0.000000, 195.000000)">
+                <g id="Group-31" transform="translate(464.000000, 638.000000)">
+                    <path d="M63,28.1217357 L63,39.8479053 C63,41.036301 62.0405587,42 60.8574134,42 L2.1425866,42 C0.959441332,42 0,41.036301 0,39.8479053 L0,5.15209467 C0,3.96369901 0.959441332,3 2.1425866,3 L60.8574134,3" id="Stroke-12" stroke="#374D6B"></path>
+                    <polyline id="Stroke-14" stroke="#00B4D5" points="11 31 25 31 25 22.9994974 11 22.9994974 11 15 25 15"></polyline>
+                    <path d="M18,11 L18,34" id="Stroke-16" stroke="#00B4D5"></path>
+                    <path d="M33,15 L48,15" id="Stroke-18" stroke="#00B4D5"></path>
+                    <path d="M33,30 L36,30" id="Stroke-20" stroke="#00B4D5"></path>
+                    <path d="M33,25 L40,25" id="Stroke-22" stroke="#00B4D5"></path>
+                    <path d="M33,20 L44,20" id="Stroke-24" stroke="#00B4D5"></path>
+                    <path d="M66.2938902,15.8228615 C56.4993654,25.6176523 42.5298825,37.2962086 41.1168501,35.8831378 C39.7038177,34.4700671 51.3830436,20.5002047 61.1775684,10.7064006 C70.9711064,0.911609715 75.1727069,-0.998798819 76.5857393,0.414271956 C77.9987717,1.82734273 76.088415,6.02807059 66.2938902,15.8228615 L66.2938902,15.8228615 Z" id="Stroke-26" stroke="#374D6B"></path>
+                    <path d="M77,11 L65,23" id="Stroke-28" stroke="#374D6B"></path>
+                    <path d="M68,14 L63,9" id="Stroke-30" stroke="#374D6B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

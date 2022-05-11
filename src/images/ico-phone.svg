@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M33.168,24.192 L33.12,24.144 L29.52,21.888 C28.512,21.168 27.408,20.976 26.256,21.312 C24.912,21.696 23.76,22.896 23.184,24.432 L23.184,24.432 L23.184,24.432 C22.848,25.392 22.272,25.728 21.264,25.584 C17.568,25.104 11.28,18.48 10.896,14.688 C10.8,13.632 11.136,13.056 12.096,12.768 L12.096,12.768 L12.096,12.768 C13.44,12.24 14.4,11.28 14.784,10.08 C15.12,8.88 14.88,7.632 14.064,6.48 L11.808,2.88 L11.76,2.832 C10.656,1.344 9.504,0.576 8.112,0.48 C6.384,0.336 4.512,1.296 2.448,3.36 C-2.496,8.304 1.728,20.016 8.832,27.12 C13.776,32.064 20.976,35.664 26.592,35.664 C28.896,35.664 30.912,35.04 32.4,33.696 C32.496,33.648 32.592,33.6 32.64,33.504 C34.704,31.44 35.664,29.568 35.52,27.84 C35.424,26.448 34.656,25.248 33.168,24.192 L33.168,24.192 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="35.2301115" height="35.198087" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="epay-web-contacts" transform="translate(-980.000000, -344.000000)" stroke="#00B4D5">
+            <g id="Group-22" transform="translate(980.000000, 344.000000)">
+                <use id="Shape" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                <path d="M18.768,1.824 C27.312,1.824 34.272,8.784 34.272,17.328" id="Shape"></path>
+                <path d="M18.768,5.712 C25.152,5.712 30.384,10.896 30.384,17.328 L30.384,17.328" id="Shape"></path>
+                <path d="M18.768,9.696 C22.992,9.696 26.4,13.104 26.4,17.28 L26.4,17.28" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

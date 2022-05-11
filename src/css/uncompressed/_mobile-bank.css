@@ -1,0 +1,111 @@
+.mobile-bank {
+    background-color: #FAFAFA;
+    padding: 90px 0 110px;
+    overflow: hidden;
+}
+
+.mobile-bank__title {
+    margin: 0
+}
+
+.mobile-bank__text {
+    margin-top: 10px;
+    font-size: 19px;
+    line-height: 28px;
+    color: #374D6B;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.mobile-bank__text:first-child {
+    margin-top: 0;
+}
+
+.mobile-bank__image {
+    text-align: center;
+    position: relative;
+
+}
+
+.mobile-bank__image:after {
+    content: '';
+    position: absolute;
+    top: -120px;
+    left: -120px;
+    background: url(../images/phone-bubbles.svg) no-repeat;
+    background-size: 100% 100%;
+    width: 633px;
+    height: 644px;
+}
+
+.mobile-bank__app {
+    margin-top: 90px;
+}
+
+.mobile-bank__download {
+    margin-top: 90px;
+}
+
+.mobile-bank__icon {
+    margin-top: 10px;
+    display: block;
+}
+
+.mobile-bank__icon:hover {
+    opacity: .8;
+}
+
+.mobile-bank__icon:first-child {
+    margin-top: 0;
+}
+
+.mobile-bank__manage {
+    margin-top: 90px;
+    max-width: 410px;
+}
+
+.mobile-bank__note {
+    font-size: 16px;
+    line-height: 25px;
+    color: #9B9B9B;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.mobile-bank__note_pushed {
+    margin-top: 80px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.mobile-bank__note_pushed:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 2px;
+    background-color: #00B4D3;
+}
+
+.mobile-bank__button {
+    margin-top: 120px;
+}
+
+
+
+@media (max-width: 992px) {
+    .mobile-bank {padding: 45px 0 55px;}
+    .mobile-bank__title {font-size: 40px;line-height: 48px;}
+    .mobile-bank__note_pushed {margin-top: 40px;}
+    .mobile-bank__button {margin-top: 30px;max-width: 300px;}
+}
+@media (max-width: 767px) {
+    .mobile-bank__app, .mobile-bank__manage {margin-top: 45px;}
+    .mobile-bank__download {margin-top: 50px;}
+    .mobile-bank__image:after {width: 331px;height: 336px;top: -80px;}
+}
+@media (max-width: 479px) {
+    .mobile-bank__image {padding-top: 60px;}
+}

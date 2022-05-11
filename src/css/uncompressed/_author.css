@@ -1,0 +1,40 @@
+.author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.author__image {
+    width: 90px;
+    height: 90px;
+    margin-right: 30px;
+}
+
+.author__image img {
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.author__info {
+
+}
+
+.author__name {
+    font-size: 18px;
+    line-height: 25px;
+    color: #374D6B;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.author__text {
+    margin-top: 5px;
+}
+
+
+@media (max-width: 699px) {
+    .author__image {width: 65px;height: 65px;margin-right: 15px;}
+}

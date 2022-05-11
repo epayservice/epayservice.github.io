@@ -1,0 +1,37 @@
+.bubble-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #F6F6F6;
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 150px;
+    flex: 0 0 150px;
+}
+
+.bubble-icon_big {
+    width: 200px;
+    height: 200px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 200px;
+    flex: 0 0 200px;
+}
+
+.bubble-icon__image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.bubble-icon__image img {
+    max-width: 184px;
+}
+
+
+@media (max-width: 767px) {
+    .bubble-icon {width: 75px;height: 75px;-webkit-box-flex: 0;-ms-flex: 0 0 75px;flex: 0 0 75px;}
+    .bubble-icon__image {max-width: 35px;}
+    .bubble-icon__image img {max-width: 75px;margin-left: -20px;}
+}

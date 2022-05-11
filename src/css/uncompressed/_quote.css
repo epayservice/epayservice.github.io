@@ -1,0 +1,48 @@
+.quote {
+    font-weight: 300;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    padding-left: 40px;
+    max-width: 340px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.quote:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background: url(../images/ico-quotes.svg) no-repeat;
+    width: 22px;
+    height: 17px;
+    background-size: 100% 100%;
+}
+
+.quote__text {
+    font-size: 23px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.quote__author {
+    margin-top: 25px;
+}
+
+.quote__note {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 699px) {
+    .quote {padding-left: 0;}
+    .quote:before {display: none;}
+    .quote__text {font-size: 14px;line-height: 22px;padding-bottom: 15px;}
+    .quote__author {margin-top: 15px;}
+}
