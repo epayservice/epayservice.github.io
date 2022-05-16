@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy("src/**/*.pdf");
+  eleventyConfig.addPassthroughCopy("src/CNAME");
 
   eleventyConfig.addPlugin(i18n, {
     translations,
