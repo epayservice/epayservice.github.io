@@ -239,9 +239,10 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
 
             <div class="sticky-column">
               <div class="body__tabs switch">
-                <div class="switch__item switch__item_active" id="payments" style="display: none">Payments</div>
-                <div class="switch__item" id="cards" style="display: none">Cards</div>
+                <div class="switch__item switch__item_active" id="payments">Payments</div>
+                <div class="switch__item" id="cards">Cards</div>
               </div>
+
               <aside class="body__nav side-nav js-first-tab hidden-xs">
                 <div class="side-nav__list">
                   <a class="side-nav__item ico-nav swap-item swap-item_active js-scroll" href="#ach-directdeposit">
@@ -318,7 +319,8 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                   </a>
                 </div>
               </aside>
-              <aside class="body__nav side-nav js-second-tab hidden-xs" style="display: none;">
+
+              <aside class="body__nav side-nav js-second-tab hidden-xs" style="display:none">
                 <div class="side-nav__list">
                   <a class="side-nav__item ico-nav swap-item swap-item_active js-scroll js-card-switch"
                     href="#prepaid-card-standart" data-card="red-card">
@@ -327,10 +329,10 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                     </div>
                     <div class="ico-nav__info">
                       <div class="ico-nav__title text-dark text-dark_small">ePayService Card Standard</div>
-                      <div class="ico-nav__text text">Mastercard® Prepaid</div>
+                      <div class="ico-nav__text text">Mastercard® Debit</div>
                     </div>
                   </a>
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#prepaid-card-premium"
+                  <!--<a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#prepaid-card-premium"
                     data-card="red-card">
                     <div class="ico-nav__image">
                       <div class="icon icon_card-splash4-sm"></div>
@@ -339,8 +341,9 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                       <div class="ico-nav__title text-dark text-dark_small">ePayService Card Premium</div>
                       <div class="ico-nav__text text">Mastercard® Prepaid</div>
                     </div>
-                  </a>
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-single"
+                  </a>-->
+
+                  <!-- <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-single"
                     data-card="blue-card">
                     <div class="ico-nav__image">
                       <div class="icon icon_card-splash2-sm"></div>
@@ -349,15 +352,16 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                       <div class="ico-nav__title text-dark text-dark_small">ePayService Virtual Single</div>
                       <div class="ico-nav__text text">Mastercard® Prepaid</div>
                     </div>
-                  </a>
+                  </a> -->
+
                   <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-multi"
                     data-card="blue-card">
                     <div class="ico-nav__image">
                       <div class="icon icon_card-splash2-sm"></div>
                     </div>
                     <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">ePayService Virtual Multi</div>
-                      <div class="ico-nav__text text">Mastercard® Prepaid</div>
+                      <div class="ico-nav__title text-dark text-dark_small">ePayService Virtual</div>
+                      <div class="ico-nav__text text">Mastercard® Debit</div>
                     </div>
                   </a>
 
@@ -392,9 +396,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                     </div>
                   </form>
                 </div>
-
               </aside>
-
             </div>
           </div>
           <div class="col-md-6 col-xs-8 full-width">
@@ -919,11 +921,11 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                   </div>
                 </div>
               </div>
-
             </div>
+
             <div class="body__content exchange js-second-tab" style="display: none;">
               <div class="exchange__item" id="prepaid-card-standart">
-                <h1 class="exchange__title title">Prepaid ePayService Mastercard® Standard</h1>
+                <h1 class="exchange__title title">Debit ePayService Mastercard® Standard</h1>
                 <div class="exchange__link">
                   <a class="link-arr" href="prepaid-cards.html">More about ePayService cards</a>
                 </div>
@@ -931,8 +933,9 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 <div class="tabs using__switch">
                   <div class="tabs__head">
                     <button class="tabs__tag using__tab tabs__tag_current" type="button">EUR</button>
-                    <button class="tabs__tag using__tab" type="button">USD</button>
+                    <!-- <button class="tabs__tag using__tab" type="button">USD</button> -->
                   </div>
+
                   <div class="tabs__body tabs__body_line">
                     <div class="tabs__section tabs__section_visible">
                       <ul class="service-info__list">
@@ -990,7 +993,8 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                         </ul>
                       </div>
                     </div>
-                    <div class="tabs__section">
+
+                    <!-- <div class="tabs__section">
                       <ul class="service-info__list">
                         <li class="service-info__row">
                           <div class="service-info__text text-dark text-dark_small">Card Issuance & Activation of the
@@ -1045,13 +1049,12 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                           </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
-
               </div>
 
-              <div class="exchange__item" id="prepaid-card-premium">
+              <!-- <div class="exchange__item" id="prepaid-card-premium">
                 <h1 class="exchange__title title">Prepaid ePayService Mastercard®<br> Premium</h1>
                 <div class="exchange__link">
                   <a class="link-arr" href="prepaid-cards.html">More about ePayService Premium Cards</a>
@@ -1234,10 +1237,9 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                     </div>
                   </div>
                 </div>
+              </div> -->
 
-              </div>
-
-              <div class="exchange__item" id="virtual-card-single">
+              <!--<div class="exchange__item" id="virtual-card-single">
                 <h1 class="exchange__title title">Prepaid ePayService Mastercard®<br> Virtual Single</h1>
                 <div class="exchange__link">
                   <a class="link-arr" href="virtual-cards.html">More about ePayService Virtual</a>
@@ -1338,10 +1340,10 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                   <div class="note__title text-dark text-dark_big text-dark_red">Important!</div>
                   <div class="note__text text-dark text-dark_small">Card will be valid for 2 months</div>
                 </div>
-              </div>
+              </div> -->
 
               <div class="exchange__item" id="virtual-card-multi">
-                <h1 class="exchange__title title">Prepaid ePayService Mastercard®<br> Virtual Multi</h1>
+                <h1 class="exchange__title title">Debit ePayService Mastercard®<br> Virtual</h1>
                 <div class="exchange__link">
                   <a class="link-arr" href="virtual-cards.html">More about ePayService Virtual</a>
                 </div>
@@ -1349,14 +1351,14 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 <div class="tabs using__switch">
                   <div class="tabs__head">
                     <button class="tabs__tag tabs__tag_current using__tab" type="button">EUR</button>
-                    <button class="tabs__tag using__tab" type="button">USD</button>
+                    <!-- <button class="tabs__tag using__tab" type="button">USD</button> -->
                   </div>
                   <div class="tabs__body tabs__body_line">
                     <div class="tabs__section tabs__section_visible">
                       <ul class="service-info__list">
                         <li class="service-info__row">
                           <div class="service-info__text text-dark text-dark_small">Card Issuance & Activation of the
-                            ePayService Mastercard® Virtual Multi EUR</div>
+                            ePayService Mastercard® Virtual EUR</div>
                           <div class="service-info__number text-dark text-dark_big text-dark_blue">FREE</div>
                         </li>
                         <li class="service-info__row">
@@ -1395,7 +1397,8 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                         </li>
                       </ul>
                     </div>
-                    <div class="tabs__section">
+
+                    <!-- <div class="tabs__section">
                       <ul class="service-info__list">
                         <li class="service-info__row">
                           <div class="service-info__text text-dark text-dark_small">Card Issuance & Activation of the
@@ -1437,7 +1440,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                           <div class="service-info__number text-dark text-dark_big">up to 3</div>
                         </li>
                       </ul>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
 
