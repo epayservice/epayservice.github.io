@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'para a sua carteira com ePayService',
       toAccount: 'para uma conta pessoal ou empresarial para um banco dos EUA'
     }
-  }
+  },
+
+  payments: 'Transferências',
+  cards: 'Cartões Pré-pagos'
 }

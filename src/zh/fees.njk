@@ -210,10 +210,8 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
           <div class="col-md-3 col-xs-4 full-width">
 
             <div class="sticky-column">
-              <div class="body__tabs switch">
-                <div class="switch__item switch__item_active" id="payments" style="display: none">转账</div>
-                <div class="switch__item" id="cards" style="display: none">Prepaid Cards</div>
-              </div>
+              {% include 'pages/fees/tabSwitch.njk' %}
+
               <aside class="body__nav side-nav js-first-tab hidden-xs">
                 <div class="side-nav__list">
                   <a class="side-nav__item ico-nav swap-item swap-item_active js-scroll" href="#ach-directdeposit">

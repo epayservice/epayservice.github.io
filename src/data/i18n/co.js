@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'a su billetera con ePayService',
       toAccount: 'a una cuenta personal o empresarial con un banco de EE.UU.'
     }
-  }
+  },
+
+  payments: 'Transferencias',
+  cards: 'Tarjetas Prepago'
 }

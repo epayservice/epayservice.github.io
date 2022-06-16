@@ -2,9 +2,6 @@ const { set, add } = require('lodash');
 
 const langs = ['ar', 'co', 'de', 'en', 'es', 'fr', 'ms', 'pl', 'pt', 'ro', 'ru', 'uk', 'vn', 'zh'];
 
-const en = require('./en.js');
-const ru = require('./ru.js');
-
 const translations = {};
 
 function addLanguage(item, lang, tKey = '') {

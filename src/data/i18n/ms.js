@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'ke dompet anda dengan ePayService',
       toAccount: 'ke akaun peribadi atau syarikat dengan bank AS'
     }
-  }
+  },
+
+  payments: 'Pindahan',
+  cards: 'Kad Prabayar'
 }

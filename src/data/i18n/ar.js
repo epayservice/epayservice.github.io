@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'في محفظتك مع ePayService',
       toAccount: 'إلى حساب شخصي أو إلى حساب شركة في بنك أمريكي'
     }
-  }
+  },
+
+  payments: 'التحويلات',
+  cards: 'البطاقات مسبقة الدفع'
 }

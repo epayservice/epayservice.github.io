@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'in Ihre Brieftasche mit ePayService',
       toAccount: 'an ein persönliches Konto oder Firmenkonto bei einer US-Bank'
     }
-  }
+  },
+
+  payments: 'Transfers',
+  cards: 'Prepaidkarten'
 }

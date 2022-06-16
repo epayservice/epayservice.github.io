@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'To your wallet with ePayService',
       toAccount: 'To a personal or company account with a us bank'
     }
-  }
+  },
+
+  payments: 'Payments',
+  cards: 'Cards'
 }

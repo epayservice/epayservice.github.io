@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'vào ví với ePayService',
       toAccount: 'vào tài khoản cá nhân hay công ty với một ngân hàng Mỹ'
     }
-  }
+  },
+
+  payments: 'Chuyển tiền',
+  cards: 'Thẻ Trả trước'
 }

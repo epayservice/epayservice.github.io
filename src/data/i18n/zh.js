@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'ePayService存款至您的钱包',
       toAccount: '美国的个人或公司银行账户'
     }
-  }
+  },
+
+  payments: '转账',
+  cards: 'Prepaid Cards'
 }

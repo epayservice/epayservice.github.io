@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'на кошелек в ePayService',
       toAccount: 'на счет физлица или юрлица в банке US'
     }
-  }
+  },
+
+  payments: 'Платежи',
+  cards: 'Карты'
 }

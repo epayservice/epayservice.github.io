@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'do Twojego portfela za pomocą usługi ePayService',
       toAccount: 'na konto osobiste lub konto firmowe w banku amerykańskim'
     }
-  }
+  },
+
+  payments: 'Przelewy',
+  cards: 'Karty przedpłacony'
 }

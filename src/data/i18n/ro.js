@@ -13,5 +13,8 @@ module.exports = {
       toWallet: 'în portofelul tău cu ePayService',
       toAccount: 'către un cont personal sau de firmă prin intermediul unei banci americane'
     }
-  }
+  },
+
+  payments: 'Transferuri',
+  cards: 'Card Preplătit'
 }
