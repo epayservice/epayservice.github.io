@@ -326,51 +326,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
               </aside>
 
               <aside class="body__nav side-nav js-second-tab hidden-xs" style="display: none;">
-                <div class="side-nav__list">
-                  <a class="side-nav__item ico-nav swap-item swap-item_active js-scroll js-card-switch"
-                    href="#prepaid-card-standart" data-card="red-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash3-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Дебетовая карта Standart</div>
-                      <div class="ico-nav__text text">Mastercard® Prepaid</div>
-                    </div>
-                  </a>
-
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#prepaid-card-premium"
-                    data-card="red-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash4-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Дебетовая карта Premium</div>
-                      <div class="ico-nav__text text">Mastercard® Prepaid</div>
-                    </div>
-                  </a>
-
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-single"
-                    data-card="blue-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash2-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Виртуальная карта Single</div>
-                      <div class="ico-nav__text text">Mastercard® Virtual</div>
-                    </div>
-                  </a>
-
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-multi"
-                    data-card="blue-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash2-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Виртуальная карта Multi</div>
-                      <div class="ico-nav__text text">Mastercard® Virtual</div>
-                    </div>
-                  </a>
-                </div>
+                {% include 'pages/fees/cardsList.njk' %}
 
                 <div class="side-calc">
                   <form class="ecb-calc" id="ecb-calc">
@@ -666,7 +622,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 </div>
               </div>
 
-              <!--<div class="exchange__item" id="webmoney">
+              <div class="exchange__item" id="webmoney">
                 <h1 class="exchange__title title">Электронные платежи WebMoney Transfer</h1>
                 <div class="exchange__link">
 
@@ -711,7 +667,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                     </div>
                   </div>
                 </div>
-              </div>-->
+              </div>
 
               <div class="exchange__item" id="local">
                 <div class="exchange__title title">Локальные переводы</div>
@@ -1706,6 +1662,9 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 <ul class="footer__list">
                   <li class="footer__item">
                     <a class="footer__link" href="user-agreement.pdf">Пользовательское соглашение</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../ePayService_MasterCard_Cardholders_Agreement.pdf">ePayService MasterCard Cardholders Agreement</a>
                   </li>
                   <li class="footer__item">
                     <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>

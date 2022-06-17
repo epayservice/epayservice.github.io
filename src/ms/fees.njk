@@ -287,49 +287,8 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 </div>
               </aside>
               <aside class="body__nav side-nav js-second-tab hidden-xs" style="display: none;">
-                <div class="side-nav__list">
-                  <a class="side-nav__item ico-nav swap-item swap-item_active js-scroll js-card-switch"
-                    href="#prepaid-card-standart" data-card="red-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash3-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">kad ePayService Standard</div>
-                      <div class="ico-nav__text text">Mastercard® Prabayar</div>
-                    </div>
-                  </a>
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#prepaid-card-premium"
-                    data-card="red-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash4-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Kad ePayService Premium</div>
-                      <div class="ico-nav__text text">Mastercard® Prabayar</div>
-                    </div>
-                  </a>
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-single"
-                    data-card="blue-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash2-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Maya ePayService tunggal</div>
-                      <div class="ico-nav__text text">Mastercard® Prabayar</div>
-                    </div>
-                  </a>
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-multi"
-                    data-card="blue-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash2-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Maya ePayService pelbagai</div>
-                      <div class="ico-nav__text text">Mastercard® Prabayar</div>
-                    </div>
-                  </a>
+                {% include 'pages/fees/cardsList.njk' %}
 
-                </div>
                 <div class="side-calc">
                   <form class="ecb-calc" id="ecb-calc">
                     <div class="ecb-calc__title title title_medium">Currency converter</div>
@@ -1437,6 +1396,9 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 <ul class="footer__list">
                   <li class="footer__item">
                     <a class="footer__link" href="user-agreement.pdf">Perjanjian Pengguna</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../ePayService_MasterCard_Cardholders_Agreement.pdf">ePayService MasterCard Cardholders Agreement</a>
                   </li>
                   <li class="footer__item">
                     <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>

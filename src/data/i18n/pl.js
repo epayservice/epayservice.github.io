@@ -16,5 +16,47 @@ module.exports = {
   },
 
   payments: 'Przelewy',
-  cards: 'Karty przedpłacony'
+  cards: 'Karty przedpłacony',
+
+  cardsList: {
+    standart: {
+      title: 'ePayService Card Standard',
+      descr: 'Karta przedpłacona Mastercard®',
+      tabName: 'Debit ePayService Mastercard® Standard',
+      moreAbout: 'More about ePayService cards'
+    },
+
+    premium: {
+      title: 'ePayService Card Premium',
+      descr: 'Karta przedpłacona Mastercard®'
+    },
+
+    single: {
+      title: 'ePayService Virtual Single',
+      descr: 'Karta przedpłacona Mastercard®'
+    },
+
+    multi: {
+      title: 'ePayService Virtual',
+      descr: 'Karta przedpłacona Mastercard®'
+    }
+  },
+
+  cardFeesTitles: {
+    cardIssuanceAndActivation: 'Card Issuance & Activation of the ePayService Mastercard® Standard EUR',
+    monthlyMaintenance: 'Monthly Maintenance Fee',
+    minimumLoadLimit: 'Minimum Load Limit',
+    maximumDailyLoadLimit: 'Maximum Daily Load Limit',
+    currencyExchange: 'Currency Exchange (FX fee)',
+    ATMWithdrawalFeePerTransaction: 'ATM Withdrawal Fee Per Transaction',
+    maximumNumberOfLoadsPerDay: 'Maximum number of loads per day',
+    maximumBalance: 'Maximum balance',
+    ATMBalanceInquiry: 'ATM Balance Inquiry',
+    regularMail: 'Regular Mail',
+    expressDelivery: 'Express Delivery'
+  },
+
+  deliveryMethod: 'Delivery method',
+
+  free: 'FREE'
 }

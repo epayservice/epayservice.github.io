@@ -1,0 +1,26 @@
+{% set items = [
+  { href: '#prepaid-card-standart', dataCard: 'red-card', icon: 'icon_card-splash3-sm', title: 'cardsList.standart.title', descr: 'cardsList.standart.descr' },
+  { href: '#virtual-card-multi', dataCard: 'blue-card', icon: 'icon_card-splash2-sm', title: 'cardsList.multi.title', descr: 'cardsList.multi.descr' }
+]%}
+
+<!--
+  { href: '#prepaid-card-premium', dataCard: 'red-card', icon: 'icon_card-splash4-sm', title: 'cardsList.premium.title', descr: 'cardsList.premium.descr' },
+  { href: '#virtual-card-single', dataCard: 'blue-card', icon: 'icon_card-splash2-sm', title: 'cardsList.single.title', descr: 'cardsList.single.descr' },
+-->
+
+<div class="side-nav__list">
+  {% for item in items %}
+  <a class="side-nav__item ico-nav swap-item {% if loop.index == 1 %}swap-item_active {% endif %}js-scroll js-card-switch"
+    href="" data-card="{{ item.dataCard }}">
+    <div class="ico-nav__image">
+      <div class="icon {{ item.icon }}"></div>
+    </div>
+
+    <div class="ico-nav__info">
+      <div class="ico-nav__title text-dark text-dark_small">{{ item.title | i18n }}</div>
+
+      <div class="ico-nav__text text">{{ item.descr | i18n }}</div>
+    </div>
+  </a>
+  {% endfor %}
+</div>

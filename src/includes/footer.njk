@@ -1,0 +1,67 @@
+{% from 'set/services.njk' import servicesItems %}
+{% set availableServicesItems = getAvailableServicesItems(locale) %}
+{% set servicesSubItems = getServicesArray(servicesItems, availableServicesItems) %}
+
+{% set footerItems = [
+  {
+    textI18n: 'footer.information',
+    subItems: [
+      { textI18n: 'footer.contactUs', href: 'contact-us.html' },
+      { textI18n: 'footer.signIn', href: 'https://online.epayservices.com/' },
+      { textI18n: 'footer.affiliateProgram', href: 'affiliate-program.html' },
+      { textI18n: 'footer.openAPI', href: 'open-api.html' },
+      { textI18n: 'footer.developers', href: '../en/developers.html' },
+      { textI18n: 'footer.news', href: 'https://blog.epayservices.com/' }
+    ]
+  },
+  {
+    textI18n: 'menu.services',
+    subItems: servicesSubItems
+  },
+  {
+    textI18n: 'footer.terms',
+    subItems: [
+      { textI18n: 'footer.userAgreement', href: 'user-agreement.pdf' },
+      { textI18n: 'footer.privacyPolicy', href: '../privacy-policy.pdf' },
+      { textI18n: 'footer.privacyNotice', href: '../privacy-notice.pdf' }
+    ]
+  },
+  {
+    textI18n: 'footer.followUs',
+    subItems: [
+      { textI18n: 'footer.twitter', href: 'https://twitter.com/epayservices' }
+    ]
+  }
+]%}
+
+{% set copyRightI18n = 'footer.copyRight' %}
+{% set descrI18n = 'footer.descr' %}
+
+<div class="strut__row">
+  <footer class="footer">
+    <div class="region">
+      <div class="footer__rows">
+        <div class="row row-eq-height">
+          {% for item in footerItems %}
+          <div class="col-sm-3 col-xs-6 footer__col">
+            <div class="footer__title title title_small title_light">{{ item.textI18n | i18n }}</div>
+            <ul class="footer__list">
+              {% for subItem in item.subItems %}
+              <li class="footer__item">
+                <a class="footer__link" href="{{ subItem.href }}">{{ subItem.textI18n | i18n }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="footer__info">
+        <div class="footer__copyright">{{ copyRightI18n | i18n | safe }}</div>
+        {% if (descr !== '') %}
+        <div class="footer__text">{{ descrI18n | i18n | safe }}</div>
+        {% endif %}
+      </div>
+    </div>
+  </footer>
+</div>

@@ -1,0 +1,158 @@
+{% set title = 'cardsList.standart.tabName' %}
+
+{% set moreAbout = 'cardsList.standart.moreAbout' %}
+
+{% set currencies = [
+  'EUR'
+]%}
+
+{% set fees = [
+  {
+    title: 'cardFeesTitles.cardIssuanceAndActivation',
+    value: {
+      EUR: 'free',
+      USD: 'free'
+    }
+  },
+
+  {
+    title: 'cardFeesTitles.monthlyMaintenance',
+    value: {
+      EUR: '€1.99',
+      USD: '$2.40'
+    }
+  },
+
+  {
+    title: 'cardFeesTitles.minimumLoadLimit',
+    value: {
+      EUR: '€0.01',
+      USD: '$1.00'
+    }
+  },
+
+  {
+    title: 'cardFeesTitles.maximumDailyLoadLimit',
+    value: {
+      EUR: '€5,000.00',
+      USD: '$5,000.00'
+    }
+  },
+
+  {
+    title: 'cardFeesTitles.currencyExchange',
+    value: {
+      EUR: '1.99%',
+      USD: '2.40%'
+    }
+  },
+
+  {
+    title: 'cardFeesTitles.ATMWithdrawalFeePerTransaction',
+    value: {
+      EUR: '€2.50',
+      USD: '$2.40'
+    }
+  },
+
+  {
+    title: 'cardFeesTitles.maximumNumberOfLoadsPerDay',
+    value: {
+      EUR: '10',
+      USD: '10'
+    }
+  },
+
+  {
+    title: 'cardFeesTitles.maximumBalance',
+    value: {
+      EUR: '€5,000.00',
+      USD: '$5,000.00'
+    }
+  },
+
+  {
+    title: 'cardFeesTitles.ATMBalanceInquiry',
+    value: {
+      EUR: '€0.50',
+      USD: '$0.50'
+    }
+  }
+]%}
+
+{% set exchangeNoteItems = [
+  {
+    title: 'cardFeesTitles.regularMail',
+    value: {
+      EUR: 'free',
+      USD: 'free'
+    }
+  },
+
+  {
+    title: 'cardFeesTitles.expressDelivery',
+    value: {
+      EUR: '€70',
+      USD: '$70'
+    }
+  }
+]%}
+
+
+<div class="exchange__item" id="prepaid-card-standart">
+  <h1 class="exchange__title title">{{ title | i18n }}</h1>
+
+  <div class="exchange__link">
+    <a class="link-arr" href="prepaid-cards.html">{{ moreAbout | i18n }}</a>
+  </div>
+
+  <div class="tabs using__switch">
+    <div class="tabs__head">
+      {% for currency in currencies %}
+      <button class="tabs__tag using__tab{%if loop.index == 1 %} tabs__tag_current{% endif %}" type="button">{{ currency }}</button>
+      {% endfor %}
+    </div>
+
+    <div class="tabs__body tabs__body_line">
+      {% for currency in currencies %}
+      <div class="tabs__section{% if loop.index == 1 %} tabs__section_visible{% endif %}">
+        <ul class="service-info__list">
+          {% for fee in fees %}
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">{{ fee.title | i18n }}</div>
+
+            <div class="service-info__number text-dark text-dark_big{% if fee.value[currency] == 'free' %} text-dark_blue{% endif %}">
+              {% if fee.value[currency] == 'free' %}
+              {{ 'free' | i18n }}
+              {% else %}
+              {{ fee.value[currency] }}
+              {% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+
+        <div class="exchange__note note">
+          <div class="note__title text-dark text-dark_big">{{ 'deliveryMethod' | i18n }}</div>
+
+          <ul class="service-info__list">
+            {% for exchangeNoteItem in exchangeNoteItems%}
+            <li class="service-info__row">
+              <div class="service-info__text text-dark text-dark_small">{{ exchangeNoteItem.title | i18n }}</div>
+
+              <div class="service-info__number text-dark text-dark_big{% if exchangeNoteItem.value[currency] == 'free' %} text-dark_blue{% endif%}">
+                {% if exchangeNoteItem.value[currency] == 'free' %}
+                {{ 'free' | i18n }}
+                {% else %}
+                {{ exchangeNoteItem.value[currency] }}
+                {% endif %}
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

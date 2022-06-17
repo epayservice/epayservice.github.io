@@ -316,49 +316,8 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 </div>
               </aside>
               <aside class="body__nav side-nav js-second-tab hidden-xs" style="display: none;">
-                <div class="side-nav__list">
-                  <a class="side-nav__item ico-nav swap-item swap-item_active js-scroll js-card-switch"
-                    href="#prepaid-card-standart" data-card="red-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash3-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Tarjeta Estándar Epayservice</div>
-                      <div class="ico-nav__text text">Mastercard® Prepagada</div>
-                    </div>
-                  </a>
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#prepaid-card-premium"
-                    data-card="red-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash4-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Tarjeta Premium Epayservice</div>
-                      <div class="ico-nav__text text">Mastercard® Prepagada</div>
-                    </div>
-                  </a>
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-single"
-                    data-card="blue-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash2-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Individual Virtual Epayservice</div>
-                      <div class="ico-nav__text text">Mastercard® Prepagada</div>
-                    </div>
-                  </a>
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-multi"
-                    data-card="blue-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash2-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Multi Virtual Epayservice</div>
-                      <div class="ico-nav__text text">Mastercard® Prepagada</div>
-                    </div>
-                  </a>
+                {% include 'pages/fees/cardsList.njk' %}
 
-                </div>
                 <div class="side-calc">
                   <form class="ecb-calc" id="ecb-calc">
                     <div class="ecb-calc__title title title_medium">Currency converter</div>
@@ -911,140 +870,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
 
             </div>
             <div class="body__content exchange js-second-tab" style="display: none;">
-              <div class="exchange__item" id="prepaid-card-standart">
-                <h1 class="exchange__title title">Estándar Mastercard® ePayService Prepagada</h1>
-                <div class="exchange__link">
-                  <a class="link-arr" href="prepaid-cards.html">Más información acerca de las tarjetas ePayService</a>
-                </div>
-
-                <div class="tabs using__switch">
-                  <div class="tabs__head">
-                    <button class="tabs__tag tabs__tag_current using__tab" type="button">EUR</button>
-                    <button class="tabs__tag using__tab" type="button">USD</button>
-                  </div>
-                  <div class="tabs__body tabs__body_line">
-                    <div class="tabs__section tabs__section_visible">
-                      <ul class="service-info__list">
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Expedición y Activación de la
-                            Tarjeta Mastercard® de ePayService Estándar EUR</div>
-                          <div class="service-info__number text-dark text-dark_big text-dark_blue">GRATIS</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Monthly Maintenance Fee</div>
-                          <div class="service-info__number text-dark text-dark_big">€1.99</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Límite mínimo de recarga diaria de
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">€1.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Límite máximo de recarga diaria de
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">€5,000.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Cambio de Moneda (Tarifa FX)</div>
-                          <div class="service-info__number text-dark text-dark_big">1.99%</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Tarifa por retiro del cajero
-                            automático por cada transacción de</div>
-                          <div class="service-info__number text-dark">€1.99</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Número máximo de recargas por día
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">10</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Saldo máximo</div>
-                          <div class="service-info__number text-dark text-dark_big">€5,000.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Consulta del saldo en el cajero
-                            automático</div>
-                          <div class="service-info__number text-dark text-dark_big">€0.50</div>
-                        </li>
-                      </ul>
-                      <div class="exchange__note note">
-                        <div class="note__title text-dark text-dark_big">Método de entrega</div>
-                        <ul class="service-info__list">
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Correo Regular</div>
-                            <div class="service-info__number text-dark text-dark_big text-dark_blue">GRATIS</div>
-                          </li>
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Entrega Exprés</div>
-                            <div class="service-info__number text-dark text-dark_big">€70</div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="tabs__section ">
-                      <ul class="service-info__list">
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Expedición y Activación de la
-                            Tarjeta Mastercard® de ePayService Estándar USD</div>
-                          <div class="service-info__number text-dark text-dark_big text-dark_blue">GRATIS</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Monthly Maintenance Fee</div>
-                          <div class="service-info__number text-dark text-dark_big">$2.40</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Límite mínimo de recarga diaria de
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">$1.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Límite máximo de recarga diaria de
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">$5,000.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Cambio de Moneda (Tarifa FX)</div>
-                          <div class="service-info__number text-dark text-dark_big">2.40%</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Tarifa por retiro del cajero
-                            automático por cada transacción de</div>
-                          <div class="service-info__number text-dark text-dark_big">$2.40</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Número máximo de recargas por día
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">10</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Saldo máximo</div>
-                          <div class="service-info__number text-dark text-dark_big">$5,000.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Consulta del saldo en el cajero
-                            automático</div>
-                          <div class="service-info__number text-dark text-dark_big">$0.50</div>
-                        </li>
-                      </ul>
-                      <div class="exchange__note note">
-                        <div class="note__title text-dark text-dark_big">Método de entrega</div>
-                        <ul class="service-info__list">
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Correo Regular</div>
-                            <div class="service-info__number text-dark text-dark_big text-dark_blue">GRATIS</div>
-                          </li>
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Entrega Exprés</div>
-                            <div class="service-info__number text-dark text-dark_big">$70</div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
+              {% include 'pages/fees/cardsInfo/standart.njk' %}
 
               <div class="exchange__item" id="prepaid-card-premium">
                 <h1 class="exchange__title title">Premium Mastercard® de ePayService Prepagada</h1>
@@ -1591,6 +1417,9 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 <ul class="footer__list">
                   <li class="footer__item">
                     <a class="footer__link" href="user-agreement.pdf">Acuerdo del Usuario</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../ePayService_MasterCard_Cardholders_Agreement.pdf">ePayService MasterCard Cardholders Agreement</a>
                   </li>
                   <li class="footer__item">
                     <a class="footer__link" href="../privacy-policy.pdf">Privacy Policy</a>

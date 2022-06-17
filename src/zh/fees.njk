@@ -210,7 +210,10 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
           <div class="col-md-3 col-xs-4 full-width">
 
             <div class="sticky-column">
-              {% include 'pages/fees/tabSwitch.njk' %}
+              <div class="body__tabs switch">
+                <div class="switch__item switch__item_active" id="payments" style="display: none"></div>
+                <div class="switch__item" id="cards" style="display: none"></div>
+              </div>
 
               <aside class="body__nav side-nav js-first-tab hidden-xs">
                 <div class="side-nav__list">
@@ -972,6 +975,9 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 <ul class="footer__list">
                   <li class="footer__item">
                     <a class="footer__link" href="user-agreement.pdf">用户协议</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../ePayService_MasterCard_Cardholders_Agreement.pdf">ePayService MasterCard Cardholders Agreement</a>
                   </li>
                   <li class="footer__item">
                     <a class="footer__link" href="ePayService_MasterCard_Cardholders_Agreement.pdf">ePayService

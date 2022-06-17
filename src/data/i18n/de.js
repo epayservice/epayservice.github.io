@@ -16,5 +16,47 @@ module.exports = {
   },
 
   payments: 'Transfers',
-  cards: 'Prepaidkarten'
+  cards: 'Prepaidkarten',
+
+  cardsList: {
+    standart: {
+      title: 'ePayService Card Standard',
+      descr: 'Mastercard® Debit',
+      tabName: 'Prepaid ePayService Mastercard® Standard',
+      moreAbout: 'Mehr über Epayservice karten'
+    },
+
+    premium: {
+      title: 'ePayService Card Premium',
+      descr: 'Mastercard® Prepaid'
+    },
+
+    single: {
+      title: 'ePayService Virtual Single',
+      descr: 'Mastercard® Prepaid'
+    },
+
+    multi: {
+      title: 'ePayService Virtual',
+      descr: 'Mastercard® Debit'
+    }
+  },
+
+  cardFeesTitles: {
+    cardIssuanceAndActivation: 'Kartenausstellung & Aktivierung der ePayService Mastercard® Standard EUR',
+    monthlyMaintenance: 'Monthly Maintenance Fee',
+    minimumLoadLimit: 'Tägliche Mindestbelastungsgrenze',
+    maximumDailyLoadLimit: 'Tägliche maximale Belastungsgrenze',
+    currencyExchange: 'Währungstausch (FX-Gebühr)',
+    ATMWithdrawalFeePerTransaction: 'Geldautomaten-Gebühr pro Transaktion',
+    maximumNumberOfLoadsPerDay: 'Maximale Anzahl Aufladungen pro Tag',
+    maximumBalance: 'Höchstbetrag',
+    ATMBalanceInquiry: 'Geldautomaten Saldoabfrage',
+    regularMail: 'Regulärer Postversand',
+    expressDelivery: 'Expresslieferung'
+  },
+
+  deliveryMethod: 'Übertragungsmethode',
+
+  free: 'KOSTENLOS'
 }

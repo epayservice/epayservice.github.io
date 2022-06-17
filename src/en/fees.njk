@@ -403,55 +403,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
               </aside>
 
               <aside class="body__nav side-nav js-second-tab hidden-xs" style="display:none">
-                <div class="side-nav__list">
-                  <a class="side-nav__item ico-nav swap-item swap-item_active js-scroll js-card-switch"
-                    href="#prepaid-card-standart" data-card="red-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash3-sm"></div>
-                    </div>
-
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">ePayService Card Standard</div>
-
-                      <div class="ico-nav__text text">Mastercard® Debit</div>
-                    </div>
-                  </a>
-
-                  <!--<a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#prepaid-card-premium"
-                    data-card="red-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash4-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">ePayService Card Premium</div>
-                      <div class="ico-nav__text text">Mastercard® Prepaid</div>
-                    </div>
-                  </a>-->
-
-                  <!-- <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-single"
-                    data-card="blue-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash2-sm"></div>
-                    </div>
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">ePayService Virtual Single</div>
-                      <div class="ico-nav__text text">Mastercard® Prepaid</div>
-                    </div>
-                  </a> -->
-
-                  <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch" href="#virtual-card-multi"
-                    data-card="blue-card">
-                    <div class="ico-nav__image">
-                      <div class="icon icon_card-splash2-sm"></div>
-                    </div>
-
-                    <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">ePayService Virtual</div>
-
-                      <div class="ico-nav__text text">Mastercard® Debit</div>
-                    </div>
-                  </a>
-                </div>
+                {% include 'pages/fees/cardsList.njk' %}
 
                 <div class="side-calc">
                   <form class="ecb-calc" id="ecb-calc">
@@ -1127,154 +1079,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
             </div>
 
             <div class="body__content exchange js-second-tab" style="display: none;">
-              <div class="exchange__item" id="prepaid-card-standart">
-                <h1 class="exchange__title title">Debit ePayService Mastercard® Standard</h1>
-
-                <div class="exchange__link">
-                  <a class="link-arr" href="prepaid-cards.html">More about ePayService cards</a>
-                </div>
-
-                <div class="tabs using__switch">
-                  <div class="tabs__head">
-                    <button class="tabs__tag using__tab tabs__tag_current" type="button">EUR</button>
-                    <!-- <button class="tabs__tag using__tab" type="button">USD</button> -->
-                  </div>
-
-                  <div class="tabs__body tabs__body_line">
-                    <div class="tabs__section tabs__section_visible">
-                      <ul class="service-info__list">
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Card Issuance & Activation of the ePayService Mastercard® Standard EUR</div>
-
-                          <div class="service-info__number text-dark text-dark_big text-dark_blue">FREE</div>
-                        </li>
-
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Monthly Maintenance Fee</div>
-
-                          <div class="service-info__number text-dark text-dark_big">€1.99</div>
-                        </li>
-
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Minimum Load Limit</div>
-
-                          <div class="service-info__number text-dark text-dark_big">€0.01</div>
-                        </li>
-
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Maximum Daily Load Limit</div>
-
-                          <div class="service-info__number text-dark text-dark_big">€5,000.00</div>
-                        </li>
-
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Currency Exchange (FX fee)</div>
-
-                          <div class="service-info__number text-dark text-dark_big">1.99%</div>
-                        </li>
-
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">ATM Withdrawal Fee per transaction</div>
-
-                          <div class="service-info__number text-dark text-dark_big">€2.50</div>
-                        </li>
-
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Maximum number of loads per day</div>
-                          <div class="service-info__number text-dark text-dark_big">10</div>
-                        </li>
-
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Maximum balance</div>
-
-                          <div class="service-info__number text-dark text-dark_big">€5,000.00</div>
-                        </li>
-
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">ATM Balance Inquiry</div>
-
-                          <div class="service-info__number text-dark text-dark_big">€0.50</div>
-                        </li>
-                      </ul>
-
-                      <div class="exchange__note note">
-                        <div class="note__title text-dark text-dark_big">Delivery method</div>
-
-                        <ul class="service-info__list">
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Regular Mail</div>
-
-                            <div class="service-info__number text-dark text-dark_big text-dark_blue">FREE</div>
-                          </li>
-
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Express Delivery</div>
-
-                            <div class="service-info__number text-dark text-dark_big">€70</div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <!-- <div class="tabs__section">
-                      <ul class="service-info__list">
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Card Issuance & Activation of the
-                            ePayService Mastercard® Standard USD</div>
-                          <div class="service-info__number text-dark text-dark_big text-dark_blue">FREE</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Monthly Maintenance Fee</div>
-                          <div class="service-info__number text-dark text-dark_big">$2.40</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Minimum Load Limit</div>
-                          <div class="service-info__number text-dark text-dark_big">$1.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Maximum Daily Load Limit</div>
-                          <div class="service-info__number text-dark text-dark_big">$5,000.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Currency Exchange (FX fee)</div>
-                          <div class="service-info__number text-dark text-dark_big">2.40%</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">ATM Withdrawal Fee per transaction
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">$2.40</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Maximum number of loads per day
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">10</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Maximum balance</div>
-                          <div class="service-info__number text-dark text-dark_big">$5,000.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">ATM Balance Inquiry</div>
-                          <div class="service-info__number text-dark text-dark_big">$0.50</div>
-                        </li>
-                      </ul>
-                      <div class="exchange__note note">
-                        <div class="note__title text-dark text-dark_big">Delivery method</div>
-                        <ul class="service-info__list">
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Regular Mail</div>
-                            <div class="service-info__number text-dark text-dark_big text-dark_blue">FREE</div>
-                          </li>
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Express Delivery</div>
-                            <div class="service-info__number text-dark text-dark_big">$70</div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div> -->
-                  </div>
-                </div>
-              </div>
+              {% include 'pages/fees/cardsInfo/standart.njk' %}
 
               <!-- <div class="exchange__item" id="prepaid-card-premium">
                 <h1 class="exchange__title title">Prepaid ePayService Mastercard®<br> Premium</h1>
@@ -1844,6 +1649,9 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 <ul class="footer__list">
                   <li class="footer__item">
                     <a class="footer__link" href="user-agreement.pdf">User Agreement</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="../ePayService_MasterCard_Cardholders_Agreement.pdf">ePayService MasterCard Cardholders Agreement</a>
                   </li>
 
                   <li class="footer__item">

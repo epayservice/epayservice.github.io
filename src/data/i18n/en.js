@@ -16,5 +16,47 @@ module.exports = {
   },
 
   payments: 'Payments',
-  cards: 'Cards'
+  cards: 'Cards',
+
+  cardsList: {
+    standart: {
+      title: 'ePayService Card Standard',
+      descr: 'Mastercard® Debit',
+      tabName: 'Debit ePayService Mastercard® Standard',
+      moreAbout: 'More about ePayService cards'
+    },
+
+    premium: {
+      title: 'ePayService Card Premium',
+      descr: 'Mastercard® Prepaid'
+    },
+
+    single: {
+      title: 'ePayService Virtual Single',
+      descr: 'Mastercard® Prepaid'
+    },
+
+    multi: {
+      title: 'ePayService Virtual',
+      descr: 'Mastercard® Debit'
+    }
+  },
+
+  cardFeesTitles: {
+    cardIssuanceAndActivation: 'Card Issuance & Activation of the ePayService Mastercard® Standard EUR',
+    monthlyMaintenance: 'Monthly Maintenance Fee',
+    minimumLoadLimit: 'Minimum Load Limit',
+    maximumDailyLoadLimit: 'Maximum Daily Load Limit',
+    currencyExchange: 'Currency Exchange (FX fee)',
+    ATMWithdrawalFeePerTransaction: 'ATM Withdrawal Fee Per Transaction',
+    maximumNumberOfLoadsPerDay: 'Maximum number of loads per day',
+    maximumBalance: 'Maximum balance',
+    ATMBalanceInquiry: 'ATM Balance Inquiry',
+    regularMail: 'Regular Mail',
+    expressDelivery: 'Express Delivery'
+  },
+
+  deliveryMethod: 'Delivery method',
+
+  free: 'FREE'
 }
