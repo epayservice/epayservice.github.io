@@ -1,4 +1,44 @@
 module.exports = {
+  menu: {
+    services: 'Dịch vụ',
+    fees: 'Biểu phí',
+    contactUs: 'Liên Hệ',
+    faq: 'FAQ'
+  },
+
+  services: {
+    accountManagement: 'Quản lý Tài khoản',
+    bankTransfers: 'Chuyển Tiền',
+    personalIBAN: 'Personal IBAN',
+    personalUSAccount: 'Personal US Account',
+    debitCards: 'Thẻ ghi nợ',
+    affiliatePayouts: 'Thanh toán Đại lý',
+    payrollSolutions: 'Giải pháp Thanh toán lương',
+    virtualCards: 'Thẻ ảo',
+    localPayments: 'Chuyển khoản ngân hàng địa phương',
+    sendMoneyToCard: 'Chuyển khoản vào thẻ',
+    cashRemittance: 'Thanh toán tiền mặt'
+  },
+
+  footer: {
+    information: 'Thông tin',
+    contactUs: 'Liên hệ',
+    signIn: 'Đăng nhập',
+    affiliateProgram: 'Chương trình Liên kết',
+    openAPI: 'OpenAPI',
+    developers: 'Developers',
+    news: 'Tin tức',
+    terms: 'Điều khoản',
+    userAgreement: 'Thỏa thuận Người dùng',
+    cardholdersAgreement: 'PayService MasterCard Cardholders Agreement',
+    privacyPolicy: 'Privacy Policy',
+    privacyNotice: 'Privacy Notice',
+    followUs: 'Theo dõi Chúng tôi',
+    twitter: 'Twitter',
+    copyRight: '© Bản quyền MTACC Inc. DBA ePayService 2007–<span></span>, <br>Bảo lưu mọi quyền.',
+    descr: '<p>ePayService is the trading name of MTACC Limited - Authorised and Regulated by the Malta Financial Services Authority under the Financial Institutions Act for the issuance of E-Money and the Provision of Payment Services</p><p>I was very pleased to see the card section of the ePayService looking good and up to date regarding fees and limits. Thank you.</p><p>There\'s a few things I\'d like to request please.</p><p>1. Change all instances of \'MasterCard\' to \'Mastercard\'.</p><p>2. When ordering a card, we should ask the customer to agree to the Ts&Cs (and show them) before they can proceed. (Use the version attached.)</p><p>3. Update the images of the card (eg add \'debit\' to the physical card and make sure the virtual one is accurate too).</p><p>4. Add at the bottom of the card pages "The ePayService Debit Card is issued by MTACC Ltd. pursuant to licence by Mastercard International."</p>'
+  },
+
   fees: {
     moneyTransfersUS: {
       navText: 'ACH & Chuyển tiền Trực tiếp, Chuyển khoản nội địa',

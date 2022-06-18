@@ -18,6 +18,52 @@ module.exports = function(eleventyConfig) {
     }
   });
 
+  eleventyConfig.addNunjucksGlobal("getServicesArray", function(servicesItems, availableServicesItems) {
+    const services = [];
+    availableServicesItems.forEach((el) => {
+      services.push(servicesItems[el]);
+    });
+    return services;
+  });
+
+  eleventyConfig.addNunjucksGlobal("getAvailableServicesItems", function(locale) {
+    switch (locale) {
+      case 'zh': return [
+        'accountManagement',
+        'bankTransfers',
+        'affiliatePayouts',
+        'payrollSolutions',
+        'localPayments',
+        'sendMoneyToCard',
+        'cashRemittance'
+      ];
+      case 'ms', 'vn', 'ar', 'pl': return [
+        'accountManagement',
+        'bankTransfers',
+        'debitCards',
+        'affiliatePayouts',
+        'payrollSolutions',
+        'virtualCards',
+        'localPayments',
+        'sendMoneyToCard',
+        'cashRemittance'
+      ];
+      default: return [
+        'accountManagement',
+        'bankTransfers',
+        'personalIBAN',
+        'personalUSAccount',
+        'debitCards',
+        'affiliatePayouts',
+        'payrollSolutions',
+        'virtualCards',
+        'localPayments',
+        'sendMoneyToCard',
+        'cashRemittance'
+      ];
+    }
+  });
+
   eleventyConfig.addFilter('log', value => {
     console.log(value);
   });

@@ -1,4 +1,44 @@
 module.exports = {
+  menu: {
+    services: 'Services',
+    fees: 'Frais',
+    contactUs: 'Contactez-nous',
+    faq: 'FAQ'
+  },
+
+  services: {
+    accountManagement: 'Gestion de compte',
+    bankTransfers: 'Virements bancaires',
+    personalIBAN: 'IBAN personnel',
+    personalUSAccount: 'Compte américain personnel',
+    debitCards: 'Cartes de débit',
+    affiliatePayouts: 'Paiements d’affiliation',
+    payrollSolutions: 'Solutions salariales',
+    virtualCards: 'Cartes virtuelles',
+    localPayments: 'Virement bancaire local',
+    sendMoneyToCard: 'Transferts vers les cartes',
+    cashRemittance: 'Transferts d’argent'
+  },
+
+  footer: {
+    information: 'Informations',
+    contactUs: 'Contactez-nous',
+    signIn: 'Connexion',
+    affiliateProgram: 'Programme d’affiliation',
+    openAPI: 'OpenAPI',
+    developers: 'Developers',
+    news: 'Nouvelles',
+    terms: 'Conditions',
+    userAgreement: 'Accord de l’utilisateur',
+    cardholdersAgreement: 'PayService MasterCard Cardholders Agreement',
+    privacyPolicy: 'Privacy Policy',
+    privacyNotice: 'Privacy Notice',
+    followUs: 'Suivez-nous',
+    twitter: 'Twitter',
+    copyRight: '© Copyright ePayService 2007–<span></span>, <br>Tous droits réservés.',
+    descr: '<p>ePayService is the trading name of MTACC Limited - Authorised and Regulated by the Malta Financial Services Authority under the Financial Institutions Act for the issuance of E-Money and the Provision of Payment Services</p><p>I was very pleased to see the card section of the ePayService looking good and up to date regarding fees and limits. Thank you.</p><p>There\'s a few things I\'d like to request please.</p><p>1. Change all instances of \'MasterCard\' to \'Mastercard\'.</p><p>2. When ordering a card, we should ask the customer to agree to the Ts&Cs (and show them) before they can proceed. (Use the version attached.)</p><p>3. Update the images of the card (eg add \'debit\' to the physical card and make sure the virtual one is accurate too).</p><p>4. Add at the bottom of the card pages "The ePayService Debit Card is issued by MTACC Ltd. pursuant to licence by Mastercard International."</p>'
+  },
+
   fees: {
     moneyTransfersUS: {
       navText: 'ACH & DirectDeposit, virements bancaires domestiques ',

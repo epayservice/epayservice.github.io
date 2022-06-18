@@ -1,0 +1,406 @@
+---
+permalink: "{{ locale }}/{{ page.fileSlug }}.html"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="../css/style.css?v=191613042022">
+  <title>ePayService - OpenAPI</title>
+</head>
+
+<body>
+
+
+  <div class="strut">
+
+    <div class="strut__row">
+
+      <header class="header">
+        <div class="header__top header__top_sticky">
+          <div class="region">
+            <div class="top">
+              <div class="top__main">
+                <div class="top__burger burger">
+                  <div class="burger__handler"></div>
+                  <div class="burger__body"></div>
+                </div>
+                <div class="top__logo">
+                  <a class="logo" href="index.html"></a>
+                </div>
+                <nav class="top__nav nav">
+                  <!--<a class="nav__link" href="-about.html">About Us</a>-->
+                  <a class="nav__link nav__link_active nav__link_more" href="#"
+                    data-inner="inner-nav"><span>Services</span></a>
+                  <div class="sub-menu">
+                    <a class="sub-menu__link" href="managing-account.html">Account Management</a>
+                    <a class="sub-menu__link" href="bank-transfers.html">Bank Transfers</a>
+                    <a class="sub-menu__link" href="personal-iban.html">Personal IBAN</a>
+                    <a class="sub-menu__link" href="personal-us-account.html">Personal US Account</a>
+                    <a class="sub-menu__link" href="prepaid-cards.html">Debit Cards</a>
+                    <a class="sub-menu__link" href="affiliate-payouts.html">Affiliate Payouts</a>
+                    <a class="sub-menu__link" href="payout-service.html">Payroll Solutions</a>
+                    <a class="sub-menu__link" href="virtual-cards.html">Virtual Cards</a>
+                    <a class="sub-menu__link" href="local-payments.html">Local payments</a>
+                    <a class="sub-menu__link" href="send-money-to-card.html">Send money to card</a>
+                    <a class="sub-menu__link" href="cash-remittance.html">Cash Remittance</a>
+                  </div>
+                  <a class="nav__link" href="fees.html">Fees</a>
+                  <a class="nav__link" href="contact-us.html">Contact Us</a>
+                  <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
+                </nav>
+                <a class="top__profile" href="https://online.epayservices.com/"></a>
+                <div class="top__sign-in">
+                  <a class="button" href="https://online.epayservices.com/register">Open A Free Account</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">Sign In</a>
+                </div>
+              </div>
+              <div class="top__actions">
+                <div class="top__buttons">
+                  <a class="button" href="https://online.epayservices.com/register">Open A Free Account</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">Sign In</a>
+                </div>
+                <div class="top__language lang-select drop">
+                  <div class="lang-select__toggle drop__handler">
+                    <div class="lang-select__image">
+                      <img src="../images/flag-uk.svg" alt="">
+                    </div>
+                    <div class="lang-select__title">UK</div>
+                  </div>
+                  <div class="lang-select__list drop__down">
+                    <a class="lang-select__item" href="../uk/open-api.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English</div>
+                    </a>
+                    <a class="lang-select__item" href="../es/open-api.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-es.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español</div>
+                    </a>
+                    <a class="lang-select__item" href="../de/open-api.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-de.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Deutsch</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="inner-nav" id="inner-nav">
+            <div class="region">
+              <div class="inner-nav__list">
+                <a class="inner-nav__item" href="managing-account.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_safe"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Account Management</div>
+                </a>
+                <a class="inner-nav__item" href="bank-transfers.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_house2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Bank Transfers</div>
+                </a>
+                <a class="inner-nav__item" href="personal-iban.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_stars-big2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Personal IBAN</div>
+                </a>
+                <a class="inner-nav__item" href="personal-us-account.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_money-rotate2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Personal US Account</div>
+                </a>
+                <a class="inner-nav__item" href="prepaid-cards.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_cards2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Debit Cards</div>
+                </a>
+                <a class="inner-nav__item" href="affiliate-payouts.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_crowd2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Affiliate Payouts</div>
+                </a>
+                <a class="inner-nav__item" href="payout-service.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hands2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Payroll Solutions</div>
+                </a>
+                <a class="inner-nav__item" href="virtual-cards.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_virtual-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Virtual Cards</div>
+                </a>
+                <a class="inner-nav__item" href="local-payments.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_local-pay"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Local payments</div>
+                </a>
+                <a class="inner-nav__item" href="send-money-to-card.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_save-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Send money to card</div>
+                </a>
+                <a class="inner-nav__item" href="cash-remittance.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hand-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">Cash Remittance</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+    </div>
+
+    <div class="strut__row strut__row_expanded">
+      <main class="body body_long body_narrow">
+
+        <div class="slider__item slider__item_light"
+          style="background: linear-gradient(180deg, #374D6B 0%, #00B4D5 100%);">
+          <div class="region">
+            <div class="slider__info main-info">
+              <h1 class="main-info__title title title_light">OpenAPI allows payment providers and third-party developers
+                (TPPs) to get access to our technologies, products and services for developing new tools and to
+                launching innovative solutions to the market without harming customers.</h1>
+              <div class="main-info__text text-dark_light"></div>
+              <div class="main-info__button">
+                <a class="button button_big" href="https://online.epayservices.com/open_api/developers/sign_up">SIGN
+                  UP</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="region">
+          <div class="row">
+            <div class="col-md-9 col-xs-12 full-width">
+              <div class="body__content body__content_small solutions">
+
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">What is the advantage of OpenAPI?</h2>
+                  <div class="solutions__text text-dark">OpenAPI allows banks and financial services to use their
+                    resources securely. Thanks to openness to the outside world, OpenAPI helps to find the best and most
+                    effective solutions.</div>
+                </div>
+
+                <div class="solutions__block">
+                  <ul class="solutions__list solutions__list_lg">
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_invest-shield"></div>
+                      </div>
+                      <div class="solutions__note text-dark">Improved Security</div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_strategy"></div>
+                      </div>
+                      <div class="solutions__note text-dark">Customer own their data</div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_research"></div>
+                      </div>
+                      <div class="solutions__note text-dark">Easy integration</div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_statistics"></div>
+                      </div>
+                      <div class="solutions__note text-dark">Accountability</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 hidden-sm">
+              <div class="sticky-column-long">
+                <div class="body__action steps service">
+                  <div class="service__title title title_medium">Join the new technology with ePayService OpenAPI!</div>
+                  <div class="service__list" style="border-bottom: none">
+                    <a class="service__item service__item_active"
+                      href="https://online.epayservices.com/open_api/docs/index.html">OpenAPI Documentation (v1)</a>
+                    <a class="service__item" href="https://github.com/epayservice/eps-open-api-reference-app">Demo TPP
+                      Application</a>
+                    <a class="service__item" href="https://online.epayservices.com/open_api/status.html">OpenAPI Uptime
+                      Dashboard</a>
+                  </div>
+                  <div class="steps__wrapper">
+                    <div class="steps__button">
+                      <a class="button button_big"
+                        href="https://online.epayservices.com/open_api/developers/sign_up">enroll with open api</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="solutions solutions_bg">
+          <div class="region">
+            <div class="row">
+              <div class="col-md-9 col-xs-12 full-width">
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">Data protection</h2>
+                  <div class="solutions__text text-dark">Before providing access to customer data, we require his/her
+                    approval. All data is protected and authorization is required to access it through ePayService
+                    OpenAPI. To authenticate users, we use security standards such as the OAuth2 protocol and OpenID
+                    Connect system.</div>
+                  <div class="solutions__image solutions__image_notes">
+                    <img src="../images/data-api-img.png"
+                      srcset="../images/data-api-img.png 1x, ../images/data-api-img2x.png 2x" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="region">
+          <div class="api">
+            <div class="row">
+              <div class="col-md-9 col-xs-12 full-width">
+                <div class="api__block">
+                  <h2 class="api__title title">Explore the new technology of OpenAPI</h2>
+                  <div class="api__text text-dark">Join as a developer and create new solutions.</div>
+                </div>
+                <div class="api__code code">
+                  <div class="code__item">
+                    <div class="code__title">Account History</div>
+                    <div class="code__block">
+                      <pre>
+<span>{</span><br>
+    "id"<span> : </span>3<span>,</span><br>
+    "account_id"<span> : </span>2<span>,</span><br>
+    "type_act"<span> : </span>"out"<span>,</span><br>
+    "description"<span> : </span>"To Ivan Ivanov (card: 4242**4242)"<span>,</span><br>
+    "comment"<span> : </span>"Loan return"<span>,</span><br>
+    "status"<span> : </span>"paid"<span>,</span><br>
+    "amount"<span> : </span>"100.55"<span>,</span><br>
+    "tax"<span> : </span>"0.5"<span>,</span><br>
+    "currency"<span> : </span>"EUR"<span>,</span><br>
+    "created_at"<span> : </span>"2019-03-28 14:40:51 +0300"<span>,</span><br>
+    "transaction_type"<span> : </span>"Cash Remittance"<span>,</span><br>
+    "available_balance"<span> : </span>"900.45"<span></span><br>
+<span>}</span>
+</pre>
+                    </div>
+                  </div>
+                  <div class="code__item">
+                    <div class="code__title">Internal Transfer (P2P)</div>
+                    <div class="code__block">
+                      <pre>
+<span>{</span><br>
+    "id"<span> : </span>3<span>,</span><br>
+    "account_id"<span> : </span>2<span>,</span><br>
+    "type_act"<span> : </span>"out"<span>,</span><br>
+    "description"<span> : </span>"To Ivan Ivanov (card: 4242**4242)"<span>,</span><br>
+    "comment"<span> : </span>"Loan return"<span>,</span><br>
+    "status"<span> : </span>"paid"<span>,</span><br>
+    "amount"<span> : </span>"100.55"<span>,</span><br>
+    "tax"<span> : </span>"0.5"<span>,</span><br>
+    "currency"<span> : </span>"EUR"<span>,</span><br>
+    "created_at"<span> : </span>"2019-03-28 14:40:51 +0300"<span>,</span><br>
+    "transaction_type"<span> : </span>"Cash Remittance"<span>,</span><br>
+    "available_balance"<span> : </span>"900.45"<span></span><br>
+<span>}</span>
+</pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="mobile-bank">
+          <div class="region">
+            <div class="row">
+              <div class="col-md-8 col-xs-12">
+                <h2 class="mobile-bank__title title">Bonus</h2>
+                <div class="row mobile-bank__line">
+                  <div class="col-sm-6">
+                    <div class="mobile-bank__text text-dark">Testing ePayService OpenAPI, volunteers developed a demo
+                      mobile TPP application for iOS and Android platforms.This app is available as Open Source on
+                      GitHub (github.com) and run under Account Information Service (AIS) and Payment Initiation
+                      Services (PIS) scripts.</div>
+                    <div class="mobile-bank__download">
+                      <a class="button button_big button_git"
+                        href="https://github.com/epayservice/eps-open-api-reference-app"><span>Follow on
+                          GitHub</span></a>
+                    </div>
+                    <div class="mobile-bank__manage mobile-bank__wrap">
+                      <div class="mobile-bank__develop">
+                        <img src="../images/flutter.png" srcset="../images/flutter.png 1x, ../images/flutter2x.png 2x"
+                          alt="">
+                      </div>
+                      <div class="mobile-bank__text text-dark">The demo application is made with a cross-platform
+                        development framework – Flutter.</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="mobile-bank__image">
+                      <img src="../images/api-phone.png"
+                        srcset="../images/api-phone.png 1x, ../images/api-phone2x.png 2x" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+
+    {% include 'footer.njk' %}
+
+  </div>
+
+
+  <div class="up-arrow"></div>
+
+
+
+  <script src="../js/jquery-2.2.0.min.js"></script>
+  <script src="../js/jquery.placeholder.js"></script>
+  <script src="../js/slick.min.js"></script>
+  <script src="../js/sticky-kit.js"></script>
+  <script src="../js/app.b6f525f1.js"></script>
+  <script>
+    window.intercomSettings = {
+      app_id: "wz9x11as"
+    };
+  </script>
+  <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
+    (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/wz9x11as'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+  </script>
+  <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,491 @@
+---
+permalink: "{{ locale }}/{{ page.fileSlug }}.html"
+---
+
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="../css/dropkick.css">
+  <link rel="stylesheet" href="../css/local_payments.css">
+  <link rel="stylesheet" href="../css/style.css?v=191613042022">
+  <title>ePayService - 匯款</title>
+</head>
+
+<body>
+
+
+  <div class="strut">
+
+    <div class="strut__row">
+
+      <header class="header">
+        <div class="header__top header__top_sticky">
+          <div class="region">
+            <div class="top">
+              <div class="top__main">
+                <div class="top__burger burger">
+                  <div class="burger__handler"></div>
+                  <div class="burger__body"></div>
+                </div>
+                <div class="top__logo">
+                  <a class="logo" href="index.html"></a>
+                </div>
+                <nav class="top__nav nav">
+                  <!--<a class="nav__link" href="-about.html">About Us</a>-->
+                  <a class="nav__link nav__link_more" href="#" data-inner="inner-nav"><span>服务</span></a>
+                  <div class="sub-menu">
+                    <a class="sub-menu__link" href="managing-account.html">账户管理</a>
+                    <a class="sub-menu__link" href="bank-transfers.html">银行转账</a>
+                    <a class="sub-menu__link" href="affiliate-payouts.html">联盟支付</a>
+                    <a class="sub-menu__link" href="payout-service.html">工资方案</a>
+                    <a class="sub-menu__link" href="local-payments.html">本地银行转账</a>
+                    <a class="sub-menu__link" href="send-money-to-card.html">匯款</a>
+                    <a class="sub-menu__link" href="cash-remittance.html">现金支付</a>
+                  </div>
+                  <a class="nav__link" href="fees.html">费用</a>
+                  <a class="nav__link" href="contact-us.html">联系我们</a>
+                  <a class="nav__link" target="_blank" href="http://faq.epayservices.com">FAQ</a>
+                </nav>
+                <a class="top__profile" href="#"></a>
+                <div class="top__sign-in">
+                  <a class="button" href="https://online.epayservices.com/register">开立免费账户</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">注册</a>
+                </div>
+              </div>
+              <div class="top__actions">
+                <div class="top__buttons">
+                  <a class="button" href="https://online.epayservices.com/register">开立免费账户</a>
+                  <a class="button button_border" href="https://online.epayservices.com/">注册</a>
+                </div>
+                <div class="top__language lang-select drop">
+                  <div class="lang-select__toggle drop__handler">
+                    <div class="lang-select__image">
+                      <img src="../images/flag-zh.svg" alt="">
+                    </div>
+                    <div class="lang-select__title">ZH</div>
+                  </div>
+                  <div class="lang-select__list drop__down">
+                    <a class="lang-select__item" href="../en/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English (US)</div>
+                    </a>
+                    <a class="lang-select__item" href="../uk/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-uk.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">English</div>
+                    </a>
+                    <a class="lang-select__item" href="../ru/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/ru.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Русский</div>
+                    </a>
+                    <a class="lang-select__item" href="../es/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-es.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español</div>
+                    </a>
+                    <a class="lang-select__item" href="../co/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-co.png" alt="">
+                      </div>
+                      <div class="lang-select__title">Español (Colombia)</div>
+                    </a>
+                    <a class="lang-select__item" href="../pt/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-pt.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Português</div>
+                    </a>
+                    <a class="lang-select__item" href="../ro/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ro.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Română</div>
+                    </a>
+                    <a class="lang-select__item" href="../ms/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ms.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Melayu</div>
+                    </a>
+                    <a class="lang-select__item" href="../vn/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-vn.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Tiếng Việt</div>
+                    </a>
+                    <a class="lang-select__item" href="../ar/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-ar.png" alt="">
+                      </div>
+                      <div class="lang-select__title">عربى</div>
+                    </a>
+                    <a class="lang-select__item" href="../pl/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-pl.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Język polski</div>
+                    </a>
+                    <a class="lang-select__item" href="../zh/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-zh.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">汉语</div>
+                    </a>
+                    <a class="lang-select__item" href="../de/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-de.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Deutsch</div>
+                    </a>
+                    <a class="lang-select__item" href="../fr/send-money-to-card.html">
+                      <div class="lang-select__image">
+                        <img src="../images/flag-fr.svg" alt="">
+                      </div>
+                      <div class="lang-select__title">Français</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="inner-nav" id="inner-nav">
+            <div class="region">
+              <div class="inner-nav__list">
+                <a class="inner-nav__item" href="managing-account.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_safe"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">账户管理</div>
+                </a>
+                <a class="inner-nav__item" href="bank-transfers.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_house2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">银行转账</div>
+                </a>
+                <a class="inner-nav__item" href="affiliate-payouts.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_crowd2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">联盟支付</div>
+                </a>
+                <a class="inner-nav__item" href="payout-service.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hands2"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">工资方案</div>
+                </a>
+                <a class="inner-nav__item" href="local-payments.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_local-pay"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">本地银行转账</div>
+                </a>
+                <a class="inner-nav__item" href="send-money-to-card.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_save-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">匯款</div>
+                </a>
+                <a class="inner-nav__item" href="cash-remittance.html">
+                  <div class="inner-nav__icon">
+                    <div class="inner-nav__image icon icon_hand-to-card"></div>
+                  </div>
+                  <div class="inner-nav__title title title_small">现金支付</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+    </div>
+
+    <div class="strut__row strut__row_expanded">
+      <main class="body body_long">
+
+        <div class="special-solution special-solution_dark" style="background-image: url(.././images/slider-img14.jpg)">
+          <div class="region">
+            <h1 class="special-solution__title title">转账到Mastercard®和VISA®卡</h1>
+            <div class="special-solution__text special-solution__text_wide">
+              <ul class="special-solution__list">
+                <li class="special-solution__item">
+                  <div class="special-solution__icon icon icon_clock-white"></div>
+                  <div class="special-solution__info">
+                    <div class="special-solution_sub-title title title_small title_light">方便</div>
+                    <div class="special-solution__note text text-dark_light">支付雇员工资和自由职业者报酬的理想方式</div>
+                  </div>
+                </li>
+                <li class="special-solution__item">
+                  <div class="special-solution__icon icon icon_currency-white"></div>
+                  <div class="special-solution__info">
+                    <div class="special-solution_sub-title title title_small title_light">快速</div>
+                    <div class="special-solution__note text text-dark_light">一分钟内将资金汇入收款人银行卡</div>
+                  </div>
+                </li>
+                <li class="special-solution__item">
+                  <div class="special-solution__icon icon icon_earth-white"></div>
+                  <div class="special-solution__info">
+                    <div class="special-solution_sub-title title title_small title_light">安全</div>
+                    <div class="special-solution__note text text-dark_light">通过Mastercard®和VISA®支付系统对转账进行处理</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="region">
+          <div class="row row-eq-height">
+            <div class="col-md-9 col-xs-12 full-width">
+              <div class="body__content body__content_small">
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">简单快捷的转账</h2>
+                  <div class="solutions__text text-dark">ePayService 支付系统可为个人及企业提供独一无二的机会，转账到第三方银行签发的Mastercard® 和VISA®
+                    卡。是为自由职业者支付报酬、向员工发放工资或向亲戚提供资金支持的理想方式。在世界各地，只要有Mastercard®和VISA® 支付系统的地方都能进行转账。无需代理银行，真正快捷且完全透明！
+                  </div>
+                  <div class="solutions__image">
+                    <img src="../images/solution-img11.svg" alt="">
+                  </div>
+                </div>
+                <div class="solutions__block">
+                  <div class="solutions__top">
+                    <div class="solutions__wrapper">
+                      <h2 class="solutions__title title">全球转账</h2>
+                      <div class="solutions__text text-dark">不管银行卡的签发国家和币种是什么，支付技术Mastercard® VISA®都能转账到借记卡、信用卡和预付卡上。
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="solutions__list">
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image">
+                          <img src=".././images/debit-card-big.svg" alt="">
+                        </div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">借記卡</div>
+                      </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image">
+                          <img src=".././images/credit-card-big.svg" alt="">
+                        </div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">信用卡</div>
+                      </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image">
+                          <img src=".././images/prepaid-card-big.svg" alt="">
+                        </div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">預付卡</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">真正方便、快捷和可靠</h2>
+                  <ul class="solutions__list">
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_fast"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">非常简单</div>
+                        <div class="solutions__note text">只需收款人姓名及其卡号</div>
+                      </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_check-earth"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">无隐藏手续费</div>
+                        <div class="solutions__note text">与国际银行汇款相比，转账到银行卡更快、更便宜</div>
+                      </div>
+                    </li>
+                    <li class="solutions__item">
+                      <div class="solutions__bubble bubble-icon bubble-icon_big">
+                        <div class="bubble-icon__image icon icon_money"></div>
+                      </div>
+                      <div class="solutions__wrapper">
+                        <div class="solutions__note text-dark">绝对安全</div>
+                        <div class="solutions__note text">所有转账都是在安全的Mastercard®和VISA®内部网络中进行。</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="solutions__block">
+                  <h2 class="solutions__title title">转账费用</h2>
+                  <div class="solutions__text text-dark">
+                    到第三方Mastercard®和VISA®卡的出境转账是通过您的ePayService美元或欧元货币钱包来发起。资金将会以发行银行的适用汇率存入收款人的银行卡。</div>
+                </div>
+                <div class="checks__tabs tabs">
+                  <div class="tabs__head using__switch">
+                    <button class="tabs__tag tabs__tag_current using__tab" type="button">歐元兌換</button>
+                    <button class="tabs__tag using__tab" type="button">以美元轉賬</button>
+                  </div>
+                  <div class="tabs__body">
+                    <div class="tabs__section tabs__section_visible">
+                      <ul class="checks__info">
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <div class="text-dark text-dark_small">总金额</div>
+                              <div class="title title_medium checks__sub-text">最高 <span>500.00 EUR</span></div>
+                            </div>
+                            <div class="col-xs-6">
+                              <div class="text-dark text-dark_small"><br></div>
+                              <div class="title title_medium checks__sub-text">1.95% + 3.00 EUR</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <div class="text-dark text-dark_small">总金额</div>
+                              <div class="title title_medium checks__sub-text">从 <span>500.00 EUR</span></div>
+                            </div>
+                            <div class="col-xs-6">
+                              <div class="text-dark text-dark_small"><br></div>
+                              <div class="title title_medium checks__sub-text">1.95% + 6.00 EUR</div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="tabs__section">
+                      <ul class="checks__info">
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <div class="text-dark text-dark_small">总金额</div>
+                              <div class="title title_medium checks__sub-text">最高 <span>500.00 USD</span></div>
+                            </div>
+                            <div class="col-xs-6">
+                              <div class="text-dark text-dark_small"><br></div>
+                              <div class="title title_medium checks__sub-text">1.95% + 3.00 USD</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="checks__row">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <div class="text-dark text-dark_small">总金额</div>
+                              <div class="title title_medium checks__sub-text">从 <span>500.00 USD</span></div>
+                            </div>
+                            <div class="col-xs-6">
+                              <div class="text-dark text-dark_small"><br></div>
+                              <div class="title title_medium checks__sub-text">1.95% + 6.00 USD</div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="using">
+                  <h2 class="using__title title">使用ePayService加快您的业务</h2>
+                  <div class="using__note text">只需简单的3步即可转账到任何Mastercard®和VISA®卡</div>
+                  <ul class="using__list">
+                    <li class="using__item">
+                      <div class="using__icon">
+                        <div class="icon icon_man"></div>
+                      </div>
+                      <div class="using__number"><span>1</span></div>
+                      <div class="using__text">在ePayService注册。我们将为您和您的企业开立一个完全免费的账户</div>
+                    </li>
+                    <li class="using__item">
+                      <div class="using__icon">
+                        <div class="icon icon_profile-check"></div>
+                      </div>
+                      <div class="using__number"><span>2</span></div>
+                      <div class="using__text">为账户充值。我们接受银行转账、支票以及电子货币</div>
+                    </li>
+                    <li class="using__item">
+                      <div class="using__icon">
+                        <div class="icon icon_hands"></div>
+                      </div>
+                      <div class="using__number"><span>3</span></div>
+                      <div class="using__text">发起转账。对于大多数的银行转账，都能立即完成。</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 hidden-sm">
+              <div class="sticky-column-long">
+                <div class="body__action steps service">
+                  <div class="service__title title title_medium">服务</div>
+                  <div class="service__list">
+                    <a class="service__item" href="managing-account.html">账户管理</a>
+                    <a class="service__item" href="bank-transfers.html">银行转账</a>
+                    <a class="service__item" href="payout-service.html">工资方案</a>
+                    <a class="service__item" href="affiliate-payouts.html">联盟支付</a>
+                    <a class="service__item" href="local-payments.html">本地银行转账</a>
+                    <a class="service__item service__item_active" href="send-money-to-card.html">匯款</a>
+                    <a class="service__item" href="cash-remittance.html">现金支付</a>
+                  </div>
+                  <div class="steps__wrapper">
+                    <div class="steps__title title title_medium">尽情使用ePayService带给您的创新金融科技！</div>
+                    <div class="steps__button">
+                      <a class="button button_big" href="https://online.epayservices.com/register">2分钟开立一个账户</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </main>
+    </div>
+
+    {% include 'footer.njk' %}
+
+  </div>
+
+
+  <div class="up-arrow"></div>
+
+  <script src="../js/jquery-2.2.0.min.js"></script>
+  <script src="../js/jquery.placeholder.js"></script>
+  <script src="../js/slick.min.js"></script>
+  <script src="../js/sticky-kit.js"></script>
+  <script src="../js/dropkick.min.js"></script>
+
+  <script src="../js/app.b6f525f1.js"></script>
+
+  <script>
+    window.intercomSettings = {
+      app_id: "wz9x11as"
+    };
+  </script>
+  <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/wz9x11as'
+    (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/wz9x11as'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+  </script>
+  <script src="https://online.epayservices.com/affiliate_program/landing_page/remember_affiliate_script.js"></script>
+</body>
+
+</html>

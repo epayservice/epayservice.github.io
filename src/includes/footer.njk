@@ -22,6 +22,7 @@
     textI18n: 'footer.terms',
     subItems: [
       { textI18n: 'footer.userAgreement', href: 'user-agreement.pdf' },
+      { textI18n: 'footer.cardholdersAgreement', href: '../ePayService_MasterCard_Cardholders_Agreement.pdf'},
       { textI18n: 'footer.privacyPolicy', href: '../privacy-policy.pdf' },
       { textI18n: 'footer.privacyNotice', href: '../privacy-notice.pdf' }
     ]
@@ -58,7 +59,7 @@
       </div>
       <div class="footer__info">
         <div class="footer__copyright">{{ copyRightI18n | i18n | safe }}</div>
-        {% if (descr !== '') %}
+        {% if (descrI18n !== '') %}
         <div class="footer__text">{{ descrI18n | i18n | safe }}</div>
         {% endif %}
       </div>

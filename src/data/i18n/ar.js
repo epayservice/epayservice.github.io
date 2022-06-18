@@ -1,8 +1,48 @@
 module.exports = {
+  menu: {
+    services: 'الخدمات',
+    fees: 'الرسوم',
+    contactUs: 'إتصل بنا',
+    faq: 'FAQ'
+  },
+
+  services: {
+    accountManagement: 'إدارة الحساب',
+    bankTransfers: 'تحويل الأموال',
+    personalIBAN: 'Personal IBAN',
+    personalUSAccount: 'Personal US Account',
+    debitCards: 'البطاقات مسبقة الدفع',
+    affiliatePayouts: 'دفع الأرباح للشركات المدمجة أو المؤسسات الفرعية',
+    payrollSolutions: 'دفع الرواتب',
+    virtualCards: 'بطاقات افتراضية',
+    localPayments: 'التحويل المصرفي المحلي',
+    sendMoneyToCard: 'التحويلات إلى بطاقات',
+    cashRemittance: 'دفع نقدًا'
+  },
+
+  footer: {
+    information: 'المعلومات',
+    contactUs: 'إتصل بنا',
+    signIn: 'تسجيل الدخول',
+    affiliateProgram: 'برنامج للتسويق المشترك',
+    openAPI: 'OpenAPI',
+    developers: 'Developers',
+    news: 'أخبار',
+    terms: 'الشروط',
+    userAgreement: 'إتفاقية المستخدم',
+    cardholdersAgreement: 'إتفاقية حاملى بطاقات ePayService ®Mastercard',
+    privacyPolicy: 'Privacy Policy',
+    privacyNotice: 'Privacy Notice',
+    followUs: 'تابعنا',
+    twitter: 'Twitter',
+    copyRight: '© جميع حقوق الطبع محفوظة لشركة MTACCDBA<br>ePayService 2007–<span></span>.',
+    descr: '<p>ePayService is the trading name of MTACC Limited - Authorised and Regulated by the Malta Financial Services Authority under the Financial Institutions Act for the issuance of E-Money and the Provision of Payment Services</p><p>I was very pleased to see the card section of the ePayService looking good and up to date regarding fees and limits. Thank you.</p><p>There\'s a few things I\'d like to request please.</p><p>1. Change all instances of \'MasterCard\' to \'Mastercard\'.</p><p>2. When ordering a card, we should ask the customer to agree to the Ts&Cs (and show them) before they can proceed. (Use the version attached.)</p><p>3. Update the images of the card (eg add \'debit\' to the physical card and make sure the virtual one is accurate too).</p><p>4. Add at the bottom of the card pages "The ePayService Debit Card is issued by MTACC Ltd. pursuant to licence by Mastercard International."</p>'
+  },
+
   fees: {
     moneyTransfersUS: {
       navText: 'ACH و DirectDeposit، حوالة مصرفية محلية',
-      title: '"تحويل الأموال داخل الولايات المتحدة ACH و DirectDeposit، حوالة مصرفية محلية)"',
+      title: 'تحويل الأموال داخل الولايات المتحدة ACH و DirectDeposit، حوالة مصرفية محلية',
       linkText: 'المزيد عن ACH و DirectDeposit',
       direction: 'اتجاه',
       fee: 'رسوم',
