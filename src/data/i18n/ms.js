@@ -36,7 +36,7 @@ module.exports = {
     followUs: 'Ikuti Kami',
     twitter: 'Twitter',
     copyRight: '© Hak milik MTACC Inc. DBA ePayService 2007–<span></span>, <br>Hak cipta terpelihara.',
-    descr: ''
+    descr: '<p>ePayService is the trading name of MTACC Limited - Authorised and Regulated by the Malta Financial Services Authority under the Financial Institutions Act for the issuance of E-Money and the Provision of Payment Services</p><p>The ePayService Debit Card is issued by MTACC Ltd. pursuant to licence by Mastercard International.</p>'
   },
 
   fees: {
