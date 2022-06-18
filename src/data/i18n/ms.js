@@ -30,7 +30,7 @@ module.exports = {
     news: 'Berita',
     terms: 'Terma',
     userAgreement: 'Perjanjian Pengguna',
-    cardholdersAgreement: 'PayService MasterCard Cardholders Agreement',
+    cardholdersAgreement: 'PayService Mastercard Cardholders Agreement',
     privacyPolicy: 'Privacy Policy',
     privacyNotice: 'Privacy Notice',
     followUs: 'Ikuti Kami',
