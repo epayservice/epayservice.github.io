@@ -61,9 +61,9 @@ module.exports = {
   cardsList: {
     standart: {
       title: 'kad ePayService Standard',
-      descr: 'Mastercard® Prabayar',
+      descr: 'Mastercard® Debit',
       tabName: 'Debit ePayService Mastercard® Standard',
-      moreAbout: 'More about ePayService cards'
+      moreAbout: 'Lebih lanjut mengenai kad ePayService Standard'
     },
 
     premium: {
@@ -77,26 +77,35 @@ module.exports = {
     },
 
     multi: {
-      title: 'Maya ePayService pelbagai',
-      descr: 'Mastercard® Prabayar'
+      title: 'Maya ePayService',
+      descr: 'Mastercard® Debit',
+      tabName: 'Debit ePayService Mastercard® Maya',
+      moreAbout: 'Lebih lanjut mengenai maya ePayService'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Card Issuance & Activation of the ePayService Mastercard® Standard EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
-    minimumLoadLimit: 'Minimum Load Limit',
-    maximumDailyLoadLimit: 'Maximum Daily Load Limit',
-    currencyExchange: 'Currency Exchange (FX fee)',
-    ATMWithdrawalFeePerTransaction: 'ATM Withdrawal Fee Per Transaction',
-    maximumNumberOfLoadsPerDay: 'Maximum number of loads per day',
-    maximumBalance: 'Maximum balance',
-    ATMBalanceInquiry: 'ATM Balance Inquiry',
-    regularMail: 'Regular Mail',
-    expressDelivery: 'Express Delivery'
+    cardIssuanceAndActivationStandart: 'Pengeluaran Kad & Pengaktifan Mastercard® ePayService Standard {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Pengeluaran Kad & Pengaktifan ePayService Mastercard® Virtual {{ value }}',
+    monthlyMaintenance: 'Yuran Penyelenggaraan Bulanan',
+    minimumLoadLimit: 'Had Bebanan Harian Minimum',
+    maximumDailyLoadLimit: 'Had Bebanan Harian Maksimum',
+    currencyExchange: 'Pertukaran Mata Wang (Yuran FX)',
+    ATMWithdrawalFeePerTransaction: 'Yuran Pengeluaran ATM setiap transaksi',
+    maximumNumberOfLoadsPerDay: 'Bilangan Maksimum Bebanan setiap hari',
+    maximumBalance: 'Baki Maksimum',
+    ATMBalanceInquiry: 'Pertanyaan Baki',
+    regularMail: 'Mel Biasa',
+    expressDelivery: 'Penghantaran Ekspres',
+    maximumCumulativeLoadValuePerYear: 'Nilai Bebanan Terkumpul Maksimum setiap tahun',
+    onlinePurchases: 'POS/Pembelian Atas Talian',
+    maximumAmountOfActiveCards: 'Jumlah maksimum kad aktif'
   },
 
-  deliveryMethod: 'Delivery method',
+  important: 'Penting!',
+  cardValidPeriod: 'Kad akan sah selama 3 tahun',
 
-  free: 'FREE'
+  deliveryMethod: 'Pilih kaedah penghantaran anda',
+
+  free: 'PERCUMA'
 }

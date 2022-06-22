@@ -29,7 +29,7 @@ module.exports = {
     developers: 'Developers',
     news: 'Nouvelles',
     terms: 'Conditions',
-    userAgreement: 'Accord de l’utilisateur',
+    userAgreement: 'Accord de l’utilisat{{ value }}',
     cardholdersAgreement: 'PayService Mastercard Cardholders Agreement',
     privacyPolicy: 'Privacy Policy',
     privacyNotice: 'Privacy Notice',
@@ -61,9 +61,9 @@ module.exports = {
   cardsList: {
     standart: {
       title: 'ePayService Card Standard',
-      descr: 'Mastercard® Prépayée',
-      tabName: 'Debit ePayService Mastercard® Standard',
-      moreAbout: 'More about ePayService cards'
+      descr: 'Mastercard® Débit',
+      tabName: 'Débit ePayService Mastercard® Standard',
+      moreAbout: 'Plus d’infos sur les cartes ePayServices'
     },
 
     premium: {
@@ -78,25 +78,34 @@ module.exports = {
 
     multi: {
       title: 'ePayService Virtual',
-      descr: 'Mastercard® Prépayée'
+      descr: 'Mastercard® Débit',
+      tabName: 'Débit ePayService Mastercard® virtuel',
+      moreAbout: 'Plus d’infos sur ePayService virtuelle'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Card Issuance & Activation of the ePayService Mastercard® Standard EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
-    minimumLoadLimit: 'Minimum Load Limit',
-    maximumDailyLoadLimit: 'Maximum Daily Load Limit',
-    currencyExchange: 'Currency Exchange (FX fee)',
-    ATMWithdrawalFeePerTransaction: 'ATM Withdrawal Fee Per Transaction',
-    maximumNumberOfLoadsPerDay: 'Maximum number of loads per day',
-    maximumBalance: 'Maximum balance',
-    ATMBalanceInquiry: 'ATM Balance Inquiry',
-    regularMail: 'Regular Mail',
-    expressDelivery: 'Express Delivery'
+    cardIssuanceAndActivationStandart: 'Émission & activation de carte Mastercard® ePayService standard {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Émission & activation de carte Mastercard® ePayService virtual {{ value }}',
+    monthlyMaintenance: 'Frais d’entretien mensuels',
+    minimumLoadLimit: 'Limite de charge minimale quotidienne',
+    maximumDailyLoadLimit: 'Limite de charge maximale quotidienne',
+    currencyExchange: 'Change de devise (Frais FX)',
+    ATMWithdrawalFeePerTransaction: 'Frais de retrait GAB, par transaction',
+    maximumNumberOfLoadsPerDay: 'Nombre maximum de chargements par jour',
+    maximumBalance: 'Solde maximal',
+    ATMBalanceInquiry: 'Demande de solde GAB',
+    regularMail: 'Courrier simple',
+    expressDelivery: 'Livraison express',
+    maximumCumulativeLoadValuePerYear: 'Valeur maximale de charge cumulée par an',
+    onlinePurchases: 'Achats en ligne / POS',
+    maximumAmountOfActiveCards: 'Quantité maximale de cartes actives'
   },
 
-  deliveryMethod: 'Delivery method',
+  important: 'Important!',
+  cardValidPeriod: 'La carte sera valable pendant 3 ans',
 
-  free: 'FREE'
+  deliveryMethod: 'Mode de livraison',
+
+  free: 'GRATUIT'
 }

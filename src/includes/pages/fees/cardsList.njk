@@ -11,7 +11,7 @@
 <div class="side-nav__list">
   {% for item in items %}
   <a class="side-nav__item ico-nav swap-item {% if loop.index == 1 %}swap-item_active {% endif %}js-scroll js-card-switch"
-    href="" data-card="{{ item.dataCard }}">
+    href="{{ item.href }}" data-card="{{ item.dataCard }}">
     <div class="ico-nav__image">
       <div class="icon {{ item.icon }}"></div>
     </div>

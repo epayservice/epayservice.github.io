@@ -61,14 +61,14 @@ module.exports = {
   cardsList: {
     standart: {
       title: 'بطاقة ePayService الاعتيادية',
-      descr: 'بطاقة ماستركارد® مسبقة الدفع',
-      tabName: 'بطاقة ®ePayService Mastercard مسبقة الدفع الإعتيادية',
+      descr: 'الخصم من Mastercard®',
+      tabName: 'الخصم من ePayService Mastercard® Standart',
       moreAbout: 'المزيد عن بطاقات ePayService'
     },
 
     premium: {
       title: 'بطاقة ePayServiceالمميزة',
-      descr: 'بطاقة ماستركارد® مسبقة الدفع'
+      descr: 'الخصم من Mastercard®'
     },
 
     single: {
@@ -77,14 +77,17 @@ module.exports = {
     },
 
     multi: {
-      title: 'بطاقة ePayService الإفتراضية المتعددة',
-      descr: 'بطاقة ماستركارد® مسبقة الدفع'
+      title: 'ePayService الافتراضية',
+      descr: 'الخصم من Mastercard®',
+      tabName: 'الخصم من ePayService Mastercard® الافتراضية',
+      moreAbout: 'المزيد عن بطاقات ePayService الإفتراضية'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'إصدار وتفعيل بطاقة ePayService بطاقة ®Mastercard الإعتيادية EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
+    cardIssuanceAndActivationStandart: 'إصدار وتفعيل بطاقة ePayService بطاقة ®Mastercard الإعتيادية {{ value }}',
+    cardIssuanceAndActivationVirtual: 'إصدار البطاقة وتفعيل خدمة ePayService ®Mastercard الافتراضية {{ value }}',
+    monthlyMaintenance: 'أجرة الصيانة الشهرية',
     minimumLoadLimit: 'الحد اليومى الأدنى للإيداع',
     maximumDailyLoadLimit: 'الحد اليومى الأقصى للإيداع',
     currencyExchange: 'رسوم تحويل العملات (رسوم FX)',
@@ -93,8 +96,14 @@ module.exports = {
     maximumBalance: 'الحد الأقصى للرصيد',
     ATMBalanceInquiry: 'الصراف الآلي رسوم الاستعلام عن الرصيد من ماكينات',
     regularMail: 'البريد العادي',
-    expressDelivery: 'البريد السريع'
+    expressDelivery: 'البريد السريع',
+    maximumCumulativeLoadValuePerYear: 'الحد الأقصى التراكمي للإيداع خلال العام',
+    onlinePurchases: 'المشتريات عبر الإنترنت ومن خلال نقاط البيع',
+    maximumAmountOfActiveCards: 'الحد الأقصى للبطاقات نشطة - ما يصل إلى'
   },
+
+  important: 'هام!',
+  cardValidPeriod: 'ستكون البطاقة صالحة لمدة 3 سنوات',
 
   deliveryMethod: 'أختر طريقة التسليم',
 

@@ -62,7 +62,7 @@ module.exports = {
     standart: {
       title: 'ePayService Card Standard',
       descr: 'Mastercard® Debit',
-      tabName: 'Prepaid ePayService Mastercard® Standard',
+      tabName: 'Debit ePayService Mastercard® Standard',
       moreAbout: 'Mehr über Epayservice karten'
     },
 
@@ -78,13 +78,16 @@ module.exports = {
 
     multi: {
       title: 'ePayService Virtual',
-      descr: 'Mastercard® Debit'
+      descr: 'Mastercard® Debit',
+      tabName: 'Debit ePayService Mastercard® Virtuell',
+      moreAbout: 'Mehr über Epayservice Virtual'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Kartenausstellung & Aktivierung der ePayService Mastercard® Standard EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
+    cardIssuanceAndActivationStandart: 'Kartenausstellung & Aktivierung der ePayService Mastercard® Standard {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Kartenausstellung & Aktivierung der ePayService Mastercard® Virtual {{ value }}',
+    monthlyMaintenance: 'Monatliche Wartungsgebühr',
     minimumLoadLimit: 'Tägliche Mindestbelastungsgrenze',
     maximumDailyLoadLimit: 'Tägliche maximale Belastungsgrenze',
     currencyExchange: 'Währungstausch (FX-Gebühr)',
@@ -93,8 +96,14 @@ module.exports = {
     maximumBalance: 'Höchstbetrag',
     ATMBalanceInquiry: 'Geldautomaten Saldoabfrage',
     regularMail: 'Regulärer Postversand',
-    expressDelivery: 'Expresslieferung'
+    expressDelivery: 'Expresslieferung',
+    maximumCumulativeLoadValuePerYear: 'Maximale kumulative Belastung pro Jahr',
+    onlinePurchases: 'POS/Online-Käufe',
+    maximumAmountOfActiveCards: 'Maximale Anzahl der aktiven Karten'
   },
+
+  important: 'WICHTIG!',
+  cardValidPeriod: 'Die Karte ist 3 Jahre lang gültig',
 
   deliveryMethod: 'Übertragungsmethode',
 

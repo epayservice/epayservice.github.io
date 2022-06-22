@@ -61,9 +61,9 @@ module.exports = {
   cardsList: {
     standart: {
       title: 'Cartão Standard ePayService',
-      descr: 'Mastercard® Pré-pago',
-      tabName: 'Debit ePayService Mastercard® Standard',
-      moreAbout: 'More about ePayService cards'
+      descr: 'Mastercard® Débito',
+      tabName: 'Cartão de débito ePayService Mastercard® Standard',
+      moreAbout: 'Mais sobre os cartões ePayService'
     },
 
     premium: {
@@ -77,26 +77,35 @@ module.exports = {
     },
 
     multi: {
-      title: 'Virtual Múltiplo ePayService',
-      descr: 'Mastercard® Pré-pago'
+      title: 'Virtual ePayService',
+      descr: 'Mastercard® Débito',
+      tabName: 'Cartão de débito ePayService Mastercard® Virtual',
+      moreAbout: 'Mais sobre o ePayService Virtual'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Card Issuance & Activation of the ePayService Mastercard® Standard EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
-    minimumLoadLimit: 'Minimum Load Limit',
-    maximumDailyLoadLimit: 'Maximum Daily Load Limit',
-    currencyExchange: 'Currency Exchange (FX fee)',
-    ATMWithdrawalFeePerTransaction: 'ATM Withdrawal Fee Per Transaction',
-    maximumNumberOfLoadsPerDay: 'Maximum number of loads per day',
-    maximumBalance: 'Maximum balance',
-    ATMBalanceInquiry: 'ATM Balance Inquiry',
-    regularMail: 'Regular Mail',
-    expressDelivery: 'Express Delivery'
+    cardIssuanceAndActivationStandart: 'Emissão & Ativação do Cartão Normal ePayService Mastercard® {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Emissão & Ativação do Virtual ePayService Mastercard® {{ value }}',
+    monthlyMaintenance: 'Taxa mensal de manutenção',
+    minimumLoadLimit: 'Limite Mínimo de Carregamento Diário',
+    maximumDailyLoadLimit: 'Limite Máximo de Carregamento Diário',
+    currencyExchange: 'Câmbio de Moeda (Taxa FX)',
+    ATMWithdrawalFeePerTransaction: 'Taxa de Levantamento no multibanco por transação',
+    maximumNumberOfLoadsPerDay: 'Número máximo de carregamentos por dia',
+    maximumBalance: 'Saldo máximo',
+    ATMBalanceInquiry: 'Consulta de Saldo no Multibanco',
+    regularMail: 'Correio Normal',
+    expressDelivery: 'Entrega Expresso',
+    maximumCumulativeLoadValuePerYear: 'Valor cumulativo de carregamento máximo por ano',
+    onlinePurchases: 'Compras POS/Online',
+    maximumAmountOfActiveCards: 'O número máximo de cartões activos'
   },
 
-  deliveryMethod: 'Delivery method',
+  important: 'Importante!',
+  cardValidPeriod: 'O cartão será válido por 3 anos',
 
-  free: 'FREE'
+  deliveryMethod: 'Método de entrega',
+
+  free: 'GRÁTIS'
 }

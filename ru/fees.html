@@ -227,9 +227,9 @@
           <div class="col-md-3 col-xs-4 full-width">
             <div class="sticky-column">
 <div class="body__tabs switch">
-  <div class="switch__item switch__item_active" id="payments" style="display:none">Платежи</div>
+  <div class="switch__item switch__item_active" id="payments">Платежи</div>
 
-  <div class="switch__item" id="cards" style="display:none">Карты</div>
+  <div class="switch__item" id="cards">Карты</div>
 </div>
 
               <aside class="body__nav side-nav js-first-tab hidden-xs">
@@ -335,7 +335,7 @@
 
 <div class="side-nav__list">
   <a class="side-nav__item ico-nav swap-item swap-item_active js-scroll js-card-switch"
-    href="" data-card="red-card">
+    href="#prepaid-card-standart" data-card="red-card">
     <div class="ico-nav__image">
       <div class="icon icon_card-splash3-sm"></div>
     </div>
@@ -347,7 +347,7 @@
     </div>
   </a>
   <a class="side-nav__item ico-nav swap-item js-scroll js-card-switch"
-    href="" data-card="blue-card">
+    href="#virtual-card-multi" data-card="blue-card">
     <div class="ico-nav__image">
       <div class="icon icon_card-splash2-sm"></div>
     </div>
@@ -355,7 +355,7 @@
     <div class="ico-nav__info">
       <div class="ico-nav__title text-dark text-dark_small">Виртуальная карта</div>
 
-      <div class="ico-nav__text text">Mastercard® Virtual</div>
+      <div class="ico-nav__text text">Mastercard® Debit</div>
     </div>
   </a>
 </div>
@@ -1065,153 +1065,135 @@
             </div>
 
             <div class="body__content exchange js-second-tab" style="display: none;">
-              <div class="exchange__item" id="prepaid-card-standart">
-                <h1 class="exchange__title title">Дебетовая карта ePayService Mastercard®<br> Standart</h1>
-                <div class="exchange__link">
-                  <a class="link-arr" href="prepaid-cards.html">Подробнее про карты ePayService</a>
-                </div>
-
-                <div class="tabs using__switch">
-                  <div class="tabs__head">
-                    <button class="tabs__tag tabs__tag_current using__tab" type="button">EUR</button>
-                    <button class="tabs__tag using__tab" type="button">USD</button>
-                  </div>
-                  <div class="tabs__body tabs__body_line">
-                    <div class="tabs__section tabs__section_visible">
-                      <ul class="service-info__list">
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Выпуск карты ePayService
-                            Mastercard®
-                            Standart в EUR</div>
-                          <div class="service-info__number text-dark text-dark_big text-dark_blue">БЕСПЛАТНО</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Месячная абонентская плата за
-                            обслуживание</div>
-                          <div class="service-info__number text-dark text-dark_big">€1.99</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Минимальная сумма пополнения</div>
-                          <div class="service-info__number text-dark text-dark_big">€1.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальная сумма пополнения
-                            (день)
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">€5,000.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Конвертация валюты (FX) для
-                            платежей
-                            в локальных валютах</div>
-                          <div class="service-info__number text-dark text-dark_big">1.99%</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Комиссия за снятие средств через
-                            банкомат</div>
-                          <div class="service-info__number text-dark text-dark_big">€1.99</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальное количество транзакций
-                            пополнения (день)</div>
-                          <div class="service-info__number text-dark text-dark_big">10</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальный доступный баланс
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">€5,000.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Запрос состояния баланса через
-                            банкомат</div>
-                          <div class="service-info__number text-dark text-dark_big">€0.50</div>
-                        </li>
-                      </ul>
-                      <div class="exchange__note note">
-                        <div class="note__title text-dark text-dark_big">Способ доставки карты</div>
-                        <ul class="service-info__list">
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Обычная почта</div>
-                            <div class="service-info__number text-dark text-dark_big text-dark_blue">БЕСПЛАТНО</div>
-                          </li>
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Курьерская доставка</div>
-                            <div class="service-info__number text-dark text-dark_big">€70</div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="tabs__section">
-                      <ul class="service-info__list">
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Выпуск карты ePayService
-                            Mastercard®
-                            Standart в USD</div>
-                          <div class="service-info__number text-dark text-dark_big text-dark_blue">БЕСПЛАТНО</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Месячная абонентская плата за
-                            обслуживание</div>
-                          <div class="service-info__number text-dark text-dark_big">$2.40</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Минимальная сумма пополнения</div>
-                          <div class="service-info__number text-dark text-dark_big">$1.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальная сумма пополнения
-                            (день)
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">$5,000.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Конвертация валюты (FX) для
-                            платежей
-                            в локальных валютах</div>
-                          <div class="service-info__number text-dark text-dark_big">2.40%</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Комиссия за снятие средств через
-                            банкомат</div>
-                          <div class="service-info__number text-dark text-dark_big">$2.40</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальное количество транзакций
-                            пополнения (день)</div>
-                          <div class="service-info__number text-dark text-dark_big">10</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальный доступный баланс
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">$5,000.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Запрос состояния баланса через
-                            банкомат</div>
-                          <div class="service-info__number text-dark text-dark_big">$0.50</div>
-                        </li>
-                      </ul>
-                      <div class="exchange__note note">
-                        <div class="note__title text-dark text-dark_big">Способ доставки карты</div>
-                        <ul class="service-info__list">
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Обычная почта</div>
-                            <div class="service-info__number text-dark text-dark_big text-dark_blue">БЕСПЛАТНО</div>
-                          </li>
-                          <li class="service-info__row">
-                            <div class="service-info__text text-dark text-dark_small">Курьерская доставка</div>
-                            <div class="service-info__number text-dark text-dark_big">$70</div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
 
+
+
+
+
+<div class="exchange__item" id="prepaid-card-standart">
+  <h1 class="exchange__title title">Дебетовая карта ePayService Mastercard® Standart</h1>
+
+  <div class="exchange__link">
+    <a class="link-arr" href="prepaid-cards.html">Подробнее про карты ePayService</a>
+  </div>
+
+  <div class="tabs using__switch">
+    <div class="tabs__head">
+      <button class="tabs__tag using__tab tabs__tag_current" type="button">EUR</button>
+    </div>
+
+    <div class="tabs__body tabs__body_line">
+      <div class="tabs__section tabs__section_visible">
+        <ul class="service-info__list">
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Выпуск карты ePayService Mastercard® Standart в EUR
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big text-dark_blue">
+              БЕСПЛАТНО
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Месячная абонентская плата за обслуживание
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              €1.99
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Минимальная сумма пополнения
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              €0.01
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Максимальная сумма пополнения
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              €5,000.00
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Конвертация валюты (FX) для платежей в локальных валютах
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              1.99%
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Комиссия за снятие средств через банкомат
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              €2.50
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Максимальное количество транзакций пополнения (день)
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              10
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Максимальный доступный баланс
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              €5,000.00
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Запрос состояния баланса через банкомат
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              €0.50
+            </div>
+          </li>
+        </ul>
+
+        <div class="exchange__note note">
+          <div class="note__title text-dark text-dark_big">Способ доставки карты</div>
+
+          <ul class="service-info__list">
+            <li class="service-info__row">
+              <div class="service-info__text text-dark text-dark_small">Обычная почта</div>
+
+              <div class="service-info__number text-dark text-dark_big text-dark_blue">
+                БЕСПЛАТНО
               </div>
+            </li>
+            <li class="service-info__row">
+              <div class="service-info__text text-dark text-dark_small">Курьерская доставка</div>
 
-              <div class="exchange__item" id="prepaid-card-premium">
+              <div class="service-info__number text-dark text-dark_big">
+                €70
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+              <!-- <div class="exchange__item" id="prepaid-card-premium">
                 <h1 class="exchange__title title">Дебетовая карта ePayService Mastercard®<br> Premium</h1>
                 <div class="exchange__link">
                   <a class="link-arr" href="prepaid-cards.html">Подробнее про карты ePayService Premium</a>
@@ -1540,117 +1522,119 @@
                   <div class="note__title text-dark text-dark_big text-dark_red">Внимание!</div>
                   <div class="note__text text-dark text-dark_small">Срок действия карты составляет 2 месяца</div>
                 </div>
-              </div>
+              </div> -->
 
-              <div class="exchange__item" id="virtual-card-multi">
-                <h1 class="exchange__title title">Виртуальная карта ePayService Mastercard®<br> Virtual Multi</h1>
-                <div class="exchange__link">
-                  <a class="link-arr" href="virtual-cards.html">Подробнее про карты ePayService Virtual</a>
-                </div>
 
-                <div class="tabs using__switch">
-                  <div class="tabs__head">
-                    <button class="tabs__tag tabs__tag_current using__tab" type="button">EUR</button>
-                    <button class="tabs__tag using__tab" type="button">USD</button>
-                  </div>
-                  <div class="tabs__body tabs__body_line">
-                    <div class="tabs__section tabs__section_visible">
-                      <ul class="service-info__list">
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Выпуск карты ePayService
-                            Mastercard®
-                            Virtual Multi в EUR</div>
-                          <div class="service-info__number text-dark text-dark_big text-dark_blue">БЕСПЛАТНО</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Минимальная сумма пополнения</div>
-                          <div class="service-info__number text-dark text-dark_big">€1.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальная сумма пополнения
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">€5,500.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Конвертация валюты (FX) для
-                            платежей
-                            в локальных валютах</div>
-                          <div class="service-info__number text-dark text-dark_big">1.75%</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Комиссия за покупки в сети</div>
-                          <div class="service-info__number text-dark text-dark_big text-dark_blue">БЕСПЛАТНО</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальное количество транзакций
-                            пополнения (день)</div>
-                          <div class="service-info__number text-dark text-dark_big">10</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальный доступный баланс
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">€5,500.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальное количество активных
-                            карт</div>
-                          <div class="service-info__number text-dark text-dark_big">до 3</div>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="tabs__section">
-                      <ul class="service-info__list">
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Выпуск карты ePayService
-                            Mastercard®
-                            Virtual Multi в USD</div>
-                          <div class="service-info__number text-dark text-dark_big">БЕСПЛАТНО</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Минимальная сумма пополнения</div>
-                          <div class="service-info__number text-dark text-dark_big">$1.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальная сумма пополнения
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">$5,500.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Конвертация валюты (FX) для
-                            платежей
-                            в локальных валютах</div>
-                          <div class="service-info__number text-dark text-dark_big">1.75%</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Комиссия за покупки в сети</div>
-                          <div class="service-info__number text-dark text-dark_big text-dark_blue">БЕСПЛАТНО</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальное количество транзакций
-                            пополнения (день)</div>
-                          <div class="service-info__number text-dark text-dark_big">10</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальный доступный баланс
-                          </div>
-                          <div class="service-info__number text-dark text-dark_big">$5,500.00</div>
-                        </li>
-                        <li class="service-info__row">
-                          <div class="service-info__text text-dark text-dark_small">Максимальное количество активных
-                            карт</div>
-                          <div class="service-info__number text-dark text-dark_big">до 3</div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
 
-                <div class="exchange__note note">
-                  <div class="note__title text-dark text-dark_big text-dark_red">Внимание!</div>
-                  <div class="note__text text-dark text-dark_small">Срок действия карты составляет 6 месяца</div>
-                </div>
-              </div>
 
+
+<div class="exchange__item" id="virtual-card-multi">
+  <h1 class="exchange__title title">Виртуальная карта ePayService Mastercard® Virtual</h1>
+
+  <div class="exchange__link">
+    <a class="link-arr" href="virtual-cards.html">Подробнее про карты ePayService Virtual</a>
+  </div>
+
+  <div class="tabs using__switch">
+    <div class="tabs__head">
+      <button class="tabs__tag using__tab tabs__tag_current" type="button">EUR</button>
+    </div>
+
+    <div class="tabs__body tabs__body_line">
+      <div class="tabs__section tabs__section_visible">
+        <ul class="service-info__list">
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Выпуск карты ePayService Mastercard® Virtual в EUR
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big text-dark_blue">
+              БЕСПЛАТНО
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Минимальная сумма пополнения
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              €0.01
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Максимальная сумма пополнения
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              €5,000.00
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Максимальное значение кумулятивной нагрузки в год
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              €450,000.00
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Конвертация валюты (FX) для платежей в локальных валютах
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              1.99%
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Комиссия за покупки в сети
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big text-dark_blue">
+              БЕСПЛАТНО
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Максимальное количество транзакций пополнения (день)
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              10
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Максимальный доступный баланс
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              €5,000.00
+            </div>
+          </li>
+          <li class="service-info__row">
+            <div class="service-info__text text-dark text-dark_small">
+              Максимальное количество активных карт
+            </div>
+
+            <div class="service-info__number text-dark text-dark_big">
+              3
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="exchange__note note">
+    <div class="note__title text-dark text-dark_big text-dark_red">Внимание!</div>
+
+    <div class="note__text text-dark text-dark_small">Срок действия карты составляет 3 года</div>
+  </div>
+</div>
               <div class="exchange__item" id="over-ecb-rates-table">
                 <h1 class="exchange__title title">Ориентировочная наценка за использование карты в ЕЭЗ (в процентах)
                 </h1>

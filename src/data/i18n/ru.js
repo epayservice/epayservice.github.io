@@ -62,8 +62,8 @@ module.exports = {
     standart: {
       title: 'Дебетовая карта Standart',
       descr: 'Mastercard® Debit',
-      tabName: 'Debit ePayService Mastercard® Standard',
-      moreAbout: 'More about ePayService cards'
+      tabName: 'Дебетовая карта ePayService Mastercard® Standart',
+      moreAbout: 'Подробнее про карты ePayService'
     },
 
     premium: {
@@ -78,25 +78,34 @@ module.exports = {
 
     multi: {
       title: 'Виртуальная карта',
-      descr: 'Mastercard® Virtual'
+      descr: 'Mastercard® Debit',
+      tabName: 'Виртуальная карта ePayService Mastercard® Virtual',
+      moreAbout: 'Подробнее про карты ePayService Virtual'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Card Issuance & Activation of the ePayService Mastercard® Standard EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
-    minimumLoadLimit: 'Minimum Load Limit',
-    maximumDailyLoadLimit: 'Maximum Daily Load Limit',
-    currencyExchange: 'Currency Exchange (FX fee)',
-    ATMWithdrawalFeePerTransaction: 'ATM Withdrawal Fee Per Transaction',
-    maximumNumberOfLoadsPerDay: 'Maximum number of loads per day',
-    maximumBalance: 'Maximum balance',
-    ATMBalanceInquiry: 'ATM Balance Inquiry',
-    regularMail: 'Regular Mail',
-    expressDelivery: 'Express Delivery'
+    cardIssuanceAndActivationStandart: 'Выпуск карты ePayService Mastercard® Standart в {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Выпуск карты ePayService Mastercard® Virtual в {{ value }}',
+    monthlyMaintenance: 'Месячная абонентская плата за обслуживание',
+    minimumLoadLimit: 'Минимальная сумма пополнения',
+    maximumDailyLoadLimit: 'Максимальная сумма пополнения',
+    currencyExchange: 'Конвертация валюты (FX) для платежей в локальных валютах',
+    ATMWithdrawalFeePerTransaction: 'Комиссия за снятие средств через банкомат',
+    maximumNumberOfLoadsPerDay: 'Максимальное количество транзакций пополнения (день)',
+    maximumBalance: 'Максимальный доступный баланс',
+    ATMBalanceInquiry: 'Запрос состояния баланса через банкомат',
+    regularMail: 'Обычная почта',
+    expressDelivery: 'Курьерская доставка',
+    maximumCumulativeLoadValuePerYear: 'Максимальное значение кумулятивной нагрузки в год',
+    onlinePurchases: 'Комиссия за покупки в сети',
+    maximumAmountOfActiveCards: 'Максимальное количество активных карт'
   },
 
-  deliveryMethod: 'Delivery method',
+  important: 'Внимание!',
+  cardValidPeriod: 'Срок действия карты составляет 3 года',
 
-  free: 'FREE'
+  deliveryMethod: 'Способ доставки карты',
+
+  free: 'БЕСПЛАТНО'
 }

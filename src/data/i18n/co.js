@@ -61,8 +61,8 @@ module.exports = {
   cardsList: {
     standart: {
       title: 'Tarjeta Estándar Epayservice',
-      descr: 'Mastercard® Prepagada',
-      tabName: 'Estándar Mastercard® ePayService Prepagada',
+      descr: 'Mastercard® Débito',
+      tabName: 'Tarjeta de débito ePayService Mastercard® Standard',
       moreAbout: 'Más información acerca de las tarjetas ePayService'
     },
 
@@ -77,14 +77,17 @@ module.exports = {
     },
 
     multi: {
-      title: 'Multi Virtual Epayservice',
-      descr: 'Mastercard® Prepagada'
+      title: 'Virtual Epayservice',
+      descr: 'Mastercard® Débito',
+      tabName: 'Tarjeta de débito ePayService Mastercard® Virtual',
+      moreAbout: 'Más información acerca de virtual ePayService'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Expedición y Activación de la Tarjeta Mastercard® de ePayService Estándar EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
+    cardIssuanceAndActivationStandart: 'Expedición y Activación de la Tarjeta Mastercard® de ePayService Estándar {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Expedición y Activación de la Tarjeta Mastercard® de ePayService Virtual {{ value }}',
+    monthlyMaintenance: 'Cuota mensual de mantenimiento',
     minimumLoadLimit: 'Límite mínimo de recarga diaria de',
     maximumDailyLoadLimit: 'Límite máximo de recarga diaria de',
     currencyExchange: 'Cambio de Moneda (Tarifa FX)',
@@ -93,8 +96,14 @@ module.exports = {
     maximumBalance: 'Saldo máximo',
     ATMBalanceInquiry: 'Consulta del saldo en el cajero automático',
     regularMail: 'Correo Regular',
-    expressDelivery: 'Entrega Exprés'
+    expressDelivery: 'Entrega Exprés',
+    maximumCumulativeLoadValuePerYear: 'Cantidad de carga máxima acumulada por año de',
+    onlinePurchases: 'POS/Compras en Línea',
+    maximumAmountOfActiveCards: 'Cantidad máxima de tarjetas activas'
   },
+
+  important: '¡Importante!',
+  cardValidPeriod: 'La tarjeta tendrá una validez de 3 años',
 
   deliveryMethod: 'Método de entrega',
 

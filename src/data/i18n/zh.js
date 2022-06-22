@@ -78,12 +78,15 @@ module.exports = {
 
     multi: {
       title: 'ePayService Virtual',
-      descr: 'Mastercard® Debit'
+      descr: 'Mastercard® Debit',
+      tabName: 'Debit ePayService Mastercard® Virtual',
+      moreAbout: 'More about ePayService Virtual'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Card Issuance & Activation of the ePayService Mastercard® Standard EUR',
+    cardIssuanceAndActivationStandart: 'Card Issuance & Activation of the ePayService Mastercard® Standard {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Card Issuance & Activation of the ePayService Mastercard® Virtual {{ value }}',
     monthlyMaintenance: 'Monthly Maintenance Fee',
     minimumLoadLimit: 'Minimum Load Limit',
     maximumDailyLoadLimit: 'Maximum Daily Load Limit',
@@ -93,8 +96,14 @@ module.exports = {
     maximumBalance: 'Maximum balance',
     ATMBalanceInquiry: 'ATM Balance Inquiry',
     regularMail: 'Regular Mail',
-    expressDelivery: 'Express Delivery'
+    expressDelivery: 'Express Delivery',
+    maximumCumulativeLoadValuePerYear: 'Maximum cumulative load value per year',
+    onlinePurchases: 'POS /Online Purchases',
+    maximumAmountOfActiveCards: 'Maximum amount of active cards'
   },
+
+  important: 'Important!',
+  cardValidPeriod: '卡的有效期为3年',
 
   deliveryMethod: 'Delivery method',
 

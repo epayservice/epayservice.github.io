@@ -61,9 +61,9 @@ module.exports = {
   cardsList: {
     standart: {
       title: 'ePayService Card Standard',
-      descr: 'Mastercard® Preplătit',
+      descr: 'Mastercard® Debit',
       tabName: 'Debit ePayService Mastercard® Standard',
-      moreAbout: 'More about ePayService cards'
+      moreAbout: 'Mai multe despre cardurile ePayService'
     },
 
     premium: {
@@ -78,25 +78,34 @@ module.exports = {
 
     multi: {
       title: 'ePayService Virtual',
-      descr: 'Mastercard® Preplătit'
+      descr: 'Mastercard® Debit',
+      tabName: 'Debit ePayService Mastercard® Virtual',
+      moreAbout: 'Mai multe despre ePayService Virtual'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Card Issuance & Activation of the ePayService Mastercard® Standard EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
-    minimumLoadLimit: 'Minimum Load Limit',
-    maximumDailyLoadLimit: 'Maximum Daily Load Limit',
-    currencyExchange: 'Currency Exchange (FX fee)',
-    ATMWithdrawalFeePerTransaction: 'ATM Withdrawal Fee Per Transaction',
-    maximumNumberOfLoadsPerDay: 'Maximum number of loads per day',
-    maximumBalance: 'Maximum balance',
-    ATMBalanceInquiry: 'ATM Balance Inquiry',
-    regularMail: 'Regular Mail',
-    expressDelivery: 'Express Delivery'
+    cardIssuanceAndActivationStandart: 'Emitere & activare Card ePayService Mastercard® Standard în {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Emitere & activare Card ePayService Mastercard® Virtual în {{ value }}',
+    monthlyMaintenance: 'Taxa lunară de întreținere',
+    minimumLoadLimit: 'Limită minimă de încărcare zilnică',
+    maximumDailyLoadLimit: 'Limită maximă de încărcare zilnică',
+    currencyExchange: 'Schimb valutar (comision FX)',
+    ATMWithdrawalFeePerTransaction: 'Comision retragere ATM per tranzacție',
+    maximumNumberOfLoadsPerDay: 'Număr maxim de încărcări pe zi',
+    maximumBalance: 'Sold maxim',
+    ATMBalanceInquiry: 'Interogare sold la ATM',
+    regularMail: 'Poștă',
+    expressDelivery: 'Livrare expres',
+    maximumCumulativeLoadValuePerYear: 'Maximum cumulative load value per year',
+    onlinePurchases: 'Cumpărături POS / Online',
+    maximumAmountOfActiveCards: 'Număril maxim de carduri active'
   },
 
-  deliveryMethod: 'Delivery method',
+  important: 'Atenție!',
+  cardValidPeriod: 'Cardul va fi valabil timp de 3 ani',
 
-  free: 'FREE'
+  deliveryMethod: 'Metoda de livrare',
+
+  free: 'GRATUIT'
 }

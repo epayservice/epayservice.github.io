@@ -61,8 +61,8 @@ module.exports = {
   cardsList: {
     standart: {
       title: 'Tarjeta ePayService estándar',
-      descr: 'Mastercard® prepago',
-      tabName: 'Tarjeta prepago ePayService Mastercard® estándar',
+      descr: 'Mastercard® Débito',
+      tabName: 'Tarjeta de débito ePayService Mastercard® Standard',
       moreAbout: 'Más información sobre las tarjetas ePayService'
     },
 
@@ -77,14 +77,17 @@ module.exports = {
     },
 
     multi: {
-      title: 'ePayService virtual multi',
-      descr: 'Mastercard® prepago'
+      title: 'ePayService virtual',
+      descr: 'Mastercard® Débito',
+      tabName: 'Tarjeta de débito ePayService Mastercard® Virtual',
+      moreAbout: 'Más información sobre la tarjeta ePayService Virtual'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Emisión y activación de la tarjeta ePayService Mastercard® estándar EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
+    cardIssuanceAndActivationStandart: 'Emisión y activación de la tarjeta ePayService Mastercard® estándar {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Emisión y activación de la tarjeta virtual ePayService Mastercard® {{ value }}',
+    monthlyMaintenance: 'Cuota mensual de mantenimiento',
     minimumLoadLimit: 'Límite mínimo diario de carga',
     maximumDailyLoadLimit: 'Límite máximo diario de carga',
     currencyExchange: 'Cambio de moneda (comisión FX)',
@@ -93,8 +96,14 @@ module.exports = {
     maximumBalance: 'Saldo máximo',
     ATMBalanceInquiry: 'Consulta de saldo en cajero',
     regularMail: 'Correo Regular',
-    expressDelivery: 'Entrega Express'
+    expressDelivery: 'Entrega Express',
+    maximumCumulativeLoadValuePerYear: 'Cantidad máxima de carga acumulada por año',
+    onlinePurchases: 'Compras Online/TPV',
+    maximumAmountOfActiveCards: 'Número máximo de cargas'
   },
+
+  important: '¡Importante!',
+  cardValidPeriod: 'La tarjeta tendrá una validez de 3 años',
 
   deliveryMethod: 'Método de entrega',
 

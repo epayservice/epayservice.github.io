@@ -1,6 +1,6 @@
-{% set title = 'cardsList.standart.tabName' %}
+{% set title = 'cardsList.multi.tabName' %}
 
-{% set moreAbout = 'cardsList.standart.moreAbout' %}
+{% set moreAbout = 'cardsList.multi.moreAbout' %}
 
 {% set currencies = [
   'EUR'
@@ -8,18 +8,10 @@
 
 {% set fees = [
   {
-    title: 'cardFeesTitles.cardIssuanceAndActivationStandart',
+    title: 'cardFeesTitles.cardIssuanceAndActivationVirtual',
     value: {
       EUR: 'free',
       USD: 'free'
-    }
-  },
-
-  {
-    title: 'cardFeesTitles.monthlyMaintenance',
-    value: {
-      EUR: '€1.99',
-      USD: '$2.40'
     }
   },
 
@@ -40,6 +32,14 @@
   },
 
   {
+    title: 'cardFeesTitles.maximumCumulativeLoadValuePerYear',
+    value: {
+      EUR: '€450,000.00',
+      USD: '$600,000.00'
+    }
+  },
+
+  {
     title: 'cardFeesTitles.currencyExchange',
     value: {
       EUR: '1.99%',
@@ -48,10 +48,10 @@
   },
 
   {
-    title: 'cardFeesTitles.ATMWithdrawalFeePerTransaction',
+    title: 'cardFeesTitles.onlinePurchases',
     value: {
-      EUR: '€2.50',
-      USD: '$2.40'
+      EUR: 'free',
+      USD: 'free'
     }
   },
 
@@ -72,38 +72,19 @@
   },
 
   {
-    title: 'cardFeesTitles.ATMBalanceInquiry',
+    title: 'cardFeesTitles.maximumAmountOfActiveCards',
     value: {
-      EUR: '€0.50',
-      USD: '$0.50'
+      EUR: '3',
+      USD: '3'
     }
   }
 ]%}
 
-{% set exchangeNoteItems = [
-  {
-    title: 'cardFeesTitles.regularMail',
-    value: {
-      EUR: 'free',
-      USD: 'free'
-    }
-  },
-
-  {
-    title: 'cardFeesTitles.expressDelivery',
-    value: {
-      EUR: '€70',
-      USD: '$70'
-    }
-  }
-]%}
-
-
-<div class="exchange__item" id="prepaid-card-standart">
+<div class="exchange__item" id="virtual-card-multi">
   <h1 class="exchange__title title">{{ title | i18n | safe }}</h1>
 
   <div class="exchange__link">
-    <a class="link-arr" href="prepaid-cards.html">{{ moreAbout | i18n }}</a>
+    <a class="link-arr" href="virtual-cards.html">{{ moreAbout | i18n }}</a>
   </div>
 
   <div class="tabs using__switch">
@@ -120,7 +101,7 @@
           {% for fee in fees %}
           <li class="service-info__row">
             <div class="service-info__text text-dark text-dark_small">
-              {% if fee.title == 'cardFeesTitles.cardIssuanceAndActivationStandart' %}
+              {% if fee.title == 'cardFeesTitles.cardIssuanceAndActivationVirtual' %}
               {{ fee.title | i18n({ value: currency }) }}
               {% else %}
               {{ fee.title | i18n }}
@@ -137,28 +118,14 @@
           </li>
           {% endfor %}
         </ul>
-
-        <div class="exchange__note note">
-          <div class="note__title text-dark text-dark_big">{{ 'deliveryMethod' | i18n }}</div>
-
-          <ul class="service-info__list">
-            {% for exchangeNoteItem in exchangeNoteItems%}
-            <li class="service-info__row">
-              <div class="service-info__text text-dark text-dark_small">{{ exchangeNoteItem.title | i18n }}</div>
-
-              <div class="service-info__number text-dark text-dark_big{% if exchangeNoteItem.value[currency] == 'free' %} text-dark_blue{% endif%}">
-                {% if exchangeNoteItem.value[currency] == 'free' %}
-                {{ 'free' | i18n }}
-                {% else %}
-                {{ exchangeNoteItem.value[currency] }}
-                {% endif %}
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
       </div>
       {% endfor %}
     </div>
+  </div>
+
+  <div class="exchange__note note">
+    <div class="note__title text-dark text-dark_big text-dark_red">{{ 'important' | i18n }}</div>
+
+    <div class="note__text text-dark text-dark_small">{{ 'cardValidPeriod' | i18n }}</div>
   </div>
 </div>

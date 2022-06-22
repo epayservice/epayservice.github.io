@@ -61,9 +61,9 @@ module.exports = {
   cardsList: {
     standart: {
       title: 'ePayService Card Standard',
-      descr: 'Karta przedpłacona Mastercard®',
-      tabName: 'Debit ePayService Mastercard® Standard',
-      moreAbout: 'More about ePayService cards'
+      descr: 'Mastercard® Debit',
+      tabName: 'Karta debetowa ePayService Mastercard® Standard',
+      moreAbout: 'Więcej o kartach ePayService'
     },
 
     premium: {
@@ -78,25 +78,34 @@ module.exports = {
 
     multi: {
       title: 'ePayService Virtual',
-      descr: 'Karta przedpłacona Mastercard®'
+      descr: 'Mastercard® Debit',
+      tabName: 'Karta debetowa ePayService Mastercard® Virtual',
+      moreAbout: 'Więcej o kartach wirtualnych ePayService'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Card Issuance & Activation of the ePayService Mastercard® Standard EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
-    minimumLoadLimit: 'Minimum Load Limit',
-    maximumDailyLoadLimit: 'Maximum Daily Load Limit',
-    currencyExchange: 'Currency Exchange (FX fee)',
-    ATMWithdrawalFeePerTransaction: 'ATM Withdrawal Fee Per Transaction',
-    maximumNumberOfLoadsPerDay: 'Maximum number of loads per day',
-    maximumBalance: 'Maximum balance',
-    ATMBalanceInquiry: 'ATM Balance Inquiry',
-    regularMail: 'Regular Mail',
-    expressDelivery: 'Express Delivery'
+    cardIssuanceAndActivationStandart: 'Wydanie i aktywacja karty ePayService Mastercard® Standard w {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Wydanie i aktywacja karty ePayService Mastercard® Virtual w {{ value }}',
+    monthlyMaintenance: 'Miesięczna opłata eksploatacyjna',
+    minimumLoadLimit: 'Minimalny dzienny limit doładowania',
+    maximumDailyLoadLimit: 'Maksymalny dzienny limit doładowania',
+    currencyExchange: 'Opłata za przewalutowanie',
+    ATMWithdrawalFeePerTransaction: 'Opłata za wypłatę z bankomatu (za każdą transakcję)',
+    maximumNumberOfLoadsPerDay: 'Maksymalna liczba doładowań dziennie',
+    maximumBalance: 'Maksymalne saldo',
+    ATMBalanceInquiry: 'Sprawdzenie salda w bankomacie',
+    regularMail: 'Przesyłka pocztowa',
+    expressDelivery: 'Przesyłka ekspresowa',
+    maximumCumulativeLoadValuePerYear: 'Maksymalna łączna suma doładowań rocznie',
+    onlinePurchases: 'Zakupy w punktach sprzedaży/w Internecie',
+    maximumAmountOfActiveCards: 'Maksymalna liczba aktywnych kart'
   },
 
-  deliveryMethod: 'Delivery method',
+  important: 'Ważne!',
+  cardValidPeriod: 'Karta będzie ważna przez 3 lata',
 
-  free: 'FREE'
+  deliveryMethod: 'SPOSÓB DOSTAWY',
+
+  free: 'BEZ OPŁAT'
 }

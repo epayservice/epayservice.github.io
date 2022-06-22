@@ -61,9 +61,9 @@ module.exports = {
   cardsList: {
     standart: {
       title: 'Thẻ ePayService tiêu chuẩn',
-      descr: 'Thẻ Trả trước Mastercard®',
-      tabName: 'Debit ePayService Mastercard® Standard',
-      moreAbout: 'More about ePayService cards'
+      descr: 'Thẻ ghi nợ Mastercard®',
+      tabName: 'Thẻ ghi nợ ePayService Mastercard® Chuẩn',
+      moreAbout: 'Xem thêm về thẻ ePayService'
     },
 
     premium: {
@@ -77,26 +77,35 @@ module.exports = {
     },
 
     multi: {
-      title: 'Thẻ ePayService ảo đa người dùng',
-      descr: 'Thẻ Trả trước Mastercard®'
+      title: 'ePayService ảo',
+      descr: 'Thẻ ghi nợ Mastercard®',
+      tabName: 'Thẻ ghi nợ ePayService Mastercard® ảo',
+      moreAbout: 'Xem thêm về thẻ ảo ePayService'
     }
   },
 
   cardFeesTitles: {
-    cardIssuanceAndActivation: 'Card Issuance & Activation of the ePayService Mastercard® Standard EUR',
-    monthlyMaintenance: 'Monthly Maintenance Fee',
-    minimumLoadLimit: 'Minimum Load Limit',
-    maximumDailyLoadLimit: 'Maximum Daily Load Limit',
-    currencyExchange: 'Currency Exchange (FX fee)',
-    ATMWithdrawalFeePerTransaction: 'ATM Withdrawal Fee Per Transaction',
-    maximumNumberOfLoadsPerDay: 'Maximum number of loads per day',
-    maximumBalance: 'Maximum balance',
-    ATMBalanceInquiry: 'ATM Balance Inquiry',
-    regularMail: 'Regular Mail',
-    expressDelivery: 'Express Delivery'
+    cardIssuanceAndActivationStandart: 'Phát hành & Kích hoạt thẻ ePayService Mastercard® Tiêu chuẩn {{ value }}',
+    cardIssuanceAndActivationVirtual: 'Phát hành & Kich hoạt Thẻ ePayService Mastercard® Ảo {{ value }}',
+    monthlyMaintenance: 'Phí duy trì hàng tháng',
+    minimumLoadLimit: 'Giới hạn Nạp Tối thiểu theo Ngày',
+    maximumDailyLoadLimit: 'Giới hạn Nạp Tối đa theo Ngày',
+    currencyExchange: 'Chuyển đổi Ngoại tệ (phí FX)',
+    ATMWithdrawalFeePerTransaction: 'Phí Rút tiền tại ATM trên một giao dịch',
+    maximumNumberOfLoadsPerDay: 'Số lần nạp tối đa một ngày là',
+    maximumBalance: 'Số dư tối đa',
+    ATMBalanceInquiry: 'Số dư ATM Cần thiết',
+    regularMail: 'Chuyển phát Thường',
+    expressDelivery: 'Chuyển phát Nhanh',
+    maximumCumulativeLoadValuePerYear: 'Giá trị nạp lũy tiến tối đa một năm',
+    onlinePurchases: 'POS/Mua hàng Trực tuyến',
+    maximumAmountOfActiveCards: 'Số lượng thẻ hoạt động tối đa'
   },
 
-  deliveryMethod: 'Delivery method',
+  important: 'Lưu ý quan trọng!',
+  cardValidPeriod: 'Thẻ sẽ có giá trị trong 3 năm',
 
-  free: 'FREE'
+  deliveryMethod: 'Chọn phương thức giao nhận',
+
+  free: 'MIỄN PHÍ'
 }
