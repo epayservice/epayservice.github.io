@@ -30,7 +30,7 @@ module.exports = {
     news: 'Notícia',
     terms: 'Termos',
     userAgreement: 'Acordo do Utilizador',
-    cardholdersAgreement: 'PayService Mastercard Cardholders Agreement',
+    cardholdersAgreement: 'ePayService Mastercard Cardholders Agreement',
     privacyPolicy: 'Privacy Policy',
     privacyNotice: 'Privacy Notice',
     followUs: 'Siga-nos',

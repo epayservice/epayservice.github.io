@@ -30,7 +30,7 @@ module.exports = {
     news: 'Știri',
     terms: 'Termeni',
     userAgreement: 'Termeni și condiții utilizatori',
-    cardholdersAgreement: 'PayService Mastercard Cardholders Agreement',
+    cardholdersAgreement: 'ePayService Mastercard Cardholders Agreement',
     privacyPolicy: 'Privacy Policy',
     privacyNotice: 'Privacy Notice',
     followUs: 'Rețele sociale',
