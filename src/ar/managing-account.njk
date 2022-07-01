@@ -8,7 +8,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="../css/style-rtl.css?v=180101072022">
+  <link rel="stylesheet" href="../css/style-rtl.css?v=212301072022">
   <title>ePayService - إدارة الحساب</title>
 </head>
 
@@ -381,50 +381,9 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
           </div>
         </div>
       </div>
-
-
-      <div class="mobile-bank">
-        <div class="region">
-          <div class="row">
-            <div class="col-md-8 col-xs-12 col-md-pull-4">
-              <h2 class="mobile-bank__title title">مرونة مطلقة</h2>
-              <div class="mobile-bank__text" style="max-width: 200px;">قم بإدارة محفظة ePayService خاصتك من جهازك
-                المفضل</div>
-              <div class="row">
-                <div class="col-sm-6 col-xs-9">
-                  <div class="mobile-bank__app app">
-                    <div class="app__logo"></div>
-                    <div class="app__info">
-                      <div class="app__title">ePayService ®</div>
-                      <div class="app__text"><a
-                          href="https://play.google.com/store/apps/details?id=com.epayservice">Google Play</a>, <a
-                          href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8"> المتجر
-                          أبل.</a>احصل على تطبيق ePayService لدائرة الرقابة الداخلية المتوفرة في </div>
-                    </div>
-                  </div>
-                  <div class="mobile-bank__download">
-                    <a class="mobile-bank__icon icon icon_app-store"
-                      href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8"></a>
-                    <a class="mobile-bank__icon icon icon_google-play"
-                      href="https://play.google.com/store/apps/details?id=com.epayservice"></a>
-                  </div>
-                  <div class="mobile-bank__manage">
-                    <div class="mobile-bank__text">احصل عليه بالطاقة مع نظام Online.ePayServices الدفع</div>
-                    <div class="mobile-bank__note">قم بالإستفادة من وظائف تطبيق الجوال. الحياة جيدة.</div>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-3">
-                  <div class="mobile-bank__image">
-                    <img src="../images/phone.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </main>
+
+    {% include 'pages/index/app-download.njk' %}
   </div>
 
   {% include 'footer.njk' %}

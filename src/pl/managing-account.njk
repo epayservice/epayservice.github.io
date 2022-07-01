@@ -8,7 +8,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="../css/style.css?v=180101072022">
+  <link rel="stylesheet" href="../css/style.css?v=212301072022">
   <title>ePayService - Zarządzanie kontem</title>
 </head>
 
@@ -385,50 +385,9 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
           </div>
         </div>
 
-
-        <div class="mobile-bank">
-          <div class="region">
-            <div class="row">
-              <div class="col-md-8 col-xs-12">
-                <h2 class="mobile-bank__title title">Pełna elastyczność</h2>
-                <div class="mobile-bank__text">Zarządzaj portfelem ePayService przy użyciu <br>wybranych przez siebie
-                  urządzeń</div>
-                <div class="row">
-                  <div class="col-sm-6 col-xs-9">
-                    <div class="mobile-bank__app app">
-                      <div class="app__logo"></div>
-                      <div class="app__info">
-                        <div class="app__title">ePayService ®</div>
-                        <div class="app__text">Pobierz aplikację ePayService na iOS dostępną w sklepie <a
-                            href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8">Apple App
-                            Store</a>, <a href="https://play.google.com/store/apps/details?id=com.epayservice">Google
-                            Play</a></div>
-                      </div>
-                    </div>
-                    <div class="mobile-bank__download">
-                      <a class="mobile-bank__icon icon icon_app-store"
-                        href="https://itunes.apple.com/us/app/epayservice/id526678355?l=en&mt=8"></a>
-                      <a class="mobile-bank__icon icon icon_google-play"
-                        href="https://play.google.com/store/apps/details?id=com.epayservice"></a>
-                    </div>
-                    <div class="mobile-bank__manage">
-                      <div class="mobile-bank__text">Zasilaj ją przy pomocy systemu płatności Online.ePayServices</div>
-                      <div class="mobile-bank__note">Korzystaj z rozbudowanej funkcjonalności aplikacji mobilnej. Bądź
-                        produktywny.</div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-xs-3">
-                    <div class="mobile-bank__image">
-                      <img src="../images/phone.png" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </main>
+
+      {% include 'pages/index/app-download.njk' %}
     </div>
 
     {% include 'footer.njk' %}
