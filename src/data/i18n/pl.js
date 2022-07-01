@@ -107,5 +107,20 @@ module.exports = {
 
   deliveryMethod: 'SPOSÓB DOSTAWY',
 
-  free: 'BEZ OPŁAT'
+  free: 'BEZ OPŁAT',
+
+  virtual: {
+    controlPurchases: 'Kontroluj swoje wydatki',
+    useCard: 'Użyj karty wirtualnej z możliwością doładowania',
+    dailyPurchaseLimit: 'Dzienny limit wydatków do {{ sum }} USD',
+    instantLoad: 'Natychmiastowe, bezpłatne doładowania',
+    freeUnload: 'Darmowe przeniesienie salda karty na konto ePayService'
+  },
+
+  appDownload: {
+    title: 'Prawdziwa elastyczność',
+    text: 'Zarządzaj swoim portfelem ePayService za pośrednictwem ulubionego urządzenia',
+    downloadText: 'Zasilaj ją przy pomocy systemu płatności Online.ePayServices',
+    openFreeAccount: 'Załóż darmowe konto'
+  }
 }

@@ -272,81 +272,11 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                   </div>
                 </div>
 
-                <div class="solutions__block row">
-                  <div class="col-md-10 col-xs-12 col-md-pull-2">
-                    <h2 class="solutions__title title">إختر بطاقتك حسب حجم مشترياتك</h2>
-                    <div class="solutions__text text-dark">يمكنك الحصول على كل ما تحتاجه بواسطة تلك البطاقة، قم بإختيار
-                      أفضل البطاقات الافتراضية التى تناسب حجم مشترياتك !</div>
-                    <div class="using__switch tabs">
-                      <div class="tabs__head">
-                        <button class="tabs__tag tabs__tag_current using__tab" type="button">VIRTUAL SINGLE</button>
-                        <button class="tabs__tag using__tab" type="button">VIRTUAL MULTI</button>
-                      </div>
-                      <div class="tabs__body">
-                        <div class="tabs__section tabs__section_visible">
-                          <div class="using__steps using__steps_blank">
-                            <ul class="solutions__list solutions__list_big">
-                              <li class="solutions__item solutions__item_wide">
-                                <div class="check-list">
-                                  <div class="check-list__title title title_medium">البطاقة الافتراضية ذات الاستخدام
-                                    الواحد</div>
-                                  <ul class="check-list__block">
-                                    <li class="check-list__row">
-                                      <div class="check-list__item text-dark">الحد اليومى للإنفاق 3500 دولار</div>
-                                      <div class="check-list__item text-dark">عدد البطاقات النشطة يصل إلى 10 بطاقات
-                                        للمستخدم الواحد</div>
-                                    </li>
-                                    <li class="check-list__row">
-                                      <div class="check-list__item text-dark">بدون رسوم شهرية</div>
-                                      <div class="check-list__item text-dark">بدون رسوم على المشتريات</div>
-                                    </li>
-
-                                  </ul>
-                                </div>
-                              </li>
-                              <li class="solutions__item">
-                                <img src="../images/virtual-cards.png" alt="">
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="tabs__section">
-                          <div class="using__steps using__steps_blank">
-                            <ul class="solutions__list solutions__list_big">
-                              <li class="solutions__item solutions__item_wide">
-                                <div class="check-list">
-                                  <div class="check-list__title title title_medium">البطاقة الافتراضية متعددة الاستخدام
-                                  </div>
-                                  <ul class="check-list__block">
-                                    <li class="check-list__row">
-                                      <div class="check-list__item text-dark">الحد اليومى للإنفاق 5500 دولار</div>
-                                      <div class="check-list__item text-dark">إيداع فورى بدون مصاريف</div>
-                                    </li>
-                                    <li class="check-list__row">
-                                      <div class="check-list__item text-dark">سحب مجانى إلى حساب ePayService</div>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </li>
-                              <li class="solutions__item">
-                                <img src="../images/blue-card.png" alt="">
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+                {% include 'pages/virtual-cards/control-purchases.njk' %}
 
                 <div class="solutions__block">
                   <h2 class="solutions__title title">أنواع متعددة لتناسب جميع احتياجاتك</h2>
-                  <div class="solutions__text text-dark">عندما يتعلق الأمر بالمدفوعات الفردية، فإن التعامل ببطاقة
-                    ®ePayService Mastercard الافتراضية غير قابلة لإعادة الشحن هو الحل الأمثل للسداد. وعلى الجانب الآخر،
-                    فسوف تكون بطاقة ®ePayService Mastercard الافتراضية المتعددة القابلة لإعادة الشحن هي الحل الأمثل
-                    لسداد مدفوعاتك الدورية الخاصة بالاشتراكات أو الخدمات المختلفة.</div>
+                  <div class="solutions__text text-dark">يمكن أن تكون بطاقة ePayService الافتراضية وسيلة دفع مناسبة عندما يتعلق الأمر بالدفع لمرة واحدة. ستساعدك بطاقة ePayService الافتراضية في تحديد المكان الذي تحتاج فيه إلى الدفع بانتظام مقابل الاشتراكات أو الخدمات.</div>
                   <ul class="solutions__list">
                     <li class="solutions__item">
                       <div class="solutions__bubble bubble-icon bubble-icon_big">

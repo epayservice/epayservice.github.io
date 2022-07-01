@@ -107,5 +107,20 @@ module.exports = {
 
   deliveryMethod: 'أختر طريقة التسليم',
 
-  free: 'مجاناً'
+  free: 'مجاناً',
+
+  virtual: {
+    controlPurchases: 'إختر بطاقتك حسب حجم مشترياتك',
+    useCard: 'استخدم بطاقة افتراضية قابلة لإعادة الشحن',
+    dailyPurchaseLimit: 'الحد اليومى للإنفاق 5500 دولار',
+    instantLoad: 'إيداع فورى بدون مصاريف',
+    freeUnload: 'سحب مجانى إلى حساب ePayService'
+  },
+
+  appDownload: {
+    title: 'مرونة حقيقية',
+    text: 'إدارة محفظة ePayService خاصتك من خلال جهازك المفضل ',
+    downloadText: 'إدارة محفظة ePayService خاصتك من خلال جهازك المفضل ',
+    openFreeAccount: 'قم بفتح حساب مجانى'
+  }
 }

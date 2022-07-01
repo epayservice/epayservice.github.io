@@ -243,85 +243,11 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                   </div>
                 </div>
 
-                <div class="solutions__block row">
-                  <div class="col-md-10 col-xs-12">
-                    <h2 class="solutions__title title">Kiểm soát việc mua sắm của bạn</h2>
-                    <div class="solutions__text text-dark">Tùy chỉnh việc mua sắm của bản thân, sử dụng các thẻ khác
-                      nhau với những giá trị định sẵn. Chọn loại Thẻ Ảo phù hợp với bạn nhất!</div>
-                    <div class="using__switch tabs">
-                      <div class="tabs__head">
-                        <button class="tabs__tag tabs__tag_current using__tab" type="button">VIRTUAL SINGLE</button>
-                        <button class="tabs__tag using__tab" type="button">VIRTUAL MULTI</button>
-                      </div>
-                      <div class="tabs__body">
-                        <div class="tabs__section tabs__section_visible">
-                          <div class="using__steps using__steps_blank">
-                            <ul class="solutions__list solutions__list_big">
-                              <li class="solutions__item solutions__item_wide">
-                                <div class="check-list">
-                                  <div class="check-list__title title title_medium">Single Use Không nạp thẻ ảo Virtual
-                                    Single</div>
-                                  <ul class="check-list__block">
-                                    <li class="check-list__row">
-                                      <div class="check-list__item text-dark">Giá trị mua sắm tối đa 3500 USD</div>
-                                      <div class="check-list__item text-dark">Một người dùng được sử dụng tối đa 10 thẻ
-                                      </div>
-                                    </li>
-                                    <li class="check-list__row">
-                                      <div class="check-list__item text-dark">Không phải trả chi phí hàng tháng</div>
-                                      <div class="check-list__item text-dark">Không phải trả phí cho mỗi giao dịch mua
-                                        sắm</div>
-                                    </li>
-
-                                  </ul>
-                                </div>
-                              </li>
-                              <li class="solutions__item">
-                                <img src="../images/virtual-cards.png" alt="">
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="tabs__section">
-                          <div class="using__steps using__steps_blank">
-                            <ul class="solutions__list solutions__list_big">
-                              <li class="solutions__item solutions__item_wide">
-                                <div class="check-list">
-                                  <div class="check-list__title title title_medium">Đa dụng nạp thẻ ảo Virtual Multi
-                                  </div>
-                                  <ul class="check-list__block">
-                                    <li class="check-list__row">
-                                      <div class="check-list__item text-dark">Giá trị mua sắm hàng ngày tối đa là 5500
-                                        USD</div>
-                                      <div class="check-list__item text-dark">Việc sử dụng tiền thẻ ảo thay thẻ thật
-                                        được thực hiện ngay và miễn phí </div>
-                                    </li>
-                                    <li class="check-list__row">
-                                      <div class="check-list__item text-dark">Miễn phí việc hoàn trả tiền vào tài khoản
-                                        ePayService</div>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </li>
-                              <li class="solutions__item">
-                                <img src="../images/blue-card.png" alt="">
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+                {% include 'pages/virtual-cards/control-purchases.njk' %}
 
                 <div class="solutions__block">
                   <h2 class="solutions__title title">Giải pháp theo nhu cầu của bạn</h2>
-                  <div class="solutions__text text-dark">Việc sử dụng Thẻ Ảo Đơn Virtual Single không hoàn trả của
-                    ePayService là công cụ thanh toán phù hợp cho những giao dịch thanh toán một lần. Việc sử dụng Thẻ
-                    Ảo Virtual Multi có hoàn trả của ePayService phù hợp khi bạn cần phải thường xuyên thực hiện thanh
-                    toán các dịch vụ hay sản phẩm đã đăng ký hoặc các dịch vụ đặc biệt khác.</div>
+                  <div class="solutions__text text-dark">ePayService Thẻ ảo có thể là một công cụ thanh toán phù hợp khi nói đến thanh toán một lần. ePayService Thẻ ảo sẽ giúp bạn tìm ra nơi bạn cần thường xuyên thanh toán cho các đăng ký hoặc dịch vụ.</div>
                   <ul class="solutions__list">
                     <li class="solutions__item">
                       <div class="solutions__bubble bubble-icon bubble-icon_big">

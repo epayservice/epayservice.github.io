@@ -107,5 +107,20 @@ module.exports = {
 
   deliveryMethod: 'Pilih kaedah penghantaran anda',
 
-  free: 'PERCUMA'
+  free: 'PERCUMA',
+
+  virtual: {
+    controlPurchases: 'Kawal pembelian anda',
+    useCard: 'Gunakan Kad Maya Boleh Muat Semula',
+    dailyPurchaseLimit: 'Had pembelian harian sehingga USD {{ sum }}',
+    instantLoad: 'Percuma isian segera',
+    freeUnload: 'Percuma pengeluaran semula isian ke akaun ePayService'
+  },
+
+  appDownload: {
+    title: 'Fleksibiliti Sebenar',
+    text: 'Urus Dompet ePayService Wallet anda melalui alat peranti kegemaran anda',
+    downloadText: 'Dikuasakan oleh sistem pembayaran Online.ePayServices',
+    openFreeAccount: 'Buka Akaun Percuma'
+  }
 }

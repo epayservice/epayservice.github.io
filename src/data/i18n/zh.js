@@ -107,5 +107,20 @@ module.exports = {
 
   deliveryMethod: 'Delivery method',
 
-  free: 'FREE'
+  free: 'FREE',
+
+  virtual: {
+    controlPurchases: 'Control your purchases',
+    useCard: '使用可重复充值的虚拟卡',
+    dailyPurchaseLimit: 'Daily purchase limit {{ sum }} USD',
+    instantLoad: 'Instant free-of-charge load',
+    freeUnload: 'Free unload back to ePayService account'
+  },
+
+  appDownload: {
+    title: '真正的灵活性',
+    text: '通过您喜爱的设备管理您的ePayService钱包',
+    downloadText: '用Online.ePayServices付款系统提供动力支持',
+    openFreeAccount: '开立一个免费账户'
+  }
 }

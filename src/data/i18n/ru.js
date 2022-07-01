@@ -107,5 +107,20 @@ module.exports = {
 
   deliveryMethod: 'Способ доставки карты',
 
-  free: 'БЕСПЛАТНО'
+  free: 'БЕСПЛАТНО',
+
+  virtual: {
+    controlPurchases: 'Покупки под вашим контролем',
+    useCard: 'Пополняемая виртуальная карта',
+    dailyPurchaseLimit: 'Покупки на сумму до {{ sum }} USD в день',
+    instantLoad: 'Моментальное бесплатное пополнение',
+    freeUnload: 'Бесплатный вывод средств обратно на счет'
+  },
+
+  appDownload: {
+    title: 'Настоящая мобильность',
+    text: 'Управляйте своим кошельком в ePayService с вашего любимого устройства',
+    downloadText: 'Вся мощь расчетной системы Online.ePayServices в ваших руках',
+    openFreeAccount: 'Бесплатная регистрация'
+  }
 }

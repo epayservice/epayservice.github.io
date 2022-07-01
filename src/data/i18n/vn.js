@@ -107,5 +107,20 @@ module.exports = {
 
   deliveryMethod: 'Chọn phương thức giao nhận',
 
-  free: 'MIỄN PHÍ'
+  free: 'MIỄN PHÍ',
+
+  virtual: {
+    controlPurchases: 'Kiểm soát việc mua sắm của bạn',
+    useCard: 'Sử dụng thẻ ảo có thể tải lại',
+    dailyPurchaseLimit: 'Giá trị mua sắm hàng ngày tối đa là {{ sum }} USD',
+    instantLoad: 'Việc sử dụng tiền thẻ ảo thay thẻ thật được thực hiện ngay và miễn phí',
+    freeUnload: 'Miễn phí việc hoàn trả tiền vào tài khoản ePayService'
+  },
+
+  appDownload: {
+    title: 'Thực sự Linh hoạt',
+    text: 'Quản lý Ví ePayService của bạn thông qua thiết bị yêu thích',
+    downloadText: 'Vận hành nó cùng hệ thống thanh toán Online.ePayServices',
+    openFreeAccount: 'Mở một Tài khoản Miễn phí'
+  }
 }

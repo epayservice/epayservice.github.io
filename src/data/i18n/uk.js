@@ -107,5 +107,20 @@ module.exports = {
 
   deliveryMethod: 'Delivery method',
 
-  free: 'FREE'
+  free: 'FREE',
+
+  virtual: {
+    controlPurchases: 'Control your purchases',
+    useCard: 'Use Reloadable Virtual Card',
+    dailyPurchaseLimit: 'Daily purchase limit {{ sum }} {{ currency }}',
+    instantLoad: 'Instant free-of-charge load',
+    freeUnload: 'Free unload back to ePayService account'
+  },
+
+  appDownload: {
+    title: 'Real Flexibility',
+    text: 'Manage your ePayService Wallet through your favorite device',
+    downloadText: 'Make the most of our services via Online.ePayServices payment system',
+    openFreeAccount: 'Open A Free Account'
+  }
 }

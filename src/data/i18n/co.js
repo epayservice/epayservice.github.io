@@ -107,5 +107,20 @@ module.exports = {
 
   deliveryMethod: 'Método de entrega',
 
-  free: 'GRATIS'
+  free: 'GRATIS',
+
+  virtual: {
+    controlPurchases: 'Controle sus compras',
+    useCard: 'Utilizar la tarjeta virtual recargable',
+    dailyPurchaseLimit: 'Límite de compra diario ${{ sum }} USD',
+    instantLoad: 'Añadir fontos a la tarjeta es gratis',
+    freeUnload: 'Volver fondos a la cuenta de ePayService es gratis'
+  },
+
+  appDownload: {
+    title: 'Verdadera Flexibilidad',
+    text: 'Maneje su Cartera de ePayService a través de su dispositivo favorito',
+    downloadText: 'Acciónela con el sistema de pago Online.ePayServices',
+    openFreeAccount: 'Abra Una Cuenta Gratuita'
+  }
 }

@@ -107,5 +107,20 @@ module.exports = {
 
   deliveryMethod: 'Metoda de livrare',
 
-  free: 'GRATUIT'
+  free: 'GRATUIT',
+
+  virtual: {
+    controlPurchases: 'Controlați-vă cumpărăturile',
+    useCard: 'Utilizați un card virtual reîncărcabil',
+    dailyPurchaseLimit: 'Limită zilnică de cumpărături de {{ sum }} USD',
+    instantLoad: 'Încărcare imediată gratuită',
+    freeUnload: 'Descărcare gratuită în contul ePayService'
+  },
+
+  appDownload: {
+    title: 'Flexibilitate totală',
+    text: 'Administrați Portofelul ePayService prin dispozitivul dvs. preferat',
+    downloadText: 'Utilizați sistemul de plăți Online.ePayServices din aplicație',
+    openFreeAccount: 'Deschideți cont gratuit'
+  }
 }
