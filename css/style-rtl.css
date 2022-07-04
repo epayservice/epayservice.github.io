@@ -323,7 +323,7 @@ html {
     max-width: 100%;
     width: 100%;
     height: 100%;
-    -webkit-font-smoothing: antialiased!important;
+    -webkit-font-smoothing: antialiased !important;
     font-family: SF-UI, serif;
     -webkit-overflow-scrolling: touch;
     overflow-scrolling: touch;
@@ -472,7 +472,6 @@ a:focus {
 
 .app-download {
   width: 100%;
-  max-width: 1920px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -480,7 +479,6 @@ a:focus {
   justify-content: center;
   padding: 131px 0;
   margin: auto;
-  margin-top: 30px;
   background-color: #FAFAFA;
 }
 
@@ -560,7 +558,7 @@ a:focus {
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 401px;
+    width: 309px;
     height: 486px;
     background-image: url(../images/app-m-rtl.png);
     background-repeat: no-repeat;
@@ -612,17 +610,15 @@ a:focus {
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 331px;
+    width: 296px;
     height: 669px;
     background-image: url(../images/app-r-l.png);
-    background-repeat: no-repeat;
   }
 
   .app-download__right-bg {
-    width: 296px;
+    width: 331px;
     height: 669px;
     background-image: url(../images/app-l-l.png);
-    background-repeat: no-repeat;
   }
 }
 
@@ -639,6 +635,83 @@ a:focus {
     background-image: url(../images/app-l-xl.png);
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .app-download__left-bg {
+    width: 761px;
+    height: 761px;
+    background-image: url(../images/app-r-xl-f.png);
+    right: -100px;
+  }
+
+  .app-download__right-bg {
+    width: 761px;
+    height: 761px;
+    background-image: url(../images/app-l-xl-f.png);
+    left: -100px;
+  }
+}
+
+/* Retina */
+
+@media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+
+      .app-download__left-bg {
+        background-image: url(../images/app-s@2x.png);
+        background-size: 320px 365px;
+      }
+
+      @media screen and (min-width: 728px) {
+        .app-download__right-bg {
+          background-image: url(../images/app-m-rtl@2x.png);
+          background-size: 309px 486px;
+        }
+      }
+
+      @media screen and (min-width: 1000px) {
+        .app-download__left-bg {
+          background-image: url(../images/app-r-l@2x.png);
+          background-size: 296px 669px;
+        }
+
+        .app-download__right-bg {
+          background-image: url(../images/app-l-l@2x.png);
+          background-size: 331px 669px;
+        }
+      }
+
+      @media screen and (min-width: 1400px) {
+        .app-download__left-bg {
+          background-image: url(../images/app-r-xl@2x.png);
+          background-size: 553px 848px;
+        }
+
+        .app-download__right-bg {
+          background-image: url(../images/app-l-xl@2x.png);
+          background-size: 553px 848px;
+        }
+      }
+
+      @media screen and (min-width: 1920px) {
+        .app-download__left-bg {
+          background-image: url(../images/app-r-xl-f@2x.png);
+          background-size: 761px 761px;
+        }
+
+        .app-download__right-bg {
+          background-image: url(../images/app-l-xl-f@2x.png);
+          background-size: 761px 761px;
+        }
+      }
+    }
+
+/***/
 
 /***/
 
@@ -5714,7 +5787,7 @@ input::-webkit-inner-spin-button {
     background-size: cover;
     background-position: 50% 50%;
     padding: 75px 0 125px;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     margin: 0 auto;
     min-height: 910px;
     position: relative;
