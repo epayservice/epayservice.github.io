@@ -64,6 +64,10 @@ module.exports = function(eleventyConfig) {
     }
   });
 
+  eleventyConfig.addNunjucksGlobal("getOpenApiHref", function(locale) {
+    return ['en', 'es', 'de'].includes(locale) ? 'open-api.html' : '../en/open-api.html';
+  });
+
   eleventyConfig.addFilter('log', value => {
     console.log(value);
   });

@@ -1,6 +1,7 @@
 {% from 'set/services.njk' import servicesItems %}
 {% set availableServicesItems = getAvailableServicesItems(locale) %}
 {% set servicesSubItems = getServicesArray(servicesItems, availableServicesItems) %}
+{% set open_api_href = getOpenApiHref(locale) %}
 
 {% set footerItems = [
   {
@@ -9,7 +10,7 @@
       { textI18n: 'footer.contactUs', href: 'contact-us.html' },
       { textI18n: 'footer.signIn', href: 'https://online.epayservices.com/' },
       { textI18n: 'footer.affiliateProgram', href: 'affiliate-program.html' },
-      { textI18n: 'footer.openAPI', href: 'open-api.html' },
+      { textI18n: 'footer.openAPI', href: open_api_href },
       { textI18n: 'footer.developers', href: '../en/developers.html' },
       { textI18n: 'footer.news', href: 'https://blog.epayservices.com/' }
     ]
