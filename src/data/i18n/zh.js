@@ -114,7 +114,8 @@ module.exports = {
     useCard: '使用可重复充值的虚拟卡',
     dailyPurchaseLimit: 'Daily purchase limit {{ sum }} USD',
     instantLoad: 'Instant free-of-charge load',
-    freeUnload: 'Free unload back to ePayService account'
+    freeUnload: 'Free unload back to ePayService account',
+    noMonthlyFee: 'No monthly fee'
   },
 
   appDownload: {

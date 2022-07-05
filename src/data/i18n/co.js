@@ -114,7 +114,8 @@ module.exports = {
     useCard: 'Utilizar la tarjeta virtual recargable',
     dailyPurchaseLimit: 'Límite de compra diario ${{ sum }} USD',
     instantLoad: 'Añadir fontos a la tarjeta es gratis',
-    freeUnload: 'Volver fondos a la cuenta de ePayService es gratis'
+    freeUnload: 'Volver fondos a la cuenta de ePayService es gratis',
+    noMonthlyFee: 'Sin cuota mensual'
   },
 
   appDownload: {

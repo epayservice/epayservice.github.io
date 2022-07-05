@@ -114,7 +114,8 @@ module.exports = {
     useCard: 'Utilizați un card virtual reîncărcabil',
     dailyPurchaseLimit: 'Limită zilnică de cumpărături de {{ sum }} USD',
     instantLoad: 'Încărcare imediată gratuită',
-    freeUnload: 'Descărcare gratuită în contul ePayService'
+    freeUnload: 'Descărcare gratuită în contul ePayService',
+    noMonthlyFee: 'Nici o taxă lunară'
   },
 
   appDownload: {

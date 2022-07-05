@@ -114,7 +114,8 @@ module.exports = {
     useCard: 'Użyj karty wirtualnej z możliwością doładowania',
     dailyPurchaseLimit: 'Dzienny limit wydatków do {{ sum }} USD',
     instantLoad: 'Natychmiastowe, bezpłatne doładowania',
-    freeUnload: 'Darmowe przeniesienie salda karty na konto ePayService'
+    freeUnload: 'Darmowe przeniesienie salda karty na konto ePayService',
+    noMonthlyFee: 'Bez opłat miesięcznych'
   },
 
   appDownload: {

@@ -114,7 +114,8 @@ module.exports = {
     useCard: 'استخدم بطاقة افتراضية قابلة لإعادة الشحن',
     dailyPurchaseLimit: 'الحد اليومى للإنفاق 5500 دولار',
     instantLoad: 'إيداع فورى بدون مصاريف',
-    freeUnload: 'سحب مجانى إلى حساب ePayService'
+    freeUnload: 'سحب مجانى إلى حساب ePayService',
+    noMonthlyFee: 'بدون رسوم شهرية'
   },
 
   appDownload: {

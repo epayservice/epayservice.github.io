@@ -114,7 +114,8 @@ module.exports = {
     useCard: 'Пополняемая виртуальная карта',
     dailyPurchaseLimit: 'Покупки на сумму до {{ sum }} USD в день',
     instantLoad: 'Моментальное бесплатное пополнение',
-    freeUnload: 'Бесплатный вывод средств обратно на счет'
+    freeUnload: 'Бесплатный вывод средств обратно на счет',
+    noMonthlyFee: 'Без абонентской платы'
   },
 
   appDownload: {

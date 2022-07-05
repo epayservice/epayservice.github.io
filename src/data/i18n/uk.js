@@ -114,7 +114,8 @@ module.exports = {
     useCard: 'Use Reloadable Virtual Card',
     dailyPurchaseLimit: 'Daily purchase limit {{ sum }} {{ currency }}',
     instantLoad: 'Instant free-of-charge load',
-    freeUnload: 'Free unload back to ePayService account'
+    freeUnload: 'Free unload back to ePayService account',
+    noMonthlyFee: 'No monthly fee'
   },
 
   appDownload: {

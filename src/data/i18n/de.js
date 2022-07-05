@@ -114,7 +114,8 @@ module.exports = {
     useCard: 'Wiederaufladbare virtuelle Karte verwenden',
     dailyPurchaseLimit: 'Karte Tägliches Limit {{ sum }} USD',
     instantLoad: 'Sofort kostenlos aufladbar',
-    freeUnload: 'Kostenlos entladen auf ePayService Konto'
+    freeUnload: 'Kostenlos entladen auf ePayService Konto',
+    noMonthlyFee: 'Keine monatliche Grundgebühr'
   },
 
   appDownload: {
