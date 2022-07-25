@@ -198,8 +198,12 @@ ul {
     margin: 1em 0;
 }
 
+dt {
+  font-weight: bold;
+}
+
 dd {
-    margin: 0 40px 0 0;
+  margin: 0 0 20px 0;
 }
 
 menu,
@@ -5020,6 +5024,20 @@ input::-webkit-inner-spin-button {
 @media (max-width: 767px) {
     .operations-list {margin-bottom: 30px;}
     .operations-list__item {margin-top: 10px;}
+}
+
+ol.multi {
+  list-style: none !important;
+  counter-reset: li;
+}
+
+ol.multi.no-padding {
+  padding-right: 0 !important;
+}
+
+ol.multi li:before {
+  counter-increment: li;
+  content: counters(li, ".") ". ";
 }
 
 .ordered-list {
