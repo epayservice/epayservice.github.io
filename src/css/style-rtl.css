@@ -5040,6 +5040,23 @@ ol.multi li:before {
   content: counters(li, ".") ". ";
 }
 
+ol.multi li {
+  padding-bottom: 16px;
+}
+
+table.agreement_table {
+  margin-top: 5px;
+}
+
+table.agreement_table, table.agreement_table th, table.agreement_table td {
+  border: 1px solid #374D6B;
+  border-collapse: collapse;
+}
+
+table.agreement_table th, table.agreement_table td {
+  padding: 6px;
+}
+
 .ordered-list {
     margin: 0;
     padding: 0;
