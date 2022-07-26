@@ -243,12 +243,10 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
               {% include 'pages/agreements/cardholders-agreement.njk' %}
             </div>
 
-            <!--
             <div id="privacy-policy" style="margin-bottom:50px">
-              <h2 class="agreement__title">Privacy Policy</h2>
-              <a class="link-arr" href="../../agreements/privacy-policy.pdf" download>Download file</a>
+              {% include 'pages/agreements/privacy-policy.njk' %}
             </div>
-
+<!--
             <div id="privacy-notice" style="margin-bottom:50px">
               <h2 class="agreement__title">Privacy Notice</h2>
               <a class="link-arr" href="../../agreements/privacy-notice.pdf" download>Download file</a>
@@ -297,8 +295,8 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 <div class="service__list" style="border-bottom: 0">
                   <a class="service__item js-scroll" href="#user-agreement">User Agreement</a>
                   <a class="service__item js-scroll" href="#cardholders-agreement">ePayService Mastercard Cardholders Agreement</a>
-                  <!-- <a class="service__item js-scroll" href="#privacy-policy">Privacy Policy</a>
-                  <a class="service__item js-scroll" href="#privacy-notice">Privacy Notice</a>
+                  <a class="service__item js-scroll" href="#privacy-policy">Privacy Policy</a>
+                  <!--<a class="service__item js-scroll" href="#privacy-notice">Privacy Notice</a>
                   <a class="service__item js-scroll" href="#solid-privacy-policy">Solid Privacy Policy</a>
                   <a class="service__item js-scroll" href="#solid-platform-terms">Solid platform terms of service</a>
                   <a class="service__item js-scroll" href="#solid-website-dashboard-terms">Solid website & dashboard terms of use</a>
@@ -309,9 +307,6 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                   <!-- <a class="service__item" href="../../ePayService_MasterCard_Cardholders_Agreement.pdf" target="_blank">
                     ePayService Mastercard Cardholders Agreement
                   </a> -->
-                  <a class="service__item" href="../../agreements/privacy-policy.pdf" target="_blank">
-                    Privacy Policy
-                  </a>
                   <a class="service__item" href="../../agreements/privacy-notice.pdf" target="_blank">
                     Privacy Notice
                   </a>
