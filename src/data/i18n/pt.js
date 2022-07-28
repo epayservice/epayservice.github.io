@@ -33,6 +33,8 @@ module.exports = {
     cardholdersAgreement: 'ePayService Mastercard Cardholders Agreement',
     privacyPolicy: 'Privacy Policy',
     privacyNotice: 'Privacy Notice',
+    legalAgreements: 'Legal Agreements',
+    privacy: 'Privacy',
     followUs: 'Siga-nos',
     twitter: 'Twitter',
     copyRight: '© Copyright MTACC Inc. DBA ePayService 2007–<span></span>, <br>Todos os direitos reservados.',

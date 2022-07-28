@@ -33,6 +33,8 @@ module.exports = {
     cardholdersAgreement: 'ePayService Mastercard Cardholders Agreement',
     privacyPolicy: 'Privacy Policy',
     privacyNotice: 'Privacy Notice',
+    legalAgreements: 'Legal Agreements',
+    privacy: 'Privacy',
     followUs: 'Follow Us',
     twitter: 'Twitter',
     copyRight: '© Copyright ePayService 2007–<span></span>, <br>All rights reserved.',

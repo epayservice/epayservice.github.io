@@ -33,6 +33,8 @@ module.exports = {
     cardholdersAgreement: 'إتفاقية حاملى بطاقات ePayService ®Mastercard',
     privacyPolicy: 'Privacy Policy',
     privacyNotice: 'Privacy Notice',
+    legalAgreements: 'Legal Agreements',
+    privacy: 'Privacy',
     followUs: 'تابعنا',
     twitter: 'Twitter',
     copyRight: '© جميع حقوق الطبع محفوظة لشركة MTACCDBA<br>ePayService 2007–<span></span>.',
