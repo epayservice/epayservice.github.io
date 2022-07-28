@@ -81,8 +81,6 @@ module.exports = function(eleventyConfig) {
       str += '../'
     }
 
-    console.log(`${str}, ${url}, ${link}`)
-
     return str + link
   });
 
