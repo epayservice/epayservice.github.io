@@ -7982,6 +7982,6 @@ table.agreement_table th, table.agreement_table td {
   padding-top: 25px;
 }
 
-.wysiwyg ul.agreement-list > li {
+.wysiwyg .agreement-list > li {
   padding-bottom: 16px;
 }

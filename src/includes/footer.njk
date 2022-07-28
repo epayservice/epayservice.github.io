@@ -22,10 +22,10 @@
   {
     textI18n: 'footer.terms',
     subItems: [
-      { textI18n: 'footer.userAgreement', href: '../en/agreements.html' },
-      { textI18n: 'footer.cardholdersAgreement', href: '../ePayService_MasterCard_Cardholders_Agreement.pdf'},
-      { textI18n: 'footer.privacyPolicy', href: '../privacy-policy.pdf' },
-      { textI18n: 'footer.privacyNotice', href: '../privacy-notice.pdf' }
+      { textI18n: 'footer.userAgreement', href: '../en/agreements/user-agreement.html' },
+      { textI18n: 'footer.cardholdersAgreement', href: '../en/agreements/cardholders-agreement.html' },
+      { textI18n: 'footer.privacyPolicy', href: '../en/agreements/privacy-policy.html' },
+      { textI18n: 'footer.privacyNotice', href: '../en/agreements/privacy-notice.html' }
     ]
   },
   {
@@ -50,7 +50,7 @@
             <ul class="footer__list">
               {% for subItem in item.subItems %}
               <li class="footer__item">
-                <a class="footer__link" href="{{ subItem.href }}">{{ subItem.textI18n | i18n }}</a>
+                <a class="footer__link" href="{{ getRelativeHref(page.url, subItem.href) }}">{{ subItem.textI18n | i18n }}</a>
               </li>
               {% endfor %}
             </ul>

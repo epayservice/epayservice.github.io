@@ -68,6 +68,24 @@ module.exports = function(eleventyConfig) {
     return ['en', 'es', 'de'].includes(locale) ? 'open-api.html' : '../en/open-api.html';
   });
 
+  eleventyConfig.addNunjucksGlobal("getRelativeHref", function(url, link) {
+    if (link.startsWith('https://') || link.startsWith('http://')) {
+      return link;
+    }
+
+    relCount = url.split('/').length - 3
+
+    str = ''
+
+    for(i = 1; i <= relCount; i++) {
+      str += '../'
+    }
+
+    console.log(`${str}, ${url}, ${link}`)
+
+    return str + link
+  });
+
   eleventyConfig.addFilter('log', value => {
     console.log(value);
   });
