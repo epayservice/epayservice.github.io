@@ -274,13 +274,13 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                     </div>
                   </a>
 
-                  <a class="side-nav__item ico-nav swap-item js-scroll" href="#local">
+                  <a class="side-nav__item ico-nav swap-item js-scroll" href="#sepa-bank-transfer">
                     <div class="ico-nav__image">
-                      <div class="icon icon_local-pay-sm"></div>
+                      <div class="icon icon_stars-sm"></div>
                     </div>
                     <div class="ico-nav__info">
-                      <div class="ico-nav__title text-dark text-dark_small">Локальные переводы</div>
-                      <div class="ico-nav__text text">Банковский депозит</div>
+                      <div class="ico-nav__title text-dark text-dark_small">Персональный IBAN для перевода SEPA</div>
+                      <div class="ico-nav__text text">SEPA & IBAN</div>
                     </div>
                   </a>
 
@@ -291,6 +291,16 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                     <div class="ico-nav__info">
                       <div class="ico-nav__title text-dark text-dark_small">Банковские чеки</div>
                       <div class="ico-nav__text text">Процессинг чеков <br /> USD</div>
+                    </div>
+                  </a>
+
+                  <a class="side-nav__item ico-nav swap-item js-scroll" href="#local">
+                    <div class="ico-nav__image">
+                      <div class="icon icon_local-pay-sm"></div>
+                    </div>
+                    <div class="ico-nav__info">
+                      <div class="ico-nav__title text-dark text-dark_small">Локальные переводы</div>
+                      <div class="ico-nav__text text">Банковский депозит</div>
                     </div>
                   </a>
 
@@ -622,53 +632,6 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 </div>
               </div>
 
-              <div class="exchange__item" id="webmoney">
-                <h1 class="exchange__title title">Электронные платежи WebMoney Transfer</h1>
-                <div class="exchange__link">
-
-                </div>
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="text">Направление</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text">Комиссия</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-
-                    </div>
-                  </div>
-                </div>
-
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction text-dark text-dark_big"><span>Входящий</span></div>
-                      <div class="text">на ePayService Mastercard®</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text-dark text-dark_big">2%</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                    </div>
-                  </div>
-                  <div class="exchange__row">
-                    <div class="exchange__numbers row row-eq-height">
-                      <div class="col-sm-6 col-xs-4">
-                        <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
-                          <span>Исходящий</span>
-                        </div>
-                        <div class="text">перевод на WebMoney кошелек (WMZ)</div>
-                      </div>
-                      <div class="col-sm-3 col-xs-8">
-                        <div class="text-dark text-dark_big">5.5%</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
               <div class="exchange__item" id="local">
                 <div class="exchange__title title">Локальные переводы</div>
                 <div class="exchange__row exchange__row_local">
@@ -802,6 +765,53 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                             <div class="text text_tiny">Venezuelan Bolivar</div>
                           </div>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="exchange__item" id="webmoney">
+                <h1 class="exchange__title title">Электронные платежи WebMoney Transfer</h1>
+                <div class="exchange__link">
+
+                </div>
+                <div class="exchange__row">
+                  <div class="exchange__numbers row row-eq-height">
+                    <div class="col-sm-6 col-xs-4">
+                      <div class="text">Направление</div>
+                    </div>
+                    <div class="col-sm-3 col-xs-4">
+                      <div class="text">Комиссия</div>
+                    </div>
+                    <div class="col-sm-3 col-xs-4">
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="exchange__row">
+                  <div class="exchange__numbers row row-eq-height">
+                    <div class="col-sm-6 col-xs-4">
+                      <div class="exchange__direction text-dark text-dark_big"><span>Входящий</span></div>
+                      <div class="text">на ePayService Mastercard®</div>
+                    </div>
+                    <div class="col-sm-3 col-xs-4">
+                      <div class="text-dark text-dark_big">2%</div>
+                    </div>
+                    <div class="col-sm-3 col-xs-4">
+                    </div>
+                  </div>
+                  <div class="exchange__row">
+                    <div class="exchange__numbers row row-eq-height">
+                      <div class="col-sm-6 col-xs-4">
+                        <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
+                          <span>Исходящий</span>
+                        </div>
+                        <div class="text">перевод на WebMoney кошелек (WMZ)</div>
+                      </div>
+                      <div class="col-sm-3 col-xs-8">
+                        <div class="text-dark text-dark_big">5.5%</div>
                       </div>
                     </div>
                   </div>
