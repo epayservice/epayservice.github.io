@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Transferência doméstica de Saída',
       toWallet: 'para a sua carteira com ePayService',
       toAccount: 'para uma conta pessoal ou empresarial para um banco dos EUA'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'para todas as moedas abaixo'
     }
   },
 

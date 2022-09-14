@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Исходящий Domestic Wire',
       toWallet: 'на кошелек в ePayService',
       toAccount: 'на счет физлица или юрлица в банке US'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'Для всех валют ниже'
     }
   },
 

@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Pengeluaran Domestic Wire',
       toWallet: 'ke dompet anda dengan ePayService',
       toAccount: 'ke akaun peribadi atau syarikat dengan bank AS'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'untuk semua mata wang di bawah'
     }
   },
 

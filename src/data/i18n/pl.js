@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Wychodzący transfer wewnętrzny',
       toWallet: 'do Twojego portfela za pomocą usługi ePayService',
       toAccount: 'na konto osobiste lub konto firmowe w banku amerykańskim'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'dla wszystkich walut są dostępne poniżej'
     }
   },
 

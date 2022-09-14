@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Rút tiền trong nước',
       toWallet: 'vào ví với ePayService',
       toAccount: 'vào tài khoản cá nhân hay công ty với một ngân hàng Mỹ'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'cho mọi loại tiền tệ bên dưới'
     }
   },
 

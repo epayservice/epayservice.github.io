@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Withdraw Domestic Wire',
       toWallet: 'To your wallet with ePayService',
       toAccount: 'To a personal or company account with a us bank'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'For all currencies below'
     }
   },
 

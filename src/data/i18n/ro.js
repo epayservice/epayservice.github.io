@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Retragere prin transfer local',
       toWallet: 'în portofelul tău cu ePayService',
       toAccount: 'către un cont personal sau de firmă prin intermediul unei banci americane'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'pentru toate monedele de mai jos'
     }
   },
 

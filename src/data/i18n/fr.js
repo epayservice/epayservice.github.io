@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Sortant virements bancaires domestiques',
       toWallet: 'нsur votre portefeuille avec ePayService',
       toAccount: 'sur un compte personnel ou professionnel avec une banque américaine'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'pour toutes les devises ci-dessous'
     }
   },
 

@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Envío de Transferencia por cable nacional',
       toWallet: 'en tu cartera con ePayService',
       toAccount: 'de fondos a una cuenta personal o de empresa con un banco de Estados Unidos'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'por todas las divisas de abajo'
     }
   },
 

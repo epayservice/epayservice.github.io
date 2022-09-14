@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'السحب حوالة مصرفية محلية',
       toWallet: 'في محفظتك مع ePayService',
       toAccount: 'إلى حساب شخصي أو إلى حساب شركة في بنك أمريكي'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'على جميع العملات أدناه'
     }
   },
 

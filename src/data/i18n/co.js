@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Envío de transferencias nacionales',
       toWallet: 'a su billetera con ePayService',
       toAccount: 'a una cuenta personal o empresarial con un banco de EE.UU.'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'por todas las divisas a continuación'
     }
   },
 

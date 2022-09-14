@@ -54,6 +54,10 @@ module.exports = {
       item4title: 'Abbuchung  Interne Übertragungen',
       toWallet: 'in Ihre Brieftasche mit ePayService',
       toAccount: 'an ein persönliches Konto oder Firmenkonto bei einer US-Bank'
+    },
+
+    localPayments: {
+      forAllCurrencies: 'Gebühren für alle Währungen untenstehend'
     }
   },
 
