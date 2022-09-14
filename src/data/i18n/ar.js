@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'اتجاه',
+      fee: 'رسوم',
+      minFee: 'الرسوم الدنيا',
+      deposit: 'الودائع',
+      withdraw: 'السحب',
+      toWallet: 'في محفظتك مع ePayService',
+      toBankAccount: 'إلى حسابك المصرفي',
+      toCompanyBankAccount: 'إلى حساب مصرفي بإسم شركة',
+      toIndividualBankAccount: 'إلى الحساب المصرفي للفرد'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH و DirectDeposit، حوالة مصرفية محلية',
       title: 'تحويل الأموال داخل الولايات المتحدة ACH و DirectDeposit، حوالة مصرفية محلية',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'السحب حوالة مصرفية محلية',
       toWallet: 'في محفظتك مع ePayService',
       toAccount: 'إلى حساب شخصي أو إلى حساب شركة في بنك أمريكي'
+    },
+
+    sepa: {
+      title: 'تحويل الأموال باليورو',
+      linkText: 'SEPA المزيد عن',
     },
 
     localPayments: {

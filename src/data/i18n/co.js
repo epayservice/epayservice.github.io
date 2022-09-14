@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Dirección',
+      fee: 'Tarifa',
+      minFee: 'Tarifa mínimo',
+      deposit: 'Depósitos',
+      withdraw: 'Retiro',
+      toWallet: 'a su billetera con ePayService',
+      toBankAccount: 'a su cuenta bancaria',
+      toCompanyBankAccount: 'a su cuenta bancaria empresarial',
+      toIndividualBankAccount: 'a una cuenta bancaria personal'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH y DirectDeposit, transferencias nacionales',
       title: 'Transferencias de Dinero en Estados Unido (ACH y DirectDeposit, transferencias nacionales)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Envío de transferencias nacionales',
       toWallet: 'a su billetera con ePayService',
       toAccount: 'a una cuenta personal o empresarial con un banco de EE.UU.'
+    },
+
+    sepa: {
+      title: 'Transferencias de Dinero en Euro',
+      linkText: 'Más información acerca SEPA',
     },
 
     localPayments: {

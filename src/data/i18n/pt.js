@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Direção',
+      fee: 'Comissão',
+      minFee: 'Comissão minimo',
+      deposit: 'Depósitos',
+      withdraw: 'Levantamentos',
+      toWallet: 'para a sua carteira com ePayService',
+      toBankAccount: 'para a sua conta bancária',
+      toCompanyBankAccount: 'para a conta bancária da empresa',
+      toIndividualBankAccount: 'para a conta bancária de um indivíduo'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH & DirectDeposit, transferência doméstica',
       title: 'Transferência de Dinheiro nos EUA (ACH & DirectDeposit, transferência doméstica)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Transferência doméstica de Saída',
       toWallet: 'para a sua carteira com ePayService',
       toAccount: 'para uma conta pessoal ou empresarial para um banco dos EUA'
+    },
+
+    sepa: {
+      title: 'Transferência de Dinheiro em EUR',
+      linkText: 'Mais sobre SEPA',
     },
 
     localPayments: {

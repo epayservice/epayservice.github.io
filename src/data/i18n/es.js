@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Dirección',
+      fee: 'Comisión',
+      minFee: 'Comisión mínimo',
+      deposit: 'Depósitos',
+      withdraw: 'Retiradas',
+      toWallet: 'en tu cartera con ePayService',
+      toBankAccount: 'de fondos a tu cuenta bancaria',
+      toCompanyBankAccount: 'de fondos a una cuenta de empresa',
+      toIndividualBankAccount: 'a una cuenta bancaria personal'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH y depósito directo, transferencias nacionales',
       title: 'Transferencias de dinero en los Estados Unidos (ACH y depósito directo, transferencias nacionales)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Envío de Transferencia por cable nacional',
       toWallet: 'en tu cartera con ePayService',
       toAccount: 'de fondos a una cuenta personal o de empresa con un banco de Estados Unidos'
+    },
+
+    sepa: {
+      title: 'Transferencias de dinero en Euro',
+      linkText: 'Más información sobre SEPA',
     },
 
     localPayments: {

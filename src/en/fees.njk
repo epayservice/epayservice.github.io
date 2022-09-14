@@ -582,78 +582,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 </div>
               </div>
 
-              <div class="exchange__item" id="sepa">
-                <h1 class="exchange__title title">Money Transfer in Euro</h1>
-
-                <div class="exchange__link">
-                  <a class="link-arr" href="bank-transfers.html">More about SEPA</a>
-                </div>
-
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="text">Direction</div>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text">Fee</div>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text">Min fee</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction text-dark text-dark_big"><span>Deposit</span></div>
-                      <div class="text">To your wallet with ePayService</div>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text-dark text-dark_big">1%</div>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text-dark text-dark_big">25 EUR</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
-                        <span>Withdraw</span>
-                      </div>
-
-                      <div class="text">To your bank account</div>
-                    </div>
-
-                    <div class="col-sm-6 col-xs-8">
-                      <div class="text-dark text-dark_big">30 EUR</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
-                        <span>Withdraw</span>
-                      </div>
-
-                      <div class="text">To company bank account</div>
-                    </div>
-
-                    <div class="col-sm-6 col-xs-8">
-                      <div class="text-dark text-dark_big">0,5 % + 40 EUR</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {% include "pages/fees/sepa.njk" %}
 
               <div class="exchange__item" id="sepa-bank-transfer">
                 <div class="exchange__title title">Personal IBAN for SEPA transfer</div>

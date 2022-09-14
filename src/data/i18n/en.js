@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Direction',
+      fee: 'Fee',
+      minFee: 'Min fee',
+      deposit: 'Deposit',
+      withdraw: 'Withdraw',
+      toWallet: 'To your wallet with ePayService',
+      toBankAccount: 'To your bank account',
+      toCompanyBankAccount: 'To company bank account',
+      toIndividualBankAccount: "To a person's bank account"
+    },
+
     moneyTransfersUS: {
       navText: 'ACH & DirectDeposit, Domestic Wire',
       title: 'Money Transfer US (ACH & DirectDeposit, Domestic Wire)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Withdraw Domestic Wire',
       toWallet: 'To your wallet with ePayService',
       toAccount: 'To a personal or company account with a us bank'
+    },
+
+    sepa: {
+      title: 'Money Transfer in Euro',
+      linkText: 'More about SEPA',
     },
 
     localPayments: {

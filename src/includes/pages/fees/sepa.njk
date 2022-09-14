@@ -1,0 +1,58 @@
+{% set items = [
+  { dir: 'up', titleI18n: 'fees.common.deposit', descrI18n: 'fees.common.toWallet', fee: '1%', minFee: '25 EUR' },
+  { dir: 'down', titleI18n: 'fees.common.withdraw', descrI18n: 'fees.common.toBankAccount', fee: '30 EUR', minFee: '' },
+  { dir: 'down', titleI18n: 'fees.common.withdraw', descrI18n: 'fees.common.toIndividualBankAccount', fee: '0,5 % + 35&nbsp;EUR', minFee: '' },
+  { dir: 'down', titleI18n: 'fees.common.withdraw', descrI18n: 'fees.common.toCompanyBankAccount', fee: '0,5 % + 40&nbsp;EUR' }
+]%}
+
+<div class="exchange__item" id="sepa">
+  <h1 class="exchange__title title">{{ 'fees.sepa.title' | i18n }}</h1>
+
+  <div class="exchange__link">
+    <a class="link-arr" href="bank-transfers.html">{{ 'fees.sepa.linkText' | i18n }}</a>
+  </div>
+
+  <div class="exchange__row">
+    <div class="exchange__numbers row row-eq-height">
+      <div class="col-sm-6 col-xs-4">
+        <div class="text">{{ 'fees.common.direction' | i18n }}</div>
+      </div>
+
+      <div class="col-sm-3 col-xs-4">
+        <div class="text">{{ 'fees.common.fee' | i18n }}</div>
+      </div>
+
+      <div class="col-sm-3 col-xs-4">
+        <div class="text">{{ 'fees.common.minFee' | i18n }}</div>
+      </div>
+    </div>
+  </div>
+
+  {% for item in items %}
+  <div class="exchange__row">
+    <div class="exchange__numbers row row-eq-height">
+      <div class="col-sm-6 col-xs-4">
+        <div class="exchange__direction {% if item.dir === 'down' %}exchange__direction_down{% endif %} text-dark text-dark_big">
+          <span>{{ item.titleI18n | i18n }}</span>
+        </div>
+
+        {% if item.descrI18n %}
+        <div class="text">{{ item.descrI18n | i18n }}</div>
+        {% endif %}
+      </div>
+
+      <div class="col-sm-3 col-xs-8">
+        <div class="text-dark text-dark_big">
+          {{ item.fee | safe }}
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-xs-4">
+        <div class="text-dark text-dark_big">
+          {{ item.minFee | safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

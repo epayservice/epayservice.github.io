@@ -468,63 +468,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 </div>
               </div>
 
-              <div class="exchange__item" id="sepa">
-                <h1 class="exchange__title title">Transferência de Dinheiro em EUR</h1>
-                <div class="exchange__link">
-                  <a class="link-arr" href="bank-transfers.html">Mais sobre SEPA</a>
-                </div>
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="text">Direção</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text">Comissão</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text">Comissão minimo</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction text-dark text-dark_big"><span>Depósitos</span></div>
-                      <div class="text">para a sua carteira com ePayService</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text-dark text-dark_big">1%</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text-dark text-dark_big">25 EUR</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
-                        <span>Levantamentos</span></div>
-                      <div class="text">para a sua conta bancária</div>
-                    </div>
-                    <div class="col-sm-6 col-xs-8">
-                      <div class="text-dark text-dark_big">30 EUR</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
-                        <span>Levantamentos</span></div>
-                      <div class="text">para a conta bancária da empresa</div>
-                    </div>
-                    <div class="col-sm-6 col-xs-8">
-                      <div class="text-dark text-dark_big">0,5 % + 40 EUR</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {% include "pages/fees/sepa.njk" %}
 
               <div class="exchange__item" id="sepa-bank-transfer">
                 <div class="exchange__title title">IBAN pessoal para transferência SEPA</div>

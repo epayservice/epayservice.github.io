@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Kierunek',
+      fee: 'Opłata',
+      minFee: 'Opłata minimalna',
+      deposit: 'Dodawanie',
+      withdraw: 'Wypłacanie',
+      toWallet: 'środków do Twojego portfela za pomocą usługi ePayService',
+      toBankAccount: 'środków na Twoje konto bankowe',
+      toCompanyBankAccount: 'środków na konto bankowe firmy',
+      toIndividualBankAccount: 'na rachunek bankowy osoby fizycznej'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH & DirectDeposit, przelew środków wewnątrz kraju',
       title: 'Przelewy pieniężne w Stanach Zjednoczonych (ACH & DirectDeposit, transfer wewnętrzny)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Wychodzący transfer wewnętrzny',
       toWallet: 'do Twojego portfela za pomocą usługi ePayService',
       toAccount: 'na konto osobiste lub konto firmowe w banku amerykańskim'
+    },
+
+    sepa: {
+      title: 'Przelewy pieniężne w Euro',
+      linkText: 'Więcej na temat SEPA',
     },
 
     localPayments: {

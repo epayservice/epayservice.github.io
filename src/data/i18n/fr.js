@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Direction',
+      fee: 'Frais',
+      minFee: 'Frais minimum',
+      deposit: 'Dépôts',
+      withdraw: 'Retraits',
+      toWallet: 'sur votre portefeuille avec ePayService',
+      toBankAccount: 'sur votre compte en banque',
+      toCompanyBankAccount: 'sur votre compte en banque professionnel',
+      toIndividualBankAccount: "sur le compte bancaire d'un particulier"
+    },
+
     moneyTransfersUS: {
       navText: 'ACH & DirectDeposit, virements bancaires domestiques ',
       title: 'Virement de fonds américain (ACH & DirectDeposit^ virements bancaires domestiques)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Sortant virements bancaires domestiques',
       toWallet: 'нsur votre portefeuille avec ePayService',
       toAccount: 'sur un compte personnel ou professionnel avec une banque américaine'
+    },
+
+    sepa: {
+      title: 'Transfert de fonds en euros',
+      linkText: 'Plus d’infos sur le SEPA',
     },
 
     localPayments: {

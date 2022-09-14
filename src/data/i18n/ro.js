@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Direcție',
+      fee: 'Comision',
+      minFee: 'Comision minima',
+      deposit: 'Depozite',
+      withdraw: 'Retrageri',
+      toWallet: 'în portofelul tău cu ePayService',
+      toBankAccount: 'din contul tău bancar',
+      toCompanyBankAccount: 'din contul bancar al firmei',
+      toIndividualBankAccount: 'în contul bancar al unei persoane fizice'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH & DirectDeposit, transfer local',
       title: 'Transfer bancar SUA (ACH & DirectDeposit, transfer local​)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Retragere prin transfer local',
       toWallet: 'în portofelul tău cu ePayService',
       toAccount: 'către un cont personal sau de firmă prin intermediul unei banci americane'
+    },
+
+    sepa: {
+      title: 'Transfer bancar în Euro',
+      linkText: 'Mai multe despre SEPA',
     },
 
     localPayments: {

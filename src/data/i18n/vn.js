@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Phương hướng',
+      fee: 'Phí',
+      minFee: 'Lệ phí tối thiểu',
+      deposit: 'Nạp tiền',
+      withdraw: 'Rút tiền',
+      toWallet: 'vào ví với ePayService',
+      toBankAccount: 'vào tài khoản ngân hàng của bạn',
+      toCompanyBankAccount: 'vào tài khoản ngân hàng của công ty',
+      toIndividualBankAccount: 'vào tài khoản ngân hàng của một cá nhân'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH & Chuyển tiền Trực tiếp, Chuyển khoản nội địa',
       title: 'Chuyển tiền mỹ (ACH & Chuyển tiền Trực tiếp, Chuyển khoản nội địa)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Rút tiền trong nước',
       toWallet: 'vào ví với ePayService',
       toAccount: 'vào tài khoản cá nhân hay công ty với một ngân hàng Mỹ'
+    },
+
+    sepa: {
+      title: 'Chuyển tiền trong Euro',
+      linkText: 'Thông tin thêm về SEPA',
     },
 
     localPayments: {

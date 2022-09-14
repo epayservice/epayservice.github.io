@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Arah',
+      fee: 'Yuran',
+      minFee: 'Yuran minimum',
+      deposit: 'Deposit',
+      withdraw: 'Pengeluaran',
+      toWallet: 'ke dompet anda dengan ePayService',
+      toBankAccount: 'ke akaun bank anda',
+      toCompanyBankAccount: 'ke akaun bank syarikat',
+      toIndividualBankAccount: 'ke akaun bank individu'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH & DirectDeposit, Domestic Wire',
       title: 'Pindahan wang Amerika Syarikat (ACH & DirectDeposit, Domestic Wire)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Pengeluaran Domestic Wire',
       toWallet: 'ke dompet anda dengan ePayService',
       toAccount: 'ke akaun peribadi atau syarikat dengan bank AS'
+    },
+
+    sepa: {
+      title: 'Pindahan Wang dalam Euro',
+      linkText: 'Lebih lanjut mengenai SEPA',
     },
 
     localPayments: {

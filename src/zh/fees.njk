@@ -412,12 +412,14 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 <!--</div>-->
               </div>
 
-              <div class="exchange__item" id="sepa">
-                <h1 class="exchange__title title">欧元转账</h1>
-                <div class="exchange__link">
-                  <a class="link-arr" href="bank-transfers.html">有关SEPA的更多内容</a>
-                </div>
-                <div class="exchange__row">
+              {% include "pages/fees/sepa.njk" %}
+
+              <div class="exchange__item" id="sepa-bank-transfer">
+                <div class="exchange__title title">《安排》银行付款</div>
+                <!--                                <div class="exchange__link">-->
+                <!--                                    <a class="link-arr" href="#">More about SEPA & IBAN</a>-->
+                <!--                                </div>-->
+                <div class="exchange__row exchange__row_local">
                   <div class="exchange__numbers row row-eq-height">
                     <div class="col-sm-6 col-xs-4">
                       <div class="text">方向</div>
@@ -426,149 +428,37 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                       <div class="text">費用</div>
                     </div>
                     <div class="col-sm-3 col-xs-4">
-                      <div class="text">最低费用</div>
+                      <div class="text"></div>
                     </div>
                   </div>
                 </div>
                 <div class="exchange__row">
                   <div class="exchange__numbers row row-eq-height">
                     <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction text-dark text-dark_big"><span>使用</span></div>
-                      <div class="text">ePayService存款至您的钱包</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text-dark text-dark_big">1%</div>
-                    </div>
-                    <div class="col-sm-3 col-xs-4">
-                      <div class="text-dark text-dark_big">25 EUR</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="exchange__row">
-                  <div class="exchange__numbers row row-eq-height">
-                    <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction exchange__direction_down text-dark text-dark_big"><span>提现至</span>
-                      </div>
-                      <div class="text">您的银行账户</div>
+                      <div class="exchange__direction text-dark text-dark_big"><span>存款</span></div>
+                      <div class="text">在您的IBAN上的ePayService</div>
                     </div>
                     <div class="col-sm-6 col-xs-8">
-                      <div class="text-dark text-dark_big">30 EUR</div>
+                      <div class="text-dark text-dark_big">免费</div>
+                      <!--                                                <div class="text">直到29.03.2021年</div>-->
                     </div>
                   </div>
                 </div>
                 <div class="exchange__row">
                   <div class="exchange__numbers row row-eq-height">
                     <div class="col-sm-6 col-xs-4">
-                      <div class="exchange__direction exchange__direction_down text-dark text-dark_big"><span>提现至</span>
-                      </div>
-                      <div class="text">公司银行账户</div>
+                      <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
+                        <span>撤回</span></div>
+                      <div class="text">用您的IBAN在ePayService中进行支付。</div>
                     </div>
                     <div class="col-sm-6 col-xs-8">
-                      <div class="text-dark text-dark_big">0,5 % + 40 EUR</div>
+                      <div class="text-dark text-dark_big">免费</div>
+                      <!--                                                <div class="text">直到29.03.2021年</div>-->
                     </div>
                   </div>
                 </div>
-
-                <div class="exchange__item" id="sepa-bank-transfer">
-                  <div class="exchange__title title">《安排》银行付款</div>
-                  <!--                                <div class="exchange__link">-->
-                  <!--                                    <a class="link-arr" href="#">More about SEPA & IBAN</a>-->
-                  <!--                                </div>-->
-                  <div class="exchange__row exchange__row_local">
-                    <div class="exchange__numbers row row-eq-height">
-                      <div class="col-sm-6 col-xs-4">
-                        <div class="text">方向</div>
-                      </div>
-                      <div class="col-sm-3 col-xs-4">
-                        <div class="text">費用</div>
-                      </div>
-                      <div class="col-sm-3 col-xs-4">
-                        <div class="text"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="exchange__row">
-                    <div class="exchange__numbers row row-eq-height">
-                      <div class="col-sm-6 col-xs-4">
-                        <div class="exchange__direction text-dark text-dark_big"><span>存款</span></div>
-                        <div class="text">在您的IBAN上的ePayService</div>
-                      </div>
-                      <div class="col-sm-6 col-xs-8">
-                        <div class="text-dark text-dark_big">免费</div>
-                        <!--                                                <div class="text">直到29.03.2021年</div>-->
-                      </div>
-                    </div>
-                  </div>
-                  <div class="exchange__row">
-                    <div class="exchange__numbers row row-eq-height">
-                      <div class="col-sm-6 col-xs-4">
-                        <div class="exchange__direction exchange__direction_down text-dark text-dark_big">
-                          <span>撤回</span></div>
-                        <div class="text">用您的IBAN在ePayService中进行支付。</div>
-                      </div>
-                      <div class="col-sm-6 col-xs-8">
-                        <div class="text-dark text-dark_big">免费</div>
-                        <!--                                                <div class="text">直到29.03.2021年</div>-->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!--<div class="exchange__row exchange__row_incoming">-->
-                <!--<div class="exchange__way">使用EPAYSERVICE向您的钱包付款</div>-->
-                <!--<div class="exchange__numbers row row-eq-height">-->
-                <!--<div class="col-xs-6">-->
-                <!--<div class="sum">-->
-                <!--<div class="sum__number title js-exchange-fee" data-percentage="1" data-fee="0">1%</div>-->
-                <!--<div class="sum__note js-exchange-min-fee" data-min-fee="25">Min: 25 <span class="js-calc-currency">EUR</span></div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-xs-6">-->
-                <!--<div class="sum">-->
-                <!--<div class="sum__icon sum__icon_down"></div>-->
-                <!--<div class="sum__number title"><span class="js-exchange-result">975</span> <sup>EUR</sup></div>-->
-                <!--<div class="sum__text text">费用 <span class="js-commission"></span></div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--<div class="exchange__row exchange__row_outcoming">-->
-                <!--<div class="exchange__way">向个人银行账户的出境转账</div>-->
-                <!--<div class="exchange__numbers row row-eq-height">-->
-                <!--<div class="col-xs-6">-->
-                <!--<div class="sum">-->
-                <!--<div class="sum__number title js-exchange-fee" data-percentage="0" data-fee="30">30 <sup class="js-calc-currency">EUR</sup></div>-->
-                <!--<div class="sum__note js-exchange-min-fee" data-min-fee="0"> <span></span></div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-xs-6">-->
-                <!--<div class="sum">-->
-                <!--<div class="sum__icon"></div>-->
-                <!--<div class="sum__number title"><span class="js-exchange-result">970</span> <sup>EUR</sup></div>-->
-                <!--<div class="sum__text text">费用 <span class="js-commission"></span></div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--<div class="exchange__row exchange__row_outcoming">-->
-                <!--<div class="exchange__way">向公司银行账户的出境转账</div>-->
-                <!--<div class="exchange__numbers row row-eq-height">-->
-                <!--<div class="col-xs-6">-->
-                <!--<div class="sum">-->
-                <!--<div class="sum__number title js-exchange-fee" data-percentage="0.5" data-fee="40">0.5% + 40 <sup class="js-calc-currency">EUR</sup></div>-->
-                <!--<div class="sum__note js-exchange-min-fee" data-min-fee="0"> <span></span></div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-xs-6">-->
-                <!--<div class="sum">-->
-                <!--<div class="sum__icon"></div>-->
-                <!--<div class="sum__number title"><span class="js-exchange-result">965</span> <sup>EUR</sup></div>-->
-                <!--<div class="sum__text text">费用 <span class="js-commission"></span></div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--</div> -->
               </div>
+
               <div class="exchange__item" id="cheque-processing">
                 <h1 class="exchange__title title">美元支票处理</h1>
                 <div class="exchange__link">

@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Richtung',
+      fee: 'Gebühr',
+      minFee: 'Mindestgebühr',
+      deposit: 'Einzahlungen',
+      withdraw: 'Auszahlungen',
+      toWallet: 'in Ihre Brieftasche mit ePayService',
+      toBankAccount: 'auf Ihr Bankkonto',
+      toCompanyBankAccount: 'auf ein Firmenkonto',
+      toIndividualBankAccount: 'auf das Bankkonto einer Person'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH & Direktübertragun, Interne Übertragungen',
       title: 'Geldtransfer USA (ACH & Direktübertragung, Interne Übertragungen)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Abbuchung  Interne Übertragungen',
       toWallet: 'in Ihre Brieftasche mit ePayService',
       toAccount: 'an ein persönliches Konto oder Firmenkonto bei einer US-Bank'
+    },
+
+    sepa: {
+      title: 'Überweisung in Euro',
+      linkText: 'Weitere Informationen zu SEPA',
     },
 
     localPayments: {

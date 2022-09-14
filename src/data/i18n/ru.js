@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: 'Направление',
+      fee: 'Комиссия',
+      minFee: 'Мин. комиссия',
+      deposit: 'Входящий',
+      withdraw: 'Исходящий',
+      toWallet: 'на кошелек в ePayService',
+      toBankAccount: 'на собственный счет в банке',
+      toCompanyBankAccount: 'на счет юрлица в банке',
+      toIndividualBankAccount: 'на счёт физического лица в банке'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH & DirectDeposit, Domestic Wire',
       title: 'Денежные переводы по США (ACH & DirectDeposit, Domestic Wire)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: 'Исходящий Domestic Wire',
       toWallet: 'на кошелек в ePayService',
       toAccount: 'на счет физлица или юрлица в банке US'
+    },
+
+    sepa: {
+      title: 'Денежные переводы в Евро',
+      linkText: 'Что такое SEPA?',
     },
 
     localPayments: {

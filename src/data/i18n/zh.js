@@ -42,6 +42,18 @@ module.exports = {
   },
 
   fees: {
+    common: {
+      direction: '方向',
+      fee: '費用',
+      minFee: '最低费用',
+      deposit: '使用',
+      withdraw: '提现至',
+      toWallet: 'ePayService存款至您的钱包',
+      toBankAccount: '您的银行账户',
+      toCompanyBankAccount: '公司银行账户',
+      toIndividualBankAccount: '到個人的銀行賬戶'
+    },
+
     moneyTransfersUS: {
       navText: 'ACH & DirectDeposit，国内电汇',
       title: '转账US (ACH & DirectDeposit，国内电汇)',
@@ -54,6 +66,11 @@ module.exports = {
       item4title: '提现至国内电汇',
       toWallet: 'ePayService存款至您的钱包',
       toAccount: '美国的个人或公司银行账户'
+    },
+
+    sepa: {
+      title: '欧元转账',
+      linkText: '有关SEPA的更多内容',
     },
 
     localPayments: {
