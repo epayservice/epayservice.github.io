@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'Aucun',
+    betweenEpayCustomers: 'Frais de commission pour transfert entre clients ePayService',
+    posFree: 'GRATUIT',
+    pos: 'Frais de transaction POS',
+    bankTransfersFee: '{{value}}, min {{min}}',
+    bankTransfersDescr: 'Virements bancaires de vos employeurs et partenaires d’affaires',
+    posLimit: "Jusqu'à {{value}} limites quotidiennes POS",
+    atmLimit: "Jusqu'à {{value}} limites quotidiennes GAB",
+    cardLoadingFeesFree: 'Aucun!',
+    cardLoadingFees: 'Frais de rechargement de carte',
+    atnWithdrawalFeesValue: 'Seulement {{value}}',
+    atnWithdrawalFeesDescr: 'Frais de retrait GAB (par transaction)'
+  },
+
   payments: 'Transferts',
   cards: 'Prepaid Cards',
 

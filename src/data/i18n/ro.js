@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'Zero',
+    betweenEpayCustomers: 'Comision de transfer între clienții ePayService',
+    posFree: 'Zero',
+    pos: 'Comision tranzacții la POS',
+    bankTransfersFee: '{{value}}, min {{min}}',
+    bankTransfersDescr: 'Transferuri bancare de la angajatorii și partenerii dvs. de afaceri',
+    posLimit: 'Până la {{value}} limită de cheltuit la POS',
+    atmLimit: 'Până la {{value}} limită de cheltuit la ATM',
+    cardLoadingFeesFree: 'Zero!',
+    cardLoadingFees: 'Comision de încărcare card',
+    atnWithdrawalFeesValue: 'Doar {{value}}',
+    atnWithdrawalFeesDescr: 'Comision de retragere la ATM (per tranzacție)'
+  },
+
   payments: 'Transferuri',
   cards: 'Card Preplătit',
 

@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'Nenhuma',
+    betweenEpayCustomers: 'Taxa de Comissão para transferências entre clientes da ePayService',
+    posFree: 'GRATUITA',
+    pos: 'Taxa de transação POS',
+    bankTransfersFee: '{{value}}, min {{min}}',
+    bankTransfersDescr: 'Transferências bancárias dos seus empregadores e parceiros de negócio',
+    posLimit: 'Até {{value}} Limite de POS',
+    atmLimit: 'Até {{value}} Limite e gasto de Multibanco',
+    cardLoadingFeesFree: 'Nenhuma!',
+    cardLoadingFees: 'Taxa de carregamento do cartão',
+    atnWithdrawalFeesValue: 'Apenas {{value}}',
+    atnWithdrawalFeesDescr: 'Taxa de levantamento em caixas multibanco (por transação)'
+  },
+
   payments: 'Transferências',
   cards: 'Cartões Pré-pagos',
 

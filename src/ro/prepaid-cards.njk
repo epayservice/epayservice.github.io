@@ -253,77 +253,8 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                   <div class="solutions__text text-dark">Noi știm cum să reducem costurile și timpul necesar pentru
                     primirea banilor.</div>
                 </div>
-                <ul class="solutions__bubbles">
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_circles"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Zero</div>
-                        <div class="bubble-feature__text text-dark">Comision de transfer între clienții ePayService
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_terminal-pen"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Zero</div>
-                        <div class="bubble-feature__text text-dark">Comision tranzacții la POS</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_house"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">1%, minim $25.00</div>
-                        <div class="bubble-feature__text text-dark">Transferuri bancare de la angajatorii și partenerii
-                          dvs. de afaceri</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_cards"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Până la $15,000 limită de cheltuit la POS
-                        </div>
-                        <div class="bubble-feature__text text-dark">Până la $500 limită de cheltuit la ATM</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_card-splash"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Zero!</div>
-                        <div class="bubble-feature__text text-dark">Comision de încărcare card</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_card-atm"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Doar €1.99</div>
-                        <div class="bubble-feature__text text-dark">Comision de retragere la ATM (per tranzacție)</div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+
+                {% include "pages/prepaid-cards/solutionsTariffs.njk" %}
               </div>
             </div>
             <div class="col-md-3 hidden-sm">

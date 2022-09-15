@@ -253,77 +253,8 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                   <div class="solutions__text text-dark">Nosotros entendemos cómo reducir el costo y el tiempo para
                     recibir sus ingresos obtenidos.</div>
                 </div>
-                <ul class="solutions__bubbles">
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_circles"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Ninguna</div>
-                        <div class="bubble-feature__text text-dark">Tarifa de comisión para transferir entre clientes de
-                          ePayService</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_terminal-pen"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Ninguna</div>
-                        <div class="bubble-feature__text text-dark">Tarifa de transacción POS</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_house"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">1%, min $25.00</div>
-                        <div class="bubble-feature__text text-dark">Transferencias bancarias por parte de sus
-                          empleadores y socios</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_cards"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Hasta $15,000 límite de gasto en POS</div>
-                        <div class="bubble-feature__text text-dark">Hasta $500 límite de gasto cajeros automáticos</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_card-splash"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">¡Ninguna!</div>
-                        <div class="bubble-feature__text text-dark">Tarifa de recarga de la tarjeta</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_card-atm"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Solo €1.99</div>
-                        <div class="bubble-feature__text text-dark">Tarifa de retiro del cajero automático (por cada
-                          transacción)</div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+                
+                {% include "pages/prepaid-cards/solutionsTariffs.njk" %}
               </div>
             </div>
             <div class="col-md-3 hidden-sm">

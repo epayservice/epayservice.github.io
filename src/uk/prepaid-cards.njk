@@ -255,76 +255,8 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                   <div class="solutions__text text-dark">We understand how to reduce the cost and time to receive your
                     earned income.</div>
                 </div>
-                <ul class="solutions__bubbles">
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_circles"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">None</div>
-                        <div class="bubble-feature__text text-dark">Commission fee to transfer between ePayService
-                          customers</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_terminal-pen"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">None</div>
-                        <div class="bubble-feature__text text-dark">POS transaction fee</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_house"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">1%, min $25.00</div>
-                        <div class="bubble-feature__text text-dark">Bank transfers from your employers and business
-                          partners</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_cards"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Up to $15,000 POS spend limit</div>
-                        <div class="bubble-feature__text text-dark">Up to $500 ATM spend limit</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_card-splash"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">None!</div>
-                        <div class="bubble-feature__text text-dark">Card loading fees</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="solutions__feature">
-                    <div class="bubble-feature">
-                      <div class="bubble-feature__icon bubble-icon">
-                        <div class="bubble-icon__image icon icon_card-atm"></div>
-                      </div>
-                      <div class="bubble-feature__info">
-                        <div class="bubble-feature__title title title_medium">Just €1.99</div>
-                        <div class="bubble-feature__text text-dark">ATM withdrawal fees (per transaction) </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+
+                {% include "pages/prepaid-cards/solutionsTariffs.njk" %}
               </div>
             </div>
             <div class="col-md-3 hidden-sm">

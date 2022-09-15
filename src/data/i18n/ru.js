@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'Бесплатно!',
+    betweenEpayCustomers: 'Переводы между пользователями ePayService без комиссий',
+    posFree: 'Бесплатно!',
+    pos: 'Комиссия на оплату покупок и услуг в интернет и офлайн(POS)',
+    bankTransfersFee: '{{value}}, минимум {{min}}',
+    bankTransfersDescr: 'Входящий банковский платеж на ваш кошелек ePayService от ваших партнеров и нанимателей',
+    posLimit: 'До {{value}} лимит на покупки POS',
+    atmLimit: 'До {{value}} лимит на транзакции в ATM',
+    cardLoadingFeesFree: 'Бесплатно!',
+    cardLoadingFees: 'Перевод средств с вашего кошелька на вашу карту ePayService',
+    atnWithdrawalFeesValue: 'Всего {{value}}',
+    atnWithdrawalFeesDescr: 'За транзакцию снятия через банкоматы по всему миру'
+  },
+
   payments: 'Платежи',
   cards: 'Карты',
 

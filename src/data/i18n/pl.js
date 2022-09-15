@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'Brak',
+    betweenEpayCustomers: 'Opłaty za przelewy między klientami ePayService',
+    posFree: 'BEZPŁATNE',
+    pos: 'Transakcje w punktach sprzedaży',
+    bankTransfersFee: '{{value}}, min {{min}}',
+    bankTransfersDescr: 'Przelewy bankowe od twoich pracodawców i partnerów biznesowych',
+    posLimit: 'Do {{value}} limit w punktach sprzedaży',
+    atmLimit: 'Do {{value}} limit w bankomatach',
+    cardLoadingFeesFree: 'Brak!',
+    cardLoadingFees: 'Opłat za doładowanie karty',
+    atnWithdrawalFeesValue: 'Tylko {{value}}',
+    atnWithdrawalFeesDescr: 'Opłata za wypłatę z bankomatu (za każdą transakcję)'
+  },
+
   payments: 'Przelewy',
   cards: 'Karty przedpłacony',
 

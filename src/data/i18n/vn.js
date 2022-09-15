@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'Không thu phí',
+    betweenEpayCustomers: 'Hoa hồng khi chuyển tiền giữa các khách hàng cùng sử dụng ePayService',
+    posFree: 'MIỄN PHÍ',
+    pos: 'Giao dịch POS',
+    bankTransfersFee: 'Phí {{value}}, tối thiểu {{min}}',
+    bankTransfersDescr: 'Chuyển khoản ngân hàng từ người thuê bạn và đối tác kinh doanh của bạn',
+    posLimit: 'lên tới {{value}} Giới hạn chi tiêu qua POS',
+    atmLimit: 'lên tới {{value}} Giới hạn chi tiêu qua ATM',
+    cardLoadingFeesFree: 'Không thu phí!',
+    cardLoadingFees: 'nạp tiền thẻ',
+    atnWithdrawalFeesValue: 'chỉ {{value}}',
+    atnWithdrawalFeesDescr: 'Phí rút tiền qua ATM (trên mỗi giao dịch)'
+  },
+
   payments: 'Chuyển tiền',
   cards: 'Thẻ Trả trước',
 

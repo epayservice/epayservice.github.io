@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'None',
+    betweenEpayCustomers: 'Commission fee to transfer between ePayService customers',
+    posFree: 'None',
+    pos: 'POS transaction fee',
+    bankTransfersFee: '{{value}}, min {{min}}',
+    bankTransfersDescr: 'Bank transfers from your employers and business partners',
+    posLimit: 'Up to {{value}} POS spend limit',
+    atmLimit: 'Up to {{value}} ATM spend limit',
+    cardLoadingFeesFree: 'None!',
+    cardLoadingFees: 'Card loading fees',
+    atnWithdrawalFeesValue: 'Just {{value}}',
+    atnWithdrawalFeesDescr: 'ATM withdrawal fees (per transaction)'
+  },
+
   payments: '转账',
   cards: 'Prepaid Cards',
 

@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'Keine',
+    betweenEpayCustomers: 'Kommissionsgebühr für den Transfer zwischen ePayService Kunden',
+    posFree: 'KOSTENLOS',
+    pos: 'POS-Transaktion',
+    bankTransfersFee: '{{value}}, min {{min}}',
+    bankTransfersDescr: 'Überweisungen von Ihren Arbeitgebern und Geschäftspartnern',
+    posLimit: 'Bis zu {{value}} Limit für POS-Zahlungen',
+    atmLimit: 'Bis zu {{value}} Limit für Abhebungen am Bankautomaten',
+    cardLoadingFeesFree: 'Keine!',
+    cardLoadingFees: 'Gebühren für die Kartenaufladung',
+    atnWithdrawalFeesValue: 'Nur {{value}}',
+    atnWithdrawalFeesDescr: 'Gebühren für Abhebungen an Bankautomaten (pro Transaktion)'
+  },
+
   payments: 'Transfers',
   cards: 'Prepaidkarten',
 

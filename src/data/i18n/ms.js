@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'Tiada',
+    betweenEpayCustomers: 'Yuran komisen untuk pindahan antara pelanggan ePayService',
+    posFree: 'PERCUMA',
+    pos: 'Yuran transaksi POS',
+    bankTransfersFee: '{{value}}, min {{min}}',
+    bankTransfersDescr: 'Pindahan bank daripada majikan dan rakan kongsi perniagaan anda',
+    posLimit: 'Sehingga {{value}} Had perbelanjaan POS',
+    atmLimit: 'Sehingga {{value}} Had perbelanjaan ATM',
+    cardLoadingFeesFree: 'Tiada!',
+    cardLoadingFees: 'Yuran bebanan kad',
+    atnWithdrawalFeesValue: 'Hanya {{value}}',
+    atnWithdrawalFeesDescr: 'Yuran pengeluaran ATM (setiap transaksi)'
+  },
+
   payments: 'Pindahan',
   cards: 'Kad Prabayar',
 

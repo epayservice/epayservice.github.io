@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'لا',
+    betweenEpayCustomers: 'يوجد عمولة لتحويل الأموال بين عملاء ePayService',
+    posFree: 'لا',
+    pos: 'لا يوجد رسوم على معاملات نقاط البيع',
+    bankTransfersFee: '{{value}}، بحد أدنى {{min}}',
+    bankTransfersDescr: 'رسوم التحويلات البنكية من أصحاب العمل والشركاء',
+    posLimit: '{{value}} دولار',
+    atmLimit: '{{value}} الحد اليومى للسحب من ماكينات الصراف الآلى ونقاط البيع',
+    cardLoadingFeesFree: 'لا!',
+    cardLoadingFees: 'يوجد رسوم إيداع فى البطاقة',
+    atnWithdrawalFeesValue: 'فقط {{value}}',
+    atnWithdrawalFeesDescr: 'رسوم السحب من ماكينات الصراف الآلى (لكل معاملة)'
+  },
+
   payments: 'التحويلات',
   cards: 'البطاقات مسبقة الدفع',
 

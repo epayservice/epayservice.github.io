@@ -78,6 +78,21 @@ module.exports = {
     }
   },
 
+  prepaidCards: {
+    betweenEpayCustomersFree: 'Ninguna',
+    betweenEpayCustomers: 'Tarifa de comisión para transferir entre clientes de ePayService',
+    posFree: 'Ninguna',
+    pos: 'Tarifa de transacción POS',
+    bankTransfersFee: '{{value}}, min {{min}}',
+    bankTransfersDescr: 'Transferencias bancarias por parte de sus empleadores y socios',
+    posLimit: 'Hasta {{value}} límite de gasto en POS',
+    atmLimit: 'Hasta {{value}} límite de gasto cajeros automáticos',
+    cardLoadingFeesFree: '¡Ninguna!',
+    cardLoadingFees: 'Tarifa de recarga de la tarjeta',
+    atnWithdrawalFeesValue: 'Solo {{value}}',
+    atnWithdrawalFeesDescr: 'Tarifa de retiro del cajero automático (por cada transacción)'
+  },
+
   payments: 'Transferencias',
   cards: 'Tarjetas Prepago',
 
