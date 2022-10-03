@@ -74,7 +74,8 @@ module.exports = {
     },
 
     localPayments: {
-      forAllCurrencies: 'pour toutes les devises ci-dessous'
+      forAllCurrencies: 'pour toutes les devises ci-dessous',
+      max: 'jusqu’à {{value}}'
     }
   },
 

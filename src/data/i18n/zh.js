@@ -74,7 +74,8 @@ module.exports = {
     },
 
     localPayments: {
-      forAllCurrencies: '下货币所需的费用'
+      forAllCurrencies: '下货币所需的费用',
+      max: '最高 {{value}}'
     }
   },
 

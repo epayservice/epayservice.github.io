@@ -74,7 +74,8 @@ module.exports = {
     },
 
     localPayments: {
-      forAllCurrencies: 'cho mọi loại tiền tệ bên dưới'
+      forAllCurrencies: 'cho mọi loại tiền tệ bên dưới',
+      max: 'lên đến {{value}}'
     }
   },
 
