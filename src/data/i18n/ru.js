@@ -151,7 +151,7 @@ module.exports = {
   virtual: {
     controlPurchases: 'Покупки под вашим контролем',
     useCard: 'Пополняемая виртуальная карта',
-    dailyPurchaseLimit: 'Покупки на сумму до {{ sum }} USD в день',
+    dailyPurchaseLimit: 'Покупки на сумму до {{ sum }} EUR в день',
     instantLoad: 'Моментальное бесплатное пополнение',
     freeUnload: 'Бесплатный вывод средств обратно на счет',
     noMonthlyFee: 'Без абонентской платы'

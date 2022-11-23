@@ -151,7 +151,7 @@ module.exports = {
   virtual: {
     controlPurchases: 'إختر بطاقتك حسب حجم مشترياتك',
     useCard: 'استخدم بطاقة افتراضية قابلة لإعادة الشحن',
-    dailyPurchaseLimit: 'الحد اليومى للإنفاق 5500 دولار',
+    dailyPurchaseLimit: 'حد الإنفاق اليومي هو {{ sum }} يورو',
     instantLoad: 'إيداع فورى بدون مصاريف',
     freeUnload: 'سحب مجانى إلى حساب ePayService',
     noMonthlyFee: 'بدون رسوم شهرية'

@@ -151,7 +151,7 @@ module.exports = {
   virtual: {
     controlPurchases: 'Kiểm soát việc mua sắm của bạn',
     useCard: 'Sử dụng thẻ ảo có thể tải lại',
-    dailyPurchaseLimit: 'Giá trị mua sắm hàng ngày tối đa là {{ sum }} USD',
+    dailyPurchaseLimit: 'Giá trị mua sắm hàng ngày tối đa là {{ sum }} EUR',
     instantLoad: 'Việc sử dụng tiền thẻ ảo thay thẻ thật được thực hiện ngay và miễn phí',
     freeUnload: 'Miễn phí việc hoàn trả tiền vào tài khoản ePayService',
     noMonthlyFee: 'Không phải trả chi phí hàng tháng'

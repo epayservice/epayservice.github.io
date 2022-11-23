@@ -151,7 +151,7 @@ module.exports = {
   virtual: {
     controlPurchases: 'Contrôlez vos achats',
     useCard: 'Utiliser une carte virtuelle rechargeable',
-    dailyPurchaseLimit: 'Limite d’achat quotidienne {{ sum }} USD',
+    dailyPurchaseLimit: 'Limite d’achat quotidienne {{ sum }} EUR',
     instantLoad: 'Charge instantanée gratuite',
     freeUnload: 'Décharge gratuite sur compte ePayService',
     noMonthlyFee: 'Pas de frais mensuels'

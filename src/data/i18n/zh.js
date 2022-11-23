@@ -151,7 +151,7 @@ module.exports = {
   virtual: {
     controlPurchases: 'Control your purchases',
     useCard: '使用可重复充值的虚拟卡',
-    dailyPurchaseLimit: 'Daily purchase limit {{ sum }} USD',
+    dailyPurchaseLimit: 'Daily purchase limit {{ sum }} EUR',
     instantLoad: 'Instant free-of-charge load',
     freeUnload: 'Free unload back to ePayService account',
     noMonthlyFee: 'No monthly fee'

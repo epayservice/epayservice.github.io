@@ -151,7 +151,7 @@ module.exports = {
   virtual: {
     controlPurchases: 'Controlați-vă cumpărăturile',
     useCard: 'Utilizați un card virtual reîncărcabil',
-    dailyPurchaseLimit: 'Limită zilnică de cumpărături de {{ sum }} USD',
+    dailyPurchaseLimit: 'Limită zilnică de cumpărături de {{ sum }} EUR',
     instantLoad: 'Încărcare imediată gratuită',
     freeUnload: 'Descărcare gratuită în contul ePayService',
     noMonthlyFee: 'Nici o taxă lunară'

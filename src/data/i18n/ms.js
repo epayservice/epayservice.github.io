@@ -151,7 +151,7 @@ module.exports = {
   virtual: {
     controlPurchases: 'Kawal pembelian anda',
     useCard: 'Gunakan Kad Maya Boleh Muat Semula',
-    dailyPurchaseLimit: 'Had pembelian harian sehingga USD {{ sum }}',
+    dailyPurchaseLimit: 'Had pembelian harian sehingga EUR {{ sum }}',
     instantLoad: 'Percuma isian segera',
     freeUnload: 'Percuma pengeluaran semula isian ke akaun ePayService',
     noMonthlyFee: 'Tiada yuran bulanan'
