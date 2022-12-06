@@ -292,6 +292,18 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                       <div class="ico-nav__title text-dark text-dark_small">现金支付</div>
                     </div>
                   </a>
+
+                  <a class="side-nav__item ico-nav swap-item js-scroll" href="#crypto">
+                    <div class="ico-nav__image">
+                      <div class="icon icon_earth-sm"></div>
+                    </div>
+
+                    <div class="ico-nav__info">
+                      <div class="ico-nav__title text-dark text-dark_small">Crypto</div>
+
+                      <div class="ico-nav__text text">Cryptocurrency Exchange <span class="ico-nav__badge">New</span></div>
+                    </div>
+                  </a>
                   <!-- <a class="side-nav__item ico-nav swap-item js-scroll" href="#card-payment-transaction">
                                         <div class="ico-nav__image">
                                             <div class="icon icon_cards"></div>
@@ -646,6 +658,7 @@ permalink: "{{ locale }}/{{ page.fileSlug }}.html"
                 </div>-->
               </div>
 
+              {% include 'pages/fees/crypto.njk' %}
             </div>
 
           </div>

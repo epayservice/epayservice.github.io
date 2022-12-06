@@ -76,6 +76,11 @@ module.exports = {
     localPayments: {
       forAllCurrencies: 'por todas las divisas a continuación',
       max: 'hasta {{value}}'
+    },
+
+    crypto: {
+      title: 'Crypto',
+      descr: 'Currently we provide cryptocurrency exchange services only. This means that once you deposit cryptocurrency to the deposit address, we will exchange your cryptocurrency into USD, and credit USD to your ePayService wallet.'
     }
   },
 
