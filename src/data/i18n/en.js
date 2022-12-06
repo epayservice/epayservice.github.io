@@ -48,7 +48,7 @@ module.exports = {
       minFee: 'Min fee',
       deposit: 'Deposit',
       withdraw: 'Withdraw',
-      toWallet: 'To your wallet with ePayService',
+      toWallet: 'To your ePayService wallet',
       toBankAccount: 'To your bank account',
       toCompanyBankAccount: 'To company bank account',
       toIndividualBankAccount: "To a person's bank account"
@@ -64,7 +64,7 @@ module.exports = {
       item2title: 'Deposit Domestic Wire',
       item3title: 'Withdraw ACH/DirectDeposit',
       item4title: 'Withdraw Domestic Wire',
-      toWallet: 'To your wallet with ePayService',
+      toWallet: 'To your ePayService wallet',
       toAccount: 'To a personal or company account with a us bank'
     },
 
